@@ -14,7 +14,7 @@ export default function CtaForm() {
                 </div>
 
                 {/* Form */}
-                <form className="grid grid-cols-2 md:grid-cols-5 gap-4 text-black">
+                <form className="grid grid-cols-1 md:grid-cols-5 gap-4 text-black">
                     {/* Name */}
                     <input
                         type="name"
@@ -45,7 +45,7 @@ export default function CtaForm() {
 
                     {/* Button */}
                     <button type="submit"
-                        className="bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
+                        className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
                     >
                         Submit
                     </button>

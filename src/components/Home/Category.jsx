@@ -45,7 +45,7 @@ export default function Category() {
             </div>
 
             {/* Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
                 {categories.map((item, index) => (
                     <motion.div
                         key={index}
@@ -73,11 +73,16 @@ export default function Category() {
                                 {item.desc}
                             </p>
 
-                            <div className="mt-4 pointer-events-none opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-500 ease-out">
-                                <button className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
-                                    View Displays →
-                                </button>
-                            </div>
+                            <div className="mt-4 
+  opacity-100 translate-y-0 pointer-events-auto 
+  md:opacity-0 md:translate-y-4 md:pointer-events-none 
+  md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto 
+  transition-all duration-500 ease-out"
+>
+  <button className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
+    View Displays →
+  </button>
+</div>
                         </div>
                     </motion.div>
                 ))}

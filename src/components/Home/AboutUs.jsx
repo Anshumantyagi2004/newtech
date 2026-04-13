@@ -28,7 +28,7 @@ export default function AboutUs() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="text-white"
+                    className="text-white flex flex-col md:justify-start justify-center md:items-start items-center"
                 >
                     <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
                         About Newtech <br /> Advertising Led Display

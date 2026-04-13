@@ -18,28 +18,20 @@ import Footer from "@/components/Main/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 min-h-screen flex">
-      <Sidebar />
-
-      <div className="flex-1">
-        <Navbar />
-        <Hero />
-        <CategorySlider />
-        <CtaForm />
-        <Category />
-        <AboutUs />
-        <ClientExperience />
-        <AboutSolutions />
-        <WhyChooseUs />
-        <CTASection />
-        <CertificateSlider />
-        <ClientSlider />
-        <ClientSays />
-        <FAQSection />
-        <Footer />
-      </div>
-
-      <MobileTabbar />
+   <div className="flex flex-col flex-1 w-full max-w-full overflow-x-hidden">
+      <Hero />
+      <CategorySlider />
+      <CtaForm />
+      <Category />
+      <AboutUs />
+      <ClientExperience />
+      <AboutSolutions />
+      <WhyChooseUs />
+      <CTASection />
+      <CertificateSlider />
+      <ClientSlider />
+      <ClientSays />
+      <FAQSection />
     </div>
   );
 }
