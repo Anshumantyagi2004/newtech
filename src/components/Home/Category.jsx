@@ -65,7 +65,6 @@ export default function Category() {
 
                         {/* Content */}
                         <div className="absolute bottom-0 p-5 text-white">
-
                             <h3 className="text-base md:text-lg font-medium">
                                 {item.title}
                             </h3>
@@ -74,17 +73,11 @@ export default function Category() {
                                 {item.desc}
                             </p>
 
-                            {/* Button (hidden → smooth reveal) */}
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 0 }} // keeps hidden
-                                className="mt-4 pointer-events-none group-hover:pointer-events-auto opacity-0 translate-y-4  group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out"
-                            >
+                            <div className="mt-4 pointer-events-none opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-500 ease-out">
                                 <button className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
                                     View Displays →
                                 </button>
-                            </motion.div>
+                            </div>
                         </div>
                     </motion.div>
                 ))}
