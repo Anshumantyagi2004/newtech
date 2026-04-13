@@ -14,7 +14,7 @@ export default function CtaForm() {
                 </div>
 
                 {/* Form */}
-                <form className="grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
+                <form className="grid grid-cols-2 md:grid-cols-5 gap-4 text-black">
                     {/* Name */}
                     <input
                         type="name"
@@ -36,20 +36,6 @@ export default function CtaForm() {
                         <option>Outdoor LED</option>
                     </select>
 
-                    {/* Series */}
-                    <select className="border border-gray-400 rounded-lg px-4 py-3 outline-none focus:border-black">
-                        <option>Select Series</option>
-                        <option>Series A</option>
-                        <option>Series B</option>
-                    </select>
-
-                    {/* Location */}
-                    <input
-                        type="text"
-                        placeholder="Location"
-                        className="border border-gray-400 rounded-lg px-4 py-3 outline-none focus:border-black"
-                    />
-
                     {/* Purpose (full width) */}
                     <input
                         type="text"
@@ -59,11 +45,10 @@ export default function CtaForm() {
 
                     {/* Button */}
                     <button type="submit"
-                        className="md:col-span-2 bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
+                        className="bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
                     >
                         Submit
                     </button>
-
                 </form>
             </div>
         </div>

@@ -24,12 +24,12 @@ export default function Home() {
       <div className="flex-1">
         <Navbar />
         <Hero />
+        <CategorySlider />
         <CtaForm />
         <Category />
         <AboutUs />
         <ClientExperience />
         <AboutSolutions />
-        <CategorySlider />
         <WhyChooseUs />
         <CTASection />
         <CertificateSlider />
