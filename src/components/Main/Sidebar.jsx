@@ -11,14 +11,15 @@ import {
   LayoutGrid,
   Menu,
 } from "lucide-react";
+import Link from "next/link";
 
 const menuItems = [
-  { name: "Home", icon: Home },
-  { name: "Categories", icon: LayoutGrid },
-  { name: "Products", icon: ShoppingCart },
-  { name: "About Us", icon: User },
-  { name: "Contact", icon: Phone },
-  { name: "Articles", icon: FileText },
+  { name: "Home", icon: Home, link: "/" },
+  { name: "Categories", icon: LayoutGrid, link: "/categories" },
+  { name: "Products", icon: ShoppingCart, link: "/products" },
+  { name: "About Us", icon: User, link: "/about-us" },
+  { name: "Contact", icon: Phone, link: "/contact-us" },
+  { name: "Articles", icon: FileText, link: "/our-articles" },
 ];
 
 export default function Sidebar() {
@@ -44,8 +45,7 @@ export default function Sidebar() {
           const Icon = item.icon;
 
           return (
-            <div
-              key={index}
+            <Link href={`${item.link}`} key={index}  onClick={() => setOpen(false)}
               className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-100 hover:text-black transition cursor-pointer"
             >
               <Icon className="w-5 h-5" />
@@ -59,7 +59,7 @@ export default function Sidebar() {
                   {item.name}
                 </motion.span>
               )}
-            </div>
+            </Link>
           );
         })}
       </div>
