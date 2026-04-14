@@ -4,6 +4,8 @@ import { Target, Eye, Handshake } from "lucide-react";
 import Link from 'next/link'
 import React from 'react'
 import Image from "next/image";
+import ClientExperience from "@/components/Main/ClientExperience";
+import Category from "@/components/Home/Category";
 
 export default function page() {
   return (<>
@@ -66,6 +68,10 @@ export default function page() {
         </div>
       </div>
     </section>
+
+    <ClientExperience />
+
+    <Category />
 
     <section className="relative w-full py-16 px-4 md:px-10 overflow-hidden text-white">
       <div
