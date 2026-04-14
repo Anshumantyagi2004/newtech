@@ -51,12 +51,12 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
                     <ul className="space-y-2 text-gray-200 text-sm">
-                        <li className="hover:text-white cursor-pointer">Home</li>
-                        <li className="hover:text-white cursor-pointer">Products</li>
-                        <li className="hover:text-white cursor-pointer">Category</li>
-                        <li className="hover:text-white cursor-pointer">About</li>
-                        <li className="hover:text-white cursor-pointer">Contact</li>
-                        <li className="hover:text-white cursor-pointer">Articles</li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/"}>Home</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/products"}>Products</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/categories"}>Category</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/about-us"}>About</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/contact-us"}>Contact</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/our-articles"}>Articles</Link></li>
                     </ul>
                 </div>
 

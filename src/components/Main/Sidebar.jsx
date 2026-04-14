@@ -27,6 +27,7 @@ export default function Sidebar() {
 
   return (
     <motion.div
+      onMouseLeave={() => setOpen(false)}
       animate={{ width: open ? 200 : 70 }}
       transition={{ duration: 0.35 }}
       className={`hidden md:flex flex-col ${open ? "fixed" : "sticky"} top-0 left-0 h-screen bg-black text-white z-50`}
@@ -45,7 +46,7 @@ export default function Sidebar() {
           const Icon = item.icon;
 
           return (
-            <Link href={`${item.link}`} key={index}  onClick={() => setOpen(false)}
+            <Link href={`${item.link}`} key={index} onClick={() => setOpen(false)} onMouseEnter={() => setOpen(true)}
               className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-100 hover:text-black transition cursor-pointer"
             >
               <Icon className="w-5 h-5" />
