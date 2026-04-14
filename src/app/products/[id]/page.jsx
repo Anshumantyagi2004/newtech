@@ -94,13 +94,14 @@ export default function Page() {
                     </span>
 
                     <div className="flex gap-4 my-4">
-                        <button className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
+                        <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
+              target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
                             <MessageCircle size={18} /> WhatsApp Now
-                        </button>
+                        </a>
 
-                        <button className="flex items-center gap-2 border bg-orange-100 border-orange-500 text-orange-400 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
+                        <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
                             <Phone size={18} /> Enquire Now
-                        </button>
+                        </a>
                     </div>
 
                     <div className="mt-2">
