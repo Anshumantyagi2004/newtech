@@ -1,8 +1,53 @@
 "use client";
-
+import { useState } from "react";
+import axios from "axios";
+import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 
 export default function ContactMapForm() {
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = {
+      platform: "Newtech Contact Form",
+      platformEmail: "director@nvsledwall.com",
+      name: formData.get("contactPerson"),
+      email: formData.get("email"),
+      company: 'NA',
+      phone: formData.get("phone"),
+      product: "NA",
+      place: "Delhi",
+      message: formData.get("message"),
+    };
+    if (!data.phone || data.phone.length < 10)
+      return toast.error("Enter Valid Phone Number");
+
+    try {
+      setLoading(true);
+      const res = await axios.post("https://brandbnalo.com/api/form/add", data,
+        { validateStatus: (status) => status >= 200 && status < 500 }
+      );
+      if (res.status >= 200 && res.status < 300) {
+        toast(
+          "Your enquiry has been submitted ✔.\n\n Our team will contact you shortly..",
+          {
+            duration: 6000,
+          }
+        );
+        setTimeout(() => {
+          e.target.reset();      // reset after UI change
+        }, 100);
+      }
+    } catch (err) {
+      console.log("ERROR:", err?.response || err.message);
+      toast.error("Something went wrong");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section className="bg-white py-10 px-4">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
@@ -34,9 +79,10 @@ export default function ContactMapForm() {
             Get In Touch
           </h2>
 
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleSubmit}>
             {/* Name */}
             <input
+              name="contactPerson"
               type="text"
               placeholder="Your Name"
               className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
@@ -44,6 +90,7 @@ export default function ContactMapForm() {
 
             {/* Email */}
             <input
+              name="email"
               type="email"
               placeholder="Your Email"
               className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
@@ -51,6 +98,7 @@ export default function ContactMapForm() {
 
             {/* Phone */}
             <input
+              name="phone"
               type="tel"
               placeholder="Phone Number"
               className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
@@ -59,18 +107,17 @@ export default function ContactMapForm() {
             {/* Message */}
             <textarea
               rows="4"
+              name="message"
               placeholder="Your Message"
               className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
             ></textarea>
 
             {/* Button */}
-            <button
-              type="submit"
+            <button disabled={loading} type="submit"
               className="w-full bg-black text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:scale-[1.02]"
             >
-              Send Message
+              {loading ? "Submitting..." : "Send Message"}
             </button>
-
           </form>
         </motion.div>
       </div>

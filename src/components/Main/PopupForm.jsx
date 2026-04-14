@@ -1,7 +1,9 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 export default function ContactPopup({ isOpen, setIsOpen }) {
   const modalRef = useRef();
@@ -19,6 +21,50 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
   const handleOutsideClick = (e) => {
     if (modalRef.current && !modalRef.current.contains(e.target)) {
       setIsOpen(false);
+    }
+  };
+
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = {
+      platform: "Newtech Popup Form",
+      platformEmail: "director@nvsledwall.com",
+      name: formData.get("contactPerson"),
+      email: formData.get("email"),
+      company: 'NA',
+      phone: formData.get("phone"),
+      product: formData.get("product"),
+      place: "Delhi",
+      message: formData.get("message"),
+    };
+    console.log(data)
+    if (!data.phone || data.phone.length < 10)
+      return toast.error("Enter Valid Phone Number");
+
+    try {
+      setLoading(true);
+      const res = await axios.post("https://brandbnalo.com/api/form/add", data,
+        { validateStatus: (status) => status >= 200 && status < 500 }
+      );
+      if (res.status >= 200 && res.status < 300) {
+        toast(
+          "Your enquiry has been submitted ✔.\n\n Our team will contact you shortly..",
+          {
+            duration: 6000,
+          }
+        );
+        setTimeout(() => {
+          e.target.reset();      // reset after UI change
+        }, 100);
+      }
+    } catch (err) {
+      console.log("ERROR:", err?.response || err.message);
+      toast.error("Something went wrong");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -54,16 +100,17 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
               Get In Touch
             </h2>
 
-            <form className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-5">
               {[
-                { label: "Name", type: "text" },
-                { label: "Email", type: "email" },
-                { label: "Product", type: "text" },
-                { label: "Phone", type: "tel" },
+                { label: "Name", type: "text", name: "contactPerson" },
+                { label: "Email", type: "email", name: "email" },
+                { label: "Product", type: "text", name: "product" },
+                { label: "Phone", type: "tel", name: "phone" },
               ].map((field, i) => (
                 <div key={i} className="relative">
                   <input
                     type={field.type}
+                    name={field.name}
                     required
                     className="peer w-full bg-white/10 border border-white/20 rounded-lg px-3 pt-6 pb-2 focus:outline-none focus:border-white"
                   />
@@ -76,6 +123,7 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
               <div className="relative">
                 <textarea
                   rows="3"
+                  name="message"
                   required
                   className="peer w-full bg-white/10 border border-white/20 rounded-lg px-3 pt-6 pb-2 focus:outline-none focus:border-white"
                 />
@@ -84,11 +132,10 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
                 </label>
               </div>
 
-              <button
-                type="submit"
+              <button disabled={loading} type="submit"
                 className="w-full bg-white text-black font-semibold py-3 rounded-lg hover:scale-[1.03] transition"
               >
-                Send Message
+                {loading ? "Submitting..." : "Send Message"}
               </button>
             </form>
           </motion.div>

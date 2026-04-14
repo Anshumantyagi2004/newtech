@@ -4,6 +4,7 @@ import Sidebar from "@/components/Main/Sidebar";
 import Navbar from "@/components/Main/Navbar";
 import Footer from "@/components/Main/Footer";
 import MobileTabbar from "@/components/Main/BottomBar";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,7 @@ export default function RootLayout({ children }) {
           <main className="flex-1 w-full">
             {children}
           </main>
-
+          <Toaster position="top-center" />
           <Footer />
         </div>
 
