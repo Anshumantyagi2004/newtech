@@ -6,9 +6,15 @@ import { products } from "@/data/data"
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { MessageCircle, Phone } from "lucide-react"
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay, Thumbs } from "swiper/modules";
 
+import "swiper/css";
+import "swiper/css/navigation";
 export default function Page() {
     const { id } = useParams()
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const product = products.find((p) => p.id === id)
     const [activeTab, setActiveTab] = useState("H2")
     const [activeImage, setActiveImage] = useState(product?.img)
@@ -58,30 +64,85 @@ export default function Page() {
         }
     };
 
-    return (
+    const formatLabel = (key) => {
+        return key
+            .replace(/([A-Z])/g, " $1")   // split camelCase
+            .replace(/^./, str => str.toUpperCase()) // capitalize first
+    }
+
+    return (<>
+        <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
+            <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                    backgroundImage: "url('/banner.webp')", // change path
+                }}
+            />
+
+            <div className="absolute inset-0 bg-black/50" />
+            <div className="relative z-10 flex flex-col items-center text-center px-4">
+                <div className="flex items-center gap-2 text-sm md:text-base">
+                    <Link href="/" className="hover:underline">
+                        Home
+                    </Link>
+                    <span>/</span>
+                    <Link href="/products" className="hover:underline">
+                        All Products
+                    </Link>
+                    <span>/</span>
+                    <span className="text-gray-300">{product.name}</span>
+                </div>
+
+                {/* Title */}
+                <h1 className="text-2xl md:text-5xl font-bold mb-2">
+                    {product.name}
+                </h1>
+            </div>
+        </section>
+
         <section className="bg-gray-50 text-black p-6">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10">
                 <div className="md:w-1/2 md:sticky md:top-20 h-fit">
-                    <motion.img
-                        src={activeImage}
-                        className="w-full rounded-xl border border-gray-900"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                    />
-
-                    <div className="flex gap-3 mt-4">
+                    <Swiper
+                        modules={[Navigation, Autoplay, Thumbs]}
+                        navigation={true}
+                        autoplay={{
+                            delay: 5000,
+                            disableOnInteraction: false,
+                        }}
+                        thumbs={{ swiper: thumbsSwiper }}
+                        spaceBetween={10}
+                        slidesPerView={1}
+                        grabCursor={true}
+                        className="rounded-xl border border-gray-900"
+                    >
                         {product.images.map((img, i) => (
-                            <img
-                                key={i}
-                                src={img}
-                                onClick={() => setActiveImage(img)}
-                                className={`w-20 h-20 object-cover rounded-lg cursor-pointer border ${activeImage === img
-                                    ? "border-gray-600 showdow-lg"
-                                    : "border-gray-900"
-                                    }`}
-                            />
+                            <SwiperSlide key={i}>
+                                <img
+                                    src={img}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </SwiperSlide>
                         ))}
-                    </div>
+                    </Swiper>
+
+                    {/* Thumbnail Slider */}
+                    <Swiper
+                        onSwiper={setThumbsSwiper}
+                        spaceBetween={10}
+                        slidesPerView={4}
+                        watchSlidesProgress={true}
+                        className="mt-4"
+                    >
+                        {product.images.map((img, i) => (
+                            <SwiperSlide key={i} className="!w-20 !h-20">
+                                <img
+                                    src={img}
+                                    className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-900"
+                                />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
 
                 <div className="md:w-1/2">
@@ -89,13 +150,13 @@ export default function Page() {
                         {product.name}
                     </h1>
 
-                    <span className="text-white text-sm font-medium bg-black px-4 py-2 rounded-2xl">
+                    <span className="text-white border border-white text-sm font-medium bg-black px-4 py-2 rounded-2xl">
                         Category:  {product.catName}
                     </span>
 
                     <div className="flex gap-4 my-4">
                         <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
-              target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
+                            target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
                             <MessageCircle size={18} /> WhatsApp Now
                         </a>
 
@@ -105,15 +166,13 @@ export default function Page() {
                     </div>
 
                     <div className="mt-2">
-                        <h2 className="text-xl font-semibold mb-2">Specifications</h2>
-                        <div className="flex gap-3 mb-5 flex-wrap">
+                        <h2 className="text-2xl font-semibold mb-4">Specifications</h2>
+                        <div className="flex gap-3 mb-6 flex-wrap">
                             {Object.keys(product.specs).map((tab) => (
-                                <button
-                                    key={tab}
-                                    onClick={() => setActiveTab(tab)}
-                                    className={`px-4 py-2 rounded-lg text-sm ${activeTab === tab
+                                <button key={tab} onClick={() => setActiveTab(tab)}
+                                    className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
                                         ? "bg-black text-white"
-                                        : "bg-white border border-gray-700"
+                                        : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
                                         }`}
                                 >
                                     {tab}
@@ -121,54 +180,63 @@ export default function Page() {
                             ))}
                         </div>
 
-
-                        <motion.div key={activeTab} initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                            className="border border-gray-500 rounded-xl overflow-hidden">
-                            <table className="w-full">
-                                <tbody>
-                                    <Row label="Chassis Size" value={spec.chassis} />
-                                    <Row label="Max Input Cards" value={spec.inputCards} />
-                                    <Row label="Max Input Channels" value={spec.inputChannels} />
-                                    <Row label="Max Output Cards" value={spec.outputCards} />
-                                    <Row label="Max Loading Capacity" value={spec.loading} />
-                                    <Row label="Max Layers" value={spec.layers} />
-                                    <Row label="Power Consumption" value={spec.power} />
-                                    <Row label="Dimensions" value={spec.size} />
-                                    <Row label="Net Weight" value={spec.weight} />
-                                </tbody>
-                            </table>
+                        <motion.div
+                            key={activeTab}
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+                        >
+                            {Object.entries(spec).map(([key, value]) => (
+                                <div key={key}
+                                    className="p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition"
+                                >
+                                    <p className="text-sm text-gray-500 mb-1">
+                                        {formatLabel(key)}
+                                    </p>
+                                    <p className="text-lg font-semibold text-gray-900">
+                                        {value}
+                                    </p>
+                                </div>
+                            ))}
                         </motion.div>
                     </div>
-
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-2 gap-5 py-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 py-8">
                 <Section title="Product Overview" data={product.overview} />
 
                 <Section title="Key Features" data={product.features} />
 
                 <Section title="Why Choose Us" data={product.whyUs} />
 
-                <div className="bg-white p-4 rounded-md border border-gray-200">
-                    <h2 className="text-2xl font-semibold mb-4 text-center">Looking for the Right LED Display?</h2>
-                    <form className="space-y-4" onSubmit={handleSubmit}>
-                       <div className="flex gap-4">
-                        <input
-                            name="contactPerson"
-                            type="text"
-                            placeholder="Your Name"
-                            className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                        />
+                <div className="bg-white p-4 rounded-md border border-gray-200 relative">
+                    {/* Background Image */}
+                    <div
+                        className="absolute inset-0 bg-cover bg-center rounded-2xl"
+                        style={{
+                            backgroundImage: "url('/optima-2 (1).jpg')",
+                        }}
+                    />
+                    <div className="absolute inset-0 bg-black/50 rounded-2xl" />
+                    <h2 className="relative text-2xl font-semibold mb-4 text-center text-white">Looking for the Right LED Display?</h2>
+                    <form className="relative space-y-4" onSubmit={handleSubmit}>
+                        <div className="flex gap-4">
+                            <input
+                                name="contactPerson"
+                                type="text"
+                                placeholder="Your Name"
+                                className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
+                            />
 
-                        {/* Email */}
-                        <input
-                            name="email"
-                            type="email"
-                            placeholder="Your Email"
-                            className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                        />
-                       </div>
+                            {/* Email */}
+                            <input
+                                name="email"
+                                type="email"
+                                placeholder="Your Email"
+                                className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
+                            />
+                        </div>
 
                         {/* Phone */}
                         <input
@@ -188,24 +256,38 @@ export default function Page() {
 
                         {/* Button */}
                         <button disabled={loading} type="submit"
-                            className="w-full bg-black text-white font-semibold py-3 rounded-lg transition-all duration-300 hover:scale-[1.02]"
+                            className="w-full bg-white text-black font-semibold py-3 rounded-lg transition-all duration-300 hover:scale-[1.02]"
                         >
                             {loading ? "Submitting..." : "Send Message"}
                         </button>
                     </form>
-
                 </div>
             </div>
         </section>
-    )
+    </>)
 }
 
-/* REUSABLE SECTION */
 function Section({ title, data }) {
     return (
-        <div className="bg-white p-4 rounded-md border border-gray-200">
-            <h2 className="text-2xl font-semibold mb-4 text-center">{title}</h2>
-            <ul className="space-y-2 text-gray-700">
+        <div className="p-4 rounded-2xl border border-gray-200 relative overflow-hidden">
+
+            {/* Background Image */}
+            <div
+                className="absolute inset-0 bg-cover bg-center rounded-2xl"
+                style={{
+                    backgroundImage: "url('/optima-2 (1).jpg')",
+                }}
+            />
+
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-black/50 rounded-xl" />
+
+            {/* Content */}
+            <h2 className="relative text-2xl font-semibold mb-4 text-center text-white">
+                {title}
+            </h2>
+
+            <ul className="relative space-y-2 text-gray-50">
                 {data.map((item, i) => (
                     <li key={i}>● {item}</li>
                 ))}

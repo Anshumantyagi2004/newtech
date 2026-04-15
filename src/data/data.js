@@ -13,12 +13,12 @@ export const products = [
         id: "h-series",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/h2.png",
+        img: "/H20.webp",
 
-        images:[
+        images: [
             "/h2.png",
-            "/h2.png",
-            "/h2.png",
+            "/H20.webp",
+            "/h9.webp",
         ],
 
         overview: [
