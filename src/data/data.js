@@ -18,7 +18,7 @@ export const products = [
         images: [
             "/h2.png",
             "/H20.webp",
-            "/h9.webp",
+            "/H9.webp",
         ],
 
         overview: [
