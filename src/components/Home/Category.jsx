@@ -2,6 +2,24 @@
 
 import { motion } from "framer-motion";
 
+const containerVariants = {
+    hidden: {},
+    visible: {
+        transition: {
+            staggerChildren: 0.15
+        }
+    }
+};
+
+const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.6, ease: "easeOut" }
+    }
+};
+
 const categories = [
     {
         title: "Outdoor Advertising LED Display",
@@ -39,18 +57,30 @@ export default function Category() {
     return (
         <div className="w-full bg-white py-10 px-4 md:px-10">
             <div className="text-center mb-10">
-                <h2 className="text-3xl md:text-5xl font-bold text-black">
+                <motion.h2
+                    initial={{ opacity: 0, y: -30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once: false }}
+                    className="text-3xl md:text-5xl font-bold text-black"
+                >
                     Our LED Display Solutions
-                </h2>
+                </motion.h2>
             </div>
 
             {/* Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            <motion.div
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false, amount: 0.2 }}
+                className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto"
+            >
                 {categories.map((item, index) => (
                     <motion.div
                         key={index}
+                        variants={cardVariants}
                         whileHover={{ scale: 1.03 }}
-                        transition={{ duration: 0.4 }}
                         className="group relative rounded-3xl overflow-hidden"
                     >
                         {/* Image */}
@@ -60,7 +90,7 @@ export default function Category() {
                             className="w-full h-[220px] md:h-[280px] object-cover transition duration-500 group-hover:scale-110"
                         />
 
-                        {/* Soft Gradient Overlay */}
+                        {/* Overlay */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500"></div>
 
                         {/* Content */}
@@ -74,19 +104,19 @@ export default function Category() {
                             </p>
 
                             <div className="mt-4 
-  opacity-100 translate-y-0 pointer-events-auto 
-  md:opacity-0 md:translate-y-4 md:pointer-events-none 
-  md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto 
-  transition-all duration-500 ease-out"
->
-  <button className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
-    View Displays →
-  </button>
-</div>
+            opacity-100 translate-y-0 pointer-events-auto 
+            md:opacity-0 md:translate-y-4 md:pointer-events-none 
+            md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto 
+            transition-all duration-500 ease-out"
+                            >
+                                <button className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
+                                    View Displays →
+                                </button>
+                            </div>
                         </div>
                     </motion.div>
                 ))}
-            </div>
+            </motion.div>
         </div>
     );
 }
