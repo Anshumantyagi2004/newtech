@@ -14,7 +14,7 @@ export default function AboutUs() {
                     initial={{ opacity: 0, x: -80 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, amount: 0.3 }}
                 >
                     <img
                         src="/7.jpg"
@@ -27,7 +27,7 @@ export default function AboutUs() {
                     initial={{ opacity: 0, x: 80 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, amount: 0.3 }}
                     className="text-white flex flex-col md:justify-start justify-center md:items-start items-center"
                 >
                     <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">

@@ -42,7 +42,7 @@ export default function ClientExperience() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            viewport={{ once: true }}
+             viewport={{ once: false, amount: 0.3 }}
             whileHover={{ y: -8, scale: 1.03 }}
             className="flex flex-col items-center justify-center space-y-3 
                        p-6 rounded-2xl 
