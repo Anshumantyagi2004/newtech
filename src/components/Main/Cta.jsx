@@ -14,7 +14,7 @@ export default function CTASection() {
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false }}
                     className="text-3xl md:text-5xl font-bold leading-tight"
                 >
                     Looking for the Right LED Display?
@@ -24,7 +24,7 @@ export default function CTASection() {
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false }}
                     className="mt-4 text-gray-300 text-sm md:text-lg"
                 >
                     Get expert help to choose the best advertising LED display screen for your needs.
@@ -34,7 +34,7 @@ export default function CTASection() {
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.4 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false }}
                     className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
                 >
 
