@@ -148,15 +148,15 @@ export default function Page() {
                 </div>
 
                 <div className="md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-2">
+                    <h1 className="text-4xl font-bold mb-4">
                         {product.name}
                     </h1>
 
-                    <span className="text-white border border-white text-sm font-medium bg-black px-4 py-2 rounded-2xl">
+                    <span className="text-sm font-medium border bg-gray-200 hover:bg-gray-300 border-gray-400 px-4 py-2 rounded-full backdrop-blur-md transition">
                         Category:  {product.catName}
                     </span>
 
-                    <div className="flex gap-4 my-4">
+                    <div className="flex gap-4 my-6">
                         <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
                             target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
                             <MessageCircle size={18} /> WhatsApp Now
@@ -168,7 +168,7 @@ export default function Page() {
                     </div>
 
                     <div className="mt-4">
-                        <h2 className="text-2xl font-semibold mb-4">Specifications</h2>
+                        <h2 className="text-2xl font-semibold mb-2">Specifications</h2>
                         {isNestedSpecs && (
                             <div className="flex gap-3 mb-6 flex-wrap">
                                 {Object.keys(product.specs).map((tab) => (
@@ -293,12 +293,12 @@ export default function Page() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500"></div>
 
                         {/* Content */}
-                        <div className="absolute bottom-0 p-5 text-white">
+                        <div className="absolute bottom-0 p-5 text-white flex justify-between items-center w-full">
                             <h3 className="text-base md:text-lg font-medium">
                                 {item.name}
                             </h3>
 
-                            <div className="mt-4">
+                            <div className="">
                                 <Link href={`/products/${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
                                     View Displays →
                                 </Link>
