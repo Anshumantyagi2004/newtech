@@ -91,5 +91,55 @@ export const products = [
                 weight: "48 kg"
             }
         }
-    }
+    },
+    {
+        name: "Controllers",
+        id: "controller",
+        catId: "accessories-and-controllers",
+        catName: "Accessories & Controllers",
+        img: "/download.jfif",
+
+        images: [
+            "/download.jfif",
+            "/con-1.jpg",
+        ],
+
+        overview: [
+            "LED Display Controllers are the core processing units behind every advertising LED display screen, managing, optimizing, and distributing visual content with precision and stability",
+            "Designed to support seamless LED video wall display performance, they ensure synchronized playback across multiple panels and large-scale display systems",
+            "Ideal for events, digital signage, control rooms, and complex multi-screen environments requiring accurate and reliable content management",
+            "Enable smooth communication between input sources and display systems, ensuring consistent image quality and real-time content delivery",
+            "Built to handle both simple and advanced display setups, making them essential for achieving high-performance LED wall display operations"
+        ],
+
+        features: [
+            "Advanced Signal Processing ensures smooth video playback, accurate color reproduction, and high-quality image output across all connected displays",
+            "Seamless Synchronization between panels enables flawless LED video wall display performance without lag or visual distortion",
+            "Supports multiple input sources and flexible configurations for both small-scale and large, complex display systems",
+            "Designed for stable and reliable operation, ensuring uninterrupted performance during continuous usage and live events",
+            "User-friendly control interfaces allow easy setup, monitoring, and real-time adjustments for efficient display management"
+        ],
+
+        whyUs: [
+            "Expertise in delivering complete advertising LED display solutions including high-performance control systems",
+            "Advanced technology integration ensures optimized performance for LED video wall displays and multi-screen environments",
+            "Proven capability in handling complex LED wall display systems with seamless synchronization and control",
+            "Strong focus on reliability, precision, and performance across all display components and solutions",
+            "End-to-end support including system configuration, installation assistance, and technical support for smooth operation"
+        ],
+
+        specs: {
+            dimensions: "178 mm × 102.5 mm × 28.5 mm",
+            weight: "380.1 g",
+            inputVoltage: "5 V DC",
+            powerConsumption: "10 W",
+            operatingTemperature: "-40°C – 75°C",
+            operatingHumidity: "0% RH – 80% RH",
+            storageTemperature: "0°C – 50°C",
+            storageHumidity: "0% RH – 80% RH",
+            memory: "1 GB",
+            internalStorage: "8 GB",
+            dimensions: "335 mm × 190 mm × 62 mm",
+        },
+    },
 ]

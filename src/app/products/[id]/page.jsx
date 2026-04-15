@@ -16,13 +16,10 @@ export default function Page() {
     const { id } = useParams()
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const product = products.find((p) => p.id === id)
-    const [activeTab, setActiveTab] = useState("H2")
-    const [activeImage, setActiveImage] = useState(product?.img)
+    const relProduct = products.filter((p) => p.catId === product.catId)
     if (!product) return <div className="text-white">Not found</div>
 
-    const spec = product.specs[activeTab]
     const [loading, setLoading] = useState(false);
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -63,6 +60,11 @@ export default function Page() {
             setLoading(false);
         }
     };
+
+    const isNestedSpecs = typeof Object.values(product.specs)[0] === "object";
+    const defaultTab = isNestedSpecs ? Object.keys(product.specs)[0] : "Specs";
+    const [activeTab, setActiveTab] = useState(defaultTab);
+    const spec = isNestedSpecs ? product.specs[activeTab] : product.specs;
 
     const formatLabel = (key) => {
         return key
@@ -165,20 +167,24 @@ export default function Page() {
                         </a>
                     </div>
 
-                    <div className="mt-2">
+                    <div className="mt-4">
                         <h2 className="text-2xl font-semibold mb-4">Specifications</h2>
-                        <div className="flex gap-3 mb-6 flex-wrap">
-                            {Object.keys(product.specs).map((tab) => (
-                                <button key={tab} onClick={() => setActiveTab(tab)}
-                                    className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
-                                        ? "bg-black text-white"
-                                        : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
-                                        }`}
-                                >
-                                    {tab}
-                                </button>
-                            ))}
-                        </div>
+                        {isNestedSpecs && (
+                            <div className="flex gap-3 mb-6 flex-wrap">
+                                {Object.keys(product.specs).map((tab) => (
+                                    <button
+                                        key={tab}
+                                        onClick={() => setActiveTab(tab)}
+                                        className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
+                                            ? "bg-black text-white"
+                                            : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
+                                            }`}
+                                    >
+                                        {tab}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
 
                         <motion.div
                             key={activeTab}
@@ -187,7 +193,8 @@ export default function Page() {
                             className="grid grid-cols-1 sm:grid-cols-2 gap-4"
                         >
                             {Object.entries(spec).map(([key, value]) => (
-                                <div key={key}
+                                <div
+                                    key={key}
                                     className="p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition"
                                 >
                                     <p className="text-sm text-gray-500 mb-1">
@@ -264,6 +271,43 @@ export default function Page() {
                 </div>
             </div>
         </section>
+
+        <div className="py-10 max-w-7xl mx-auto bg-white">
+            <h1 className="text-center font-bold text-2xl md:text-5xl mb-6 text-black">Related Products</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {relProduct.filter(i => i.id != product.id).map((item, index) => (
+                    <motion.div
+                        key={index}
+                        whileHover={{ scale: 1.03 }}
+                        transition={{ duration: 0.4 }}
+                        className="group relative rounded-3xl overflow-hidden"
+                    >
+                        {/* Image */}
+                        <img
+                            src={item.img}
+                            alt={item.name}
+                            className="w-full h-[220px] md:h-[280px] object-cover transition duration-500 group-hover:scale-110"
+                        />
+
+                        {/* Soft Gradient Overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500"></div>
+
+                        {/* Content */}
+                        <div className="absolute bottom-0 p-5 text-white">
+                            <h3 className="text-base md:text-lg font-medium">
+                                {item.name}
+                            </h3>
+
+                            <div className="mt-4">
+                                <Link href={`/products/${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
+                                    View Displays →
+                                </Link>
+                            </div>
+                        </div>
+                    </motion.div>
+                ))}
+            </div>
+        </div>
     </>)
 }
 
@@ -293,15 +337,5 @@ function Section({ title, data }) {
                 ))}
             </ul>
         </div>
-    )
-}
-
-/* TABLE ROW */
-function Row({ label, value }) {
-    return (
-        <tr className="border-b border-gray-500">
-            <td className="p-3 bg-black text-white w-1/2">{label}</td>
-            <td className="p-3">{value}</td>
-        </tr>
     )
 }

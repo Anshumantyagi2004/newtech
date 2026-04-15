@@ -64,6 +64,5 @@ export default function page() {
         </motion.div>
       ))}
     </div>
-
   </>)
 }
