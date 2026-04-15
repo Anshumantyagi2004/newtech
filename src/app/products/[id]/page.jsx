@@ -4,14 +4,14 @@ import toast from "react-hot-toast";
 import { useParams } from "next/navigation"
 import { products } from "@/data/data"
 import { useState } from "react"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { MessageCircle, Phone } from "lucide-react"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Thumbs } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/navigation";
+
 export default function Page() {
     const { id } = useParams()
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -72,6 +72,17 @@ export default function Page() {
             .replace(/^./, str => str.toUpperCase()) // capitalize first
     }
 
+    const tabs = ["overview", "features", "whyUs"];
+
+    const tabLabels = {
+        overview: "Overview",
+        features: "Features",
+        whyUs: "Why Choose Us"
+    };
+
+    const [activeTab1, setActiveTab1] = useState("overview");
+    const content = product[activeTab1];
+
     return (<>
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
             <div
@@ -103,7 +114,7 @@ export default function Page() {
         </section>
 
         <section className="bg-gray-50 text-black p-6">
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 pb-4">
                 <div className="md:w-1/2 md:sticky md:top-20 h-fit">
                     <Swiper
                         modules={[Navigation, Autoplay, Thumbs]}
@@ -116,7 +127,7 @@ export default function Page() {
                         spaceBetween={10}
                         slidesPerView={1}
                         grabCursor={true}
-                        className="rounded-xl border border-gray-900"
+                        className=""
                     >
                         {product.images.map((img, i) => (
                             <SwiperSlide key={i}>
@@ -134,13 +145,13 @@ export default function Page() {
                         spaceBetween={10}
                         slidesPerView={4}
                         watchSlidesProgress={true}
-                        className="mt-4"
+                        className="mt-2"
                     >
                         {product.images.map((img, i) => (
-                            <SwiperSlide key={i} className="!w-20 !h-20">
+                            <SwiperSlide key={i} className="w-20! h-20!">
                                 <img
                                     src={img}
-                                    className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-900"
+                                    className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-400"
                                 />
                             </SwiperSlide>
                         ))}
@@ -152,25 +163,9 @@ export default function Page() {
                         {product.name}
                     </h1>
 
-                    <span className="text-sm font-medium border bg-gray-200 hover:bg-gray-300 border-gray-400 px-4 py-2 rounded-full backdrop-blur-md transition">
-                        Category:  {product.catName}
-                    </span>
-
-                    <div className="flex gap-4 my-6">
-                        <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
-                            target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
-                            <MessageCircle size={18} /> WhatsApp Now
-                        </a>
-
-                        <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
-                            <Phone size={18} /> Enquire Now
-                        </a>
-                    </div>
-
-                    <div className="mt-4">
-                        <h2 className="text-2xl font-semibold mb-2">Specifications</h2>
+                    <div className="mb-4">
                         {isNestedSpecs && (
-                            <div className="flex gap-3 mb-6 flex-wrap">
+                            <div className="flex gap-3 mb-4 flex-wrap">
                                 {Object.keys(product.specs).map((tab) => (
                                     <button
                                         key={tab}
@@ -190,85 +185,99 @@ export default function Page() {
                             key={activeTab}
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+                            className="grid gap-"
                         >
                             {Object.entries(spec).map(([key, value]) => (
-                                <div
-                                    key={key}
-                                    className="p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition"
+                                <div key={key}
+                                    className="flex items-center gap-2 px-4 py-1 rounded-xl"
                                 >
-                                    <p className="text-sm text-gray-500 mb-1">
-                                        {formatLabel(key)}
+                                    <p className="text-lg text-gray-800 flex items-center">
+                                        ● {formatLabel(key)}:
                                     </p>
-                                    <p className="text-lg font-semibold text-gray-900">
+                                    <p className="text-lg font-semibold text-gray-700">
                                         {value}
                                     </p>
                                 </div>
                             ))}
                         </motion.div>
                     </div>
+
+                    <span className="text-xl font-medium">
+                        <span className="font-bold">Category:</span> {product.catName}
+                    </span>
+
+                    <div className="flex gap-4 my-4">
+                        <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
+                            target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
+                            <MessageCircle size={18} /> WhatsApp Now
+                        </a>
+
+                        <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
+                            <Phone size={18} /> Enquire Now
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 py-8">
-                <Section title="Product Overview" data={product.overview} />
-
-                <Section title="Key Features" data={product.features} />
-
-                <Section title="Why Choose Us" data={product.whyUs} />
-
-                <div className="bg-white p-4 rounded-md border border-gray-200 relative">
-                    {/* Background Image */}
-                    <div
-                        className="absolute inset-0 bg-cover bg-center rounded-2xl"
-                        style={{
-                            backgroundImage: "url('/optima-2 (1).jpg')",
-                        }}
-                    />
-                    <div className="absolute inset-0 bg-black/50 rounded-2xl" />
-                    <h2 className="relative text-2xl font-semibold mb-4 text-center text-white">Looking for the Right LED Display?</h2>
-                    <form className="relative space-y-4" onSubmit={handleSubmit}>
-                        <div className="flex gap-4">
-                            <input
-                                name="contactPerson"
-                                type="text"
-                                placeholder="Your Name"
-                                className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                            />
-
-                            {/* Email */}
-                            <input
-                                name="email"
-                                type="email"
-                                placeholder="Your Email"
-                                className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                            />
-                        </div>
-
-                        {/* Phone */}
-                        <input
-                            name="phone"
-                            type="tel"
-                            placeholder="Phone Number"
-                            className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                        />
-
-                        {/* Message */}
-                        <textarea
-                            rows="2"
-                            name="message"
-                            placeholder="Your Message"
-                            className="w-full p-3 rounded-lg bg-white border border-black/20 focus:outline-none focus:border-black transition"
-                        ></textarea>
-
-                        {/* Button */}
-                        <button disabled={loading} type="submit"
-                            className="w-full bg-white text-black font-semibold py-3 rounded-lg transition-all duration-300 hover:scale-[1.02]"
+            <div className="max-w-6xl mx-auto py-10 px-4 bg-white">
+                <div className="flex gap-3 mb-8 flex-wrap justify-start">
+                    {tabs.map((tab) => (
+                        <button
+                            key={tab}
+                            onClick={() => setActiveTab1(tab)}
+                            className={`px-5 py-2 rounded-full text-sm font-medium transition ${activeTab1 === tab
+                                    ? "bg-black text-white"
+                                    : "bg-gray-200 hover:bg-gray-300 border border-gray-300"
+                                }`}
                         >
-                            {loading ? "Submitting..." : "Send Message"}
+                            {tabLabels[tab]}
                         </button>
-                    </form>
+                    ))}
                 </div>
+
+                <AnimatePresence mode="wait">
+                    <motion.div
+                        key={activeTab1}
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        transition={{ duration: 0.4 }}
+                        className="space-y-4"
+                    >
+                        <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+                            {activeTab1 === "whyUs" ? "Why Choose Us" : tabLabels[activeTab1]}
+                        </h2>
+
+                        <ul className="space-y-1">
+                            {content.map((item, index) => (
+                                <motion.li
+                                    key={index}
+                                    initial={{ opacity: 0, x: -20 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    transition={{ delay: index * 0.08 }}
+                                    className="flex items-start gap-3 px-4 py-2"
+                                >
+                                    <span className="mt-1 text-black">•</span>
+                                    <span className="text-gray-700 text-sm leading-relaxed">
+                                        {item}
+                                    </span>
+                                </motion.li>
+                            ))}
+                        </ul>
+                    </motion.div>
+                </AnimatePresence>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.4 }}
+                    className="mt-6 flex justify-center"
+                >
+                    <button className="px-6 py-3 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800 transition">
+                        Learn More →
+                    </button>
+                </motion.div>
             </div>
         </section>
 
@@ -309,33 +318,4 @@ export default function Page() {
             </div>
         </div>
     </>)
-}
-
-function Section({ title, data }) {
-    return (
-        <div className="p-4 rounded-2xl border border-gray-200 relative overflow-hidden">
-
-            {/* Background Image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center rounded-2xl"
-                style={{
-                    backgroundImage: "url('/optima-2 (1).jpg')",
-                }}
-            />
-
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/50 rounded-xl" />
-
-            {/* Content */}
-            <h2 className="relative text-2xl font-semibold mb-4 text-center text-white">
-                {title}
-            </h2>
-
-            <ul className="relative space-y-2 text-gray-50">
-                {data.map((item, i) => (
-                    <li key={i}>● {item}</li>
-                ))}
-            </ul>
-        </div>
-    )
 }

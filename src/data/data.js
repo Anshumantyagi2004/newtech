@@ -54,7 +54,7 @@ export const products = [
                 loading: "26M px",
                 layers: 32,
                 power: "210W",
-                size: "482.6 × 88.1 × 252.8 mm",
+                size: "482.6×88.1×252.8 mm",
                 weight: "15.5 kg"
             },
             H5: {
