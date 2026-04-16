@@ -83,7 +83,7 @@ export default function Page() {
     const [activeTab1, setActiveTab1] = useState("overview");
     const content = product[activeTab1];
 
-    return (<div className="w-full overflow-hidden">
+    return (<div className="">
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
             <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -132,7 +132,7 @@ export default function Page() {
                         <SwiperSlide key={i}>
                             <img
                                 src={img}
-                                className="w-full h-full object-contain rounded-xl"
+                                className="w-full h-full object-cover rounded-xl"
                             />
                         </SwiperSlide>
                     ))}

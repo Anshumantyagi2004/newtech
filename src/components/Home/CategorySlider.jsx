@@ -2,17 +2,19 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { categories } from "@/data/data";
+import Link from "next/link";
 
-const categories = [
-  { title: "Advertising LED Display", img: "/aura-1.jpg" },
-  { title: "Outdoor LED Display Screens", img: "/optima-2.jpg" },
-  { title: "LED Video Wall Display", img: "/rental-cabinet-1.jpg" },
-  { title: "LED Display Boards", img: "/optima-2 (1).jpg" },
-  { title: "Industrial Video Screens", img: "/luxe-2-banner.jpg" },
-  { title: "Indoor Advertising LED Displays", img: "/vivid-2.jpg" },
-  { title: "Rental Indoor Led", img: "/aura-1.jpg" },
-  { title: "Rental Outdoor Led", img: "/aura-1.jpg" },
-];
+// const categories = [
+//   { title: "Advertising LED Display", img: "/aura-1.jpg" },
+//   { title: "Outdoor LED Display Screens", img: "/optima-2.jpg" },
+//   { title: "LED Video Wall Display", img: "/rental-cabinet-1.jpg" },
+//   { title: "LED Display Boards", img: "/optima-2 (1).jpg" },
+//   { title: "Industrial Video Screens", img: "/luxe-2-banner.jpg" },
+//   { title: "Indoor Advertising LED Displays", img: "/vivid-2.jpg" },
+//   { title: "Rental Indoor Led", img: "/aura-1.jpg" },
+//   { title: "Rental Outdoor Led", img: "/aura-1.jpg" },
+// ];
 
 // duplicate for infinite loop
 const loopItems = [...categories, ...categories];
@@ -44,7 +46,7 @@ export default function CategorySlider() {
           {loopItems.map((item, index) => (
             <div
               key={index}
-              className="min-w-[45%] sm:min-w-[30%] md:min-w-[22%] lg:min-w-[16%] group relative rounded-2xl overflow-hidden cursor-pointer"
+              className="min-w-[45%] sm:min-w-[30%] md:min-w-[25%] lg:min-w-[20%] border border-white group relative rounded-2xl overflow-hidden cursor-pointer"
             >
               {/* Image */}
               <img
@@ -64,9 +66,9 @@ export default function CategorySlider() {
 
                 {/* Button */}
                 <div className="mt-3">
-                  <button className="text-xs border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
+                  <Link href={`/categories/${item?.id}`} className="text-xs border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
                     Explore →
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
