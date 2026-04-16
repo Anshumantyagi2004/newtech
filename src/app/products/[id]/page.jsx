@@ -83,7 +83,7 @@ export default function Page() {
     const [activeTab1, setActiveTab1] = useState("overview");
     const content = product[activeTab1];
 
-    return (<>
+    return (<div className="w-full overflow-hidden">
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
             <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -92,7 +92,7 @@ export default function Page() {
                 }}
             />
 
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/70" />
             <div className="relative z-10 flex flex-col items-center text-center px-4">
                 <div className="flex items-center gap-2 text-sm md:text-base">
                     <Link href="/" className="hover:underline">
@@ -113,127 +113,140 @@ export default function Page() {
             </div>
         </section>
 
-        <section className="bg-gray-50 text-black p-6">
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 pb-4">
-                <div className="md:w-1/2 md:sticky md:top-20 h-fit">
-                    <Swiper
-                        modules={[Navigation, Autoplay, Thumbs]}
-                        navigation={true}
-                        autoplay={{
-                            delay: 5000,
-                            disableOnInteraction: false,
-                        }}
-                        thumbs={{ swiper: thumbsSwiper }}
-                        spaceBetween={10}
-                        slidesPerView={1}
-                        grabCursor={true}
-                        className=""
-                    >
-                        {product.images.map((img, i) => (
-                            <SwiperSlide key={i}>
-                                <img
-                                    src={img}
-                                    className="w-full h-full object-cover rounded-xl"
-                                />
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 w-full bg-gray-50 text-black md:px-20 px-4 py-6 md:pt-20 md:pb-10">
+            <div className="md:sticky md:top-20 h-fit">
+                <Swiper
+                    modules={[Navigation, Autoplay, Thumbs]}
+                    navigation={true}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    }}
+                    thumbs={{ swiper: thumbsSwiper }}
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    grabCursor={true}
+                    className="md:h-120 bg-white"
+                >
+                    {product.images.map((img, i) => (
+                        <SwiperSlide key={i}>
+                            <img
+                                src={img}
+                                className="w-full h-full object-contain rounded-xl"
+                            />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
 
-                    {/* Thumbnail Slider */}
-                    <Swiper
-                        onSwiper={setThumbsSwiper}
-                        spaceBetween={10}
-                        slidesPerView={4}
-                        watchSlidesProgress={true}
-                        className="mt-2"
-                    >
-                        {product.images.map((img, i) => (
-                            <SwiperSlide key={i} className="w-20! h-20!">
-                                <img
-                                    src={img}
-                                    className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-400"
-                                />
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-                </div>
-
-                <div className="md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-4">
-                        {product.name}
-                    </h1>
-
-                    <div className="mb-4">
-                        {isNestedSpecs && (
-                            <div className="flex gap-3 mb-4 flex-wrap">
-                                {Object.keys(product.specs).map((tab) => (
-                                    <button
-                                        key={tab}
-                                        onClick={() => setActiveTab(tab)}
-                                        className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
-                                            ? "bg-black text-white"
-                                            : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
-                                            }`}
-                                    >
-                                        {tab}
-                                    </button>
-                                ))}
-                            </div>
-                        )}
-
-                        <motion.div
-                            key={activeTab}
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            className="grid gap-"
-                        >
-                            {Object.entries(spec).map(([key, value]) => (
-                                <div key={key}
-                                    className="flex items-center gap-2 px-4 py-1 rounded-xl"
-                                >
-                                    <p className="text-lg text-gray-800 flex items-center">
-                                        ● {formatLabel(key)}:
-                                    </p>
-                                    <p className="text-lg font-semibold text-gray-700">
-                                        {value}
-                                    </p>
-                                </div>
-                            ))}
-                        </motion.div>
-                    </div>
-
-                    <span className="text-xl font-medium">
-                        <span className="font-bold">Category:</span> {product.catName}
-                    </span>
-
-                    <div className="flex gap-4 my-4">
-                        <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
-                            target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
-                            <MessageCircle size={18} /> WhatsApp Now
-                        </a>
-
-                        <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
-                            <Phone size={18} /> Enquire Now
-                        </a>
-                    </div>
-                </div>
+                {/* Thumbnail Slider */}
+                <Swiper
+                    onSwiper={setThumbsSwiper}
+                    spaceBetween={10}
+                    slidesPerView={4}
+                    watchSlidesProgress={true}
+                    className="mt-2"
+                >
+                    {product.images.map((img, i) => (
+                        <SwiperSlide key={i} className="w-20! h-20!">
+                            <img
+                                src={img}
+                                className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-400"
+                            />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
             </div>
 
-            <div className="max-w-6xl mx-auto py-10 px-4 bg-white">
-                <div className="flex gap-3 mb-8 flex-wrap justify-start">
+            <div className="md:pl-5">
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
+                    transition={{ duration: 0.4 }}>
+                    <h1 className="text-4xl font-bold mb-2">
+                        {product.name}
+                    </h1>
+                </motion.div>
+
+                <div className="mb-2">
+                    <motion.div
+                        key={activeTab}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="grid"
+                    >
+                        {Object.entries(spec).map(([key, value]) => (
+                            <div key={key}
+                                className="flex items-start gap-2 px-2 rounded-xl"
+                            >
+                                <p className="text-lg text-gray-800 flex items-start justify-start font-semibold text-nowrap">
+                                    • {formatLabel(key)}:
+                                </p>
+                                <p className="text-lg text-gray-800 font-semibold">
+                                    {value}
+                                </p>
+                            </div>
+                        ))}
+                    </motion.div>
+
+                    {isNestedSpecs && (
+                        <div className="flex gap-3 mt-2 flex-wrap items-center">
+                            <p className="font-bold text-xl text-gray-900">Models:</p>
+                            {Object.keys(product.specs).map((tab) => (
+                                <button
+                                    key={tab}
+                                    onClick={() => setActiveTab(tab)}
+                                    className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
+                                        ? "bg-black text-white"
+                                        : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
+                                        }`}
+                                >
+                                    {tab}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </div>
+
+                <span className="text-lg text-gray-700">
+                    <span className="font-bold text-xl text-gray-900">Category:</span> {product.catName}
+                </span>
+
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
+                    transition={{ duration: 0.4 }} className="flex gap-4 my-5">
+                    <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
+                        target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
+                        <MessageCircle size={18} /> WhatsApp Now
+                    </a>
+
+                    <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
+                        <Phone size={18} /> Enquire Now
+                    </a>
+                </motion.div>
+            </div>
+        </div>
+
+        <div className="py-10 md:px-15 px-4 bg-white">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.4 }} className="bg-gray-100 p-4 md:p-6 rounded-2xl">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.4 }} className="flex gap-3 mb-6 flex-wrap justify-start">
                     {tabs.map((tab) => (
                         <button
                             key={tab}
                             onClick={() => setActiveTab1(tab)}
                             className={`px-5 py-2 rounded-full text-sm font-medium transition ${activeTab1 === tab
-                                    ? "bg-black text-white"
-                                    : "bg-gray-200 hover:bg-gray-300 border border-gray-300"
+                                ? "bg-black text-white"
+                                : "bg-white hover:bg-gray-50 border border-gray-300 text-black"
                                 }`}
                         >
                             {tabLabels[tab]}
                         </button>
                     ))}
-                </div>
+                </motion.div>
 
                 <AnimatePresence mode="wait">
                     <motion.div
@@ -257,8 +270,8 @@ export default function Page() {
                                     transition={{ delay: index * 0.08 }}
                                     className="flex items-start gap-3 px-4 py-2"
                                 >
-                                    <span className="mt-1 text-black">•</span>
-                                    <span className="text-gray-700 text-sm leading-relaxed">
+                                    <span className="text-black">•</span>
+                                    <span className="text-gray-800 text- leading-relaxed">
                                         {item}
                                     </span>
                                 </motion.li>
@@ -278,13 +291,14 @@ export default function Page() {
                         Learn More →
                     </button>
                 </motion.div>
-            </div>
-        </section>
+            </motion.div>
+        </div>
 
-        <div className="py-10 max-w-7xl mx-auto bg-white">
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
+            transition={{ duration: 0.4 }} className="py-10 px-4 max-w-7xl mx-auto bg-white">
             <h1 className="text-center font-bold text-2xl md:text-5xl mb-6 text-black">Related Products</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {relProduct.filter(i => i.id != product.id).map((item, index) => (
+                {relProduct.filter(i => i.id != product.id).slice(0, 6).map((item, index) => (
                     <motion.div
                         key={index}
                         whileHover={{ scale: 1.03 }}
@@ -302,12 +316,12 @@ export default function Page() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500"></div>
 
                         {/* Content */}
-                        <div className="absolute bottom-0 p-5 text-white flex justify-between items-center w-full">
+                        <div className="absolute bottom-0 p-5 text-white">
                             <h3 className="text-base md:text-lg font-medium">
                                 {item.name}
                             </h3>
 
-                            <div className="">
+                            <div className="mt-4">
                                 <Link href={`/products/${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
                                     View Displays →
                                 </Link>
@@ -316,6 +330,17 @@ export default function Page() {
                     </motion.div>
                 ))}
             </div>
-        </div>
-    </>)
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.4 }}
+                className="mt-6 flex justify-center"
+            >
+                <Link href={'/products'} className="px-6 py-3 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800 transition">
+                    View More →
+                </Link>
+            </motion.div>
+        </motion.div>
+    </div>)
 }
