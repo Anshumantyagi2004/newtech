@@ -40,7 +40,7 @@ export default function Sidebar() {
         } top-0 left-0 h-screen bg-black text-white z-50`}
     >
       {/* Toggle */}
-      <div className={`h-18 border-b border-gray-400 flex ${open ? "justify-end pr-4" : "justify-center"} items-center`}>
+      <div className={`h-18 border-b border-gray-400 flex ${open ? "justify-start pl-4" : "justify-center"} items-center`}>
         <Menu
           className="cursor-pointer hover:scale-110 transition"
           onClick={() => setOpen(!open)}
