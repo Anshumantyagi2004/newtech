@@ -31,14 +31,16 @@ export default function MobileTabbar() {
               <motion.div
                 whileTap={{ scale: 0.9 }}
                 key={index}
-                className="flex flex-col items-center -mt-6"
+                className=""
               >
-                <div className="bg-black text-white p-4 rounded-full shadow-xl">
-                  <Icon className="w-6 h-6" />
-                </div>
-                <span className="text-xs mt-1 font-semibold text-black">
-                  {tab.name}
-                </span>
+                <Link href={`${tab.id}`} className="flex flex-col items-center -mt-6">
+                  <div className="bg-black text-white p-4 rounded-full shadow-xl">
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <span className="text-xs mt-1 font-semibold text-black">
+                    {tab.name}
+                  </span>
+                </Link>
               </motion.div>
             );
           }
