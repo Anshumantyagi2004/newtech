@@ -8,8 +8,13 @@ import {
 } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { categories } from "@/data/data";
 
 export default function Footer() {
+    const pathname = usePathname();
+    const adminLayout = pathname.startsWith("/admin")
+    if (adminLayout) return null;
     return (
         <footer className="bg-black text-white py-12 px-4 md:px-10">
             <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -63,12 +68,9 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Categories</h3>
                     <ul className="space-y-2 text-gray-200 text-sm">
-                        <li className="hover:text-white cursor-pointer">Advertising LED Display</li>
-                        <li className="hover:text-white cursor-pointer">Outdoor LED Displays</li>
-                        <li className="hover:text-white cursor-pointer">LED Video Wall</li>
-                        <li className="hover:text-white cursor-pointer">LED Display Boards</li>
-                        <li className="hover:text-white cursor-pointer">Industrial Screens</li>
-                        <li className="hover:text-white cursor-pointer">Indoor LED Displays</li>
+                        {categories.map((i,idx)=>(
+                            <li className="hover:text-white cursor-pointer" key={idx}><Link href={`/categories/${i?.id}`}>{i?.title}</Link></li>
+                        ))}
                     </ul>
                 </div>
 

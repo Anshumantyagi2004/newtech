@@ -31,7 +31,7 @@ export default function page() {
       </div>
     </section>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto py-12">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto py-12 px-4">
       {products.map((item, index) => (
         <motion.div
           key={index}

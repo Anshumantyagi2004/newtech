@@ -14,7 +14,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { categories } from "@/data/data";
-
+import { usePathname } from "next/navigation";
 const menuItems = [
   { name: "Home", icon: Home, link: "/" },
   { name: "Categories", icon: LayoutGrid, link: "/categories" },
@@ -27,7 +27,9 @@ const menuItems = [
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
   const [showCategories, setShowCategories] = useState(false);
-
+ const pathname = usePathname();
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
   return (
     <motion.div
       onMouseLeave={() => {
