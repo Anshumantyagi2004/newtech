@@ -49,7 +49,7 @@ export default function MobileTabbar() {
               key={index}
               className="flex flex-col items-center text-gray-800"
             >
-              <Link href={`${tab.id}`}>
+              <Link href={`${tab.id}`} className="flex flex-col items-center">
                 <Icon className="w-5 h-5" />
                 <span className="text-xs mt-1">{tab.name}</span>
               </Link>

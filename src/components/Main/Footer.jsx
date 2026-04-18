@@ -84,7 +84,7 @@ export default function Footer() {
             </div>
 
             {/* Bottom Bar */}
-            <div className="border-t flex justify-around border-white/10 mt-10 pt-6 text-center text-gray-200 text-sm">
+            <div className="border-t flex flex-col md:flex-row justify-around border-white/10 mt-10 pt-6 text-center text-gray-200 text-sm">
                 <p>
                     © {new Date().getFullYear()} Newtech Video Systems Pvt. Ltd. All rights reserved.
                 </p>
