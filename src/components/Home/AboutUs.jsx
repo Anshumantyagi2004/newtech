@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function AboutUs() {
     return (
@@ -53,9 +54,11 @@ export default function AboutUs() {
 
                     <motion.button
                         whileHover={{ scale: 1.05 }}
-                        className="mt-6 px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition"
+                        className="mt-6"
                     >
-                        Learn More →
+                        <Link href={'/about-us'} className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
+                            Learn More →
+                        </Link>
                     </motion.button>
                 </motion.div>
             </div>

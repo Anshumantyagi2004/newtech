@@ -46,7 +46,7 @@ const features = [
 
 export default function WhyChooseUs() {
     return (
-        <div className="w-full bg-white py-10 px-4 md:px-15">
+        <div className="w-full bg-[#ffefe9] py-15 px-4 md:px-15">
             <div className="text-center mb-8 max-w-3xl mx-auto">
                 <h2 className="text-3xl md:text-5xl font-bold text-black">
                     Why Businesses Choose Newtech

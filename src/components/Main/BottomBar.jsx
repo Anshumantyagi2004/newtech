@@ -8,19 +8,20 @@ import {
   User,
   Phone,
 } from "lucide-react";
+import Link from "next/link";
 
 const tabs = [
-  { name: "Home", icon: Home },
-  { name: "Category", icon: LayoutGrid },
-  { name: "Products", icon: ShoppingCart, center: true },
-  { name: "About", icon: User },
-  { name: "Contact", icon: Phone },
+  { name: "Home", icon: Home, id: '/' },
+  { name: "Category", icon: LayoutGrid, id: '/categories' },
+  { name: "Products", icon: ShoppingCart, center: true, id: '/products' },
+  { name: "About", icon: User, id: '/about-us' },
+  { name: "Contact", icon: Phone, id: '/contact-us' },
 ];
 
 export default function MobileTabbar() {
   return (
     <div className="md:hidden fixed bottom-0 left-0 w-full bg-gray-100 border-t border-gray-300 shadow-lg z-50">
-      
+
       <div className="flex justify-between items-center px-4 py-2">
         {tabs.map((tab, index) => {
           const Icon = tab.icon;
@@ -48,8 +49,10 @@ export default function MobileTabbar() {
               key={index}
               className="flex flex-col items-center text-gray-800"
             >
-              <Icon className="w-5 h-5" />
-              <span className="text-xs mt-1">{tab.name}</span>
+              <Link href={`${tab.id}`}>
+                <Icon className="w-5 h-5" />
+                <span className="text-xs mt-1">{tab.name}</span>
+              </Link>
             </motion.div>
           );
         })}

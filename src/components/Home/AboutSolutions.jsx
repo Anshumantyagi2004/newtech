@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function AboutSolutions() {
   return (
@@ -20,28 +21,30 @@ export default function AboutSolutions() {
           </h2>
 
           <p className="text-sm md:text-base text-black mb-4 leading-relaxed">
-            Newtech delivers advanced advertising LED display solutions designed to maximize visibility 
-            and engagement. Our high-performance advertising LED display screens are ideal for both indoor 
+            Newtech delivers advanced advertising LED display solutions designed to maximize visibility
+            and engagement. Our high-performance advertising LED display screens are ideal for both indoor
             and outdoor applications, helping businesses communicate their message with clarity and impact.
           </p>
 
           <p className="text-sm md:text-base text-black mb-4 leading-relaxed">
-            From high-brightness outdoor LED display screens for billboards to seamless LED video wall 
-            displays for events and commercial spaces, we offer solutions tailored to every requirement. 
-            Our LED wall display systems, LED display boards, and industrial video screens are engineered 
+            From high-brightness outdoor LED display screens for billboards to seamless LED video wall
+            displays for events and commercial spaces, we offer solutions tailored to every requirement.
+            Our LED wall display systems, LED display boards, and industrial video screens are engineered
             for durability, energy efficiency, and long-term performance.
           </p>
 
           <p className="text-sm md:text-base text-black leading-relaxed">
-            Whether you need a dynamic advertising LED display screen for retail or a large-scale LED video 
+            Whether you need a dynamic advertising LED display screen for retail or a large-scale LED video
             wall, Newtech provides reliable solutions that deliver results.
           </p>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
-            className="mt-6 px-6 py-3 rounded-full bg-black text-white font-medium transition"
+            className="mt-6"
           >
-            Explore Solutions →
+            <Link href={'/products'} className="px-6 py-3 rounded-full bg-black text-white font-medium transition">
+              Explore Solutions →
+            </Link>
           </motion.button>
         </motion.div>
 

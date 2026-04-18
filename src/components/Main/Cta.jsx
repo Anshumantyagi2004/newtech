@@ -1,9 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import ContactPopup from "./PopupForm";
 
 export default function CTASection() {
+    const [open, setOpen] = useState(false);
     return (
         <div className="relative w-full py-20 px-4 md:px-10 overflow-hidden">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/optima-2.jpg')" }} ></div>
@@ -38,7 +40,7 @@ export default function CTASection() {
                     className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
                 >
 
-                    <button className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition">
+                    <button onClick={() => setOpen(true)} className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition">
                         Request a Quote →
                     </button>
 
@@ -50,6 +52,7 @@ export default function CTASection() {
                     </a>
                 </motion.div>
             </div>
+            <ContactPopup isOpen={open} setIsOpen={setOpen} />
         </div>
     );
 }

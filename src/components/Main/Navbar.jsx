@@ -3,6 +3,7 @@ import { Search, Menu } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import ContactPopup from "./PopupForm";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -21,13 +22,8 @@ export default function Navbar() {
       {/* RIGHT */}
       <div className="flex items-center gap-4">
         {/* Search */}
-        <div className="hidden md:flex items-center border border-gray-600 rounded-lg px-3 py-2.5 focus-within:border-white transition">
-          <Search className="w-4 h-4 text-gray-300" />
-          <input
-            type="text"
-            placeholder="Search..."
-            className="bg-transparent outline-none px-2 text-sm placeholder-gray-400"
-          />
+        <div className="md:block hidden">
+        <SearchBar />
         </div>
 
         {/* Button */}
@@ -36,7 +32,7 @@ export default function Navbar() {
         </button>
       </div>
 
-       <ContactPopup isOpen={open} setIsOpen={setOpen} />
+      <ContactPopup isOpen={open} setIsOpen={setOpen} />
     </div>
   );
 }

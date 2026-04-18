@@ -101,7 +101,7 @@ export default function CtaForm() {
 
                     {/* Button */}
                     <button type="submit" disabled={loading}
-                        className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-900 transition"
+                        className="w-full bg-[#926857] text-white py-3 rounded-lg hover:bg-[#825746] transition"
                     >
                         {loading ? "Submitting..." : "Submit"}
                     </button>
