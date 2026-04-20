@@ -1,11 +1,53 @@
 export const categories = [
-    { title: "Accessories & Controllers", img: "/H20.webp", id: "accessories-and-controllers" },
-    { title: "Rental Led", img: "/vivid-2.jpg", id: "rental-led" },
-    { title: "Indoor Advertising LED Displays", img: "/optima-2.jpg", id: "indoor-advertising-led-displays" },
-    { title: "Outdoor Advertising LED Displays", img: "/rental-cabinet-1.jpg", id: "outdoor-advertising-led-displays" },
-    { title: "Advertising LED Display", img: "/optima-2 (1).jpg", id: "advertising-led-display" },
-    { title: "LED Video Wall Display", img: "/luxe-2-banner.jpg", id: "led-video-wall-display" },
-    { title: "LED Display Boards", img: "/led-video-wall-display-screen-1000x1000.webp", id: "led-display-boards" },
+    {
+        title: "Accessories & Controllers",
+        img: "/H20.webp",
+        id: "accessories-and-controllers",
+        metaTitle: "LED Display Accessories & Controllers | LED Video Wall Control Systems | Newtech Video Systems",
+        metaDescription: "Explore LED display accessories and controllers from Newtech Video Systems Pvt. Ltd. for advertising LED displays, outdoor screens, commercial LED video walls & industrial LED systems."
+    },
+    {
+        title: "Rental Led",
+        img: "/vivid-2.jpg",
+        id: "rental-led",
+        metaTitle: "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
+        metaDescription: "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions."
+    },
+    {
+        title: "Indoor Advertising LED Displays",
+        img: "/optima-2.jpg",
+        id: "indoor-advertising-led-displays",
+        metaTitle: "Indoor Advertising LED Display Screens | Commercial LED Video Wall | Newtech Video Systems",
+        metaDescription: "Explore indoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for retail, malls & corporate spaces. High-resolution commercial LED video wall solutions."
+    },
+    {
+        title: "Outdoor Advertising LED Displays",
+        img: "/rental-cabinet-1.jpg",
+        id: "outdoor-advertising-led-displays",
+        metaTitle: "Outdoor Advertising LED Display Screens | LED Video Wall Manufacturer | Newtech Video Systems",
+        metaDescription: "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage."
+    },
+    {
+        title: "Advertising LED Display",
+        img: "/optima-2 (1).jpg",
+        id: "advertising-led-display",
+        metaTitle: "Advertising LED Display Screens | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+        metaDescription: "Explore advertising LED display screens from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising."
+    },
+    {
+        title: "LED Video Wall Display",
+        img: "/luxe-2-banner.jpg",
+        id: "led-video-wall-display",
+        metaTitle: "LED Video Wall Display Manufacturer | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+        metaDescription: "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding."
+    },
+    {
+        title: "LED Display Boards",
+        img: "/led-video-wall-display-screen-1000x1000.webp",
+        id: "led-display-boards",
+        metaTitle: "LED Display Boards Manufacturer | Advertising & Outdoor LED Screens | Newtech Video Systems",
+        metaDescription: "Explore LED display boards from Newtech Video Systems Pvt. Ltd. for advertising, branding & information display. High-quality indoor & outdoor LED display board solutions."
+    },
 ];
 
 export const products = [
@@ -13,6 +55,8 @@ export const products = [
     {
         name: "H Series LED Display",
         id: "h-series-led-display",
+        metaTitle: "H Series LED Display | High-Performance LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers H Series LED displays for high-performance indoor & outdoor applications. Durable, high-brightness LED video wall solutions for advertising & branding.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/H20.webp",
@@ -97,6 +141,8 @@ export const products = [
     {
         name: "Controllers Indoor LED Display",
         id: "controller-indoor-led-display",
+        metaTitle: "Indoor LED Display Controllers | LED Video Wall Control Systems | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers indoor LED display controllers for seamless video wall performance. Advanced control systems for high-resolution LED screens and signage.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -147,6 +193,8 @@ export const products = [
     {
         name: "Processor LED Wall Display System",
         id: "processor-led-wall-display-system",
+        metaTitle: "LED Wall Display Processor System | Video Wall Control Processor | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED wall display processor systems for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -197,6 +245,8 @@ export const products = [
     {
         name: "VX1 Advertising LED Display Screen",
         id: "vx1-advertising-led-display-screen",
+        metaTitle: "VX1 Advertising LED Display Screen | High-Performance LED Video Wall | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers VX1 advertising LED display screens for high-quality digital signage. Ideal for indoor & outdoor LED video wall advertising and branding solutions.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -248,6 +298,8 @@ export const products = [
     {
         name: "DSP400 Controller LED Wall Display",
         id: "dsp400-controller-led-wall-display",
+        metaTitle: "DSP400 LED Wall Controller | LED Video Wall Display Control System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP400 LED wall controllers for seamless video wall management. High-performance control system for indoor & outdoor LED display screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -298,6 +350,8 @@ export const products = [
     {
         name: "DSP400 Pro LED Display Screen Accessories",
         id: "dsp400-pro-led-display-screen-accessories",
+        metaTitle: "DSP400 Pro LED Display Accessories | LED Video Wall Controller System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP400 Pro LED display accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -349,6 +403,8 @@ export const products = [
     {
         name: "DSP600 LED Controller and Display Accessories",
         id: "dsp600-led-controller-and-display-accessories",
+        metaTitle: "DSP600 LED Controller | LED Display Accessories & Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP600 LED controllers and display accessories for advanced video wall systems. High-performance control solutions for LED advertising screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -399,6 +455,8 @@ export const products = [
     {
         name: "DSP600 Pro LED Display Accessories",
         id: "dsp600-pro-led-display-accessories",
+        metaTitle: "DSP600 Pro LED Display Accessories | Advanced LED Controller System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP600 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/download.jfif",
@@ -449,6 +507,8 @@ export const products = [
     {
         "name": "DSP1000 Pro LED Display Accessories",
         "id": "dsp1000-pro-led-display-accessories",
+        metaTitle: "DSP1000 Pro LED Display Accessories | Advanced LED Video Wall Controller | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP1000 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -500,6 +560,8 @@ export const products = [
     {
         "name": "4K Prime Pro Controller for LED Display System",
         "id": "4k-prime-pro-controller-for-led-display-system",
+        metaTitle: "4K Prime Pro LED Controller | Ultra HD LED Display Control System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers the 4K Prime Pro controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -551,6 +613,8 @@ export const products = [
     {
         "name": "TB20 Plus LED Display and Video Wall Screen System",
         "id": "tb20-plus-led-display-and-video-wall-screen-system",
+        metaTitle: "TB20 Plus LED Display System | Video Wall Controller & Screen Solution | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers the TB20 Plus LED display and video wall system for high-performance control. Advanced solution for seamless LED screen management and digital signage.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -604,6 +668,8 @@ export const products = [
     {
         "name": "TB40 LED Wall Screen",
         "id": "tb40-led-wall-screen",
+        metaTitle: "TB40 LED Wall Screen | High-Performance LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers TB40 LED wall screens for high-performance video wall applications. Ideal for advertising, events, control rooms & digital signage solutions.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -657,6 +723,8 @@ export const products = [
     {
         "name": "TB60 Video Wall Display",
         "id": "tb60-video-wall-display",
+        metaTitle: "TB60 Video Wall Display | Advanced LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers TB60 video wall displays for high-performance applications. Ideal for advertising, events, control rooms & large-scale LED display systems.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -711,6 +779,8 @@ export const products = [
     {
         "name": "SMP4 Pro LED Controller for Video Wall Screen",
         "id": "smp4-pro-led-controller-for-video-wall-screen",
+        metaTitle: "SMP4 Pro LED Controller | Video Wall Screen Control System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers the SMP4 Pro LED controller for video wall screens. Advanced control system for seamless, high-performance LED display management.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
         img: "/download.jfif",
@@ -765,6 +835,8 @@ export const products = [
     {
         "name": "Rental Cabinets Outdoor LED Display",
         "id": "rental-cabinets-outdoor-led-display",
+        metaTitle: "Rental Outdoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental outdoor LED display cabinets for events and temporary installations. Durable, high-brightness LED video wall rental solutions for outdoor use.",
         "catId": "rental-led",
         "catName": "Rental Led",
         "img": "/indoor-1.png",
@@ -837,6 +909,8 @@ export const products = [
     {
         "name": "Rental Cabinet Indoor LED Display",
         "id": "rental-cabinet-indoor-led-display",
+        metaTitle: "Rental Indoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental indoor LED display cabinets for events, exhibitions & corporate setups. High-resolution LED video wall rental solutions for indoor use.",
         "catId": "rental-led",
         "catName": "Rental Led",
         "img": "/indoor-1.png",
@@ -909,6 +983,8 @@ export const products = [
     {
         "name": "LED Poster / Standee",
         "id": "led-poster-standee",
+        metaTitle: "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
         "catId": "rental-led",
         "catName": "Rental Led",
         "img": "/product-2.jpg",
@@ -969,6 +1045,8 @@ export const products = [
     {
         "name": "Optima Active LED",
         "id": "optima-active-led",
+        metaTitle: "Optima Active LED Display | High-Performance LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Optima Active LED displays for high-performance indoor & outdoor applications. Advanced LED video wall solution for advertising, events & branding.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/optima-2.jpg",
@@ -1017,6 +1095,8 @@ export const products = [
     {
         "name": "Luxe LED Display",
         "id": "luxe-led-display",
+        metaTitle: "Luxe LED Display | Premium High-Resolution LED Video Wall | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Luxe LED displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for luxury branding, retail & events.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/luxe-page-main.jpg",
@@ -1121,6 +1201,8 @@ export const products = [
     {
         "name": "Luxe Pro Active LED Display Screen",
         "id": "luxe-pro-active-led-display-screen",
+        metaTitle: "Luxe Pro Active LED Display Screen | Premium LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Luxe Pro Active LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/luxe-page-main.jpg",
@@ -1238,6 +1320,8 @@ export const products = [
     {
         "name": "Vivid LED Display",
         "id": "vivid-led-display",
+        metaTitle: "Vivid LED Display | High-Brightness LED Video Wall Screens | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Vivid LED displays for vibrant, high-brightness visuals. Ideal for advertising, events, retail branding & digital signage applications.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/luxe-page-main.jpg",
@@ -1318,6 +1402,8 @@ export const products = [
     {
         "name": "Aura Video Wall Display",
         "id": "aura-video-wall-display",
+        metaTitle: "Aura Video Wall Display | Indoor & Outdoor LED Video Wall System | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Aura video wall displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for advertising, events & branding.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/luxe-page-main.jpg",
@@ -1420,6 +1506,8 @@ export const products = [
     {
         "name": "Crystal LED Display Screen",
         "id": "crystal-led-display-screen",
+        metaTitle: "Crystal LED Display Screen | Ultra HD LED Video Wall | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Crystal LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
         "img": "/optima-2.jpg",
@@ -1478,6 +1566,8 @@ export const products = [
     {
         "name": "Brites Outdoor LED Display",
         "id": "brites-outdoor-led-display",
+        metaTitle: "Brites Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Brites outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
         "img": "/rental-cabinet-1.jpg",
@@ -1526,6 +1616,8 @@ export const products = [
     {
         "name": "Outdoor Advertising LED Display",
         "id": "outdoor-advertising-led-display",
+        metaTitle: "Outdoor Advertising LED Display | High-Brightness LED Screen Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers outdoor advertising LED displays for billboards, branding & public signage. Durable, weatherproof LED screens with high brightness for maximum visibility.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
         "img": "/outdoor-full-color-led-display-1000x1000.webp",
@@ -1579,6 +1671,8 @@ export const products = [
     {
         "name": "Fixed Outdoor Advertising LED Display Screen",
         "id": "fixed-outdoor-advertising-led-display-screen",
+        metaTitle: "Fixed Outdoor Advertising LED Display Screen | Permanent LED Billboard Solutions ",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers fixed outdoor advertising LED display screens for permanent installations. High-brightness, weatherproof LED billboards for branding & public signage.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
         "img": "/rental-cabinet-1.jpg",
@@ -1629,6 +1723,8 @@ export const products = [
     {
         "name": "LED Display Screen for Advertising",
         "id": "led-display-screen-for-advertising",
+        metaTitle: "Buy LED Display Screen for Advertising | Outdoor & Indoor LED Screens | Newtech Video Systems",
+        metaDescription: "Premium LED display screens for advertising with high brightness and durability. Perfect for businesses, events, retail branding & outdoor promotions.",
         "catId": "advertising-led-display",
         "catName": "Advertising LED Display",
         "img": "https://5.imimg.com/data5/SELLER/Default/2024/7/437552918/PI/GS/FM/7685006/led-advertisement-display-screen-1000x1000.jpg",
@@ -1674,6 +1770,8 @@ export const products = [
     {
         "name": "Digital Advertising LED Display Screen",
         "id": "digital-advertising-led-display-screen",
+        metaTitle: "Digital Advertising LED Display Screen | Outdoor & Indoor LED Screens | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers digital advertising LED display screens for indoor & outdoor use. High-brightness LED screens for branding, promotions & digital signage.",
         "catId": "advertising-led-display",
         "catName": "Advertising LED Display",
         "img": "https://5.imimg.com/data5/IG/ID/MY-7685006/digital-advertising-led-screen-1000x1000.jpg",
@@ -1717,6 +1815,8 @@ export const products = [
     {
         "name": "Advertising LED Display Screen",
         "id": "advertising-led-display-screen-p6",
+        metaTitle: "Advertising LED Display Screen | Indoor & Outdoor LED Advertising Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers advertising LED display screens for indoor & outdoor use. High-brightness LED screens for branding, promotions & digital signage.",
         "catId": "advertising-led-display",
         "catName": "Advertising LED Display",
         "img": "https://5.imimg.com/data5/NL/TX/XC/ANDROID-53231493/product-jpeg-1000x1000.jpg",
@@ -1764,6 +1864,8 @@ export const products = [
     {
         "name": "Railway Station Advertising LED Display Screen",
         "id": "railway-station-advertising-led-display-screen",
+        metaTitle: "Railway Station Advertising LED Display Screen | Digital LED Signage Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers railway station advertising LED display screens for real-time announcements & branding. High-brightness LED signage for public information & promotions.",
         "catId": "advertising-led-display",
         "catName": "Advertising LED Display",
         "img": "https://5.imimg.com/data5/HJ/MW/WR/SELLER-22673717/high-quality-led-panels-indoor-advertising-led-display-screen-flexible-led-screen-rental-programab-1000x1000.jpg",
@@ -1819,6 +1921,8 @@ export const products = [
     {
         "name": "Flexible LED Display",
         "id": "flexible-led-display",
+        metaTitle: "Flexible LED Display | Curved & Soft LED Screen Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers flexible LED displays for curved and creative installations. High-resolution, bendable LED screens for advertising, retail & events.",
         "catId": "advertising-led-display",
         "catName": "Advertising LED Display",
         "img": "https://5.imimg.com/data5/ANDROID/Default/2023/12/367122930/PY/RM/MX/26536911/product-jpeg-1000x1000.jpg",
@@ -1871,6 +1975,8 @@ export const products = [
     {
         "name": "Wall Mounted LED Video Display",
         "id": "wall-mounted-led-video-display",
+        metaTitle: "Wall Mounted LED Video Display | LED Video Wall & Advertising Screen | Newtech Video Systems",
+        metaDescription: "High-quality wall mounted LED video displays for indoor advertising, corporate branding & presentations. Seamless LED video wall solutions from Newtech Video Systems.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/edu.jpg",
@@ -1918,6 +2024,8 @@ export const products = [
     {
         "name": "LED Video Wall Display",
         "id": "led-video-wall-display",
+        metaTitle: "Buy LED Video Wall Display | Indoor & Outdoor LED Wall Solutions | Newtech Video Systems",
+        metaDescription: "High-performance LED video wall displays for businesses, events & advertising. Durable, high-brightness LED wall systems for impactful visual communication.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/luxe-2-banner.jpg",
@@ -1965,6 +2073,8 @@ export const products = [
     {
         "name": "LED Video Wall",
         "id": "led-video-wall-p6",
+        metaTitle: "LED Video Wall | Advertising & Commercial LED Video Wall Display | Newtech Video Systems",
+        metaDescription: "High-performance LED video walls for indoor and outdoor applications. Ideal for advertising, events, control rooms & branding with seamless display technology.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "http://5.imimg.com/data5/SELLER/Default/2022/11/LA/QL/YK/69745314/p6-led-video-wall-500x500.jpeg",
@@ -2011,6 +2121,8 @@ export const products = [
     {
         "name": "Indoor LED Video Wall Display",
         "id": "indoor-led-video-wall-display",
+        metaTitle: "Indoor LED Video Wall Display | High-Resolution Commercial LED Wall | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers indoor LED video wall displays for retail, corporate & events. High-resolution, seamless LED wall solutions for impactful visuals.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "https://5.imimg.com/data5/SELLER/Default/2023/8/339008261/JL/UK/PQ/11977596/indoor-led-video-wall-1000x1000.jpg",
@@ -2058,6 +2170,8 @@ export const products = [
     {
         "name": "Wall Mounted LED Advertising Video Display",
         "id": "wall-mounted-led-advertising-video-display",
+        metaTitle: "Wall Mounted LED Advertising Video Display | Indoor LED Video Wall | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers wall mounted LED advertising video displays for indoor use. High-resolution LED video wall screens for branding, retail & promotions.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "https://5.imimg.com/data5/SELLER/Default/2023/12/369041726/XM/UY/AP/143500992/led-advertising-display-1000x1000.jpeg",
@@ -2104,6 +2218,8 @@ export const products = [
     {
         "name": "Outdoor LED Video Wall Display",
         "id": "outdoor-led-video-wall-display",
+        metaTitle: "Outdoor LED Video Wall Display | High-Brightness LED Wall Screens | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers outdoor LED video wall displays for advertising, events & public signage. Durable, high-brightness LED wall solutions for all weather conditions.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
@@ -2149,6 +2265,8 @@ export const products = [
     {
         "name": "Video Wall Display",
         "id": "video-wall-display-p8",
+        metaTitle: "Buy Video Wall Display Systems | Indoor & Outdoor LED Video Walls | Newtech Video Systems",
+        metaDescription: "High-performance video wall display systems for businesses, events & advertising. Seamless LED video wall solutions for impactful visual communication.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/vivid-2.jpg",
@@ -2193,6 +2311,8 @@ export const products = [
     {
         "name": "Pole Mounted Blue Outdoor LED Video Display",
         "id": "pole-mounted-blue-outdoor-led-video-display",
+        metaTitle: "Pole Mounted Outdoor LED Video Display | Blue LED Advertising Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers pole mounted blue outdoor LED video displays for high-visibility advertising. Durable, weatherproof LED screens for roads, highways & public signage.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/outdoor-led-video-wall-500x500.webp",
@@ -2239,6 +2359,8 @@ export const products = [
     {
         "name": "LMini P1.2 Indoor LED Video Wall",
         "id": "lmini-p1-2-indoor-led-video-wall",
+        metaTitle: "LMini P1.2 Indoor LED Video Wall | Fine Pitch LED Display Screen | Newtech Video Systems",
+        metaDescription: "High-quality LMini P1.2 indoor LED video wall with ultra-clear resolution. Ideal for control rooms, boardrooms, retail & high-end indoor applications.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/lmini-p1-2-led-video-wall-500x500.webp",
@@ -2286,6 +2408,8 @@ export const products = [
     {
         "name": "LMini P1.8 Indoor LED Video Wall",
         "id": "lmini-p1-8-indoor-led-video-wall",
+        metaTitle: "LMini P1.8 Indoor LED Video Wall | High-Resolution LED Display | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers LMini P1.8 indoor LED video walls with high clarity and smooth visuals. Ideal for corporate, retail & indoor advertising applications.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/lmini-p-1-8-led-video-wall-500x500.webp",
@@ -2337,6 +2461,8 @@ export const products = [
     {
         "name": "LMini P1.5 Indoor LED Video Wall",
         "id": "lmini-p1-5-indoor-led-video-wall",
+        metaTitle: "Buy LMini P1.5 Indoor LED Video Wall | Fine Pitch LED Screen | Newtech Video Systems",
+        metaDescription: "Premium LMini P1.5 indoor LED video wall for sharp visuals and smooth performance. Ideal for business presentations, branding & professional indoor displays.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/lmini-p-1-8-led-video-wall-500x500.webp",
@@ -2388,6 +2514,8 @@ export const products = [
     {
         "name": "P3 Outdoor Aluminum Die Cast Cabinet",
         "id": "p3-outdoor-aluminum-die-cast-cabinet",
+        metaTitle: "P3 Outdoor LED Display Cabinet | Aluminum Die Cast LED Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers P3 outdoor aluminum die cast cabinets for LED displays. Durable, weatherproof and ideal for high-brightness outdoor advertising screens.",
         "catId": "led-video-wall-display",
         "catName": "LED Video Wall Display",
         "img": "/p3-outdoor-aluminium-die-cast-led-video-wall-cabinet-500x500.webp",
@@ -2442,6 +2570,8 @@ export const products = [
     {
         "name": "LED Display Board",
         "id": "led-display-board",
+        metaTitle: "LED Display Board Manufacturer | Advertising & Outdoor LED Display Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers high-quality LED display boards for advertising, branding & information display. Indoor & outdoor LED display screen solutions for businesses.",
         "catId": "led-display-boards",
         "catName": "LED Display Boards",
         "img": "/led-video-wall-display-screen-1000x1000.webp",
@@ -2485,6 +2615,8 @@ export const products = [
     {
         "name": "LED Display Board for Advertisement",
         "id": "led-display-board-for-advertisement",
+        metaTitle: "Buy LED Display Board for Advertisement | LED Screen Manufacturer | Newtech Video Systems",
+        metaDescription: "Premium LED display boards for advertisement with high brightness and durability. Ideal for outdoor billboards, indoor branding & commercial advertising displays.",
         "catId": "led-display-boards",
         "catName": "LED Display Boards",
         "img": "/led-display-board-1000x1000.webp",
@@ -2532,6 +2664,8 @@ export const products = [
     {
         "name": "Safety Static LED Display Board",
         "id": "safety-static-led-display-board",
+        metaTitle: "Safety Static LED Display Board | Fixed LED Advertising Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers safety static LED display boards for reliable advertising. High-brightness fixed LED screens for indoor & outdoor installations.",
         "catId": "led-display-boards",
         "catName": "LED Display Boards",
         "img": "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp",
@@ -2581,6 +2715,8 @@ export const products = [
     {
         "name": "Industrial LED Display Boards",
         "id": "industrial-led-display-boards",
+        metaTitle: "Industrial LED Display Boards | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers industrial LED display boards for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
         "catId": "led-display-boards",
         "catName": "LED Display Boards",
         "img": "/industrial-displays-1000x1000.webp",
