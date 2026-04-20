@@ -22,19 +22,19 @@ export default function Navbar() {
             src="/download.png"
           />
         </Link>
+        <span className="text-black bg-white px-2 py-1 text-sm rounded-md font-medium">GSTIN: 07AAECN8156D3ZE</span>
       </div>
-
-
+      
       <div className="flex items-center gap-4">
         <div className="md:block hidden">
           <SearchBar />
         </div>
 
-        <a href="https://wa.me/+919810103697" className="bg-white text-black px-2.5 py-1.5 rounded-lg hover:bg-gray-200 transition">
-          <FaWhatsapp size={28} />
+        <a href="https://wa.me/+919810103697" className="md:block hidden bg-white text-green-600 px-2.5 py-1.5 rounded-lg hover:bg-gray-200 transition">
+          <FaWhatsapp size={25} />
         </a>
-        <a href="tel:+919810103697" className="bg-white text-black px-3 py-2 rounded-lg hover:bg-gray-200 transition">
-          <PhoneCall size={24} />
+        <a href="tel:+919810103697" className="md:block hidden bg-white text-red-600 px-3 py-2 rounded-lg hover:bg-gray-200 transition">
+          <PhoneCall size={22} />
         </a>
 
         {/* Button */}

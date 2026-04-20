@@ -62,13 +62,14 @@ export default function Footer() {
                         <li className="hover:text-white cursor-pointer"><Link href={"/about-us"}>About</Link></li>
                         <li className="hover:text-white cursor-pointer"><Link href={"/contact-us"}>Contact</Link></li>
                         <li className="hover:text-white cursor-pointer"><Link href={"/our-articles"}>Articles</Link></li>
+                        <li className="hover:text-white cursor-pointer"><Link href={"/sitemap"}>Sitemap</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Categories</h3>
                     <ul className="space-y-2 text-gray-200 text-sm">
-                        {categories.map((i,idx)=>(
+                        {categories.map((i, idx) => (
                             <li className="hover:text-white cursor-pointer" key={idx}><Link href={`/categories/${i?.id}`}>{i?.title}</Link></li>
                         ))}
                     </ul>
