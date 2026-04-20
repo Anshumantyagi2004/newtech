@@ -34,8 +34,8 @@ export default function page() {
       </div>
     </section>
 
-    <section className="w-full py-10 px-4 md:px-15">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="w-full py-10 px-4 lg:px-15">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
           <h2 className="text-2xl md:text-5xl font-bold mb-4 text-black">
             About Newtech Video Systems Pvt. Ltd.

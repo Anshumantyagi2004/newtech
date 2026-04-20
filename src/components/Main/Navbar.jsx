@@ -29,8 +29,7 @@ export default function Navbar() {
           </span>
         </div>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4">
           <SearchBar />
 
           <a href="https://wa.me/+919810103697"
@@ -55,7 +54,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden bg-white text-black p-2 rounded-lg"
+          className="lg:hidden bg-white text-black p-2 rounded-lg"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <X size={22} /> : <Menu size={22} />}
@@ -63,7 +62,7 @@ export default function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-black text-white px-4 py-4 flex flex-col gap-4 border-t border-gray-700 z-50">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-black text-white px-4 py-4 flex flex-col gap-4 border-t border-gray-700 z-50">
           <SearchBar />
 
           <div className="flex gap-3">

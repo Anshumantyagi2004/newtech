@@ -40,7 +40,7 @@ export default function page() {
         </section>
 
         {catProduct.length == 0 ? <p className='text-gray-700 text-center font-semibold text-xl py-20'>No Product Found</p>
-            : <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto py-12 px-4">
+            : <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto py-12 px-4">
                 {catProduct.map((item, index) => (
                     <motion.div
                         key={index}
