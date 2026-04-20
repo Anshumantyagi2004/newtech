@@ -72,6 +72,7 @@ export default function ContactUs() {
                     {
                         icon: MapPin,
                         title: "Head Office",
+                        phone: "+91-9810103197, +91-9810103697",
                         content: ["M5-A, DSIDC, Badli Industrial Area, Phase-1, Near Samaypur Badli Metro Rd, Rohini, Delhi - 110042"]
                     }].map((item, i) => {
                         const Icon = item.icon;
@@ -92,6 +93,11 @@ export default function ContactUs() {
                                         {text}
                                     </p>
                                 ))}
+                                {item.phone && (
+                                    <p className="text-sm text-gray-300 group-hover:text-white transition mt-2">
+                                        {item.phone}
+                                    </p>
+                                )}
                             </motion.div>
                         );
                     })}
@@ -108,6 +114,7 @@ export default function ContactUs() {
                         {
                             title: "Noida Office",
                             text: "1002, Tower B, ATS Bouquet, Sector 132, Noida - 201304",
+                            phone: "+91 1204641607, +91 88000 53240",
                         },
                         {
                             title: "Telangana Branch",

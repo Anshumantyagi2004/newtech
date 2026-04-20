@@ -36,7 +36,7 @@ export default function CertificateSlider() {
     useEffect(() => {
         const interval = setInterval(() => {
             setIndex((prev) => (prev + 1) % certificates.length);
-        }, 5000);
+        }, 3000);
         return () => clearInterval(interval);
     }, []);
 

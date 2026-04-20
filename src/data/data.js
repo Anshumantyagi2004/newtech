@@ -1,3 +1,111 @@
+import {
+    Shield,
+    Users,
+    LayoutDashboard,
+    Mic,
+    Building2,
+    Newspaper,
+    GraduationCap,
+    Landmark,
+    ShoppingBag,
+    Tv,
+    Bus,
+    Cpu,
+    Home,
+    PanelsTopLeft,
+    Trophy,
+    Repeat,
+    Monitor
+} from "lucide-react";
+
+export const applications = [
+    {
+        id: "command-and-control-rooms",
+        title: "Command & Control Rooms",
+        icon: Shield
+    },
+    {
+        id: "boardroom-and-meeting-room",
+        title: "Boardroom and Meeting Room",
+        icon: Users
+    },
+    {
+        id: "reception-and-lobby-areas",
+        title: "Reception & Lobby Areas",
+        icon: LayoutDashboard
+    },
+    {
+        id: "auditoriums",
+        title: "Auditoriums",
+        icon: Mic
+    },
+    {
+        id: "corporate",
+        title: "Corporate",
+        icon: Building2
+    },
+    {
+        id: "news-rooms",
+        title: "News Rooms",
+        icon: Newspaper
+    },
+    {
+        id: "education",
+        title: "Education",
+        icon: GraduationCap
+    },
+    {
+        id: "banking-and-finance",
+        title: "Banking & Finance",
+        icon: Landmark
+    },
+    {
+        id: "retail-outlets",
+        title: "Retail Outlets",
+        icon: ShoppingBag
+    },
+    {
+        id: "dooh",
+        title: "DOOH",
+        icon: Tv
+    },
+    {
+        id: "transportation",
+        title: "Transportation",
+        icon: Bus
+    },
+    {
+        id: "smart-city",
+        title: "Smart City",
+        icon: Cpu
+    },
+    {
+        id: "real-estate",
+        title: "Real Estate",
+        icon: Home
+    },
+    {
+        id: "building-facade",
+        title: "Building Façade",
+        icon: PanelsTopLeft
+    },
+    {
+        id: "stadiums",
+        title: "Stadiums",
+        icon: Trophy
+    },
+    {
+        id: "rental",
+        title: "Rental",
+        icon: Repeat
+    },
+    {
+        id: "home-entertainment",
+        title: "Home Entertainment",
+        icon: Monitor
+    }
+];
+
 export const categories = [
     {
         title: "Accessories & Controllers",
@@ -1564,10 +1672,10 @@ export const products = [
 
     //Outdoor Advertising LED Displays
     {
-        "name": "Brites Outdoor LED Display",
-        "id": "brites-outdoor-led-display",
-        metaTitle: "Brites Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Brites outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
+        "name": "Brite Outdoor LED Display",
+        "id": "brite-outdoor-led-display",
+        metaTitle: "Brite Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
         "img": "/rental-cabinet-1.jpg",
@@ -1578,7 +1686,7 @@ export const products = [
         ],
 
         "overview": [
-            "Brites Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
+            "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
             "Engineered for large-scale outdoor LED display applications, it ensures strong visibility even under direct sunlight and high ambient light conditions",
             "Ideal for billboards, highways, events, stadiums, and commercial advertising spaces where attention-grabbing visuals are essential",
             "Built for reliable performance with smooth content playback, making it suitable for continuous operation in dynamic environments",
