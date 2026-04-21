@@ -4213,3 +4213,7 @@ export const applicationsDescription = [
         ]
     }
 ];
+
+export const serviceLocations = [
+    { href: "/advertising-led-display-in-delhi", label: "Delhi", id: 1 },
+]

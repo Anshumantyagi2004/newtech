@@ -15,10 +15,11 @@ import ClientSlider from "@/components/Main/ClientSlider";
 import CertificateSlider from "@/components/Main/CertificateSlider";
 import ClientSays from "@/components/Home/Testimonial";
 import Footer from "@/components/Main/Footer";
+import CityKeyword from "@/components/Home/CityKeyword";
 
 export default function Home() {
   return (
-   <div className="flex flex-col flex-1 w-full max-w-full overflow-x-hidden">
+    <div className="flex flex-col flex-1 w-full max-w-full overflow-x-hidden">
       <Hero />
       <CategorySlider />
       <CtaForm />
@@ -32,6 +33,7 @@ export default function Home() {
       <ClientSlider />
       <ClientSays />
       <FAQSection />
+      <CityKeyword />
     </div>
   );
 }
