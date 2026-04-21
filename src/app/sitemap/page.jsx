@@ -2,11 +2,12 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { products, categories } from '@/data/data';
+import { products, categories, applications } from '@/data/data';
 
 export default function page() {
     const sitemapItems = [
         { name: "Home", link: "/" },
+        { name: "Applications", link: "/applications" },
         { name: "Category", link: "/categories" },
         { name: "Product", link: "/products" },
         { name: "About Us", link: "/about-us" },
@@ -40,7 +41,7 @@ export default function page() {
             </div>
         </section>
 
-        <section className='py-10 px-4'>
+        <section className='relative z-10 py-10 px-4'>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6 text-[#3C2012] text-xl font-semibold">
                 {sitemapItems.map((item) => (
                     <Link
@@ -50,6 +51,16 @@ export default function page() {
                          hover:border-blue-600 hover:shadow-lg transition-all text-center items-center"
                     >
                         {item.name}
+                    </Link>
+                ))}
+                {applications.map((item) => (
+                    <Link
+                        key={item.title}
+                        href={`applications/${item.id}`}
+                        className="p-6 bg-white rounded-xl border border-black content-center
+                         hover:border-blue-600 hover:shadow-lg transition-all text-center"
+                    >
+                        {item.title}
                     </Link>
                 ))}
                 {categories.map((item) => (

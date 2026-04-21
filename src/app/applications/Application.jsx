@@ -29,16 +29,17 @@ export default function Application() {
       </div>
     </section>
 
-    <div className='grid grid-cols-2 md:grid-cols-4 md:px-15 px-4 py-10 gap-5'>
-      {applications.map((app, i) => {
+    <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 md:px-15 px-4 py-10 gap-5">
+      {applications.map((app) => {
         const Icon = app.icon;
+
         return (
           <Link
-            key={i}
+            key={app.id}
             href={`/applications/${app.id}`}
             className={`flex flex-col items-center justify-center gap-2 p-4 rounded-lg 
-      ${app.bg} text-white border border-transparent 
-      ${app.hover} hover:text-white transition duration-200`}
+        ${app.bg} text-white border border-transparent cursor-pointer
+        ${app.hover} transition duration-200`}
           >
             <Icon className="w-8 h-8" />
             <span className="text-base font-medium text-center leading-tight">
