@@ -15,94 +15,169 @@ import {
     PanelsTopLeft,
     Trophy,
     Repeat,
-    Monitor
+    Monitor,
+    Video,
+    FileText,
+    Sparkles,
+    ShieldCheck,
+    Layout,
+    Zap,
+    BarChart,
+    Megaphone,
+    Store,
+    Calendar,
+    MapIcon,
+    Settings,
+    Box,
+    Ticket,
+    AlertTriangle,
+    Map,
+    Leaf,
+    Star,
+    Music,
+    Heart,
+    Truck,
+    Gamepad2,
+    Image,
+    Sun
 } from "lucide-react";
 
 export const applications = [
     {
         id: "command-and-control-rooms",
         title: "Command & Control Rooms",
-        icon: Shield
+        icon: Shield,
+        bgImage: "/control.jpg",
+        bg: "bg-red-500",
+        hover: "hover:bg-red-600"
     },
     {
         id: "boardroom-and-meeting-room",
         title: "Boardroom and Meeting Room",
-        icon: Users
+        bgImage: "/boardroom.jpg",
+        icon: Users,
+        bg: "bg-blue-500",
+        hover: "hover:bg-blue-600"
     },
     {
         id: "reception-and-lobby-areas",
         title: "Reception & Lobby Areas",
-        icon: LayoutDashboard
+        bgImage: "/recep1.jpg",
+        icon: LayoutDashboard,
+        bg: "bg-purple-500",
+        hover: "hover:bg-purple-600"
     },
     {
         id: "auditoriums",
         title: "Auditoriums",
-        icon: Mic
+        icon: Mic,
+        bgImage: "/audi2.jpg",
+        bg: "bg-pink-500",
+        hover: "hover:bg-pink-600"
     },
     {
         id: "corporate",
         title: "Corporate",
-        icon: Building2
+        bgImage: "/corpo.png",
+        icon: Building2,
+        bg: "bg-indigo-500",
+        hover: "hover:bg-indigo-600"
     },
     {
         id: "news-rooms",
         title: "News Rooms",
-        icon: Newspaper
+        bgImage: "/news.jpg",
+        icon: Newspaper,
+        bg: "bg-yellow-500",
+        hover: "hover:bg-yellow-600"
     },
     {
         id: "education",
         title: "Education",
-        icon: GraduationCap
+        bgImage: "/edu.jpg",
+        icon: GraduationCap,
+        bg: "bg-green-500",
+        hover: "hover:bg-green-600"
     },
     {
         id: "banking-and-finance",
         title: "Banking & Finance",
-        icon: Landmark
+        bgImage: "/bank.jpg",
+        icon: Landmark,
+        bg: "bg-emerald-500",
+        hover: "hover:bg-emerald-600"
     },
     {
         id: "retail-outlets",
         title: "Retail Outlets",
-        icon: ShoppingBag
+        bgImage: "/retail.jpg",
+        icon: ShoppingBag,
+        bg: "bg-orange-500",
+        hover: "hover:bg-orange-600"
     },
     {
         id: "dooh",
         title: "DOOH",
-        icon: Tv
+        bgImage: "/doh.png",
+        icon: Tv,
+        bg: "bg-cyan-500",
+        hover: "hover:bg-cyan-600"
     },
     {
         id: "transportation",
         title: "Transportation",
-        icon: Bus
+        bgImage: "/trans4.png",
+        icon: Bus,
+        bg: "bg-lime-500",
+        hover: "hover:bg-lime-600"
     },
     {
         id: "smart-city",
         title: "Smart City",
-        icon: Cpu
+        bgImage: "/new1.jpg",
+        icon: Cpu,
+        bg: "bg-teal-500",
+        hover: "hover:bg-teal-600"
     },
     {
         id: "real-estate",
         title: "Real Estate",
-        icon: Home
+        bgImage: "/real3.png",
+        icon: Home,
+        bg: "bg-rose-500",
+        hover: "hover:bg-rose-600"
     },
     {
         id: "building-facade",
         title: "Building Façade",
-        icon: PanelsTopLeft
+        bgImage: "/real3.png",
+        icon: PanelsTopLeft,
+        bg: "bg-violet-500",
+        hover: "hover:bg-violet-600"
     },
     {
         id: "stadiums",
         title: "Stadiums",
-        icon: Trophy
+        bgImage: "/outdoor-full-color-led-display-1000x1000.webp",
+        icon: Trophy,
+        bg: "bg-amber-500",
+        hover: "hover:bg-amber-600"
     },
     {
         id: "rental",
         title: "Rental",
-        icon: Repeat
+        bgImage: "/bg-2.jpg",
+        icon: Repeat,
+        bg: "bg-sky-500",
+        hover: "hover:bg-sky-600"
     },
     {
         id: "home-entertainment",
         title: "Home Entertainment",
-        icon: Monitor
+        bgImage: "/homeinettenment2.jpg",
+        icon: Monitor,
+        bg: "bg-fuchsia-500",
+        hover: "hover:bg-fuchsia-600"
     }
 ];
 
@@ -943,6 +1018,9 @@ export const products = [
     {
         "name": "Rental Cabinets Outdoor LED Display",
         "id": "rental-cabinets-outdoor-led-display",
+        applicationIds: [
+            "rental"
+        ],
         metaTitle: "Rental Outdoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental outdoor LED display cabinets for events and temporary installations. Durable, high-brightness LED video wall rental solutions for outdoor use.",
         "catId": "rental-led",
@@ -1017,6 +1095,9 @@ export const products = [
     {
         "name": "Rental Cabinet Indoor LED Display",
         "id": "rental-cabinet-indoor-led-display",
+        applicationIds: [
+            "rental"
+        ],
         metaTitle: "Rental Indoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental indoor LED display cabinets for events, exhibitions & corporate setups. High-resolution LED video wall rental solutions for indoor use.",
         "catId": "rental-led",
@@ -1091,6 +1172,10 @@ export const products = [
     {
         "name": "LED Poster / Standee",
         "id": "led-poster-standee",
+        applicationIds: [
+            "reception-and-lobby-areas",
+            "rental"
+        ],
         metaTitle: "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
         "catId": "rental-led",
@@ -1153,6 +1238,17 @@ export const products = [
     {
         "name": "Optima Active LED",
         "id": "optima-active-led",
+        applicationIds: [
+            "education",
+            "banking-and-finance",
+            "retail-outlets",
+            "dooh",
+            "transportation",
+            "smart-city",
+            "real-estate",
+            "building-facade",
+            "stadiums"
+        ],
         metaTitle: "Optima Active LED Display | High-Performance LED Video Wall System | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Optima Active LED displays for high-performance indoor & outdoor applications. Advanced LED video wall solution for advertising, events & branding.",
         "catId": "indoor-advertising-led-displays",
@@ -1203,6 +1299,14 @@ export const products = [
     {
         "name": "Luxe LED Display",
         "id": "luxe-led-display",
+        applicationIds: [
+            "command-and-control-rooms",
+            "boardroom-and-meeting-room",
+            "auditoriums",
+            "corporate",
+            "news-rooms",
+            "home-entertainment"
+        ],
         metaTitle: "Luxe LED Display | Premium High-Resolution LED Video Wall | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Luxe LED displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for luxury branding, retail & events.",
         "catId": "indoor-advertising-led-displays",
@@ -1309,6 +1413,12 @@ export const products = [
     {
         "name": "Luxe Pro Active LED Display Screen",
         "id": "luxe-pro-active-led-display-screen",
+        applicationIds: [
+            "command-and-control-rooms",
+            "boardroom-and-meeting-room",
+            "corporate",
+            "smart-city"
+        ],
         metaTitle: "Luxe Pro Active LED Display Screen | Premium LED Video Wall System | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Luxe Pro Active LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
         "catId": "indoor-advertising-led-displays",
@@ -1510,6 +1620,17 @@ export const products = [
     {
         "name": "Aura Video Wall Display",
         "id": "aura-video-wall-display",
+        applicationIds: [
+            "reception-and-lobby-areas",
+            "auditoriums",
+            "corporate",
+            "news-rooms",
+            "education",
+            "banking-and-finance",
+            "retail-outlets",
+            "transportation",
+            "real-estate"
+        ],
         metaTitle: "Aura Video Wall Display | Indoor & Outdoor LED Video Wall System | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Aura video wall displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for advertising, events & branding.",
         "catId": "indoor-advertising-led-displays",
@@ -1674,6 +1795,13 @@ export const products = [
     {
         "name": "Brite Outdoor LED Display",
         "id": "brite-outdoor-led-display",
+        applicationIds: [
+            "corporate",
+            "dooh",
+            "smart-city",
+            "building-facade",
+            "stadiums"
+        ],
         metaTitle: "Brite Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
         "catId": "outdoor-advertising-led-displays",
@@ -2868,3 +2996,1220 @@ export const products = [
         }
     },
 ]
+
+export const applicationsDescription = [
+    {
+        id: "command-and-control-rooms",
+        title: "Applications of Active LED in Command & Control Rooms",
+        description: [
+            {
+                title: "Real-Time Data Visualization",
+                content:
+                    "Active LED video walls display real-time operational data, such as surveillance feeds, traffic management visuals, security alerts, or network status dashboards. Ensures instant decision-making by providing a clear, continuous overview of critical information.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "24/7 Monitoring & Situational Awareness",
+                content:
+                    "Active LEDs are designed for continuous operation with high brightness, reliability, and low maintenance.We provide LED video wall solutions for corporate offices and events, enhancing communication and brand presence effectively. Ideal for defense, transport, power grid, and emergency response centers, where uninterrupted monitoring is essential.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Centralized Information Display",
+                content:
+                    "Multiple sources (CCTV, sensors, SCADA, GIS maps, etc.) can be integrated and displayed simultaneously. Enables multi-view layouts with seamless switching between live video, data feeds, and analytics.",
+                icon: Video,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Command Collaboration & Coordination",
+                content:
+                    "Provides a common visual platform for teams to analyze situations together and coordinate responses effectively. Facilitates cross-department collaboration during critical operations or emergency management.",
+                icon: FileText,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "High-Definition Visualization",
+                content:
+                    "Active LED walls deliver fine pixel pitch resolution (e.g., P0.9–P2.5) for sharp and accurate visuals, even at close viewing distances. Ensures clarity of text, maps, and high-detail images, crucial for analytical environments.",
+                icon: Sparkles,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Scalability & Flexible Layouts",
+                content:
+                    "LED modules can be configured into custom sizes and aspect ratios to fit any control room layout. Allows curved or ultra-wide video walls for immersive visualization.",
+                icon: ShieldCheck,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Redundancy & Reliability",
+                content:
+                    "Built with dual power and data redundancy, Active LED ensures zero downtime—vital for mission-critical environments.",
+                icon: Layout,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Aesthetic & Ergonomic Design",
+                content:
+                    "Slim-profile LED panels with silent, fanless operation enhance the workspace ergonomics and aesthetics of modern control rooms. Helps maintain a professional and high-tech environment.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "boardroom-and-meeting-room",
+        title: "Applications of Active LED in Boardroom and Meeting Room",
+        description: [
+            {
+                title: "Premium Visual Experience",
+                content:
+                    "Active LED displays provide seamless, bezel-free viewing for presentations, videos, and data charts. . Deliver true-to-life color reproduction, high contrast, and brightness even in well-lit rooms—enhancing professionalism and impact.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Corporate Presentations & Collaboration",
+                content:
+                    "Ideal for business presentations, project reviews, and client meetings. Supports multi-input sources (laptops, video conferencing systems, and wireless sharing) with smooth switching. Enables real-time collaboration through screen sharing and interactive controls.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Video Conferencing Integration",
+                content:
+                    "Compatible with VC systems (Zoom, Teams, WebEx, etc.), providing a life-size, immersive video experience. Ensures participants—both in-room and remote—enjoy clear visuals and face-to-face engagement.",
+                icon: Video,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "High-Resolution Content Display",
+                content:
+                    "Fine-pitch LEDs (e.g., P0.9 to P1.5) deliver ultra-HD clarity for text, spreadsheets, and detailed visuals. Perfect for displaying corporate dashboards, financial data, and strategic plans with precision.",
+                icon: FileText,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Modern Aesthetics & Brand Image",
+                content:
+                    " Sleek, frameless design enhances the look of premium boardrooms and corporate spaces. Reinforces the company’s technological and innovation-driven image.",
+                icon: Sparkles,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Reliability & Longevity",
+                content:
+                    "Active LED systems offer long lifespan, low maintenance, and instant start-up—unlike projectors or LCDs. Suitable for daily corporate use with consistent performance.",
+                icon: ShieldCheck,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Flexible Size & Design Options",
+                content:
+                    "Can be customized to fit wall dimensions—from compact meeting rooms to large executive boardrooms. Supports curved or ultra-wide formats for enhanced visibility and design aesthetics.",
+                icon: Layout,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Energy Efficiency & Low Heat",
+                content:
+                    "Advanced LED technology ensures low power consumption and silent, fanless operation, maintaining a comfortable meeting environment.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "reception-and-lobby-areas",
+        title: "Applications of Active LED in Reception & Lobby Areas",
+        description: [
+            {
+                title: "Brand Showcasing and Corporate Identity",
+                content:
+                    "Active LED video walls create a powerful first impression for visitors and clients. Display brand videos, logos, achievements, and corporate messages dynamically to reinforce brand identity. Serves as a digital welcome board showcasing your organization’s professionalism and innovation.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Digital Signage & Information Display",
+                content:
+                    "Perfect for displaying announcements, visitor greetings, event schedules, or live news feeds. Content can be updated instantly via a central control system—keeping information fresh and relevant",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Immersive Visitor Experience",
+                content:
+                    "High-brightness and bezel-free LED walls deliver vibrant, eye-catching visuals that elevate the ambience of the space. Enables immersive storytelling, welcoming guests with a visual journey of the company’s history, products, or CSR initiatives.",
+                icon: Video,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Advertising & Cross-Promotion",
+                content:
+                    "Corporate lobbies and reception areas can double as promotional spaces Display new product launches, corporate campaigns, or partner brand promotions in high definition.",
+                icon: FileText,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Architectural & Decorative Integration",
+                content:
+                    "Slim, frameless Active LED panels blend seamlessly with modern interior designs. Can be configured in creative shapes, curves, or pillars, transforming plain walls into digital art installations.",
+                icon: Sparkles,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Real-Time Communication",
+                content:
+                    "Integrate with live data sources to show weather updates, stock tickers, or social media feeds—keeping guests informed and engaged. Integrate with live data sources to show weather updates, stock tickers, or social media feeds—keeping guests informed and engaged.",
+                icon: ShieldCheck,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Reliability & Energy Efficiency",
+                content:
+                    "Designed for continuous operation, Active LEDs offer long life, low maintenance, and energy-efficient performance, suitable for 24/7 lobby environments.",
+                icon: Layout,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            }
+        ]
+    },
+    {
+        id: "auditoriums",
+        title: "Applications of Active LED in Auditoriums",
+        description: [
+            {
+                title: "Large-Scale Visual Presentations",
+                content:
+                    "Active LED walls provide vivid, high-brightness visuals that remain clear and impactful even in large, well-lit auditoriums. Ideal for conferences, seminars, cultural events, and product launches requiring large-scale visual communication.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Seamless Viewing Experience",
+                content:
+                    "Bezel-free design ensures uninterrupted, immersive viewing across the entire screen surface. Unlike traditional projection systems, LED walls maintain uniform brightness and colour consistency across every seat.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Versatile Content Display",
+                content:
+                    "Supports multiple content formats — videos, live camera feeds, presentations, animations, and event branding. Enables split-screen and multi-window layouts for dynamic event control.",
+                icon: Video,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Superior Brightness & Clarity",
+                content:
+                    "Active LEDs deliver crystal-clear images, even under strong stage lighting or ambient light. Fine pixel pitch options (e.g., P1.5–P3.9) ensure sharp visibility from both near and far viewing distances.",
+                icon: Sparkles,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Reliability for Continuous Use",
+                content:
+                    "Designed for long-duration events and 24/7 readiness, with low maintenance and minimal heat generation. No lamp replacements or calibration issues as seen with projectors.",
+                icon: ShieldCheck,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Enhanced Audience Engagement",
+                content:
+                    "Creates an immersive backdrop that enhances storytelling, performances, and corporate presentations Elevates the overall aesthetic and emotional impact of the event.",
+                icon: Users,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Flexible Installation Options",
+                content:
+                    "Can be configured for flat, curved, or custom-sized video walls to suit any auditorium stage design. Suitable for both permanent installations and rental/event setups.",
+                icon: Layout,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Integration with AV Systems",
+                content:
+                    "Easily integrates with audio, lighting, and control systems for synchronized multimedia experiences. Enables live broadcasting and streaming for hybrid or virtual events.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "corporate",
+        title: "Applications of Active LED in Corporate",
+        description: [
+            {
+                title: "Corporate Communication & Branding",
+                content:
+                    "Active LED displays serve as dynamic communication tools to promote the company’s vision, mission, and achievements. Ideal for displaying corporate videos, digital signage, and internal announcements in offices, lobbies, and corridors. Strengthens brand presence and corporate identity through impactful visuals.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Boardrooms & Meeting Rooms",
+                content:
+                    "Provide seamless, ultra-clear visuals for presentations, strategy discussions, and video conferences. Enable collaborative decision-making through multi-source content display and screen sharing. Replace traditional projectors with fine-pitch, bezel-free LED walls that look elegant and professional.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Reception & Lobby Areas",
+                content:
+                    "Create a powerful first impression for visitors and clients. Display welcome messages, company highlights, or promotional content with stunning clarity. Enhance the aesthetic appeal and technological image of the organization.",
+                icon: Sparkles,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Command & Control Centres",
+                content:
+                    "Used in network operation centres, security monitoring, and infrastructure management. Display real-time data, live feeds, and analytics dashboards for critical decision-making. Designed for 24/7 reliability and high performance in mission-critical environments.",
+                icon: ShieldCheck,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Training & Experience Centres",
+                content:
+                    "Perfect for employee training, workshops, and product demonstrations. Deliver immersive learning experiences with high-resolution visuals and interactive displays. Can also be used in customer experience zones for product visualization and storytelling.",
+                icon: Video,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Corporate Events & Townhalls",
+                content:
+                    "Active LED walls act as main stage backdrops during events, conferences, and product launches. Offer bright, large-format visuals for impactful presentations and branding during corporate gatherings.",
+                icon: Layout,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Internal & External Advertising",
+                content:
+                    "Used for in-house promotional displays—product updates, CSR initiatives, upcoming events, or milestones. Also suitable for external-facing signage at office buildings for brand visibility.",
+                icon: FileText,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Digital Transformation & Smart Office Integration",
+                content:
+                    "Part of smart workspace solutions, integrating with content management systems and IoT devices. Enables centralized control for all visual communication across corporate facilities.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "news-rooms",
+        title: "Applications of Active LED in News Rooms",
+        description: [
+            {
+                title: "Dynamic Backdrops for Live Broadcasts",
+                content:
+                    "Active LED video walls provide vibrant, high-resolution backgrounds for live news bulletins, talk shows, and interviews. Offer flexible visual themes—logos, graphics, live feeds, or dynamic animations—customizable per program segment. Create a modern, high-tech visual identity for the channel.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Real-Time Information Display",
+                content:
+                    "Display live data feeds, including breaking news, weather updates, stock tickers, social media updates, and analytics dashboards. Enables anchors and producers to access and present information instantly during live transmission.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Seamless Visual Experience",
+                content:
+                    "LED walls deliver bezel-free, uniform visuals, avoiding screen gaps common in LCD panels. Maintain consistent brightness and color accuracy, ensuring perfect visuals on camera.",
+                icon: Layout,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "High Brightness & Broadcast-Grade Quality",
+                content:
+                    "Active LEDs support broadcast-quality color gamut and refresh rates (>3840 Hz), ensuring flicker-free camera performance. Maintain clarity and detail under strong studio lighting.",
+                icon: Sparkles,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Content Flexibility",
+                content:
+                    "Supports multi-window layouts, live video, graphics overlays, and branding content—all controlled via professional video processors. Easily switch between news formats, interviews, and panel discussions with dynamic background changes.",
+                icon: Video,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Space Optimization & Custom Design",
+                content:
+                    "LED panels can be custom-sized and curved to fit studio architecture. Slim profile and modular design make installation clean and efficient, maximizing studio space.",
+                icon: Layout,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Reliable 24/7 Operation",
+                content:
+                    "Designed for continuous broadcasting, offering low maintenance and high reliability. Dual data and power redundancy ensure uninterrupted operation—vital for live studios.",
+                icon: ShieldCheck,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Enhanced Storytelling",
+                content:
+                    "Visual storytelling becomes more engaging with immersive graphics, live maps, and data visualizations on large LED displays. Helps presenters convey complex stories visually and effectively.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "education",
+        title: "Applications of Active LED in Education",
+        description: [
+            {
+                title: "Smart Classrooms & Interactive Learning",
+                content:
+                    "Active LED displays transform traditional classrooms into modern digital learning spaces. Provide crystal-clear visuals for videos, animations, and e-learning content—enhancing student engagement and comprehension. Ideal for interactive lessons, digital simulations, and multimedia teaching.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Auditoriums & Seminar Halls",
+                content:
+                    "Large-format Active LED screens serve as main display backdrops for lectures, events, convocations, and conferences. Offer high brightness, wide viewing angles, and bezel-free visuals—ensuring every student gets a clear view. Suitable for live streaming of academic events or guest lectures.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Campus Information & Digital Signage",
+                content:
+                    "Used across campus lobbies, corridors, and entrances to display announcements, schedules, notices, and achievements. Enables centralized communication for students, staff, and visitors. Dynamic content can include event highlights, emergency alerts, or student recognition.",
+                icon: FileText,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Virtual Classrooms & Distance Learning Studios",
+                content:
+                    "In educational broadcast studios, Active LEDs act as digital backdrops for recorded or live online sessions. Provide broadcast-quality visuals, perfect for e-learning content production and hybrid education setups.",
+                icon: Video,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Libraries & Resource Centers",
+                content:
+                    "LED displays enhance digital libraries by showcasing information dashboards, digital catalogues, and learning resources. Create a modern, tech-savvy environment that promotes research and discovery.",
+                icon: Layout,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Training & Simulation Centers",
+                content:
+                    "In technical or vocational institutions, Active LED walls are used for virtual labs, 3D simulations, and skill-based training. Support realistic visual demonstrations, helping students understand complex concepts easily.",
+                icon: Sparkles,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Branding & Campus Identity",
+                content:
+                    "Large LED walls at entrances or auditoriums serve as visual symbols of innovation. Display university achievements, alumni messages, and campus promotions—strengthening institutional branding.",
+                icon: ShieldCheck,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Low Maintenance & Long Lifespan",
+                content:
+                    "Active LEDs offer energy efficiency, long operational life, and minimal maintenance, making them ideal for educational budgets and long-term use.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "banking-and-finance",
+        title: "Applications of Active LED in Banking & Finance",
+        description: [
+            {
+                title: "Branch Communication & Digital Signage",
+                content:
+                    "Active LED screens act as dynamic information displays in bank branches and financial offices. Showcase interest rates, new schemes, investment products, and customer announcements in real time. Replace static posters with vibrant, easily updatable digital messaging.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Corporate & Boardroom Presentations",
+                content:
+                    "Used in headquarters, conference rooms, and meeting spaces for high-impact presentations and reviews. Provide ultra-HD clarity for financial dashboards, reports, and strategy discussions. Integrate seamlessly with video conferencing and collaboration systems.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Trading Floors & Command Center",
+                content:
+                    "Active LED video walls display real-time stock data, market analytics, and financial feeds. Enable multi-source visualization from Bloomberg, Reuters, or internal systems. Designed for 24/7 reliability and instant data refresh, critical in trading and monitoring operations.",
+                icon: BarChart,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Reception & Customer Waiting Areas",
+                content:
+                    "Display brand videos, corporate achievements, CSR initiatives, and product promotions to engage walk-in customers. Create a modern, premium atmosphere that reflects trust and innovation. Can also show queue management and token displays in real time.",
+                icon: Sparkles,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Training & Investor Education Centers",
+                content:
+                    "Ideal for staff training, investor workshops, and financial literacy programs. Provide bright, immersive visuals that make complex financial topics easier to understand.",
+                icon: GraduationCap,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Marketing & Brand Visibility",
+                content:
+                    "Outdoor or window-facing Active LED screens attract attention with high-brightness advertisements and real-time offers. Strengthen brand presence across branches, corporate offices, and financial hubs.",
+                icon: Megaphone,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Security & Surveillance Monitoring",
+                content:
+                    "In bank control rooms, Active LED video walls support CCTV monitoring and branch surveillance. Provide operators with multi-view, real-time visuals for improved security management.",
+                icon: ShieldCheck,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Reliability & Professional Appeal",
+                content:
+                    "Built for continuous operation with redundancy features, ensuring no downtime in critical financial environments. Sleek, bezel-free displays enhance the corporate image and technological sophistication of financial institutions.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "retail-outlets",
+        title: "Applications of Active LED in Retail Outlets",
+        description: [
+            {
+                title: "Digital Advertising & Promotions",
+                content:
+                    "Active LED screens act as high-impact advertising displays for product launches, offers, and brand campaigns. Capture customer attention with vivid, dynamic visuals that outperform traditional signage. Content can be updated instantly to reflect seasonal promotions or flash sales.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Storefront & Window Displays",
+                content:
+                    "Large-format Active LEDs installed at store entrances or windows attract walk-in customers with eye-catching visuals. Enhance storefront aesthetics and create a modern, premium brand impression even from a distance. Perfect for malls, high streets, and brand outlets.",
+                icon: Store,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "In-Store Experience & Ambience",
+                content:
+                    "Use LED walls or pillars inside the store to create immersive brand experiences. Display product stories, lifestyle videos, or mood-based content that aligns with brand identity. Enhance customer engagement and dwell time, influencing purchase behavior.",
+                icon: Sparkles,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Product Highlight & Category Display",
+                content:
+                    "LED screens can showcase key products, features, or promotions dynamically. Ideal for electronics, fashion, automotive, and luxury retail—where visual storytelling matters. Replace static banners with digital flexibility for faster updates and brand consistency.",
+                icon: ShoppingBag,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Wayfinding & Information Displays",
+                content:
+                    "In large retail spaces or malls, Active LED signage helps guide shoppers with navigation, store directories, or event highlights. Can integrate interactive touch elements for enhanced usability.",
+                icon: MapIcon,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Branding & Corporate Communication",
+                content:
+                    "Reinforce brand identity by displaying brand videos, social media feeds, or customer testimonials. Create a digitally enhanced brand environment that aligns with global retail standards.",
+                icon: Megaphone,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Event & Launch Integration",
+                content:
+                    "During in-store events, product launches, or fashion shows, Active LED walls provide a visual centerpiece. Support live feeds, synchronized lighting, and interactive content for an impactful retail experience.",
+                icon: Calendar,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Energy Efficiency & Reliability",
+                content:
+                    "Designed for long operating hours with low power consumption and high durability. Ideal for retail outlets running extended business hours or 24/7 displays.",
+                icon: Zap,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "dooh",
+        title: "Applications of Active LED in DOOH",
+        description: [
+            {
+                title: "High-Impact Outdoor Advertising",
+                content:
+                    "Active LED displays are the core medium for modern DOOH advertising — delivering bright, dynamic, and engaging visuals that attract public attention. Ideal for billboards, hoardings, and building façades in high-traffic areas such as highways, malls, airports, and metro stations. Designed for maximum visibility under direct sunlight with high brightness (≥6000 nits).",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Dynamic Content & Remote Management",
+                content:
+                    "Content can be updated remotely and in real time via a central control system. Enables time-based, event-based, or audience-targeted advertising, giving brands more flexibility than static signage. Supports videos, animations, and live feeds to keep content fresh and engaging.",
+                icon: Settings,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Smart City & Public Information Displays",
+                content:
+                    "Used in smart city projects for digital billboards, traffic information, and public awareness messages. Integrates with IoT and data systems to display live updates such as weather, news, or emergency alerts.",
+                icon: Cpu,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Transit Media Applications",
+                content:
+                    "Installed at bus shelters, airports, metro stations, and railway platforms for high-visibility advertising and passenger information. Combines commercial advertising with public utility content, maximizing viewer engagement.",
+                icon: Bus,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "3D & Creative LED Installations",
+                content:
+                    "Active LED supports 3D anamorphic and curved displays, creating immersive visual effects for landmark advertising. Widely used in iconic city locations and premium brand campaigns to deliver a memorable impact.",
+                icon: Box,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Retail & Mall Advertising Networks",
+                content:
+                    "In shopping malls, multiplexes, and plazas, Active LED displays deliver targeted advertisements and promotions. Enables centralized ad scheduling across multiple locations for large retail networks.",
+                icon: ShoppingBag,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Event & Stadium Applications",
+                content:
+                    "Deployed in stadiums, concerts, exhibitions, and outdoor events for brand promotions, sponsorships, and live audience engagement. Supports live video broadcasting, instant replay, and sponsor loops.",
+                icon: Trophy,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Rugged, Weatherproof Design",
+                content:
+                    "Built with IP65+ protection, Active LED screens are dustproof, waterproof, and temperature-resistant. Designed for 24/7 outdoor operation with minimal maintenance.",
+                icon: ShieldCheck,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "transportation",
+        title: "Applications of Active LED in Transportation",
+        description: [
+            {
+                title: "Passenger Information Display Systems (PIDS)",
+                content:
+                    "Active LED screens are used in airports, railway stations, bus terminals, and metro stations to display Arrival & departure schedules Platform or gate information Delays, alerts, and emergency updates Deliver real-time, high-visibility information even in bright daylight or crowded environments.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Wayfinding & Navigation",
+                content:
+                    "LED signage guides passengers through terminals, concourses, and parking areas. Dynamic content helps in efficient crowd management and directional assistance, improving passenger flow. Customizable for multilingual content and icon-based guidance.",
+                icon: MapIcon,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Advertising & Revenue Generation",
+                content:
+                    "Active LED video walls and outdoor screens serve as digital advertising platforms within transport hubs. Display brand promotions, travel deals, and digital campaigns, generating non-fare revenue for operators. Ideal for airports, metro stations, toll plazas, and highways.",
+                icon: Megaphone,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Control & Operations Centers",
+                content:
+                    "In transport management centers, Active LED walls provide real-time visualization of operations, such as: Traffic monitoring and surveillance Fleet tracking and dispatch control CCTV integration and live data analytics Support 24/7 operation with high reliability and redundancy.",
+                icon: ShieldCheck,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Vehicle-Mounted Displays",
+                content:
+                    "Compact Active LEDs are used on buses, trucks, taxis, and metros for: Route and destination display Public information and advertising Dynamic alerts (e.g., emergency notifications) Rugged design ensures durability under vibration, dust, and weather exposure.",
+                icon: Bus,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Ticketing & Queue Management",
+                content:
+                    "LED displays provide real-time ticket status, counters in service, and waiting times. Enhances passenger convenience and reduces congestion at ticketing zones.",
+                icon: Ticket,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Safety & Emergency Signage",
+                content:
+                    "Active LED signage used for warning messages, traffic control, and evacuation guidance in tunnels, highways, and terminals. Capable of instant message changes during emergencies for quick public communication.",
+                icon: AlertTriangle,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Architectural & Aesthetic Enhancement",
+                content:
+                    "LED façades and video walls enhance the visual appeal of airports, stations, and transport terminals. Used for digital art, ambient lighting, and corporate branding, creating a modern infrastructure look.",
+                icon: Building2,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "smart-city",
+        title: "Applications of Active LED in Smart City",
+        description: [
+            {
+                title: "Smart Information Display Systems",
+                content:
+                    "Active LED screens are used across cities to provide real-time public information such as: Weather updates, traffic alerts, and emergency notifications Civic announcements and government messages News, social updates, and local event information Enables dynamic, centralized communication with citizens.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Traffic & Transportation Management",
+                content:
+                    "Installed as Variable Message Signs (VMS) on highways, expressways, and city roads. Display speed limits, diversions, congestion updates, and safety warnings. Integrated with ITS (Intelligent Transport Systems) for automated, real-time updates.",
+                icon: Bus,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Command & Control Centers",
+                content:
+                    "Large Active LED video walls are the visual core of Smart City Control Rooms. Display live CCTV feeds, GIS maps, IoT sensor data, and analytics dashboards for city monitoring. Enable real-time decision-making and incident response by government and emergency teams.",
+                icon: ShieldCheck,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Smart Public Transport Hubs",
+                content:
+                    "Used in bus stands, metro stations, and airports for passenger information systems. Display schedules, route maps, arrival/departure times, and public advisories. Support multi-lingual, real-time content updates from central systems.",
+                icon: Map,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Outdoor Digital Signage & DOOH Networks",
+                content:
+                    "Active LED displays serve as city-wide digital advertising and communication platforms. Provide revenue generation opportunities through digital out-of-home (DOOH) campaigns. Blend public information with commercial advertisements dynamically.",
+                icon: Megaphone,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Public Engagement & Citizen Awareness",
+                content:
+                    "LED screens in parks, plazas, and public spaces display government initiatives, CSR campaigns, and civic awareness programs. Encourage citizen participation through engaging visuals and live updates.",
+                icon: Users,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Smart Building & Infrastructure Facades",
+                content:
+                    "Active LEDs enhance city architecture with digital façades, skyline lighting, and creative displays. Transform buildings into landmarks of innovation and sustainability through programmable visuals.",
+                icon: Building2,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Safety & Emergency Communication",
+                content:
+                    "Deployed in key zones for disaster alerts, evacuation messages, and emergency notifications. Integrated with IoT and public safety networks to ensure fast information dissemination.",
+                icon: AlertTriangle,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            },
+            {
+                title: "Event & Cultural Display Systems",
+                content:
+                    "Used during city festivals, parades, and official events to display live visuals, branding, and public messaging. Provide high-impact visual engagement for large public gatherings.",
+                icon: Calendar,
+                bg: "bg-teal-500",
+                hover: "hover:bg-teal-600"
+            }
+        ]
+    },
+    {
+        id: "real-estate",
+        title: "Applications of Active LED in Real Estate",
+        description: [
+            {
+                title: "Project Showcasing & Virtual Walkthroughs",
+                content:
+                    "Active LED video walls provide immersive visual presentations for upcoming and ongoing real estate projects. Used in sales galleries, developer offices, and exhibitions to display: 3D walkthroughs and flythroughs Architectural visualizations Lifestyle and amenities videos Helps potential buyers experience the property virtually, increasing engagement and sales conversions.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Lobby & Reception Displays",
+                content:
+                    "In residential and commercial buildings, Active LED screens serve as digital welcome walls. Display developer branding, project highlights, announcements, and tenant information. Create a premium, tech-savvy ambiance in building entrances and reception areas.",
+                icon: Building2,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Outdoor Project Signage & Hoardings",
+                content:
+                    "High-brightness Active LED billboards replace static hoardings at project sites, highways, and real estate expos. Used for dynamic advertising, including videos, offers, and live updates. Weatherproof and durable for 24/7 outdoor operation.",
+                icon: Megaphone,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Corporate Boardrooms & Presentation Halls",
+                content:
+                    "In real estate company headquarters, LED walls are used for board meetings, investor presentations, and strategy reviews. Display project dashboards, construction progress, and marketing analytics in high definition. Integrate with video conferencing systems for remote collaboration.",
+                icon: Users,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Property Sales & Marketing Offices",
+                content:
+                    "Active LED displays enhance the visual appeal of customer lounges and model flat areas. Showcase project timelines, brand films, or real-time availability charts. Engage clients through visually rich storytelling about lifestyle and community features.",
+                icon: Sparkles,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Commercial Complexes & Malls",
+                content:
+                    "Installed in atriums, common areas, and façades for branding and advertising. Provide revenue opportunities through tenant promotions or DOOH (digital out-of-home) content. Improve visitor engagement and elevate the property’s brand value.",
+                icon: ShoppingBag,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Smart Building & Infrastructure Facades",
+                content:
+                    "LED façades turn building exteriors into iconic digital landmarks, especially for luxury or mixed-use developments. Programmable displays can showcase dynamic lighting patterns, logos, and event visuals. Enhances the architectural identity and prestige of the property.",
+                icon: Layout,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Event & Exhibition Use",
+                content:
+                    "During real estate expos, investor meets, and launch events, Active LEDs provide a grand visual backdrop. Enable live streaming, brand promotions, and interactive presentations on large-format displays.",
+                icon: Calendar,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            },
+            {
+                title: "Security & Surveillance Command Rooms",
+                content:
+                    "Used in large township or smart community control centers for monitoring CCTV feeds, access control, and facility management systems. Provide a centralized visual dashboard for real-time operations.",
+                icon: ShieldCheck,
+                bg: "bg-teal-500",
+                hover: "hover:bg-teal-600"
+            }
+        ]
+    },
+    {
+        id: "building-facade",
+        title: "Applications of Active LED in Building Façade",
+        description: [
+            {
+                title: "Architectural Illumination & Aesthetic Enhancement",
+                content:
+                    "Active LED façades transform ordinary structures into iconic architectural landmarks. Enable dynamic lighting effects, animations, and color transitions synchronized with building design. Enhance night-time visibility and create a distinct visual identity for commercial, residential, and public buildings.",
+                icon: Sparkles,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Dynamic Media Façades",
+                content:
+                    "Buildings become digital canvases displaying multimedia content — videos, patterns, and visuals. Ideal for corporate headquarters, hotels, malls, and entertainment venues. Content can be programmed or scheduled to align with events, seasons, or brand campaigns.",
+                icon: Monitor,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Branding & Corporate Communication",
+                content:
+                    "Active LED façades are powerful tools for corporate storytelling and brand projection. Display logos, slogans, taglines, or themed content directly on the building exterior. Reinforces brand presence and creates instant recognition in urban environments.",
+                icon: Megaphone,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Smart City Integration",
+                content:
+                    "In smart urban projects, building façades serve as digital information and public communication surfaces. Display city updates, social campaigns, emergency alerts, or cultural visuals. Supports the digital infrastructure of smart, connected cities.",
+                icon: Cpu,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Event & Festival Display",
+                content:
+                    "During national festivals, sporting events, or corporate celebrations, Active LED façades can display dynamic themes and light shows. Synchronize with music, lighting, and projection mapping systems for impactful public engagement.",
+                icon: Calendar,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Advertising & Revenue Generation",
+                content:
+                    "Commercial façades in high-traffic areas can host digital advertisements (DOOH). Generate continuous revenue streams while enhancing building aesthetics. Easily update and manage ads remotely via content management systems.",
+                icon: BarChart,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Sustainable & Smart Lighting",
+                content:
+                    "Energy-efficient LED modules provide low power consumption and long lifespan. Integration with ambient light sensors and IoT systems allows for automated brightness control. Promotes eco-friendly architectural design with minimal maintenance.",
+                icon: Leaf,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Custom Design & Modular Flexibility",
+                content:
+                    "Available in various pixel pitches and transparent LED formats, adaptable to any architectural surface. Enables seamless integration into glass façades, curved structures, and media towers. Supports creative architectural freedom without compromising structure aesthetics.",
+                icon: Layout,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    },
+    {
+        id: "stadiums",
+        title: "Applications of Active LED in Stadiums",
+        description: [
+            {
+                title: "Live Scoreboards & Match Information Displays",
+                content:
+                    "Active LED screens serve as digital scoreboards displaying: Real-time scores, match time, player stats, and replays Team line-ups, countdowns, and live match updates Offer clear, high-brightness visuals visible even under strong sunlight. Suitable for cricket, football, hockey, basketball, and multi-sport arenas.",
+                icon: Trophy,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Perimeter & Boundary Advertising Boards",
+                content:
+                    "LED perimeter boards around the playing field display dynamic, rotating advertisements. Support high refresh rates and motion content for live broadcast compatibility. Generate significant advertising revenue through digital sponsorships. Content can be updated instantly and remotely between matches or ad rotations.",
+                icon: Megaphone,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Giant Video Walls & Replay Screens",
+                content:
+                    "Central or end-zone Active LED walls used for: Live match telecast and instant replays Highlight packages, slow-motion shots, and audience interactions Enhance spectator experience by bringing fans closer to the action. Often combined with sound and lighting systems for impactful stadium experiences.",
+                icon: Monitor,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Fan Engagement & Entertainment Displays",
+                content:
+                    "LED walls display interactive content, fan messages, chants, and social media feeds. Used for half-time shows, contests, and audience engagement activities. Creates a vibrant, immersive environment that keeps the crowd excited throughout the event.",
+                icon: Users,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Wayfinding & Digital Signage",
+                content:
+                    "Installed across entry gates, concourses, lounges, and corridors to guide visitors.. Display directions, seating information, safety messages, and event schedules. Can be updated in real time during events to manage crowd flow effectively.",
+                icon: Map,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Press & Media Rooms",
+                content:
+                    "LED displays in press areas for live data, branding backdrops, or interviews. Provide customizable content layouts for media coverage and official broadcasts.",
+                icon: Newspaper,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Stadium Exterior & Façade Displays",
+                content:
+                    "Large-scale Active LED façades used for event branding, team promotions, and sponsor visibility. Transform stadium exteriors into dynamic media landmarks, especially for night events. Support animated lighting, video loops, and real-time social feeds.",
+                icon: Building2,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "VIP Lounges & Hospitality Zones",
+                content:
+                    "Premium LED screens enhance luxury suites, lounges, and restaurants within stadiums. Display live match feeds, replays, sponsor messages, and entertainment content. Improve the guest experience and offer exclusive brand activation opportunities.",
+                icon: Star,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            },
+            {
+                title: "Safety & Emergency Communication",
+                content:
+                    "Integrated LED systems display evacuation messages, emergency alerts, and crowd control information. Connected to central command and control systems for real-time updates.",
+                icon: AlertTriangle,
+                bg: "bg-teal-500",
+                hover: "hover:bg-teal-600"
+            }
+        ]
+    },
+    {
+        id: "rental",
+        title: "Applications of Active LED in Rental",
+        description: [
+            {
+                title: "Live Events & Concerts",
+                content:
+                    "• Active LED walls are the visual centrepiece of concerts, music festivals, and stage shows.: Provide vibrant backdrops, live video feeds, and dynamic visual effects synchronized with lighting and sound. Modular design allows quick assembly and disassembly, ideal for touring and temporary setups.",
+                icon: Music,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Corporate Events & Conferences",
+                content:
+                    "Used in corporate summits, product launches, trade fairs, and exhibitions. Deliver high-resolution visuals, presentations, and branding content with professional impact. Compatible with video mixers, live streaming, and camera systems for hybrid or in-person events.",
+                icon: Users,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Exhibitions & Trade Shows",
+                content:
+                    "LED displays attract visitors through dynamic visuals and brand storytelling. Can be configured as booth backdrops, video towers, or curved LED structures. Ideal for product demos, motion graphics, and interactive brand experiences.",
+                icon: Layout,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Weddings & Social Events",
+                content:
+                    "Popular for wedding receptions, sangeets, and private celebrations. Create customizable stage backdrops, live telecast screens, and decorative displays. Support personalized visuals, animations, and live camera feeds for guest engagement.",
+                icon: Heart,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Sports & Public Events",
+                content:
+                    "Used for scoreboards, replays, sponsor branding, and crowd engagement in temporary sports setups. Deployed for marathons, tournaments, and fan zones to display real-time information and visuals.",
+                icon: Trophy,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Outdoor Advertising & Roadshows",
+                content:
+                    "Mobile LED trucks and trailers display promotional videos and advertisements in high-traffic areas. Offer flexibility for short-term marketing campaigns, product launches, and election rallies. Designed for daylight visibility and easy transport.",
+                icon: Truck,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Stage Design & Creative Installations",
+                content:
+                    "Modular Active LED panels can form 3D structures, curved designs, or immersive tunnels. Used by event designers and visual artists to create interactive environments. Allows real-time content control for synchronized visual effects.",
+                icon: Sparkles,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Religious & Community Gatherings",
+                content:
+                    "Deployed for spiritual events, discourses, and large public congregations. Enable live video projection, multilingual subtitles, and remote participation. Suitable for both indoor and outdoor setups.",
+                icon: Users,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            },
+            {
+                title: "Political Rallies & Public Campaigns",
+                content:
+                    "Provide live broadcast, visual branding, and real-time content updates. Enable remote message delivery across multiple venues simultaneously.",
+                icon: Megaphone,
+                bg: "bg-teal-500",
+                hover: "hover:bg-teal-600"
+            }
+        ]
+    },
+    {
+        id: "home-entertainment",
+        title: "Applications of Active LED in Home Entertainment",
+        description: [
+            {
+                title: "Home Theatres & Media Rooms",
+                content:
+                    "Active LED displays create a cinematic experience with ultra-high resolution, deep contrast, and wide color gamut. Ideal for dedicated home theatre setups, offering seamless large-format viewing far superior to traditional projectors. Supports 4K/8K video, HDR, and immersive surround sound integration.",
+                icon: Monitor,
+                bg: "bg-red-500",
+                hover: "hover:bg-red-600"
+            },
+            {
+                title: "Living Room Entertainment Walls",
+                content:
+                    "Transform living rooms into digital entertainment hubs. Use Active LED walls for OTT streaming, gaming, movies, and live events. Sleek, bezel-free design integrates perfectly with modern interior aesthetics.",
+                icon: Tv,
+                bg: "bg-blue-500",
+                hover: "hover:bg-blue-600"
+            },
+            {
+                title: "Gaming & Interactive Experiences",
+                content:
+                    "Perfect for next-gen gaming consoles and PC gaming with ultra-low latency and high refresh rates. Offers immersive, lifelike visuals and smooth frame transitions for competitive gaming environments. Can be integrated with AR/VR systems and ambient lighting for a futuristic experience.",
+                icon: Gamepad2,
+                bg: "bg-purple-500",
+                hover: "hover:bg-purple-600"
+            },
+            {
+                title: "Smart Home Integration",
+                content:
+                    "LED walls connect seamlessly with smart home automation systems (lighting, sound, curtains, and environment). Can function as a multi-purpose digital interface for home control, entertainment, and information display. Enables voice or app-based control of content, brightness, and modes.",
+                icon: Cpu,
+                bg: "bg-green-500",
+                hover: "hover:bg-green-600"
+            },
+            {
+                title: "Digital Art & Ambient Displays",
+                content:
+                    "When not in use for movies or games, the Active LED wall can showcase digital artwork, scenic visuals, or ambient lighting. Create personalized moods — from relaxing sunsets to dynamic modern art — enhancing interior ambience.",
+                icon: Image,
+                bg: "bg-pink-500",
+                hover: "hover:bg-pink-600"
+            },
+            {
+                title: "Private Lounges & Luxury Spaces",
+                content:
+                    "Used in premium villas, penthouses, and luxury apartments for showcasing lifestyle visuals, sports events, or family videos. Adds a modern, high-tech aesthetic to home décor and architecture.",
+                icon: Star,
+                bg: "bg-indigo-500",
+                hover: "hover:bg-indigo-600"
+            },
+            {
+                title: "Outdoor Home Entertainment",
+                content:
+                    "Weatherproof outdoor LED screens used in poolside areas, terraces, and garden lounges. Ideal for family movie nights, parties, or live sports viewing under open skies. Ensures high brightness and durability in outdoor conditions.",
+                icon: Sun,
+                bg: "bg-orange-500",
+                hover: "hover:bg-orange-600"
+            },
+            {
+                title: "Multi-Room Display Systems",
+                content:
+                    "Integrate multiple LED panels across rooms for synchronized or independent content (music videos, family events, dashboards). Suitable for smart villas or digital show homes.",
+                icon: Layout,
+                bg: "bg-yellow-500",
+                hover: "hover:bg-yellow-600"
+            }
+        ]
+    }
+];

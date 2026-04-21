@@ -72,8 +72,7 @@ export default function Sidebar() {
               }}
               className="relative"
             >
-              <Link
-                href={item.link}
+              <Link href={item.link}
                 className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-100 hover:text-black transition cursor-pointer"
               >
                 <Icon className="w-5 h-5" />
@@ -137,9 +136,13 @@ export default function Sidebar() {
                     {applications.map((app, i) => {
                       const Icon = app.icon;
                       return (
-                        <Link key={i} href={`/applications/${app.id}`}
-                          className="flex flex-col items-center justify-center gap-2 p-4 rounded-lg 
-             bg-black text-white border border-transparent hover:bg-white hover:text-black hover:border-black transition duration-200" >
+                        <Link
+                          key={i}
+                          href={`/applications/${app.id}`}
+                          className={`flex flex-col items-center justify-center gap-2 p-4 rounded-lg 
+      ${app.bg} text-white border border-transparent 
+      ${app.hover} hover:text-white transition duration-200`}
+                        >
                           <Icon className="w-6 h-6" />
                           <span className="text-[11px] font-medium text-center leading-tight">
                             {app.title}

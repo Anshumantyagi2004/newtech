@@ -35,7 +35,7 @@ export default function Navbar() {
           <a href="https://wa.me/+919810103697"
             className="bg-white text-green-600 px-2 py-1.5 rounded-lg hover:bg-green-100"
           >
-            <FaWhatsapp size={26} />
+            <FaWhatsapp size={28} />
           </a>
 
           <a href="tel:+919810103697"
