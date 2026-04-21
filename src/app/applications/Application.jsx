@@ -1,7 +1,8 @@
+"use client"
 import { applications } from '@/data/data';
 import Link from 'next/link'
 import React from 'react'
-
+import { motion } from "framer-motion";
 export default function Application() {
   return (<>
     <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
@@ -29,23 +30,38 @@ export default function Application() {
       </div>
     </section>
 
-    <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 md:px-15 px-4 py-10 gap-5">
-      {applications.map((app) => {
-        const Icon = app.icon;
-
+    <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto py-10 px-4">
+      {applications.map((item, index) => {
         return (
-          <Link
-            key={app.id}
-            href={`/applications/${app.id}`}
-            className={`flex flex-col items-center justify-center gap-2 p-4 rounded-lg 
-        ${app.bg} text-white border border-transparent cursor-pointer
-        ${app.hover} transition duration-200`}
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.03 }}
+            transition={{ duration: 0.4 }}
+            className="group relative rounded-3xl overflow-hidden"
           >
-            <Icon className="w-8 h-8" />
-            <span className="text-base font-medium text-center leading-tight">
-              {app.title}
-            </span>
-          </Link>
+            {/* Image */}
+            <img
+              src={item.bgImage}
+              alt={item.title}
+              className="w-full h-[220px] md:h-[280px] object-cover transition duration-500 group-hover:scale-110"
+            />
+
+            {/* Soft Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500"></div>
+
+            {/* Content */}
+            <div className="absolute bottom-0 p-5 text-white">
+              <h3 className="text-base md:text-lg font-medium">
+                {item.title}
+              </h3>
+
+              <div className="mt-4">
+                <Link href={`/applications/${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
+                  View Displays →
+                </Link>
+              </div>
+            </div>
+          </motion.div>
         );
       })}
     </div>

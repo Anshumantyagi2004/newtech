@@ -96,7 +96,7 @@ export default function Sidebar() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: 20 }}
                     transition={{ duration: 0.25 }}
-                    className="absolute left-full top-0 ml-2 w-[320px] bg-white text-black rounded-xl shadow-xl p-4 grid grid-cols-2 gap-3"
+                    className="max-h-[70vh] overflow-y-auto scrollbar-hide absolute left-full top-0 ml-2 w-[320px] bg-white text-black rounded-xl shadow-xl p-4 grid grid-cols-2 gap-3"
                   >
                     {categories.map((cat, i) => (
                       <Link
@@ -139,14 +139,20 @@ export default function Sidebar() {
                         <Link
                           key={i}
                           href={`/applications/${app.id}`}
-                          className={`flex flex-col items-center justify-center gap-2 p-4 rounded-lg 
-      ${app.bg} text-white border border-transparent 
-      ${app.hover} hover:text-white transition duration-200`}
+                          className="group"
                         >
-                          <Icon className="w-6 h-6" />
-                          <span className="text-[11px] font-medium text-center leading-tight">
-                            {app.title}
-                          </span>
+                          <div className="rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                            <Image
+                              src={app.bgImage}
+                              alt={app.title}
+                              width={150}
+                              height={100}
+                              className="w-full h-20 object-cover group-hover:scale-105 transition"
+                            />
+                            <p className="text-xs p-2 font-medium">
+                              {app.title}
+                            </p>
+                          </div>
                         </Link>
                       );
                     })}
