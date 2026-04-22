@@ -205,7 +205,7 @@ export const categories = [
     },
     {
         title: "Outdoor Advertising LED Displays",
-        img: "/rental-cabinet-1.jpg",
+        img: "/ProductImages/optima-1.jpg",
         id: "outdoor-advertising-led-displays",
         metaTitle: "Outdoor Advertising LED Display Screens | LED Video Wall Manufacturer | Newtech Video Systems",
         metaDescription: "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage."
@@ -380,11 +380,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED wall display processor systems for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/4K Prime Pro.png",
 
         images: [
+            "/ProductImages/4K Prime Pro.png",
             "/download.jfif",
-            "/con-1.jpg",
         ],
 
         overview: [
@@ -432,11 +432,12 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers VX1 advertising LED display screens for high-quality digital signage. Ideal for indoor & outdoor LED video wall advertising and branding solutions.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/VX1 (1).png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/VX1 (1).png",
+            "/ProductImages/VX1 (2).png",
+            "/ProductImages/VX1 (3).png",
         ],
 
         overview: [
@@ -485,11 +486,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP400 LED wall controllers for seamless video wall management. High-performance control system for indoor & outdoor LED display screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/DPS400PRO.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/DPS400PRO.png",
+            "/ProductImages/DSP400PRO.png"
         ],
 
         overview: [
@@ -537,11 +538,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP400 Pro LED display accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/DSP400PRO.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/DSP400PRO.png",
+            "/ProductImages/DPS400PRO.png",
         ],
 
         overview: [
@@ -590,11 +591,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP600 LED controllers and display accessories for advanced video wall systems. High-performance control solutions for LED advertising screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/DPS600PRO.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/DPS600PRO.png",
+            "/ProductImages/DSP600PRO.png",
         ],
 
         overview: [
@@ -642,11 +643,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP600 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/DSP600PRO.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/DSP600PRO.png",
+            "/ProductImages/DPS600PRO.png",
         ],
 
         overview: [
@@ -694,11 +695,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers DSP1000 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/DSP1000PRO.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/DSP1000PRO.png",
+            "/ProductImages/DPS1000PRO.png",
         ],
 
         "overview": [
@@ -747,11 +748,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers the 4K Prime Pro controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/4K Prime Pro.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/4K Prime Pro.png",
+            "/ProductImages/4K-Prime Pro.png",
         ],
 
         "overview": [
@@ -800,11 +801,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers the TB20 Plus LED display and video wall system for high-performance control. Advanced solution for seamless LED screen management and digital signage.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/tb20.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/tb20.png",
         ],
 
         "overview": [
@@ -855,11 +855,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers TB40 LED wall screens for high-performance video wall applications. Ideal for advertising, events, control rooms & digital signage solutions.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/TB40.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/TB40.png",
         ],
 
         "overview": [
@@ -910,11 +909,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers TB60 video wall displays for high-performance applications. Ideal for advertising, events, control rooms & large-scale LED display systems.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/tb60.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/tb60.png",
         ],
 
         "overview": [
@@ -966,11 +964,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers the SMP4 Pro LED controller for video wall screens. Advanced control system for seamless, high-performance LED display management.",
         "catId": "accessories-and-controllers",
         "catName": "Accessories & Controllers",
-        img: "/download.jfif",
+        img: "/ProductImages/smp4.png",
 
         images: [
-            "/download.jfif",
-            "/con-1.jpg",
+            "/ProductImages/smp4.png",
         ],
 
         "overview": [
@@ -1025,11 +1022,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental outdoor LED display cabinets for events and temporary installations. Durable, high-brightness LED video wall rental solutions for outdoor use.",
         "catId": "rental-led",
         "catName": "Rental Led",
-        "img": "/indoor-1.png",
+        "img": "/ProductImages/outdoor2.png",
 
         "images": [
+            "/ProductImages/outdoor2.png",
             "/indoor-1.png",
-            "/rental-outdoor-1.jpg"
         ],
 
         "overview": [
@@ -1106,7 +1103,7 @@ export const products = [
 
         "images": [
             "/indoor-1.png",
-            "/rental-outdoor-1.jpg"
+            "/ProductImages/outdoor2.png",
         ],
 
         "overview": [
@@ -1184,7 +1181,7 @@ export const products = [
 
         "images": [
             "/product-2.jpg",
-            "/led-poster-1.jpg"
+            "/ProductImages/download.jpg"
         ],
 
         "overview": [
@@ -1257,7 +1254,6 @@ export const products = [
 
         "images": [
             "/optima-2.jpg",
-            "/optima-active-1.jpg"
         ],
 
         "overview": [
@@ -1315,7 +1311,7 @@ export const products = [
 
         "images": [
             "/luxe-page-main.jpg",
-            "/optima-2.jpg",
+            "/ProductImages/lux-2.png",
         ],
 
         "overview": [
@@ -1423,11 +1419,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Luxe Pro Active LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
-        "img": "/luxe-page-main.jpg",
+        "img": "/ProductImages/luxe-p.png",
 
         "images": [
-            "/luxe-page-main.jpg",
-            "/optima-2.jpg",
+            "/ProductImages/luxe-p.png",
+            "/ProductImages/LUX-PRO-2.png",
         ],
 
         "overview": [
@@ -1542,11 +1538,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Vivid LED displays for vibrant, high-brightness visuals. Ideal for advertising, events, retail branding & digital signage applications.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
-        "img": "/luxe-page-main.jpg",
+        "img": "/ProductImages/vivid0.png",
 
         "images": [
-            "/luxe-page-main.jpg",
-            "/optima-2.jpg",
+            "/ProductImages/vivid0.png",
         ],
 
         "overview": [
@@ -1635,11 +1630,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Aura video wall displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for advertising, events & branding.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
-        "img": "/luxe-page-main.jpg",
+        "img": "/ProductImages/download.png",
 
         "images": [
-            "/luxe-page-main.jpg",
-            "/optima-2.jpg",
+            "/ProductImages/download.png",
+            "/ProductImages/aura13.png",
         ],
 
         "overview": [
@@ -1739,11 +1734,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Crystal LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
         "catId": "indoor-advertising-led-displays",
         "catName": "Indoor Advertising LED Displays",
-        "img": "/optima-2.jpg",
+        "img": "/ProductImages/Picture1.png",
 
         "images": [
-            "/optima-2.jpg",
-            "/luxe-page-main.jpg",
+            "/ProductImages/Picture1.png",
         ],
 
         "overview": [
@@ -1806,11 +1800,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
-        "img": "/rental-cabinet-1.jpg",
+        "img": "/ProductImages/p5.jpg",
 
         "images": [
-            "/rental-cabinet-1.jpg",
-            "/brites-outdoor-1.jpg"
+            "/ProductImages/p5.jpg",
         ],
 
         "overview": [
@@ -1860,7 +1853,6 @@ export const products = [
 
         "images": [
             "/outdoor-full-color-led-display-1000x1000.webp",
-            "/outdoor-led-1.jpg"
         ],
 
         "overview": [
@@ -1911,11 +1903,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers fixed outdoor advertising LED display screens for permanent installations. High-brightness, weatherproof LED billboards for branding & public signage.",
         "catId": "outdoor-advertising-led-displays",
         "catName": "Outdoor Advertising LED Displays",
-        "img": "/rental-cabinet-1.jpg",
+        "img": "/ProductImages/optima-1.jpg",
 
         "images": [
-            "/rental-cabinet-1.jpg",
-            "/brites-outdoor-1.jpg"
+            "/ProductImages/optima-1.jpg",
         ],
 
         "overview": [
@@ -4215,5 +4206,115 @@ export const applicationsDescription = [
 ];
 
 export const serviceLocations = [
-    { href: "/advertising-led-display-in-delhi", label: "Delhi", id: 1 },
-]
+    { href: "/advertising-led-display-in-mumbai", label: "Mumbai", id: 1 },
+    { href: "/advertising-led-display-in-delhi", label: "Delhi", id: 2 },
+    { href: "/advertising-led-display-in-bengaluru", label: "Bengaluru", id: 3 },
+    { href: "/advertising-led-display-in-hyderabad", label: "Hyderabad", id: 4 },
+    { href: "/advertising-led-display-in-chennai", label: "Chennai", id: 5 },
+    { href: "/advertising-led-display-in-kolkata", label: "Kolkata", id: 6 },
+    { href: "/advertising-led-display-in-pune", label: "Pune", id: 7 },
+    { href: "/advertising-led-display-in-ahmedabad", label: "Ahmedabad", id: 8 },
+    { href: "/advertising-led-display-in-surat", label: "Surat", id: 9 },
+    { href: "/advertising-led-display-in-jaipur", label: "Jaipur", id: 10 },
+    { href: "/advertising-led-display-in-lucknow", label: "Lucknow", id: 11 },
+    { href: "/advertising-led-display-in-kanpur", label: "Kanpur", id: 12 },
+    { href: "/advertising-led-display-in-nagpur", label: "Nagpur", id: 13 },
+    { href: "/advertising-led-display-in-indore", label: "Indore", id: 14 },
+    { href: "/advertising-led-display-in-bhopal", label: "Bhopal", id: 15 },
+    { href: "/advertising-led-display-in-patna", label: "Patna", id: 16 },
+    { href: "/advertising-led-display-in-chandigarh", label: "Chandigarh", id: 17 },
+    { href: "/advertising-led-display-in-kochi", label: "Kochi", id: 18 },
+    { href: "/advertising-led-display-in-coimbatore", label: "Coimbatore", id: 19 },
+    { href: "/advertising-led-display-in-visakhapatnam", label: "Visakhapatnam", id: 20 },
+    { href: "/advertising-led-display-in-noida", label: "Noida", id: 21 },
+    { href: "/advertising-led-display-in-gurugram", label: "Gurugram", id: 22 },
+    { href: "/advertising-led-display-in-ghaziabad", label: "Ghaziabad", id: 23 },
+    { href: "/advertising-led-display-in-faridabad", label: "Faridabad", id: 24 },
+    { href: "/advertising-led-display-in-vadodara", label: "Vadodara", id: 25 },
+    { href: "/advertising-led-display-in-nashik", label: "Nashik", id: 26 },
+    { href: "/advertising-led-display-in-rajkot", label: "Rajkot", id: 27 },
+    { href: "/advertising-led-display-in-ludhiana", label: "Ludhiana", id: 28 },
+    { href: "/advertising-led-display-in-amritsar", label: "Amritsar", id: 29 },
+    { href: "/advertising-led-display-in-agra", label: "Agra", id: 30 },
+    { href: "/advertising-led-display-in-meerut", label: "Meerut", id: 31 },
+    { href: "/advertising-led-display-in-varanasi", label: "Varanasi", id: 32 },
+    { href: "/advertising-led-display-in-prayagraj", label: "Prayagraj", id: 33 },
+    { href: "/advertising-led-display-in-dehradun", label: "Dehradun", id: 34 },
+    { href: "/advertising-led-display-in-jalandhar", label: "Jalandhar", id: 35 },
+    { href: "/advertising-led-display-in-gwalior", label: "Gwalior", id: 36 },
+    { href: "/advertising-led-display-in-jabalpur", label: "Jabalpur", id: 37 },
+    { href: "/advertising-led-display-in-udaipur", label: "Udaipur", id: 38 },
+    { href: "/advertising-led-display-in-kota", label: "Kota", id: 39 },
+    { href: "/advertising-led-display-in-ajmer", label: "Ajmer", id: 40 },
+    { href: "/advertising-led-display-in-bhubaneswar", label: "Bhubaneswar", id: 41 },
+    { href: "/advertising-led-display-in-ranchi", label: "Ranchi", id: 42 },
+    { href: "/advertising-led-display-in-raipur", label: "Raipur", id: 43 },
+    { href: "/advertising-led-display-in-guwahati", label: "Guwahati", id: 44 },
+    { href: "/advertising-led-display-in-siliguri", label: "Siliguri", id: 45 },
+    { href: "/advertising-led-display-in-mysuru", label: "Mysuru", id: 46 },
+    { href: "/advertising-led-display-in-mangaluru", label: "Mangaluru", id: 47 },
+    { href: "/advertising-led-display-in-thiruvananthapuram", label: "Thiruvananthapuram", id: 48 },
+    { href: "/advertising-led-display-in-kozhikode", label: "Kozhikode", id: 49 },
+    { href: "/advertising-led-display-in-madurai", label: "Madurai", id: 50 },
+    { href: "/advertising-led-display-in-tiruchirappalli", label: "Tiruchirappalli", id: 51 },
+    { href: "/advertising-led-display-in-salem", label: "Salem", id: 52 },
+    { href: "/advertising-led-display-in-tiruppur", label: "Tiruppur", id: 53 },
+    { href: "/advertising-led-display-in-erode", label: "Erode", id: 54 },
+    { href: "/advertising-led-display-in-vellore", label: "Vellore", id: 55 },
+    { href: "/advertising-led-display-in-tirunelveli", label: "Tirunelveli", id: 56 },
+    { href: "/advertising-led-display-in-vijayawada", label: "Vijayawada", id: 57 },
+    { href: "/advertising-led-display-in-guntur", label: "Guntur", id: 58 },
+    { href: "/advertising-led-display-in-nellore", label: "Nellore", id: 59 },
+    { href: "/advertising-led-display-in-kakinada", label: "Kakinada", id: 60 },
+    { href: "/advertising-led-display-in-warangal", label: "Warangal", id: 61 },
+    { href: "/advertising-led-display-in-karimnagar", label: "Karimnagar", id: 62 },
+    { href: "/advertising-led-display-in-nizamabad", label: "Nizamabad", id: 63 },
+    { href: "/advertising-led-display-in-aurangabad", label: "Aurangabad", id: 64 },
+    { href: "/advertising-led-display-in-solapur", label: "Solapur", id: 65 },
+    { href: "/advertising-led-display-in-kolhapur", label: "Kolhapur", id: 66 },
+    { href: "/advertising-led-display-in-sangli", label: "Sangli", id: 67 },
+    { href: "/advertising-led-display-in-satara", label: "Satara", id: 68 },
+    { href: "/advertising-led-display-in-bareilly", label: "Bareilly", id: 69 },
+    { href: "/advertising-led-display-in-aligarh", label: "Aligarh", id: 70 },
+    { href: "/advertising-led-display-in-moradabad", label: "Moradabad", id: 71 },
+    { href: "/advertising-led-display-in-saharanpur", label: "Saharanpur", id: 72 },
+    { href: "/advertising-led-display-in-gorakhpur", label: "Gorakhpur", id: 73 },
+    { href: "/advertising-led-display-in-jhansi", label: "Jhansi", id: 74 },
+    { href: "/advertising-led-display-in-muzaffarpur", label: "Muzaffarpur", id: 75 },
+    { href: "/advertising-led-display-in-bhagalpur", label: "Bhagalpur", id: 76 },
+    { href: "/advertising-led-display-in-jamshedpur", label: "Jamshedpur", id: 77 },
+    { href: "/advertising-led-display-in-bokaro", label: "Bokaro", id: 78 },
+    { href: "/advertising-led-display-in-dhanbad", label: "Dhanbad", id: 79 },
+    { href: "/advertising-led-display-in-ujjain", label: "Ujjain", id: 80 },
+    { href: "/advertising-led-display-in-sagar", label: "Sagar", id: 81 },
+    { href: "/advertising-led-display-in-rewa", label: "Rewa", id: 82 },
+    { href: "/advertising-led-display-in-satna", label: "Satna", id: 83 },
+    { href: "/advertising-led-display-in-panaji", label: "Panaji", id: 84 },
+    { href: "/advertising-led-display-in-margao", label: "Margao", id: 85 },
+    { href: "/advertising-led-display-in-shimla", label: "Shimla", id: 86 },
+    { href: "/advertising-led-display-in-dharamshala", label: "Dharamshala", id: 87 },
+    { href: "/advertising-led-display-in-jammu", label: "Jammu", id: 88 },
+    { href: "/advertising-led-display-in-srinagar", label: "Srinagar", id: 89 },
+    { href: "/advertising-led-display-in-imphal", label: "Imphal", id: 90 },
+    { href: "/advertising-led-display-in-agartala", label: "Agartala", id: 91 },
+    { href: "/advertising-led-display-in-aizawl", label: "Aizawl", id: 92 },
+    { href: "/advertising-led-display-in-itanagar", label: "Itanagar", id: 93 },
+    { href: "/advertising-led-display-in-rohtak", label: "Rohtak", id: 94 },
+    { href: "/advertising-led-display-in-hisar", label: "Hisar", id: 95 },
+    { href: "/advertising-led-display-in-panipat", label: "Panipat", id: 96 },
+    { href: "/advertising-led-display-in-karnal", label: "Karnal", id: 97 },
+    { href: "/advertising-led-display-in-sonipat", label: "Sonipat", id: 98 },
+    { href: "/advertising-led-display-in-haldwani", label: "Haldwani", id: 99 },
+    { href: "/advertising-led-display-in-rudrapur", label: "Rudrapur", id: 100 },
+
+    { href: "/advertising-led-display-in-maharashtra", label: "Maharashtra", id: 101 },
+    { href: "/advertising-led-display-in-uttar-pradesh", label: "Uttar Pradesh", id: 102 },
+    { href: "/advertising-led-display-in-karnataka", label: "Karnataka", id: 103 },
+    { href: "/advertising-led-display-in-tamil-nadu", label: "Tamil Nadu", id: 104 },
+    { href: "/advertising-led-display-in-gujarat", label: "Gujarat", id: 105 },
+    { href: "/advertising-led-display-in-delhi-ncr", label: "Delhi (NCR)", id: 106 },
+    { href: "/advertising-led-display-in-telangana", label: "Telangana", id: 107 },
+    { href: "/advertising-led-display-in-west-bengal", label: "West Bengal", id: 108 },
+    { href: "/advertising-led-display-in-rajasthan", label: "Rajasthan", id: 109 },
+    { href: "/advertising-led-display-in-haryana", label: "Haryana", id: 110 }
+];
