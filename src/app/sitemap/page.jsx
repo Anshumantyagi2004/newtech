@@ -2,7 +2,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { products, categories, applications } from '@/data/data';
+import { products, categories, applications, serviceLocations } from '@/data/data';
 
 export default function page() {
     const sitemapItems = [
@@ -83,16 +83,16 @@ export default function page() {
                         {item.name}
                     </Link>
                 ))}
-                {/* {serviceLocations.map((item) => (
+                {serviceLocations.map((item) => (
                     <Link
                         key={item.id}
                         href={`${item.href}`}
                         className="p-6 bg-white rounded-xl border border-amber-300 content-center
                          hover:border-amber-500 hover:shadow-lg transition-all text-center"
                     >
-                        Bar Bending Machine Importer in {item.label}
+                        Advertising LED display in {item.label}
                     </Link>
-                ))} */}
+                ))}
             </div>
         </section>
     </>)

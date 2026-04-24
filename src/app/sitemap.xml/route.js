@@ -12,7 +12,7 @@
 // }
 
 // export async function GET() {
-//   const baseUrl = "https://barbendingmachineimporter.com";
+//   const baseUrl = "https://newtech.com";
 
 //   // Fetch blogs safely
 //   let blogs = [];
