@@ -185,6 +185,7 @@ export const categories = [
     {
         title: "Accessories & Controllers",
         img: "/H20.webp",
+        bgImage: "/ProductImages/tb60-2.png",
         id: "accessories-and-controllers",
         metaTitle: "LED Display Accessories & Controllers | LED Video Wall Control Systems | Newtech Video Systems",
         metaDescription: "Explore LED display accessories and controllers from Newtech Video Systems Pvt. Ltd. for advertising LED displays, outdoor screens, commercial LED video walls & industrial LED systems."
@@ -192,6 +193,7 @@ export const categories = [
     {
         title: "Rental Led",
         img: "/vivid-2.jpg",
+        bgImage: "/rental-cabinet-1.jpg",
         id: "rental-led",
         metaTitle: "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
         metaDescription: "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions."
@@ -199,6 +201,7 @@ export const categories = [
     {
         title: "Indoor Advertising LED Displays",
         img: "/optima-2.jpg",
+        bgImage: "/luxe-2-banner.jpg",
         id: "indoor-advertising-led-displays",
         metaTitle: "Indoor Advertising LED Display Screens | Commercial LED Video Wall | Newtech Video Systems",
         metaDescription: "Explore indoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for retail, malls & corporate spaces. High-resolution commercial LED video wall solutions."
@@ -206,6 +209,7 @@ export const categories = [
     {
         title: "Outdoor Advertising LED Displays",
         img: "/ProductImages/optima-1.jpg",
+        bgImage: "/ProductImages/optima-1.jpg",
         id: "outdoor-advertising-led-displays",
         metaTitle: "Outdoor Advertising LED Display Screens | LED Video Wall Manufacturer | Newtech Video Systems",
         metaDescription: "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage."
@@ -213,6 +217,7 @@ export const categories = [
     {
         title: "Advertising LED Display",
         img: "/optima-2 (1).jpg",
+        bgImage: "/control.jpg",
         id: "advertising-led-display",
         metaTitle: "Advertising LED Display Screens | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
         metaDescription: "Explore advertising LED display screens from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising."
@@ -220,6 +225,7 @@ export const categories = [
     {
         title: "LED Video Wall Display",
         img: "/luxe-2-banner.jpg",
+        bgImage: "/control.jpg",
         id: "led-video-wall-display",
         metaTitle: "LED Video Wall Display Manufacturer | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
         metaDescription: "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding."
@@ -228,6 +234,7 @@ export const categories = [
         title: "LED Display Boards",
         img: "/led-video-wall-display-screen-1000x1000.webp",
         id: "led-display-boards",
+        bgImage: "/control.jpg",
         metaTitle: "LED Display Boards Manufacturer | Advertising & Outdoor LED Screens | Newtech Video Systems",
         metaDescription: "Explore LED display boards from Newtech Video Systems Pvt. Ltd. for advertising, branding & information display. High-quality indoor & outdoor LED display board solutions."
     },
@@ -374,7 +381,7 @@ export const products = [
         },
     },
     {
-        name: "Processor LED Wall Display System",
+        name: "Flexible LED Wall Display System",
         id: "processor-led-wall-display-system",
         metaTitle: "LED Wall Display Processor System | Video Wall Control Processor | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED wall display processor systems for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
@@ -1177,10 +1184,10 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
         "catId": "rental-led",
         "catName": "Rental Led",
-        "img": "/product-2.jpg",
+        "img": "/ProductImages/Image.jpg",
 
         "images": [
-            "/product-2.jpg",
+            "/ProductImages/Image.jpg",
             "/ProductImages/download.jpg"
         ],
 
@@ -2940,10 +2947,10 @@ export const products = [
         }
     },
     {
-        "name": "Industrial LED Display Boards",
-        "id": "industrial-led-display-boards",
-        metaTitle: "Industrial LED Display Boards | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers industrial LED display boards for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
+        "name": "Corporate Video Screen",
+        "id": "corporate-video-screen",
+        metaTitle: "Corporate Video Screen | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Corporate Video Screen for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
         "catId": "led-display-boards",
         "catName": "LED Display Boards",
         "img": "/industrial-displays-1000x1000.webp",
@@ -2953,7 +2960,7 @@ export const products = [
         ],
 
         "overview": [
-            "Industrial LED Display Boards are high-performance digital LED signage solutions designed to deliver clear, reliable, and continuous communication in demanding industrial environments",
+            "Corporate Video Screen are high-performance digital LED signage solutions designed to deliver clear, reliable, and continuous communication in demanding industrial environments",
             "Built for factories, manufacturing plants, warehouses, logistics hubs, power stations, and heavy-duty operational sites, ensuring critical information is always visible and accessible",
             "Engineered to display safety alerts, production updates, operational data, warnings, and real-time announcements with high clarity",
             "Designed with robust LED technology to provide stable performance even in dust, vibration, humidity, and temperature variations",

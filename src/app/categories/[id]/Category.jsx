@@ -11,12 +11,7 @@ export default function Category() {
     const catProduct = products.filter((i) => (i.catId == id))
     return (<>
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                    backgroundImage: "url('/edu.jpg')", // change path
-                }}
-            />
+            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${cat.bgImage})`, }} />
 
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 flex flex-col items-center text-center px-4">

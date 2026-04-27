@@ -2,7 +2,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useParams } from "next/navigation"
-import { products } from "@/data/data"
+import { categories, products } from "@/data/data"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { MessageCircle, Phone } from "lucide-react"
@@ -16,6 +16,7 @@ export default function ProductPage() {
     const { id } = useParams()
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const product = products.find((p) => p.id === id)
+    const cat = categories.find((i) => (i.id == product.catId))
     const relProduct = products.filter((p) => p.catId === product.catId)
     if (!product) return <div className="text-white">Not found</div>
 
@@ -88,7 +89,7 @@ export default function ProductPage() {
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                    backgroundImage: "url('/banner.webp')", // change path
+                    backgroundImage: `url(${cat?.bgImage})`,
                 }}
             />
 
@@ -113,7 +114,7 @@ export default function ProductPage() {
             </div>
         </section>
 
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 w-full bg-gray-50 text-black md:px-20 px-4 py-6 md:pt-20 md:pb-10">
+        <div className="relative z-40 grid md:grid-cols-2 grid-cols-1 gap-5 w-full bg-gray-50 text-black md:px-20 px-4 py-6 md:pt-20 md:pb-10">
             <div className="md:sticky md:top-20 h-fit">
                 <Swiper
                     modules={[Navigation, Autoplay, Thumbs]}
