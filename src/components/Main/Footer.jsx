@@ -1,16 +1,19 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import {
     Phone,
     Mail,
-    MapPin, Building2, Landmark, Warehouse, Globe
+    MapPin, Building2, Landmark, Warehouse, Globe,
+    X
 } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { categories } from "@/data/data";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Footer() {
+    const [open, setOpen] = useState(false);
     const pathname = usePathname();
     const adminLayout = pathname.startsWith("/admin")
     if (adminLayout) return null;
@@ -155,9 +158,46 @@ export default function Footer() {
                         Trusted by businesses across industries, Newtech delivers high-performance LED display solutions with unmatched quality, reliability, and customer support.
                     </p>
 
-                    <img src="/trustseal.webp" alt="trust" className="w-30 mt-4" />
+                    <img src="/trustseal.webp" alt="trust" className="w-25 mt-4 cursor-pointer" onClick={() => setOpen(true)} />
                 </div>
             </div>
+
+            <AnimatePresence>
+                {open && (
+                    <>
+                        <motion.div
+                            className="fixed inset-0 bg-black/70 z-40"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => setOpen(false)}
+                        />
+
+                        <motion.div
+                            className="fixed inset-0 z-50 flex items-center justify-center px-4"
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            exit={{ scale: 0.8, opacity: 0 }}
+                        >
+                            <div className="relative bg-white rounded-xl shadow-lg max-w-2xl w-full">
+
+                                <button
+                                    onClick={() => setOpen(false)}
+                                    className="absolute top-3 right-3 text-gray-600 hover:text-black"
+                                >
+                                    <X size={24} />
+                                </button>
+
+                                <img
+                                    src="/trust Elite certificate (23).png"
+                                    alt="Trust Seal Large"
+                                    className="w-full h-auto object-contain rounded"
+                                />
+                            </div>
+                        </motion.div>
+                    </>
+                )}
+            </AnimatePresence>
 
             {/* Bottom Bar */}
             <div className="border-t flex flex-col md:flex-row justify-around border-white/10 mt-10 pt-6 text-center text-gray-200 text-sm">
