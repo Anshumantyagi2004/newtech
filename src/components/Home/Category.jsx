@@ -53,9 +53,9 @@ const categories = [
         id: "/categories/led-display-boards"
     },
     {
-        title: "LED Wall Display Systems",
+        title: "Flexible LED Wall Display Systems",
         desc: "Flexible LED wall display setups for immersive visual experiences in indoor and outdoor environments.",
-        img: "/vivid-2.jpg",
+        img: "/circular-led-screen-2.webp",
         id: "/categories/accessories-and-controllers"
     },
 ];

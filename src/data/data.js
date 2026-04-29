@@ -1029,11 +1029,11 @@ export const products = [
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers rental outdoor LED display cabinets for events and temporary installations. Durable, high-brightness LED video wall rental solutions for outdoor use.",
         "catId": "rental-led",
         "catName": "Rental Led",
-        "img": "/ProductImages/outdoor2.png",
+        "img": "/new18.jpg",
 
         "images": [
-            "/ProductImages/outdoor2.png",
-            "/indoor-1.png",
+            "/new18.jpg",
+            "/new17.jpg",
         ],
 
         "overview": [
@@ -1067,7 +1067,7 @@ export const products = [
             "pixelDensity": "77,100 pixels/m²",
             "resolutionPerPanel": "160 × 160 pixels",
             "moduleSize": "288 mm × 288 mm",
-            "panelSize": "576 mm × 576 mm × 80 mm",
+            "panelSize": "576 mm × 576 mm, 500 mm × 500 mm",
             "weightPerPanel": "8.5 kg",
             "maintenance": "Front / Back",
             "ipRating": "IP43 (Rear)",
@@ -1110,7 +1110,7 @@ export const products = [
 
         "images": [
             "/indoor-1.png",
-            "/ProductImages/outdoor2.png",
+            "/rental-cabinet-1.jpg",
         ],
 
         "overview": [
@@ -1144,7 +1144,7 @@ export const products = [
             "pixelDensity": "77,100 pixels/m²",
             "resolutionPerPanel": "160 × 160 pixels",
             "moduleSize": "288 mm × 288 mm",
-            "panelSize": "576 mm × 576 mm × 80 mm",
+            "panelSize": "576 mm × 576 mm, 500 mm × 500 mm",
             "weightPerPanel": "8.5 kg",
             "maintenance": "Front / Back",
             "ipRating": "IP43 (Rear)",
@@ -1193,6 +1193,70 @@ export const products = [
 
         "overview": [
             "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
+            "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
+            "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
+            "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
+            "A versatile LED display board solution for businesses seeking a flexible, plug-and-play digital signage option"
+        ],
+
+        "features": [
+            "Portable & Lightweight Design enables easy movement and quick setup, making it ideal for temporary promotions and event-based usage",
+            "Plug-and-Play Operation ensures simple installation and operation without requiring technical expertise or additional systems",
+            "High brightness and vivid color performance ensure content stands out clearly in well-lit indoor environments",
+            "Seamless playback capability supports smooth video and image display for advertising, presentations, and announcements",
+            "Flexible content management allows easy updates and control for dynamic and real-time promotional campaigns"
+        ],
+
+        "whyUs": [
+            "Expertise in delivering innovative and user-friendly advertising LED display solutions tailored for modern indoor applications",
+            "High-quality LED display boards designed for consistent performance, durability, and long-term use",
+            "Advanced display technology ensures superior brightness, clarity, and smooth playback across all products",
+            "Ability to provide customized solutions based on branding and promotional requirements",
+            "End-to-end support including consultation, setup assistance, and after-sales service for a seamless experience"
+        ],
+
+        "specs": {
+            "model": "P2.5",
+            "screenSize": "640 × 1920 mm",
+            "application": "Advertising",
+            "displayType": "LED Video Display",
+            "pixelPitch": "2.5 mm",
+            "pixelDensity": "160,000 dots/m²",
+            "pixelConfiguration": "1R, 1G, 1B",
+            "scanMode": "1/32 Scan",
+            "brightness": "≥ 500 nits",
+            "refreshRate": "≥ 1920 Hz",
+            "averagePowerConsumption": "300 W/m²",
+            "ipRating": "IP30",
+            "maintenance": "Front / Rear",
+            "weight": "≈ 35 kg",
+            "chipType": "Full Color",
+            "brand": "NVS",
+            "certifications": "CE, ROHS, FCC",
+            "origin": "India",
+            "packing": "Two standee in one flight case"
+        }
+    },
+    {
+        "name": "Elite Series Cabinets",
+        "id": "elite-series-cabinets",
+        applicationIds: [
+            "reception-and-lobby-areas",
+            "rental"
+        ],
+        metaTitle: "Elite Series | Digital Advertising LED Display Screen | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Elite Series for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
+        "catId": "rental-led",
+        "catName": "Rental Led",
+        "img": "/elite (1).jpeg",
+
+        "images": [
+            "/elite (1).jpeg",
+            "/elite (2).jpeg"
+        ],
+
+        "overview": [
+            "Elite Series is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
             "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
             "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
             "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
