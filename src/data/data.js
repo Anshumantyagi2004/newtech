@@ -1061,7 +1061,7 @@ export const products = [
         ],
 
         "specs": {
-            "pixelPitch": "3.6 mm",
+            "pixelPitch": "3.6 mm, 3.5 mm, 2.9 mm",
             "ledType": "3-in-1 SMD",
             "brightness": "1200 cd/m²",
             "pixelDensity": "77,100 pixels/m²",
@@ -1138,7 +1138,7 @@ export const products = [
         ],
 
         "specs": {
-            "pixelPitch": "3.6 mm",
+            "pixelPitch": "3.6 mm, 4.8 mm, 3.8 mm",
             "ledType": "3-in-1 SMD",
             "brightness": "1200 cd/m²",
             "pixelDensity": "77,100 pixels/m²",
