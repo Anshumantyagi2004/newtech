@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Video */}
         <video
           className="w-full h-full object-cover brightness-75"
-          src="https://res.cloudinary.com/dqllcskwa/video/upload/v1775822118/WhatsApp_Video_2026-04-10_at_5.18.15_PM_jdj17w.mp4"
+          src="https://pub-23a540a27a794d989108700989f15097.r2.dev/WhatsApp%20Video%202026-05-05%20at%202.35.12%20PM.mp4"
           autoPlay
           muted
           loop
