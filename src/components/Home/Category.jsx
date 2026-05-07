@@ -41,16 +41,16 @@ const categories = [
         id: "/categories/led-video-wall-display"
     },
     {
-        title: "LED Display Boards",
+        title: "Indoor Advertising LED Displays",
         desc: "Durable and energy-efficient LED display boards for advertising, announcements, and branding.",
-        img: "/optima-2 (1).jpg",
-        id: "/categories/led-display-boards"
+        img: "/edu.jpg",
+        id: "/categories/indoor-advertising-led-displays"
     },
     {
         title: "Industrial Video Screens",
         desc: "Heavy-duty industrial video screens built for control rooms, factories, and 24/7 operations.",
         img: "/luxe-2-banner.jpg",
-        id: "/categories/led-display-boards"
+        id: "/categories/rental-led"
     },
     {
         title: "Flexible LED Wall Display Systems",

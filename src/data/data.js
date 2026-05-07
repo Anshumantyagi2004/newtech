@@ -230,14 +230,14 @@ export const categories = [
         metaTitle: "LED Video Wall Display Manufacturer | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
         metaDescription: "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding."
     },
-    {
-        title: "LED Display Boards",
-        img: "/led-video-wall-display-screen-1000x1000.webp",
-        id: "led-display-boards",
-        bgImage: "/control.jpg",
-        metaTitle: "LED Display Boards Manufacturer | Advertising & Outdoor LED Screens | Newtech Video Systems",
-        metaDescription: "Explore LED display boards from Newtech Video Systems Pvt. Ltd. for advertising, branding & information display. High-quality indoor & outdoor LED display board solutions."
-    },
+    // {
+    //     title: "LED Display Boards",
+    //     img: "/led-video-wall-display-screen-1000x1000.webp",
+    //     id: "led-display-boards",
+    //     bgImage: "/control.jpg",
+    //     metaTitle: "LED Display Boards Manufacturer | Advertising & Outdoor LED Screens | Newtech Video Systems",
+    //     metaDescription: "Explore LED display boards from Newtech Video Systems Pvt. Ltd. for advertising, branding & information display. High-quality indoor & outdoor LED display board solutions."
+    // },
 ];
 
 export const products = [
@@ -329,8 +329,8 @@ export const products = [
         }
     },
     {
-        name: "Controllers Indoor LED Display",
-        id: "controller-indoor-led-display",
+        name: "Led Display Controllers",
+        id: "led-display-controllers",
         metaTitle: "Indoor LED Display Controllers | LED Video Wall Control Systems | Newtech Video Systems",
         metaDescription: "Newtech Video Systems Pvt. Ltd. offers indoor LED display controllers for seamless video wall performance. Advanced control systems for high-resolution LED screens and signage.",
         catId: "accessories-and-controllers",
@@ -381,10 +381,10 @@ export const products = [
         },
     },
     {
-        name: "Flexible LED Wall Display System",
-        id: "processor-led-wall-display-system",
-        metaTitle: "LED Wall Display Processor System | Video Wall Control Processor | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED wall display processor systems for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
+        name: "Led Display Controller",
+        id: "led-display-controllers",
+        metaTitle: "LED Display Controllers | Video Wall Control Processor | Newtech Video Systems",
+        metaDescription: "Newtech Video Systems Pvt. Ltd. offers LED display controllers for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
         catId: "accessories-and-controllers",
         catName: "Accessories & Controllers",
         img: "/ProductImages/4K Prime Pro.png",
@@ -2865,198 +2865,198 @@ export const products = [
     },
 
     //LED Display Boards
-    {
-        "name": "LED Display Board",
-        "id": "led-display-board",
-        metaTitle: "LED Display Board Manufacturer | Advertising & Outdoor LED Display Screen | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers high-quality LED display boards for advertising, branding & information display. Indoor & outdoor LED display screen solutions for businesses.",
-        "catId": "led-display-boards",
-        "catName": "LED Display Boards",
-        "img": "/led-video-wall-display-screen-1000x1000.webp",
+    // {
+    //     "name": "LED Display Board",
+    //     "id": "led-display-board",
+    //     metaTitle: "LED Display Board Manufacturer | Advertising & Outdoor LED Display Screen | Newtech Video Systems",
+    //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers high-quality LED display boards for advertising, branding & information display. Indoor & outdoor LED display screen solutions for businesses.",
+    //     "catId": "led-display-boards",
+    //     "catName": "LED Display Boards",
+    //     "img": "/led-video-wall-display-screen-1000x1000.webp",
 
-        "images": [
-            "/led-video-wall-display-screen-1000x1000.webp",
-            "/led-video-wall-display-screen-1000x1000.webp",
-        ],
+    //     "images": [
+    //         "/led-video-wall-display-screen-1000x1000.webp",
+    //         "/led-video-wall-display-screen-1000x1000.webp",
+    //     ],
 
-        "overview": [
-            "LED Display Board is a versatile advertising LED display screen designed to deliver clear, dynamic, and attention-grabbing digital content for indoor and outdoor applications",
-            "Built for modern advertising and communication needs, it allows businesses to showcase text, images, videos, and real-time updates with high visibility",
-            "Ideal for retail stores, commercial spaces, schools, offices, transportation hubs, and public areas where effective messaging is required",
-            "Engineered with advanced LED technology, it ensures smooth performance, vibrant colors, and consistent brightness in all environments",
-            "A flexible LED video wall display solution that enhances brand communication and audience engagement"
-        ],
+    //     "overview": [
+    //         "LED Display Board is a versatile advertising LED display screen designed to deliver clear, dynamic, and attention-grabbing digital content for indoor and outdoor applications",
+    //         "Built for modern advertising and communication needs, it allows businesses to showcase text, images, videos, and real-time updates with high visibility",
+    //         "Ideal for retail stores, commercial spaces, schools, offices, transportation hubs, and public areas where effective messaging is required",
+    //         "Engineered with advanced LED technology, it ensures smooth performance, vibrant colors, and consistent brightness in all environments",
+    //         "A flexible LED video wall display solution that enhances brand communication and audience engagement"
+    //     ],
 
-        "features": [
-            "High Brightness & Clear Visibility ensures messages are easily readable even in bright indoor and outdoor environments",
-            "Customizable Display Formats support text, images, videos, and real-time content for versatile communication",
-            "Seamless Modular Design enables scalable LED wall display installations in various sizes and configurations",
-            "Energy-Efficient Operation reduces power consumption while maintaining stable performance and long lifespan",
-            "Wide Application Flexibility suitable for advertising, announcements, branding, and information display"
-        ],
+    //     "features": [
+    //         "High Brightness & Clear Visibility ensures messages are easily readable even in bright indoor and outdoor environments",
+    //         "Customizable Display Formats support text, images, videos, and real-time content for versatile communication",
+    //         "Seamless Modular Design enables scalable LED wall display installations in various sizes and configurations",
+    //         "Energy-Efficient Operation reduces power consumption while maintaining stable performance and long lifespan",
+    //         "Wide Application Flexibility suitable for advertising, announcements, branding, and information display"
+    //     ],
 
-        "whyUs": [
-            "Expertise in delivering high-quality LED display board solutions for commercial, retail, and public applications",
-            "Advanced advertising LED display screens designed for durability, clarity, and long-term reliability",
-            "Customized LED video wall display systems tailored to specific business and communication needs",
-            "Proven experience in executing impactful digital signage projects across multiple industries",
-            "End-to-end support including consultation, installation, and maintenance for seamless performance"
-        ],
+    //     "whyUs": [
+    //         "Expertise in delivering high-quality LED display board solutions for commercial, retail, and public applications",
+    //         "Advanced advertising LED display screens designed for durability, clarity, and long-term reliability",
+    //         "Customized LED video wall display systems tailored to specific business and communication needs",
+    //         "Proven experience in executing impactful digital signage projects across multiple industries",
+    //         "End-to-end support including consultation, installation, and maintenance for seamless performance"
+    //     ],
 
-        "specs": {
-            "usage": "Advertisement",
-            "displayTechnology": "Dot Matrix",
-            "shape": "Rectangle",
-            "availability": "In Stock"
-        }
-    },
-    {
-        "name": "LED Display Board for Advertisement",
-        "id": "led-display-board-for-advertisement",
-        metaTitle: "Buy LED Display Board for Advertisement | LED Screen Manufacturer | Newtech Video Systems",
-        metaDescription: "Premium LED display boards for advertisement with high brightness and durability. Ideal for outdoor billboards, indoor branding & commercial advertising displays.",
-        "catId": "led-display-boards",
-        "catName": "LED Display Boards",
-        "img": "/led-display-board-1000x1000.webp",
+    //     "specs": {
+    //         "usage": "Advertisement",
+    //         "displayTechnology": "Dot Matrix",
+    //         "shape": "Rectangle",
+    //         "availability": "In Stock"
+    //     }
+    // },
+    // {
+    //     "name": "LED Display Board for Advertisement",
+    //     "id": "led-display-board-for-advertisement",
+    //     metaTitle: "Buy LED Display Board for Advertisement | LED Screen Manufacturer | Newtech Video Systems",
+    //     metaDescription: "Premium LED display boards for advertisement with high brightness and durability. Ideal for outdoor billboards, indoor branding & commercial advertising displays.",
+    //     "catId": "led-display-boards",
+    //     "catName": "LED Display Boards",
+    //     "img": "/led-display-board-1000x1000.webp",
 
-        "images": [
-            "/led-display-board-1000x1000.webp",
-            "/led-display-board-adv-2.jpg"
-        ],
+    //     "images": [
+    //         "/led-display-board-1000x1000.webp",
+    //         "/led-display-board-adv-2.jpg"
+    //     ],
 
-        "overview": [
-            "LED Display Board for Advertisement is a high-impact digital advertising LED display screen designed to deliver vibrant visuals, dynamic motion content, and powerful brand messaging",
-            "It is built to replace traditional static boards with real-time, eye-catching digital content that enhances customer engagement and visibility",
-            "Ideal for retail stores, shopping malls, showrooms, airports, railway stations, highways, and commercial spaces requiring continuous advertising",
-            "Designed with advanced LED technology, it ensures sharp image quality, bright output, and smooth video playback in all lighting conditions",
-            "A modern LED video wall display solution that maximizes advertising reach and brand recall"
-        ],
+    //     "overview": [
+    //         "LED Display Board for Advertisement is a high-impact digital advertising LED display screen designed to deliver vibrant visuals, dynamic motion content, and powerful brand messaging",
+    //         "It is built to replace traditional static boards with real-time, eye-catching digital content that enhances customer engagement and visibility",
+    //         "Ideal for retail stores, shopping malls, showrooms, airports, railway stations, highways, and commercial spaces requiring continuous advertising",
+    //         "Designed with advanced LED technology, it ensures sharp image quality, bright output, and smooth video playback in all lighting conditions",
+    //         "A modern LED video wall display solution that maximizes advertising reach and brand recall"
+    //     ],
 
-        "features": [
-            "Ultra-Bright Display Performance ensures strong visibility even in sunlight and high-traffic environments",
-            "Dynamic Content Support enables videos, animations, images, scrolling text, and live updates for engaging advertisements",
-            "Modular & Scalable Design allows flexible LED wall display installations in various sizes and shapes",
-            "Energy Efficient Technology reduces operational cost while maintaining stable and long-lasting performance",
-            "24/7 Continuous Operation built for uninterrupted advertising in commercial and public environments"
-        ],
+    //     "features": [
+    //         "Ultra-Bright Display Performance ensures strong visibility even in sunlight and high-traffic environments",
+    //         "Dynamic Content Support enables videos, animations, images, scrolling text, and live updates for engaging advertisements",
+    //         "Modular & Scalable Design allows flexible LED wall display installations in various sizes and shapes",
+    //         "Energy Efficient Technology reduces operational cost while maintaining stable and long-lasting performance",
+    //         "24/7 Continuous Operation built for uninterrupted advertising in commercial and public environments"
+    //     ],
 
-        "whyUs": [
-            "Leading provider of advanced advertising LED display screen solutions for high-visibility marketing",
-            "Expertise in designing durable and high-performance LED display boards for advertisement across industries",
-            "Customized LED video wall display solutions tailored for maximum brand exposure and audience impact",
-            "Trusted experience in executing large-scale digital signage and outdoor advertising projects",
-            "Complete support from design, installation, and maintenance for long-term reliable performance"
-        ],
+    //     "whyUs": [
+    //         "Leading provider of advanced advertising LED display screen solutions for high-visibility marketing",
+    //         "Expertise in designing durable and high-performance LED display boards for advertisement across industries",
+    //         "Customized LED video wall display solutions tailored for maximum brand exposure and audience impact",
+    //         "Trusted experience in executing large-scale digital signage and outdoor advertising projects",
+    //         "Complete support from design, installation, and maintenance for long-term reliable performance"
+    //     ],
 
-        "specs": {
-            "usage": "Advertisement",
-            "displayColor": "As Needed",
-            "shape": "Rectangle",
-            "color": "Black",
-            "bodyMaterial": "Aluminium",
-            "lightingType": "LED",
-            "countryOfOrigin": "Made in India",
-            "availability": "In Stock"
-        }
-    },
-    {
-        "name": "Safety Static LED Display Board",
-        "id": "safety-static-led-display-board",
-        metaTitle: "Safety Static LED Display Board | Fixed LED Advertising Screen | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers safety static LED display boards for reliable advertising. High-brightness fixed LED screens for indoor & outdoor installations.",
-        "catId": "led-display-boards",
-        "catName": "LED Display Boards",
-        "img": "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp",
+    //     "specs": {
+    //         "usage": "Advertisement",
+    //         "displayColor": "As Needed",
+    //         "shape": "Rectangle",
+    //         "color": "Black",
+    //         "bodyMaterial": "Aluminium",
+    //         "lightingType": "LED",
+    //         "countryOfOrigin": "Made in India",
+    //         "availability": "In Stock"
+    //     }
+    // },
+    // {
+    //     "name": "Safety Static LED Display Board",
+    //     "id": "safety-static-led-display-board",
+    //     metaTitle: "Safety Static LED Display Board | Fixed LED Advertising Screen | Newtech Video Systems",
+    //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers safety static LED display boards for reliable advertising. High-brightness fixed LED screens for indoor & outdoor installations.",
+    //     "catId": "led-display-boards",
+    //     "catName": "LED Display Boards",
+    //     "img": "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp",
 
-        "images": [
-            "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp"
-        ],
+    //     "images": [
+    //         "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp"
+    //     ],
 
-        "overview": [
-            "Safety Static LED Display Board is a reliable digital LED signage solution designed specifically for displaying safety instructions, alerts, warnings, and important information in a clear and visible format",
-            "Widely used in industrial facilities, construction sites, factories, warehouses, highways, and public areas to improve awareness and ensure compliance with safety standards",
-            "Built with high-brightness LED technology, ensuring messages remain readable even in low light, bright daylight, or challenging environmental conditions",
-            "Designed for continuous operation, offering stable performance and long-term durability in demanding environments",
-            "An effective LED display board solution that enhances workplace safety communication and reduces operational risks"
-        ],
+    //     "overview": [
+    //         "Safety Static LED Display Board is a reliable digital LED signage solution designed specifically for displaying safety instructions, alerts, warnings, and important information in a clear and visible format",
+    //         "Widely used in industrial facilities, construction sites, factories, warehouses, highways, and public areas to improve awareness and ensure compliance with safety standards",
+    //         "Built with high-brightness LED technology, ensuring messages remain readable even in low light, bright daylight, or challenging environmental conditions",
+    //         "Designed for continuous operation, offering stable performance and long-term durability in demanding environments",
+    //         "An effective LED display board solution that enhances workplace safety communication and reduces operational risks"
+    //     ],
 
-        "features": [
-            "High Visibility Output ensures safety messages are clearly readable from long distances in all lighting conditions",
-            "Static & Dynamic Message Support allows display of fixed safety instructions as well as animated alerts when required",
-            "Rugged & Durable Design built for industrial and outdoor environments with stable long-term operation",
-            "Energy Efficient Operation ensures low power consumption for 24/7 safety communication systems",
-            "Easy Content Management allows quick updates for emergency instructions, warnings, and safety notifications"
-        ],
+    //     "features": [
+    //         "High Visibility Output ensures safety messages are clearly readable from long distances in all lighting conditions",
+    //         "Static & Dynamic Message Support allows display of fixed safety instructions as well as animated alerts when required",
+    //         "Rugged & Durable Design built for industrial and outdoor environments with stable long-term operation",
+    //         "Energy Efficient Operation ensures low power consumption for 24/7 safety communication systems",
+    //         "Easy Content Management allows quick updates for emergency instructions, warnings, and safety notifications"
+    //     ],
 
-        "whyUs": [
-            "Expert manufacturer of high-quality LED display board solutions for safety and industrial communication needs",
-            "Reliable advertising LED display screen technology adapted for critical information and warning systems",
-            "Customized LED video wall display solutions designed for industrial safety compliance and visibility",
-            "Proven experience in delivering robust display systems for factories, infrastructure, and public safety applications",
-            "Complete support from system design to installation and maintenance for uninterrupted safety communication"
-        ],
+    //     "whyUs": [
+    //         "Expert manufacturer of high-quality LED display board solutions for safety and industrial communication needs",
+    //         "Reliable advertising LED display screen technology adapted for critical information and warning systems",
+    //         "Customized LED video wall display solutions designed for industrial safety compliance and visibility",
+    //         "Proven experience in delivering robust display systems for factories, infrastructure, and public safety applications",
+    //         "Complete support from system design to installation and maintenance for uninterrupted safety communication"
+    //     ],
 
-        "specs": {
-            "usage": "Outdoor",
-            "brand": "Newtech",
-            "displayTechnology": "Dot Matrix",
-            "mountingType": "Wall Mounted",
-            "ledLifeSpan": "8-10 Years",
-            "displayType": "Outdoor",
-            "serviceLocation": "Pan India and Exports Available",
-            "shape": "Rectangle",
-            "inputPower": "230V AC",
-            "countryOfOrigin": "Made in India",
-            "availability": "In Stock"
-        }
-    },
-    {
-        "name": "Corporate Video Screen",
-        "id": "corporate-video-screen",
-        metaTitle: "Corporate Video Screen | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
-        metaDescription: "Newtech Video Systems Pvt. Ltd. offers Corporate Video Screen for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
-        "catId": "led-display-boards",
-        "catName": "LED Display Boards",
-        "img": "/industrial-displays-1000x1000.webp",
+    //     "specs": {
+    //         "usage": "Outdoor",
+    //         "brand": "Newtech",
+    //         "displayTechnology": "Dot Matrix",
+    //         "mountingType": "Wall Mounted",
+    //         "ledLifeSpan": "8-10 Years",
+    //         "displayType": "Outdoor",
+    //         "serviceLocation": "Pan India and Exports Available",
+    //         "shape": "Rectangle",
+    //         "inputPower": "230V AC",
+    //         "countryOfOrigin": "Made in India",
+    //         "availability": "In Stock"
+    //     }
+    // },
+    // {
+    //     "name": "Corporate Video Screen",
+    //     "id": "corporate-video-screen",
+    //     metaTitle: "Corporate Video Screen | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
+    //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers Corporate Video Screen for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
+    //     "catId": "led-display-boards",
+    //     "catName": "LED Display Boards",
+    //     "img": "/industrial-displays-1000x1000.webp",
 
-        "images": [
-            "/industrial-displays-1000x1000.webp",
-        ],
+    //     "images": [
+    //         "/industrial-displays-1000x1000.webp",
+    //     ],
 
-        "overview": [
-            "Corporate Video Screen are high-performance digital LED signage solutions designed to deliver clear, reliable, and continuous communication in demanding industrial environments",
-            "Built for factories, manufacturing plants, warehouses, logistics hubs, power stations, and heavy-duty operational sites, ensuring critical information is always visible and accessible",
-            "Engineered to display safety alerts, production updates, operational data, warnings, and real-time announcements with high clarity",
-            "Designed with robust LED technology to provide stable performance even in dust, vibration, humidity, and temperature variations",
-            "A dependable LED display board solution for industrial communication and monitoring, ensuring smooth information flow across operations"
-        ],
+    //     "overview": [
+    //         "Corporate Video Screen are high-performance digital LED signage solutions designed to deliver clear, reliable, and continuous communication in demanding industrial environments",
+    //         "Built for factories, manufacturing plants, warehouses, logistics hubs, power stations, and heavy-duty operational sites, ensuring critical information is always visible and accessible",
+    //         "Engineered to display safety alerts, production updates, operational data, warnings, and real-time announcements with high clarity",
+    //         "Designed with robust LED technology to provide stable performance even in dust, vibration, humidity, and temperature variations",
+    //         "A dependable LED display board solution for industrial communication and monitoring, ensuring smooth information flow across operations"
+    //     ],
 
-        "features": [
-            "High Brightness Industrial Display ensures excellent visibility even in harsh lighting and large factory environments",
-            "Continuous 24/7 Operation Capability supports uninterrupted performance for critical industrial communication needs",
-            "Rugged & Durable Build Quality designed to withstand dust, heat, vibration, and challenging working conditions",
-            "Real-Time Information Display Support enables instant updates for production data, alerts, and safety notifications",
-            "Scalable Modular System Design allows flexible LED wall display configurations for small to large industrial setups"
-        ],
+    //     "features": [
+    //         "High Brightness Industrial Display ensures excellent visibility even in harsh lighting and large factory environments",
+    //         "Continuous 24/7 Operation Capability supports uninterrupted performance for critical industrial communication needs",
+    //         "Rugged & Durable Build Quality designed to withstand dust, heat, vibration, and challenging working conditions",
+    //         "Real-Time Information Display Support enables instant updates for production data, alerts, and safety notifications",
+    //         "Scalable Modular System Design allows flexible LED wall display configurations for small to large industrial setups"
+    //     ],
 
-        "whyUs": [
-            "Trusted provider of advanced industrial LED display board solutions for mission-critical environments",
-            "High-quality advertising LED display screen technology adapted for industrial monitoring and communication",
-            "Customized LED video wall display systems designed for factories, plants, and large-scale operations",
-            "Proven expertise in delivering durable and reliable display systems for industrial and infrastructure projects",
-            "End-to-end service including design, installation, integration, and long-term maintenance support"
-        ],
+    //     "whyUs": [
+    //         "Trusted provider of advanced industrial LED display board solutions for mission-critical environments",
+    //         "High-quality advertising LED display screen technology adapted for industrial monitoring and communication",
+    //         "Customized LED video wall display systems designed for factories, plants, and large-scale operations",
+    //         "Proven expertise in delivering durable and reliable display systems for industrial and infrastructure projects",
+    //         "End-to-end service including design, installation, integration, and long-term maintenance support"
+    //     ],
 
-        "specs": {
-            "brand": "Newtech",
-            "mountingType": "LED",
-            "displayType": "Industrial",
-            "material": "Brass",
-            "color": "Black",
-            "countryOfOrigin": "Made in India",
-            "availability": "In Stock"
-        }
-    },
+    //     "specs": {
+    //         "brand": "Newtech",
+    //         "mountingType": "LED",
+    //         "displayType": "Industrial",
+    //         "material": "Brass",
+    //         "color": "Black",
+    //         "countryOfOrigin": "Made in India",
+    //         "availability": "In Stock"
+    //     }
+    // },
 ]
 
 export const applicationsDescription = [
