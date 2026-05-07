@@ -28,14 +28,15 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="bg-gray-100 min-h-screen flex overflow-x-hidden">
-        <Sidebar className="hidden md:block" />
+        <Sidebar className="hidden md:block shrink-0" />
 
-        <div className="flex flex-col flex-1 w-full max-w-full">
+        <div className="flex flex-col flex-1 min-w-0 w-full">
           <Navbar />
 
-          <main className="flex-1 w-full">
+          <main className="flex-1 w-full min-w-0">
             {children}
           </main>
+
           <Toaster position="top-center" />
           <Footer />
         </div>

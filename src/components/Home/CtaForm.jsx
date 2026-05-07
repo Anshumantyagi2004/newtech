@@ -60,7 +60,7 @@ export default function CtaForm() {
                 </div>
 
                 {/* Form */}
-                <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-6 gap-4 text-black">
+                <form onSubmit={handleSubmit} className="grid grid-cols-1 lg:grid-cols-6 gap-4 text-black">
                     {/* Name */}
                     <input
                         type="name"
