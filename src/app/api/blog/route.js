@@ -1,6 +1,7 @@
 import { connect } from "@/Database/db";
 import Blog from "@/models/blog";
 import cloudinary from "@/utils/cloudinary";
+import { uploadToR2 } from "@/utils/uploadToR2";
 
 // GET /api/blog 
 export async function GET() {
@@ -24,27 +25,23 @@ export async function POST(req) {
     const file = formData.get("image");
 
     let imageUrl = "";
-    let imagePublicId = "";
+    let imageFileId = "";
 
     if (file && file.name) {
       const bytes = await file.arrayBuffer();
       const buffer = Buffer.from(bytes);
 
-      const uploadResult = await new Promise((resolve, reject) => {
-        cloudinary.uploader.upload_stream(
-          {
-            folder: "blogs",
-            resource_type: "image",
-          },
-          (error, result) => {
-            if (error) reject(error);
-            resolve(result);
-          }
-        ).end(buffer);
+      const fileName = `${Date.now()}-${file.name}`;
+
+      const uploadedImage = await uploadToR2({
+        file: buffer,
+        folder: "newTech",
+        fileName,
+        contentType: file.type,
       });
 
-      imageUrl = uploadResult.secure_url;
-      imagePublicId = uploadResult.public_id;
+      imageUrl = uploadedImage.url;
+      imageFileId = uploadedImage.key;
     }
 
     const blog = await Blog.create({
@@ -55,7 +52,7 @@ export async function POST(req) {
       metaTitle,
       metaDescription,
       image: imageUrl,
-      imagePublicId,
+      imageFileId,
     });
 
     return new Response(JSON.stringify(blog), { status: 201 });
