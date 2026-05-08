@@ -86,7 +86,7 @@ const AllProject = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="bg-[#f0f0f0] py-14 md:py-20 px-4 md:px-10">
+      <section className="bg-[#f3f4f6] py-10 md:py-25 px-4 md:px-10">
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
           <div className="text-center mb-12">
