@@ -164,6 +164,7 @@ export const applications = [
     hover: "hover:bg-amber-600",
   },
   {
+    
     id: "rental",
     title: "Rental",
     bgImage: "/bg-2.jpg",
@@ -182,6 +183,16 @@ export const applications = [
 ];
 
 export const categories = [
+  {
+      title: "Rental Led",
+      img: "/vivid-2.jpg",
+      bgImage: "/rental-cabinet-1.jpg",
+      id: "rental-led",
+      metaTitle:
+        "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
+      metaDescription:
+        "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
+    },
   {
     title: "Outdoor Advertising LED Displays",
     img: "/ProductImages/optima-1.jpg",
@@ -203,16 +214,6 @@ export const categories = [
       "Explore indoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for retail, malls & corporate spaces. High-resolution commercial LED video wall solutions.",
   },
 
-  {
-    title: "Rental Led",
-    img: "/vivid-2.jpg",
-    bgImage: "/rental-cabinet-1.jpg",
-    id: "rental-led",
-    metaTitle:
-      "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
-    metaDescription:
-      "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
-  },
 
   {
     title: "Advertising LED Display",
