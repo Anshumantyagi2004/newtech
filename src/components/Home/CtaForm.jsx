@@ -48,7 +48,7 @@ export default function CtaForm() {
     };
 
     return (<>
-        <div className="w-full bg-gray-100 py-12 px-4 md:px-10">
+        <div className="w-full bg-gray-100 py-12 figtree px-4 md:px-10">
             <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-8">
                 <div className="text-center mb-8">
                     <h2 className="text-2xl md:text-3xl font-bold text-black">

@@ -1144,9 +1144,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers P3 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with ultra-clear visuals, high brightness, and reliable outdoor advertising performance.",
       catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
-  img: "/p3-outdoor-fixed-led-display-screen-nvs-pro-series.webp",
+  img: "/product/nvs.webp",
 
-  images: ["/p3-outdoor-fixed-led-display-screen-nvs-pro-series.webp"],
+  images: ["/product/nvs.webp"],
 
   overview: [
     "P3 Outdoor Fixed LED Display Screen (NVS Pro Series) is a high-resolution outdoor LED display screen designed to deliver ultra-clear visuals, high brightness performance, and seamless digital advertising for premium outdoor environments. This advanced advertising LED display screen ensures exceptional visibility and audience engagement even in challenging weather and lighting conditions.",
@@ -1186,7 +1186,7 @@ export const products = [
     "scanRate": "1/13",
     "brightness": "5000 nits",
   },
- },
+  },
   {
   name: "P3.8 Outdoor Advertising LED Display Screen (Elite Series)",
   id: "p3-8-outdoor-advertising-led-display-screen-elite-series",
@@ -1570,9 +1570,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers P4 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with bright visuals, weatherproof durability, and reliable outdoor advertising performance.",
   catId: "outdoor-advertising-led-displays",
   catName: "Outdoor Advertising LED Displays",
-  img: "/p4-outdoor-fixed-led-display-screen-nvs-pro-series.webp",
+  img: "/product/nvs.webp",
 
-  images: ["/p4-outdoor-fixed-led-display-screen-nvs-pro-series.webp"],
+  images: ["/product/nvs.webp"],
 
   overview: [
     "P4 Outdoor Fixed LED Display Screen (NVS Pro Series) is a premium outdoor LED display screen engineered to deliver bright visuals, sharp image clarity, and reliable performance for modern outdoor advertising and digital communication applications. This advanced advertising LED display screen ensures strong visibility and impactful content presentation in all outdoor environments.",
@@ -1625,9 +1625,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers P5 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with high brightness, weatherproof durability, and reliable outdoor advertising performance.",
   catId: "outdoor-advertising-led-displays",
   catName: "Outdoor Advertising LED Displays",
-  img: "/p5-outdoor-fixed-led-display-screen-nvs-pro-series.webp",
+  img: "/product/nvs.webp",
 
-  images: ["/p5-outdoor-fixed-led-display-screen-nvs-pro-series.webp"],
+  images: ["/product/nvs.webp"],
 
   overview: [
     "P5 Outdoor Fixed LED Display Screen (NVS Pro Series) is a high-performance outdoor LED display screen designed to deliver bright visuals, seamless playback, and reliable outdoor advertising performance for large-scale digital communication applications. This advanced advertising LED display screen ensures strong visibility and impactful audience engagement in all outdoor environments.",
@@ -1679,9 +1679,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers P6 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with high brightness, weatherproof durability, and reliable outdoor advertising performance.",
   catId: "outdoor-advertising-led-displays",
   catName: "Outdoor Advertising LED Displays",
-  img: "/p6-outdoor-fixed-led-display-screen-nvs-pro-series.webp",
+  img: "/product/nvs.webp",
 
-  images: ["/p6-outdoor-fixed-led-display-screen-nvs-pro-series.webp"],
+  images: ["/product/nvs.webp"],
 
   overview: [
     "P6 Outdoor Fixed LED Display Screen (NVS Pro Series) is a durable and high-performance outdoor LED display screen designed to deliver bright visuals, smooth playback, and reliable advertising performance for large-scale outdoor digital signage applications. This advanced advertising LED display screen ensures strong visibility and impactful audience engagement in all lighting and weather conditions.",
@@ -3690,9 +3690,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers T16 Pro LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with advanced multimedia processing and cloud-based control.",
   catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-  img: "/t16-pro-led-display-controller-taurus-series.webp",
+  img: "/product/t16 plus.webp",
 
-  images: ["/t16-pro-led-display-controller-taurus-series.webp"],
+  images: ["/product/t16 plus.webp"],
 
   overview: [
     "T16 Pro LED Display Controller (Taurus Series) is a powerful and intelligent LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for reliable performance and seamless control, this advanced controller ensures smooth playback and stable communication across modern LED video wall display installations.",
@@ -3738,9 +3738,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers TB10 Plus LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
   catId: "accessories-and-controllers",
   catName: "Accessories & Controllers",
-  img: "/tb10-plus-led-display-controller-taurus-series.webp",
+  img: "/product/tb10 plus.webp",
 
-  images: ["/tb10-plus-led-display-controller-taurus-series.webp"],
+  images: [ "/product/tb10 plus.webp"],
 
   overview: [
     "TB10 Plus LED Display Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
@@ -3895,9 +3895,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers SMP6 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
   catId: "accessories-and-controllers",
   catName: "Accessories & Controllers",
-  img: "/smp6-pro-led-display-controller-ultra-taurus-series.webp",
+  img: "/product/smp6 pro.webp",
 
-  images: ["/smp6-pro-led-display-controller-ultra-taurus-series.webp"],
+  images: ["/product/smp6 pro.webp"],
 
   overview: [
     "SMP6 Pro LED Display Controller (Ultra Taurus Series) is a powerful all-in-one LED display controller designed for intelligent playback control, seamless content management, and stable operation in professional LED display systems. Engineered for modern digital signage and commercial display applications, this advanced controller ensures smooth and reliable performance for premium LED video wall display installations.",
@@ -3946,9 +3946,9 @@ export const products = [
     "Newtech Video Systems Pvt. Ltd. offers SMP20 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
   catId: "accessories-and-controllers",
   catName: "Accessories & Controllers",
-  img: "/smp20-pro-led-display-controller-ultra-taurus-series.webp",
+  img: "/product/smp20 pro.webp",
 
-  images: ["/smp20-pro-led-display-controller-ultra-taurus-series.webp"],
+  images: ["/product/smp20 pro.webp"],
 
   overview: [
     "SMP20 Pro LED Display Controller (Ultra Taurus Series) is a high-performance all-in-one LED display controller designed to deliver intelligent playback management, seamless content control, and stable operation for professional LED display systems. Engineered for advanced digital signage and commercial display applications, this powerful controller ensures reliable performance for premium LED video wall display installations.",

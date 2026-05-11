@@ -29,7 +29,7 @@ const stats = [
 
 export default function ClientExperience() {
   return (
-    <div className="w-full bg-black py-14 px-4 md:px-10 relative overflow-hidden">
+    <div className="w-full bg-black figtree py-14 px-4 md:px-10 relative overflow-hidden">
 
       {/* subtle background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div>

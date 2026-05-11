@@ -56,7 +56,7 @@ export default function Sidebar() {
       </div>
 
       {/* Menu */}
-      <div className="flex flex-col gap-2 p-2 mt-2 relative">
+      <div className="flex flex-col figtree gap-2 p-2 mt-2 relative">
         {menuItems.map((item, index) => {
           const Icon = item.icon;
           const isCategory = item.name === "Categories";

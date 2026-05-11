@@ -46,12 +46,12 @@ const features = [
 
 export default function WhyChooseUs() {
     return (
-        <div className="w-full bg-[#ffefe9] py-15 px-4 md:px-15">
+        <div className="w-full bg-[#ffefe9] figtree py-15 px-4 md:px-15">
             <div className="text-center mb-8 max-w-3xl mx-auto">
-                <h2 className="text-3xl md:text-5xl font-bold text-black">
+                <h2 className="text-3xl md:text-5xl font-bold text-black figtree">
                     Why Businesses Choose Newtech
                 </h2>
-                <p className="text-gray-800 mt-4 text-sm md:text-base">
+                <p className="text-gray-800 mt-4 text-sm md:text-base figtree">
                     We deliver reliable, high-performance advertising LED display solutions designed for real-world impact.
                 </p>
             </div>
@@ -71,7 +71,8 @@ export default function WhyChooseUs() {
                        text-white 
                        border border-black/10 
                        shadow-lg hover:shadow-2xl 
-                       transition duration-300"
+                       transition duration-300 figtree"
+                       
                     >
                         {/* Icon */}
                         <div className="mb-4 text-white/80">

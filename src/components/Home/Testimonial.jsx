@@ -77,7 +77,7 @@ export default function ClientSays() {
   const visible = getVisible();
 
   return (
-    <div className="w-full bg-white py-10 px-4 md:px-10">
+    <div className="w-full bg-white figtree py-10 px-4 md:px-10">
 
       {/* Heading */}
       <div className="text-center mb-10">

@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function AboutUs() {
     return (
-        <div className="relative w-full py-12 px-4 lg:px-15 overflow-hidden">
+        <div className="relative figtree w-full py-12 px-4 lg:px-15 overflow-hidden">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/bg-2.jpg')" }}></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/90 to-black/65"></div>
 
             <div className="relative grid lg:grid-cols-2 gap-10 items-center">
                 <motion.div
@@ -18,7 +18,7 @@ export default function AboutUs() {
                     viewport={{ once: false, amount: 0.3 }}
                 >
                     <img
-                        src="/7.jpg"
+                        src="/nvs-about.webp"
                         alt="About Newtech LED"
                         className="rounded-3xl shadow-2xl w-full h-[300px] md:h-[450px] object-cover"
                     />

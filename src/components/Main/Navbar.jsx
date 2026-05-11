@@ -16,7 +16,7 @@ export default function Navbar() {
   if (adminLayout) return null;
 
   return (
-    <div className="w-full bg-black text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
+    <div className="w-full bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
       <div className="h-18 flex items-center justify-between px-2 md:px-6">
 
         {/* Left */}
@@ -27,6 +27,7 @@ export default function Navbar() {
           <span className="text-black bg-white px-2 py-1 text-xs md:text-sm rounded-md font-medium">
             GSTIN: 07AAECN8156D3ZE
           </span>
+          <Link href={"/products"} className="hidden md:flex justify-center items-center bg-[#c2907b] px-2 py-1.5 rounded-md hover:scale-105 duration-150 transition-all font-semibold">Our Products</Link>
         </div>
 
         <div className="hidden lg:flex items-center gap-4">

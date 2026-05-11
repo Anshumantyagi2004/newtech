@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function AboutSolutions() {
   return (
-    <div className="w-full bg-white py-12 px-4 lg:px-15">
+    <div className="w-full bg-white py-12 px-4 figtree lg:px-15">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
         <motion.div
           initial={{ opacity: 0, x: -80 }}

@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #fff;
+}
+body{
+  font-family: 'Figtree', sans-serif;
 }
 
 @theme inline {
@@ -23,6 +27,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Unbounded", Sans-serif;
+  
 }
 
 .swiper-button-next,
@@ -87,4 +92,9 @@ body {
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+
+.figtree {
+  font-family: 'Figtree', sans-serif;
 }

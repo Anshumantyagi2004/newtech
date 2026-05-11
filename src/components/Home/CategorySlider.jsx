@@ -21,7 +21,7 @@ const loopItems = [...categories, ...categories];
 
 export default function CategorySlider() {
   return (
-    <div className="w-full bg-black py-12 px-4 md:px-15 overflow-hidden">
+    <div className="w-full bg-black py-12 px-4 md:px-15 figtree overflow-hidden">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-5xl font-bold text-white">
           Browse LED Display Categories

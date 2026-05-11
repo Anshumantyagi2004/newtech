@@ -62,7 +62,7 @@ const categories = [
 
 export default function Category() {
     return (
-        <div className="w-full bg-white py-10 px-4 md:px-10">
+        <div className="w-full bg-white py-10 px-4 md:px-10 figtree">
             <div className="text-center mb-10">
                 <motion.h2
                     initial={{ opacity: 0, y: -30 }}

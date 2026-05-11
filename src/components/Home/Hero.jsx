@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white figtree">
       {/* Video Wrapper */}
       <div className="relative w-full h-[220px] sm:h-[300px] md:h-[500px] lg:h-[80vh] overflow-hidden">
 

@@ -29,7 +29,7 @@ const loopClients = [...clients, ...clients];
 
 export default function ClientSlider() {
     return (
-        <div className="w-full bg-gray-100 py-10 overflow-hidden">
+        <div className="w-full figtree bg-gray-100 py-10 overflow-hidden">
             <div className="text-center mb-8">
                 <h2 className="text-2xl md:text-4xl font-bold text-black">
                     Trusted by Leading Brands

@@ -7,7 +7,7 @@ import ContactPopup from "./PopupForm";
 export default function CTASection() {
     const [open, setOpen] = useState(false);
     return (
-        <div className="relative w-full py-20 px-4 md:px-10 overflow-hidden">
+        <div className="relative w-full py-20 figtree px-4 md:px-10 overflow-hidden">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/optima-2.jpg')" }} ></div>
             <div className="absolute inset-0 bg-black/70"></div>
 
