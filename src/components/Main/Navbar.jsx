@@ -23,7 +23,7 @@ export default function Navbar() {
     .slice(0, 4);
 
   return (
-    <div className="w-full bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
+    <div className="w-full z-[9999] bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
       <div className="h-18 flex items-center justify-between px-2 md:px-6">
         {/* Left */}
         <div className="flex items-center md:gap-3 gap-1">
@@ -45,16 +45,17 @@ export default function Navbar() {
           </Link>
 
           {/* Dropdown */}
-          <div className="absolute 0 top-full mt-6 left-1/2 -translate-x-1/2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+          <div className="absolute z-[9999] 0 top-full mt-6 left-1/2 -translate-x-1/2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ">
             <div className="w-[800px] bg-pink-100 text-black rounded-3xl shadow-2xl border border-gray-200 p-6 flex gap-8">
               {/* Left Categories */}
               <div className="w-1/3 border-r border-gray-200 pr-4">
                 <h3 className="text-lg font-semibold mb-4">Categories</h3>
 
                 <div className="flex flex-col gap-2">
-                  {categories.map((cat) => (
-                    <button
-                      key={cat.id}
+                  {categories.map((cat,index) => (
+                    <Link
+                    href={`/categories/${cat.id}`}
+                      key={index}
                       onMouseEnter={() => setActiveCategory(cat.id)}
                       className={`text-left px-3 py-2 rounded-lg transition ${
                         activeCategory === cat.id
@@ -63,7 +64,7 @@ export default function Navbar() {
                       }`}
                     >
                       {cat.title}
-                    </button>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -73,9 +74,9 @@ export default function Navbar() {
                 <h3 className="text-lg font-semibold mb-4">Products</h3>
 
                 <div className="grid grid-cols-2 gap-4">
-                  {filteredProducts.map((product) => (
+                  {filteredProducts.map((product,index) => (
                     <Link
-                      key={product.id}
+                      key={index}
                       href={`/products/${product.id}`}
                       className="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-100 transition"
                     >
