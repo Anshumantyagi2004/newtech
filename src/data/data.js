@@ -655,11 +655,11 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Aura video wall displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for advertising, events & branding.",
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
-    img: "/ProductImages/download.png",
+    img: "/ProductImages/Aura.webp",
 
-    images: ["/ProductImages/download.png", "/ProductImages/aura13.png"],
+    images: ["/ProductImages/Aura.webp", "/ProductImages/aura13.png"],
 
-    overview: [
+    overview: [ 
       "Aura LED Display is a premium advertising LED display screen designed to deliver soft, refined brightness with exceptionally smooth image quality for sophisticated indoor environments",
       "Engineered for seamless LED video wall display applications, it provides natural color balance, enhanced clarity, and a visually comfortable viewing experience",
       "Ideal for luxury interiors, hospitality spaces, corporate offices, and high-end environments where aesthetics and visual quality are equally important",
