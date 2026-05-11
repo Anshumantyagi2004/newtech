@@ -27,7 +27,7 @@ export default function Navbar() {
           <span className="text-black bg-white px-2 py-1 text-xs md:text-sm rounded-md font-medium">
             GSTIN: 07AAECN8156D3ZE
           </span>
-          <Link href={"/products"} className="hidden md:flex justify-center items-center bg-[#c2907b] px-2 py-1.5 rounded-md hover:scale-105 duration-150 transition-all font-semibold">Our Products</Link>
+          <Link href={"/categories"} className="hidden md:flex justify-center items-center bg-[#c2907b] px-2 py-1.5 rounded-md hover:scale-105 duration-150 transition-all font-semibold">Our Products</Link>
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
