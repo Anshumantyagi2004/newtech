@@ -20,7 +20,7 @@ export default function Navbar() {
 
   const filteredProducts = products
     .filter((product) => product.catId === activeCategory)
-    .slice(0, 4);
+    .slice(0, 8);
 
   return (
     <div className="w-full z-[9999] bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
@@ -46,7 +46,7 @@ export default function Navbar() {
 
           {/* Dropdown */}
           <div className="absolute z-[9999] 0 top-full mt-6 left-1/2 -translate-x-1/2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ">
-            <div className="w-[800px] bg-pink-100 text-black rounded-3xl shadow-2xl border border-gray-200 p-6 flex gap-8">
+            <div className="w-[800px] bg-pink-100/90 text-black rounded-3xl shadow-2xl border border-gray-200 p-6 flex gap-8">
               {/* Left Categories */}
               <div className="w-1/3 border-r border-gray-200 pr-4">
                 <h3 className="text-lg font-semibold mb-4">Categories</h3>
