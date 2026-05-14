@@ -1,4 +1,3 @@
-import { b } from "framer-motion/client";
 import {
   Shield,
   Users,
@@ -494,6 +493,106 @@ export const products = [
       //   scanRate: "15S",
       // },
     },
+  },
+  {
+    name: "Luxe Lite LED Display Screen",
+    id: "luxe-lite-led-display-screen",
+    applicationIds: [
+      "command-and-control-rooms",
+      "boardroom-and-meeting-room",
+      "corporate",
+      "smart-city",
+      "education",
+    ],
+    metaTitle:
+      "Luxe Lite LED Display Screen | Premium LED Video Wall System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Luxe Lite LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
+    catId: "indoor-advertising-led-displays",
+    catName: "Indoor Advertising LED Displays",
+    img: "/product/elite.webp",
+
+    images: ["/product/elite.webp", "/ProductImages/LUX-PRO-2.png"],
+
+    overview: [
+      "Luxe Lite LED is a high-end advertising LED display screen engineered for premium indoor environments, delivering superior brightness, deep contrast, and ultra-smooth visual performance for impactful communication",
+      "Designed for advanced LED video wall display applications, it ensures seamless visuals with precise color accuracy and consistent image quality across large display surfaces",
+      "Ideal for professional spaces such as corporate boardrooms, broadcast studios, control rooms, luxury retail environments, and high-end digital signage installations",
+      "Built with a refined and elegant cabinet design that enhances interior aesthetics while maintaining structural strength and ease of installation",
+      "Wide viewing angle capability ensures uniform brightness and color consistency, allowing audiences to experience clear and immersive visuals from every position",
+    ],
+
+    features: [
+      "Flip-Chip COB with Common Cathode Technology enhances energy efficiency, reduces heat generation, and improves overall display lifespan while maintaining superior brightness and performance",
+      "Power & Data Redundancy Support ensures uninterrupted operation by providing backup systems that maintain display performance even in case of signal or power failure",
+      "Highly Power-Efficient Design reduces energy consumption significantly without compromising brightness, making it cost-effective for long-term continuous use",
+      "Delivers ultra-smooth playback with high refresh rates, ensuring flicker-free visuals ideal for video content, live feeds, and broadcast applications",
+      "Engineered for high reliability and stability, making it suitable for mission-critical environments where consistent display performance is essential",
+    ],
+
+    whyUs: [
+      "Expertise in delivering premium advertising LED display solutions designed for high-performance and visually demanding applications",
+      "Integration of advanced technologies like Flip-Chip COB and Common Cathode in LED video wall displays for enhanced efficiency and durability",
+      "Proven ability to design and deploy seamless, high-resolution LED wall display systems tailored to complex and large-scale installations",
+      "Strong focus on quality, innovation, and long-term reliability across all LED display solutions",
+      "Complete end-to-end support including consultation, system design, installation, and after-sales service to ensure a smooth and professional experience",
+    ],
+
+    specs: {
+      "P1.25": {
+        ledType: "Fully flip chip COB",
+        pixelPitch: "1.25 mm",
+        moduleResolution: "256 × 128",
+        moduleSize: "320 × 160 × 14.3 mm",
+        moduleWeight: "0.5 kg",
+        brightness: "600 nit",
+        viewingAngle: "160° / 160°",
+        contrastRatio: "10000:1",
+        maxPower: "285 W/m²",
+        avgPower: "150 W/m²",
+        refreshRate: "3840 Hz",
+        grayLevel: "12–14 bit",
+        ledLifetime: "100,000 hrs",
+        workingTemp: "-10°C ~ 45°C",
+        protection: "Front: IP54",
+      },
+
+      "P1.53": {
+        ledType: "Fully flip chip COB",
+        pixelPitch: "1.53 mm",
+        moduleResolution: "208 × 104",
+        moduleSize: "320 × 160 mm",
+        moduleWeight: "0.5 kg",
+        brightness: "600 nit",
+        viewingAngle: "160° / 160°",
+        contrastRatio: "10000:1",
+        maxPower: "285 W/m²",
+        avgPower: "130 W/m²",
+        refreshRate: "3840 Hz",
+        grayLevel: "13 bit",
+        ledLifetime: "100,000 hrs",
+        workingTemp: "-10°C ~ 45°C",
+        protection: "Front: IP54",
+      },
+
+      "P1.86": {
+        ledType: "Fully flip chip COB",
+        pixelPitch: "1.86 mm",
+        moduleResolution: "172 × 86",
+        moduleSize: "320 × 160 × 14.5 mm",
+        moduleWeight: "0.5 kg",
+        brightness: "600 nit",
+        viewingAngle: "160° / 160°",
+        contrastRatio: "10000:1",
+        maxPower: "285 W/m²",
+        avgPower: "125 W/m²",
+        refreshRate: "3840 Hz",
+        grayLevel: "13 bit",
+        ledLifetime: "100,000 hrs",
+        workingTemp: "-20°C ~ 55°C",
+        protection: "Front: IP54",
+      },
+    }
   },
   {
     name: "Vivid LED Display",
@@ -2461,57 +2560,57 @@ export const products = [
       indicators: "Operational status lights",
     },
   },
-  {
-    name: "DSP400 Controller LED Wall Display",
-    id: "dsp400-controller-led-wall-display",
-    metaTitle:
-      "DSP400 LED Wall Controller | LED Video Wall Display Control System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers DSP400 LED wall controllers for seamless video wall management. High-performance control system for indoor & outdoor LED display screens.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/ProductImages/DPS400PRO.png",
+  // {
+  //   name: "DSP400 Controller LED Wall Display",
+  //   id: "dsp400-controller-led-wall-display",
+  //   metaTitle:
+  //     "DSP400 LED Wall Controller | LED Video Wall Display Control System | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers DSP400 LED wall controllers for seamless video wall management. High-performance control system for indoor & outdoor LED display screens.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/ProductImages/DPS400PRO.png",
 
-    images: ["/ProductImages/DPS400PRO.png", "/ProductImages/DSP400PRO.png"],
+  //   images: ["/ProductImages/DPS400PRO.png", "/ProductImages/DSP400PRO.png"],
 
-    overview: [
-      "DSP400 is an advanced all-in-one advertising LED display screen controller that seamlessly integrates video processing and control functions into a single powerful unit",
-      "Designed for high-performance LED video wall display systems, it supports ultra-wide and ultra-high-resolution screens with exceptional clarity and stability",
-      "Capable of driving up to 2.6 million pixels, making it ideal for medium to high-end rental setups, stage productions, and fine-pitch LED displays",
-      "Supports multiple working modes including video controller, fiber converter, and bypass, offering flexibility for different installation requirements",
-      "Engineered for professional environments, delivering low latency, smooth playback, and precise image control for demanding applications",
-    ],
+  //   overview: [
+  //     "DSP400 is an advanced all-in-one advertising LED display screen controller that seamlessly integrates video processing and control functions into a single powerful unit",
+  //     "Designed for high-performance LED video wall display systems, it supports ultra-wide and ultra-high-resolution screens with exceptional clarity and stability",
+  //     "Capable of driving up to 2.6 million pixels, making it ideal for medium to high-end rental setups, stage productions, and fine-pitch LED displays",
+  //     "Supports multiple working modes including video controller, fiber converter, and bypass, offering flexibility for different installation requirements",
+  //     "Engineered for professional environments, delivering low latency, smooth playback, and precise image control for demanding applications",
+  //   ],
 
-    features: [
-      "All-in-One Design combines video processing and control in a single device, reducing system complexity and improving operational efficiency",
-      "High Load Capacity (up to 2.6 million pixels) supports large-scale LED video wall display setups with maximum width up to 10,240 pixels and height up to 8192 pixels",
-      "Multiple Working Modes including controller, fiber conversion, and bypass provide flexibility for various system configurations",
-      "Advanced Image Processing with stepless scaling, low latency, and pixel-level brightness and chroma calibration ensures superior visual quality",
-      "Smart Control Software Compatibility with LCT and V-Can enables easy screen configuration, layer management, preset control, and firmware updates",
-    ],
+  //   features: [
+  //     "All-in-One Design combines video processing and control in a single device, reducing system complexity and improving operational efficiency",
+  //     "High Load Capacity (up to 2.6 million pixels) supports large-scale LED video wall display setups with maximum width up to 10,240 pixels and height up to 8192 pixels",
+  //     "Multiple Working Modes including controller, fiber conversion, and bypass provide flexibility for various system configurations",
+  //     "Advanced Image Processing with stepless scaling, low latency, and pixel-level brightness and chroma calibration ensures superior visual quality",
+  //     "Smart Control Software Compatibility with LCT and V-Can enables easy screen configuration, layer management, preset control, and firmware updates",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering high-end advertising LED display solutions with advanced processing and control systems",
-      "Integration of powerful controllers like DSP400 to optimize LED video wall displays for large-scale and professional applications",
-      "Proven capability in handling complex and high-resolution LED wall display systems with precision and reliability",
-      "Strong focus on performance, scalability, and cutting-edge technology across all display solutions",
-      "End-to-end support including system design, configuration, installation, and technical assistance for seamless operation",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering high-end advertising LED display solutions with advanced processing and control systems",
+  //     "Integration of powerful controllers like DSP400 to optimize LED video wall displays for large-scale and professional applications",
+  //     "Proven capability in handling complex and high-resolution LED wall display systems with precision and reliability",
+  //     "Strong focus on performance, scalability, and cutting-edge technology across all display solutions",
+  //     "End-to-end support including system design, configuration, installation, and technical assistance for seamless operation",
+  //   ],
 
-    specs: {
-      powerConnector: "100~240V~, 1.5A, 50/60Hz",
-      powerConsumption: "28 W",
-      operatingTemperature: "0°C to 45°C",
-      operatingHumidity: "20% RH to 90% RH, non-condensing",
-      storageTemperature: "−20°C to +70°C",
-      storageHumidity: "10% RH to 95% RH, non-condensing",
-      dimensions: "483.6 mm × 301.2 mm × 50.1 mm",
-      weight: "4 kg",
-      noiseLevel: "45 dB (A)",
-      size: "550.0 mm × 175.0 mm × 400.0 mm",
-      weight: "6.8 kg",
-    },
-  },
+  //   specs: {
+  //     powerConnector: "100~240V~, 1.5A, 50/60Hz",
+  //     powerConsumption: "28 W",
+  //     operatingTemperature: "0°C to 45°C",
+  //     operatingHumidity: "20% RH to 90% RH, non-condensing",
+  //     storageTemperature: "−20°C to +70°C",
+  //     storageHumidity: "10% RH to 95% RH, non-condensing",
+  //     dimensions: "483.6 mm × 301.2 mm × 50.1 mm",
+  //     weight: "4 kg",
+  //     noiseLevel: "45 dB (A)",
+  //     size: "550.0 mm × 175.0 mm × 400.0 mm",
+  //     weight: "6.8 kg",
+  //   },
+  // },
   {
     name: "DSP400 Pro LED Display Screen Accessories",
     id: "dsp400-pro-led-display-screen-accessories",
@@ -2564,57 +2663,57 @@ export const products = [
       boxSize: "565 mm × 450 mm × 175 mm",
     },
   },
-  {
-    name: "DSP600 LED Controller and Display Accessories",
-    id: "dsp600-led-controller-and-display-accessories",
-    metaTitle:
-      "DSP600 LED Controller | LED Display Accessories & Video Wall System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers DSP600 LED controllers and display accessories for advanced video wall systems. High-performance control solutions for LED advertising screens.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/ProductImages/DPS600PRO.png",
+  // {
+  //   name: "DSP600 LED Controller and Display Accessories",
+  //   id: "dsp600-led-controller-and-display-accessories",
+  //   metaTitle:
+  //     "DSP600 LED Controller | LED Display Accessories & Video Wall System | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers DSP600 LED controllers and display accessories for advanced video wall systems. High-performance control solutions for LED advertising screens.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/ProductImages/DPS600PRO.png",
 
-    images: ["/ProductImages/DPS600PRO.png", "/ProductImages/DSP600PRO.png"],
+  //   images: ["/ProductImages/DPS600PRO.png", "/ProductImages/DSP600PRO.png"],
 
-    overview: [
-      "DSP600 Pro is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
-      "Designed for large-scale LED video wall display systems, it supports ultra-wide and ultra-high-resolution outputs with superior clarity and stability",
-      "Capable of managing up to 3.9 million pixels, making it ideal for complex rental setups, stage productions, and fine-pitch LED installations",
-      "Equipped with 6 Ethernet ports to handle higher data loads and larger display configurations efficiently",
-      "Built with an industrial-grade design to ensure reliable and stable performance in demanding and mission-critical environments",
-    ],
+  //   overview: [
+  //     "DSP600 Pro is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
+  //     "Designed for large-scale LED video wall display systems, it supports ultra-wide and ultra-high-resolution outputs with superior clarity and stability",
+  //     "Capable of managing up to 3.9 million pixels, making it ideal for complex rental setups, stage productions, and fine-pitch LED installations",
+  //     "Equipped with 6 Ethernet ports to handle higher data loads and larger display configurations efficiently",
+  //     "Built with an industrial-grade design to ensure reliable and stable performance in demanding and mission-critical environments",
+  //   ],
 
-    features: [
-      "High Load Capacity (up to 3.9 million pixels) enables seamless control of large and complex LED video wall display systems",
-      "4K@60Hz Video Input Support ensures high-resolution signal processing with smooth and detailed visual output",
-      "All-in-One Processing & Control simplifies system architecture while improving performance and operational efficiency",
-      "Multi-Layer Display (up to 6 layers) allows advanced content management and creative display configurations",
-      "Advanced Image Optimization including output scaling, low latency, and pixel-level brightness and chroma calibration for superior image quality",
-    ],
+  //   features: [
+  //     "High Load Capacity (up to 3.9 million pixels) enables seamless control of large and complex LED video wall display systems",
+  //     "4K@60Hz Video Input Support ensures high-resolution signal processing with smooth and detailed visual output",
+  //     "All-in-One Processing & Control simplifies system architecture while improving performance and operational efficiency",
+  //     "Multi-Layer Display (up to 6 layers) allows advanced content management and creative display configurations",
+  //     "Advanced Image Optimization including output scaling, low latency, and pixel-level brightness and chroma calibration for superior image quality",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering high-performance advertising LED display solutions with advanced controllers and processors",
-      "Integration of powerful systems like DSP600 Pro to optimize large-scale LED video wall displays",
-      "Proven capability in managing complex and high-resolution LED wall display systems with precision and reliability",
-      "Strong focus on innovation, scalability, and durability across all display and control technologies",
-      "End-to-end support including consultation, configuration, installation, and technical assistance for seamless project execution",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering high-performance advertising LED display solutions with advanced controllers and processors",
+  //     "Integration of powerful systems like DSP600 Pro to optimize large-scale LED video wall displays",
+  //     "Proven capability in managing complex and high-resolution LED wall display systems with precision and reliability",
+  //     "Strong focus on innovation, scalability, and durability across all display and control technologies",
+  //     "End-to-end support including consultation, configuration, installation, and technical assistance for seamless project execution",
+  //   ],
 
-    specs: {
-      powerConnector: "100~240V~, 1.5A, 50/60Hz",
-      powerConsumption: "28 W",
-      operatingTemperature: "−10°C to 45°C",
-      operatingHumidity: "20% RH to 90% RH, non-condensing",
-      storageTemperature: "−20°C to +70°C",
-      storageHumidity: "10% RH to 95% RH, non-condensing",
-      dimensions: "483.6 mm × 351.2 mm × 50.1 mm",
-      weight: "4 kg",
-      noiseLevel: "45 dB (A)",
-      size: "521.0 mm × 102.0 mm × 517.0 mm",
-      weight: "10.4 kg",
-    },
-  },
+  //   specs: {
+  //     powerConnector: "100~240V~, 1.5A, 50/60Hz",
+  //     powerConsumption: "28 W",
+  //     operatingTemperature: "−10°C to 45°C",
+  //     operatingHumidity: "20% RH to 90% RH, non-condensing",
+  //     storageTemperature: "−20°C to +70°C",
+  //     storageHumidity: "10% RH to 95% RH, non-condensing",
+  //     dimensions: "483.6 mm × 351.2 mm × 50.1 mm",
+  //     weight: "4 kg",
+  //     noiseLevel: "45 dB (A)",
+  //     size: "521.0 mm × 102.0 mm × 517.0 mm",
+  //     weight: "10.4 kg",
+  //   },
+  // },
   {
     name: "DSP600 Pro LED Display Accessories",
     id: "dsp600-pro-led-display-accessories",
@@ -4607,4 +4706,56 @@ export const serviceLocations = [
     id: 109,
   },
   { href: "/advertising-led-display-in-haryana", label: "Haryana", id: 110 },
+];
+
+
+export const solutions = [
+  {
+    title: "Smart City Displays",
+    description:
+      "Digital display solutions for smart city communication, public information systems, and citizen engagement.",
+    image: "/Government/led3.webp",
+  },
+  {
+    title: "Control Room Displays",
+    description:
+      "Advanced monitoring displays for surveillance, operations management, and centralized control rooms.",
+    image: "/Government/led5.webp",
+  },
+  {
+    title: "Stadium Screens",
+    description:
+      "High-brightness LED screens for stadiums, sports arenas, and large public event broadcasting.",
+     image: "/Government/led7.jpeg",
+  },
+  {
+    title: "Traffic Management",
+    description:
+      "Intelligent LED systems for traffic monitoring, variable message displays, and road safety communication.",
+   image: "/Government/led2.webp",
+  },
+  {
+    title: "Command Centers",
+    description:
+      "Reliable video wall solutions for command centers requiring real-time monitoring and data visualization.",
+   image: "/Government/led2.webp",
+  },
+  {
+    title: "Auditoriums",
+    description:
+      "Professional LED display systems for conferences, presentations, and government event venues.",
+  image: "/Government/led6.webp",
+  },
+  {
+    title: "Universities",
+    description:
+      "Interactive LED display solutions for smart classrooms, seminar halls, and campus communication.",
+   image: "/Government/led1.webp",
+  },
+  {
+    title: "Defence Applications",
+    description:
+      "Secure and durable display systems for defence surveillance, monitoring, and mission-critical operations.",
+    image: "/Government/led5.webp",
+  },
 ];

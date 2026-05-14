@@ -57,7 +57,7 @@ export default function AboutUs() {
                         className="mt-6"
                     >
                         <Link href={'/about-us'} className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
-                            Learn More →
+                           Download Company Profile →
                         </Link>
                     </motion.button>
                 </motion.div>

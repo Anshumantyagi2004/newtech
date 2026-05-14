@@ -171,20 +171,22 @@ export default function ProductPage() {
                         key={activeTab}
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="grid"
+                        className="grid border border-gray-300"
                     >
-                        {Object.entries(spec).map(([key, value]) => (
-                            <div key={key}
-                                className="flex items-start gap-2 px-2 rounded-xl"
-                            >
-                                <p className="text-lg text-gray-800 flex items-start justify-start font-semibold text-nowrap">
-                                    • {formatLabel(key)}:
-                                </p>
-                                <p className="text-lg text-gray-800 font-semibold">
-                                    {value}
-                                </p>
-                            </div>
-                        ))}
+                        <table className="w-full border-collapse border border-gray-300">
+                            <tbody>
+                                {Object.entries(spec).map(([key, value]) => (
+                                    <tr key={key} className="border-b border-gray-300">
+                                        <td className="px-3 py-2 text-sm text-gray-800 font-semibold whitespace-nowrap border-r border-gray-300 align-top">
+                                            • {formatLabel(key)}:
+                                        </td>
+                                        <td className="px-3 py-2 text-sm text-gray-800 font-semibold">
+                                            {value}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </motion.div>
 
                     {isNestedSpecs && (

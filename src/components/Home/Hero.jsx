@@ -23,8 +23,8 @@ export default function Hero() {
 
         {/* Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
-          <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-6xl leading-tight drop-shadow-lg">
-            Lights Up Your Brand with High-Impact LED Video Walls!
+          <h1 className="text-white font-bold text-2xl md:text-5xl leading-tight drop-shadow-lg">
+            India’s Trusted OEM Manufacturer for Professional LED Display Solutions
           </h1>
 
           <a href="tel:+919810103197" target="blank" className="relativ mt-5 z-20 cursor-pointer bg-white border border-white text-black font-bold md:py-3 md:px-6 px-2 py-2 rounded-lg hover:bg-black hover:text-white transition duration-300">

@@ -52,7 +52,8 @@ export default function CtaForm() {
             <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-8">
                 <div className="text-center mb-8">
                     <h2 className="text-2xl md:text-3xl font-bold text-black">
-                        Search 30+ LED Display Solutions
+                        {/* Search 30+ LED Display Solutions */}
+                        Specialized in Government, Stadium, Smart City & Control Room LED Projects
                     </h2>
                     <p className="text-gray-600 mt-2 text-sm md:text-base">
                         Find the perfect advertising LED display screen for your needs.

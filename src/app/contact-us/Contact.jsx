@@ -67,7 +67,7 @@ export default function ContactUs() {
                     {
                         icon: Phone,
                         title: "Call Us",
-                        content: ["+91 9810103697", "+91 9810103197"]
+                        content: ["+91 9810103697", "+91 9810103197" ,"Toll Free no. 1800-202-1270"]
                     },
                     {
                         icon: MapPin,

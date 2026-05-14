@@ -5,6 +5,7 @@ import Navbar from "@/components/Main/Navbar";
 import Footer from "@/components/Main/Footer";
 import MobileTabbar from "@/components/Main/BottomBar";
 import { Toaster } from "react-hot-toast";
+import StickyButton from "@/components/Main/StickyButtons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
 
           <main className="flex-1 w-full min-w-0">
             {children}
+            <StickyButton />
           </main>
 
           <Toaster position="top-center" />

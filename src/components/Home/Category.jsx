@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { categories } from "@/data/data";
 
 const containerVariants = {
     hidden: {},
@@ -21,44 +22,44 @@ const cardVariants = {
     }
 };
 
-const categories = [
-    {
-        title: "Outdoor Advertising LED Display",
-        desc: "High-brightness outdoor LED display screens built for maximum visibility in sunlight and harsh weather. Ideal for billboards and outdoor advertising.",
-        img: "/optima-2.jpg",
-        id: "/categories/outdoor-advertising-led-displays"
-    },
-    {
-        title: "Advertising LED Display Screen",
-        desc: "High-resolution advertising LED display screens designed for retail stores, showrooms, and corporate spaces.",
-        img: "/aura-1.jpg",
-        id: "/categories/advertising-led-display"
-    },
-    {
-        title: "LED Video Wall Display",
-        desc: "Seamless LED video wall display solutions for events, malls, and large commercial installations.",
-        img: "/rental-cabinet-1.jpg",
-        id: "/categories/led-video-wall-display"
-    },
-    {
-        title: "Indoor Advertising LED Displays",
-        desc: "Durable and energy-efficient LED display boards for advertising, announcements, and branding.",
-        img: "/edu.jpg",
-        id: "/categories/indoor-advertising-led-displays"
-    },
-    {
-        title: "Industrial Video Screens",
-        desc: "Heavy-duty industrial video screens built for control rooms, factories, and 24/7 operations.",
-        img: "/luxe-2-banner.jpg",
-        id: "/categories/rental-led"
-    },
-    {
-        title: "Flexible LED Wall Display Systems",
-        desc: "Flexible LED wall display setups for immersive visual experiences in indoor and outdoor environments.",
-        img: "/circular-led-screen-2.webp",
-        id: "/categories/accessories-and-controllers"
-    },
-];
+// const categories = [
+//     {
+//         title: "Outdoor Advertising LED Display",
+//         desc: "High-brightness outdoor LED display screens built for maximum visibility in sunlight and harsh weather. Ideal for billboards and outdoor advertising.",
+//         img: "/optima-2.jpg",
+//         id: "/categories/outdoor-advertising-led-displays"
+//     },
+//     {
+//         title: "Advertising LED Display Screen",
+//         desc: "High-resolution advertising LED display screens designed for retail stores, showrooms, and corporate spaces.",
+//         img: "/aura-1.jpg",
+//         id: "/categories/advertising-led-display"
+//     },
+//     {
+//         title: "LED Video Wall Display",
+//         desc: "Seamless LED video wall display solutions for events, malls, and large commercial installations.",
+//         img: "/rental-cabinet-1.jpg",
+//         id: "/categories/led-video-wall-display"
+//     },
+//     {
+//         title: "Indoor Advertising LED Displays",
+//         desc: "Durable and energy-efficient LED display boards for advertising, announcements, and branding.",
+//         img: "/edu.jpg",
+//         id: "/categories/indoor-advertising-led-displays"
+//     },
+//     {
+//         title: "Industrial Video Screens",
+//         desc: "Heavy-duty industrial video screens built for control rooms, factories, and 24/7 operations.",
+//         img: "/luxe-2-banner.jpg",
+//         id: "/categories/rental-led"
+//     },
+//     {
+//         title: "Flexible LED Wall Display Systems",
+//         desc: "Flexible LED wall display setups for immersive visual experiences in indoor and outdoor environments.",
+//         img: "/circular-led-screen-2.webp",
+//         id: "/categories/accessories-and-controllers"
+//     },
+// ];
 
 export default function Category() {
     return (
@@ -83,7 +84,7 @@ export default function Category() {
                 viewport={{ once: false, amount: 0.2 }}
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto"
             >
-                {categories.map((item, index) => (
+                {categories.slice(0, 6).map((item, index) => (
                     <motion.div
                         key={index}
                         variants={cardVariants}
@@ -116,7 +117,7 @@ export default function Category() {
             md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto 
             transition-all duration-500 ease-out"
                             >
-                                <Link href={`${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
+                                <Link href={`/categories/${item?.id}`} className="text-sm font-medium border border-white px-4 py-2 rounded-full backdrop-blur-md bg-white/10 hover:bg-white hover:text-black transition">
                                     View Displays →
                                 </Link>
                             </div>

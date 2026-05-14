@@ -11,7 +11,8 @@ import {
   LayoutGrid,
   Menu,
   Briefcase,
-  Proportions
+  Proportions,
+  MonitorCloud
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,6 +24,7 @@ const menuItems = [
   { name: "Categories", icon: LayoutGrid, link: "/categories" },
   { name: "Products", icon: ShoppingCart, link: "/products" },
   { name: "Projects", icon: Proportions, link: "/projects" },
+  { name: "Government Solutions", icon: MonitorCloud, link: "/government-solutions" },
   { name: "About Us", icon: User, link: "/about-us" },
   { name: "Contact", icon: Phone, link: "/contact-us" },
   { name: "Articles", icon: FileText, link: "/our-articles" },

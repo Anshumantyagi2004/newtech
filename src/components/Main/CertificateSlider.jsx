@@ -70,8 +70,8 @@ export default function CertificateSlider() {
     const visibleItems = getVisibleItems();
 
     return (
-        <div className="w-full bg-white py-16 figtree px-4 md:px-10 overflow-hidden">
-            <div className="text-center mb-12">
+        <div className="w-full bg-white pt-10 pb-12 figtree px-4 md:px-10 overflow-hidden">
+            <div className="text-center mb-20">
                 <h2 className="text-3xl md:text-5xl font-bold text-black">
                     Our Certifications
                 </h2>

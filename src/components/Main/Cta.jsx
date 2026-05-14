@@ -41,14 +41,14 @@ export default function CTASection() {
                 >
 
                     <button onClick={() => setOpen(true)} className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition">
-                        Request a Quote →
+                      Request Technical Consultation
                     </button>
 
                     <a
                         href="tel:+919212622646" // 👉 replace number
                         className="px-6 py-3 rounded-full border border-white text-white font-medium hover:bg-white hover:text-black transition"
                     >
-                        Talk to an Expert →
+                        Contact Sales Team →
                     </a>
                 </motion.div>
             </div>

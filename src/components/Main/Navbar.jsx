@@ -6,7 +6,9 @@ import ContactPopup from "./PopupForm";
 import SearchBar from "./SearchBar";
 import { usePathname } from "next/navigation";
 import { FaWhatsapp } from "react-icons/fa";
-import { categories, products } from "@/data/data.js";
+import { categories, products, solutions } from "@/data/data.js";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -23,7 +25,7 @@ export default function Navbar() {
     .slice(0, 8);
 
   return (
-    <div className="w-full z-[9999] bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-40">
+    <div className="w-full bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-48">
       <div className="h-18 flex items-center justify-between px-2 md:px-6">
         {/* Left */}
         <div className="flex items-center md:gap-3 gap-1">
@@ -35,74 +37,77 @@ export default function Navbar() {
           </span>
         </div>
 
-        <div className="relative group hidden md:flex justify-center items-center">
-          {/* Button */}
-          <Link
-            href={"/categories"}
-            className="flex justify-center items-center bg-[#c2907b] px-4 py-2 rounded-xl hover:scale-105 duration-150 transition-all font-light"
-          >
-            Our Products
-          </Link>
 
-          {/* Dropdown */}
-          <div className="absolute z-[9999] 0 top-full mt-6 left-1/2 -translate-x-1/2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ">
-            <div className="w-[800px] bg-pink-100/90 text-black rounded-3xl shadow-2xl border border-gray-200 p-6 flex gap-8">
-              {/* Left Categories */}
-              <div className="w-1/3 border-r border-gray-200 pr-4">
-                <h3 className="text-lg font-semibold mb-4">Categories</h3>
+        <div className="hidden lg:flex items-center gap-4">
+          <div className="relative group hidden md:flex items-center">
 
-                <div className="flex flex-col gap-2">
-                  {categories.map((cat,index) => (
-                    <Link
-                    href={`/categories/${cat.id}`}
+            {/* Button */}
+            <Link
+              href="/government-solutions"
+              className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200 transition"
+            >
+              Government Solutions
+            </Link>
+
+            {/* Mega Menu */}
+            <div
+              className="absolute top-full left-1/2 -translate-x-1/2 pt-4
+               opacity-0 invisible
+               group-hover:opacity-100 group-hover:visible
+               transition-all duration-300 z-[9999]"
+            >
+
+              <div className="w-[900px] rounded-3xl border border-gray-200 bg-white shadow-2xl p-2">
+                <div className="grid  grid-cols-4 gap-3">
+                  {solutions.map((item, index) => (
+                    <motion.div
                       key={index}
-                      onMouseEnter={() => setActiveCategory(cat.id)}
-                      className={`text-left px-3 py-2 rounded-lg transition ${
-                        activeCategory === cat.id
-                          ? "bg-[#c2907b] text-white"
-                          : "hover:bg-gray-100"
-                      }`}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: index * 0.05 }}
+                      whileHover={{ y: -5 }}
+                      className="group/card overflow-hidden rounded-2xl
+                       border border-gray-200 bg-white
+                       hover:shadow-xl transition-all duration-300"
                     >
-                      {cat.title}
-                    </Link>
-                  ))}
-                </div>
-              </div>
 
-              {/* Right Products */}
-              <div className="w-2/3">
-                <h3 className="text-lg font-semibold mb-4">Products</h3>
+                      {/* Image */}
+                      <div className="relative h-36 overflow-hidden">
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          fill
+                          className="object-cover group-hover/card:scale-110 transition duration-500"
+                        />
 
-                <div className="grid grid-cols-2 gap-4">
-                  {filteredProducts.map((product,index) => (
-                    <Link
-                      key={index}
-                      href={`/products/${product.id}`}
-                      className="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-100 transition"
-                    >
-                      <img
-                        src={product.img}
-                        alt={product.name}
-                        className="w-16 h-16 rounded-lg object-cover border"
-                      />
-
-                      <div>
-                        <p className="text-sm font-medium line-clamp-2">
-                          {product.name}
-                        </p>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                       </div>
-                    </Link>
+
+                      {/* Content */}
+                      <div className="px-3 py-2">
+                        <h3 className="text-base font-bold text-gray-900 line-clamp-1">
+                          {item.title}
+                        </h3>
+
+                        {/* <p className="text-xs text-gray-600 leading-relaxed line-clamp-3">
+                          {item.description}
+                        </p> */}
+
+                        <div className="mt-2 w-10 h-[2px] bg-red-500 group-hover/card:w-20 transition-all duration-300"></div>
+
+                      </div>
+
+                    </motion.div>
                   ))}
+
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="hidden lg:flex items-center gap-4">
           <SearchBar />
 
-          <a
+          {/* <a
             href="https://wa.me/+919810103697"
             className="bg-white text-green-600 px-2 py-1.5 rounded-lg hover:bg-green-100"
           >
@@ -114,13 +119,12 @@ export default function Navbar() {
             className="bg-white text-red-600 px-2.5 py-2.5 rounded-lg hover:bg-red-100"
           >
             <PhoneCall size={22} />
-          </a>
+          </a> */}
 
-          <button
-            onClick={() => setOpen(true)}
+          <button onClick={() => setOpen(true)}
             className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200"
           >
-            Get a Free Quota Now
+            Enquiry Now
           </button>
         </div>
 
