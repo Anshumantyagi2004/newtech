@@ -1,3 +1,4 @@
+import { b } from "framer-motion/client";
 import {
   Shield,
   Users,
@@ -164,7 +165,7 @@ export const applications = [
     hover: "hover:bg-amber-600",
   },
   {
-    
+
     id: "rental",
     title: "Rental",
     bgImage: "/bg-2.jpg",
@@ -184,15 +185,15 @@ export const applications = [
 
 export const categories = [
   {
-      title: "Rental Led",
-      img: "/vivid-2.jpg",
-      bgImage: "/rental-cabinet-1.jpg",
-      id: "rental-led",
-      metaTitle:
-        "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
-      metaDescription:
-        "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
-    },
+    title: "Indoor Advertising LED Displays",
+    img: "/optima-2.jpg",
+    bgImage: "/luxe-2-banner.jpg",
+    id: "indoor-advertising-led-displays",
+    metaTitle:
+      "Indoor Advertising LED Display Screens | Commercial LED Video Wall | Newtech Video Systems",
+    metaDescription:
+      "Explore indoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for retail, malls & corporate spaces. High-resolution commercial LED video wall solutions.",
+  },
   {
     title: "Outdoor Advertising LED Displays",
     img: "/ProductImages/optima-1.jpg",
@@ -204,39 +205,47 @@ export const categories = [
       "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage.",
   },
   {
-    title: "Indoor Advertising LED Displays",
-    img: "/optima-2.jpg",
-    bgImage: "/luxe-2-banner.jpg",
-    id: "indoor-advertising-led-displays",
+    title: "Rental Led",
+    img: "/vivid-2.jpg",
+    bgImage: "/rental-cabinet-1.jpg",
+    id: "rental-led",
     metaTitle:
-      "Indoor Advertising LED Display Screens | Commercial LED Video Wall | Newtech Video Systems",
+      "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
     metaDescription:
-      "Explore indoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for retail, malls & corporate spaces. High-resolution commercial LED video wall solutions.",
-  },
-
-
-  {
-    title: "Advertising LED Display",
-    img: "/optima-2 (1).jpg",
-    bgImage: "/control.jpg",
-    id: "advertising-led-display",
-    metaTitle:
-      "Advertising LED Display Screens | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
-    metaDescription:
-      "Explore advertising LED display screens from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising.",
+      "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
   },
   {
-    title: "LED Video Wall Display",
-    img: "/luxe-2-banner.jpg",
+    title: "Sports Perimeter Boards",
+    img: "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
     bgImage: "/control.jpg",
-    id: "led-video-wall-display",
+    id: "sports-perimeter-boards",
     metaTitle:
-      "LED Video Wall Display Manufacturer | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+      "Sports Perimeter Boards | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+    metaDescription:
+      "Explore Sports Perimeter Boards from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising.",
+  },
+  {
+    title: "Transparent LED",
+    img: "/ProductImages/Picture1.png",
+    bgImage: "/control.jpg",
+    id: "transparent-led",
+    metaTitle:
+      "Transparent LED | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
     metaDescription:
       "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding.",
   },
   {
-    title: "Accessories & Controllers",
+    title: "COB/GOB Solutions",
+    img: "/luxe-page-main.jpg",
+    bgImage: "/control.jpg",
+    id: "cob-gob-solutions",
+    metaTitle:
+      "COB/GOB Solutions | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+    metaDescription:
+      "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding.",
+  },
+  {
+    title: "Control Systems / Processors",
     img: "/H20.webp",
     bgImage: "/ProductImages/tb60-2.png",
     id: "accessories-and-controllers",
@@ -245,78 +254,10 @@ export const categories = [
     metaDescription:
       "Explore LED display accessories and controllers from Newtech Video Systems Pvt. Ltd. for advertising LED displays, outdoor screens, commercial LED video walls & industrial LED systems.",
   },
-  // {
-  //     title: "LED Display Boards",
-  //     img: "/led-video-wall-display-screen-1000x1000.webp",
-  //     id: "led-display-boards",
-  //     bgImage: "/control.jpg",
-  //     metaTitle: "LED Display Boards Manufacturer | Advertising & Outdoor LED Screens | Newtech Video Systems",
-  //     metaDescription: "Explore LED display boards from Newtech Video Systems Pvt. Ltd. for advertising, branding & information display. High-quality indoor & outdoor LED display board solutions."
-  // },
 ];
 
 export const products = [
   //Indoor Advertising LED Displays
-  {
-    name: "Optima Active LED",
-    id: "optima-active-led",
-    applicationIds: [
-      "education",
-      "banking-and-finance",
-      "retail-outlets",
-      "dooh",
-      "transportation",
-      "smart-city",
-      "real-estate",
-      "building-facade",
-      "stadiums",
-    ],
-    metaTitle:
-      "Optima Active LED Display | High-Performance LED Video Wall System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers Optima Active LED displays for high-performance indoor & outdoor applications. Advanced LED video wall solution for advertising, events & branding.",
-    catId: "indoor-advertising-led-displays",
-    catName: "Indoor Advertising LED Displays",
-    img: "/optima-2.jpg",
-
-    images: ["/optima-2.jpg"],
-
-    overview: [
-      "Optima Active LED is a high-performance advertising LED display screen designed to deliver balanced, high-clarity visuals with consistent brightness and refined color accuracy for professional indoor and semi-outdoor environments",
-      "Engineered for reliable LED video wall display applications, it ensures smooth image rendering and stable performance for continuous usage",
-      "Ideal for corporate environments, retail stores, showrooms, and digital signage applications where clarity and reliability are essential",
-      "Built with a clean and modern cabinet design that integrates easily into different commercial spaces while maintaining durability",
-      "Offers a perfect combination of performance, efficiency, and versatility, making it suitable for a wide range of display applications",
-    ],
-
-    features: [
-      "Lightweight Die-Cast Cabinet ensures strong structural integrity while enabling easy handling, faster installation, and efficient heat dissipation",
-      "IP65 Front & IP54 Back Protection provides enhanced resistance against dust and moisture, making it suitable for demanding indoor and semi-outdoor conditions",
-      "High Brightness up to 5500 nits ensures excellent visibility even in high ambient light environments such as storefronts and public spaces",
-      "Delivers smooth image rendering with consistent brightness and accurate color output for professional-quality visuals",
-      "Energy-efficient design reduces power consumption while maintaining high performance for long operating hours",
-    ],
-
-    whyUs: [
-      "Expertise in delivering reliable and high-quality advertising LED display solutions for diverse commercial applications",
-      "Advanced technology integration in LED video wall displays to ensure consistent performance and long-term durability",
-      "Proven capability in designing versatile LED wall display systems suitable for both indoor and semi-outdoor environments",
-      "Strong focus on quality, efficiency, and precision engineering across all LED display solutions",
-      "End-to-end support including consultation, installation, and after-sales service for seamless project execution",
-    ],
-
-    specs: {
-      pixelPitchOptions: "2.5 mm, 3.076 m, 4 mm, 5 mm, 5.926 mm, 8 mm",
-      cabinetSize: "960 × 960 mm",
-      cabinetMaterial: "Die-cast Aluminium",
-      brightness: "2.5–5.926 mm: 5000 nits",
-      contrastRatio: "3000:01:00",
-      maxPowerConsumption: "488 W/m²",
-      avgPowerConsumption: "200 W/m²",
-      refreshRate: "3840 Hz",
-      protection: "IP65 (Front) / IP54 (Rear)",
-    },
-  },
   {
     name: "Luxe LED Display",
     id: "luxe-led-display",
@@ -417,17 +358,17 @@ export const products = [
         maxPower: "25 W/panel, 125 W/m²",
       },
 
-      "P1.8": {
-        pixelPitch: "1.8 mm",
-        resolutionPerPanel: "320 × 180",
-        pixelDensity: "284,444 pixels/m²",
-        panelSize: "600 × 675 × 39.75 mm",
-        panelMaterial: "Die-casting Aluminum",
-        panelWeight: "7.9 kg",
-        drivingType: "1/54",
-        maxPower: "130 W/panel, 320 W/m²",
-        avgPower: "48 W/panel, 120 W/m²",
-      },
+      // "P1.8": {
+      //   pixelPitch: "1.8 mm",
+      //   resolutionPerPanel: "320 × 180",
+      //   pixelDensity: "284,444 pixels/m²",
+      //   panelSize: "600 × 675 × 39.75 mm",
+      //   panelMaterial: "Die-casting Aluminum",
+      //   panelWeight: "7.9 kg",
+      //   drivingType: "1/54",
+      //   maxPower: "130 W/panel, 320 W/m²",
+      //   avgPower: "48 W/panel, 120 W/m²",
+      // },
     },
   },
   {
@@ -537,21 +478,21 @@ export const products = [
         scanRate: "27S",
       },
 
-      "i1.2Pro": {
-        ledType: "Flip-Chip COB",
-        pixelPitch: "1.25 mm",
-        panelSize: "600 × 337.5 × 35 mm",
-        resolution: "480 × 270",
-        fhdLayout: "4 × 4",
-        uhd4kLayout: "8 × 8",
-        panelWeight: "4.8 kg",
-        moduleSize: "150 × 168.75 mm",
-        moduleResolution: "120 × 135",
-        refreshRate: "7680 Hz",
-        maxPower: "160 W/m²",
-        avgPower: "50 W/m²",
-        scanRate: "15S",
-      },
+      // "i1.2Pro": {
+      //   ledType: "Flip-Chip COB",
+      //   pixelPitch: "1.25 mm",
+      //   panelSize: "600 × 337.5 × 35 mm",
+      //   resolution: "480 × 270",
+      //   fhdLayout: "4 × 4",
+      //   uhd4kLayout: "8 × 8",
+      //   panelWeight: "4.8 kg",
+      //   moduleSize: "150 × 168.75 mm",
+      //   moduleResolution: "120 × 135",
+      //   refreshRate: "7680 Hz",
+      //   maxPower: "160 W/m²",
+      //   avgPower: "50 W/m²",
+      //   scanRate: "15S",
+      // },
     },
   },
   {
@@ -623,17 +564,17 @@ export const products = [
         displayType: "2K Micro LED Direct View",
       },
 
-      "162inch": {
+      "165inch": {
         size: "3610 × 2175 × 35 mm",
         resolution: "3840 × 2160",
         displayType: "4K Micro LED Direct View",
       },
 
-      "216inch": {
-        size: "4810 × 2850 × 35 mm",
-        resolution: "3840 × 2160",
-        displayType: "4K Micro LED Direct View",
-      },
+      // "216inch": {
+      //   size: "4810 × 2850 × 35 mm",
+      //   resolution: "3840 × 2160",
+      //   displayType: "4K Micro LED Direct View",
+      // },
     },
   },
   {
@@ -660,7 +601,7 @@ export const products = [
 
     images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
 
-    overview: [ 
+    overview: [
       "Aura LED Display is a premium advertising LED display screen designed to deliver soft, refined brightness with exceptionally smooth image quality for sophisticated indoor environments",
       "Engineered for seamless LED video wall display applications, it provides natural color balance, enhanced clarity, and a visually comfortable viewing experience",
       "Ideal for luxury interiors, hospitality spaces, corporate offices, and high-end environments where aesthetics and visual quality are equally important",
@@ -685,6 +626,18 @@ export const products = [
     ],
 
     specs: {
+      Common: {
+        pixelPitch: "1.2, 1.5, 1.8, 2.0, 3.076, 4.0",
+        power: "200 to 488 W/m²",
+        brightness: "500 nits",
+        operatingTemperature: "-20°C to +70°C",
+        panelMaterial: "Die-cast Aluminum",
+        lifetime: "100,000 hours",
+        installation: "Fixed Installation",
+        maintenance: "Front Maintenance",
+        refreshRate: "≥ 3840 Hz",
+      },
+
       "P2.42": {
         ledConfiguration: "SMD2020 Copper Bracket",
         lampBrand: "GKGD / Kinglight",
@@ -740,13 +693,6 @@ export const products = [
         scan: "1/54 Scan",
         brightnessGKGD: "≈ 600 cd/m²",
         brightnessKinglight: "≈ 650 cd/m²",
-      },
-
-      common: {
-        operatingTemperature: "-20°C to +70°C",
-        lifetime: "100,000 hours",
-        installation: "Fixed Installation",
-        maintenance: "Front Maintenance",
       },
     },
   },
@@ -807,164 +753,6 @@ export const products = [
       maintenance: "Rear Maintenance",
     },
   },
-  {
-  name: "P3.5 Indoor LED Display Screen (Prime Plus Series)",
-  id: "p3-5-indoor-led-display-screen-prime-plus-series",
-  metaTitle:
-    "P3.5 Indoor LED Display Screen (Prime Plus Series) | Premium Indoor Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3.5 Indoor LED Display Screens for retail stores, offices, malls, conference rooms & digital signage. High-clarity advertising LED display solutions with seamless visuals and vibrant color performance.",
-   catId: "indoor-advertising-led-displays",
-    catName: "Indoor Advertising LED Displays",
-  img: "/product/prime.webp",
-
-  images: ["/product/prime.webp"],
-
-  overview: [
-    "Indoor LED Display Screen (Prime Plus Series – P3.5) is a premium-quality indoor LED display screen designed to deliver vibrant visuals, sharp clarity, and seamless performance for professional indoor environments",
-    "This advanced advertising LED display screen ensures smooth image rendering and impactful digital communication for modern businesses",
-    "Ideal for retail stores, corporate offices, shopping malls, conference rooms, exhibition halls, hospitality spaces, and digital signage applications",
-    "With advanced LED technology and optimized pixel pitch performance, this LED display screen for advertising delivers balanced brightness, rich color reproduction, and stable playback",
-    "The modular cabinet structure and seamless panel integration allow flexible LED wall display installations in multiple screen sizes and configurations while maintaining a sleek and modern appearance",
-    "Built for continuous indoor operation, this indoor LED display screen combines energy efficiency, durability, and professional-grade performance to enhance branding, presentations, and audience engagement",
-  ],
-
-  features: [
-    "P3.5 Pixel Pitch Technology delivers sharp visuals and excellent clarity, making this indoor LED display screen suitable for medium-distance indoor viewing applications",
-    "Seamless Modular Cabinet Design enables scalable LED video wall display installations with smooth panel alignment and uninterrupted visual quality",
-    "Optimized Indoor Brightness & Color Accuracy ensure the advertising LED display screen provides comfortable viewing with vibrant and realistic image performance",
-    "High Refresh Rate & Smooth Playback support flicker-free visuals, making this LED display screen for advertising ideal for videos, presentations, and digital branding",
-    "Lightweight Structure with Easy Maintenance Access allows convenient installation, servicing, and reliable long-term operation of the LED wall display system",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced indoor LED display screen solutions for commercial, corporate, and retail environments",
-    "Our premium advertising LED display screen systems are engineered for superior image quality, durability, and long-term performance",
-    "We provide customized LED video wall display solutions tailored to your installation space, business objectives, and audience engagement requirements",
-    "With strong expertise in professional LED display board installations, we help businesses enhance communication, branding, and digital advertising with cutting-edge LED technology",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless execution and reliable performance",
-  ],
-
-  specs: {
-    "P3.5":{
-      "pixelPitch": "3.5mm",
-    "pixelDensity": "81625 Pixels/m2",
-    "ledType": "SMD2020",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "82*82",
-    "panelSize": "576*576mm",
-    "panelResolution": "164*164",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "8.8kg",
-    "scanRate": "1/21",
-    "brightness": ">1000 nits",
-    }
-  },
-},
-  {
-    name: "X-Series LED Display Screen",
-    id: "x-series-led-display-screen",
-    metaTitle:
-      "X-Series LED Display Screen  | Advertising LED Display Screen | NewTech Video Systems",
-    metaDescription:
-      "NewTech Video Systems Pvt. Ltd. offers P4.8 Indoor LED Display Screen (X-Series) with sharp visuals, seamless LED video wall display performance, and advanced indoor advertising solutions for retail, corporate, and commercial spaces.",
-    catId: "indoor-advertising-led-displays",
-    catName: "Indoor Advertising LED Displays",
-    img: "/product/X SERIES.webp",
-
-    images: ["/product/X SERIES.webp"],
-
-    overview: [
-      "Indoor LED Display Screen (X-Series P4.8) is a high-performance advertising LED display screen designed to deliver bright, sharp, and visually engaging content for modern indoor environments. This advanced indoor LED display screen provides smooth image rendering, vibrant color accuracy, and reliable long-term performance for professional applications.",
-      "Designed for retail stores, shopping malls, corporate offices, conference rooms, exhibition halls, and commercial interiors, this LED display screen for advertising helps businesses create impactful digital communication and branding experiences.",
-      "The X-Series P4.8 features advanced LED technology that delivers seamless visuals, stable brightness, and excellent clarity, making it an ideal LED video wall display solution for indoor advertising and presentation applications.",
-      "With its sleek cabinet structure and modular design, this LED wall display supports flexible installation and scalable configurations for creating large-format advertising LED display screen setups with a premium appearance.",
-      "Engineered for continuous operation, the X-Series P4.8 offers an energy-efficient and durable indoor LED display screen solution that enhances audience engagement, improves brand visibility, and supports professional digital signage requirements.",
-    ],
-
-    features: [
-      "P4.8 Pixel Pitch Technology delivers clear and detailed visuals, making this indoor LED display screen ideal for medium-distance viewing in commercial and corporate environments.",
-      "Seamless Modular Cabinet Design enables scalable LED video wall display installations with smooth panel alignment and uninterrupted visual performance for professional advertising applications.",
-      "Optimized Indoor Brightness Performance ensures this advertising LED display screen delivers comfortable viewing with vibrant visuals and balanced brightness in indoor spaces.",
-      "High Refresh Rate & Smooth Playback provide flicker-free visuals and stable content display, making this LED display screen for advertising suitable for videos, presentations, promotions, and digital branding.",
-      "Lightweight Cabinet with Easy Maintenance Access allows fast installation and simplified servicing, ensuring reliable long-term operation of the LED wall display system.",
-    ],
-
-    whyUs: [
-      "NewTech Video Systems Pvt. Ltd. is a trusted provider of premium advertising LED display screen solutions for indoor commercial, retail, and corporate applications.",
-      "We deliver high-quality indoor LED display screen systems engineered for superior clarity, durability, energy efficiency, and long-term performance.",
-      "Our customized LED video wall display solutions are designed to match your business requirements, installation space, and audience engagement goals.",
-      "With strong expertise in professional LED display board installations, we help businesses enhance digital advertising, branding, and communication through advanced display technology.",
-      "From consultation and design to installation, calibration, and maintenance, NewTech provides complete support for every LED wall display project to ensure smooth execution and reliable performance.",
-    ],
-
-    specs: {
-      pixelPitch: "4.8mm",
-      pixelDensity: "43264 Pixels/m2",
-      ledType: "SMD2020",
-      moduleResolution: "60*60",
-      " panelResolution": "120*120",
-      weightPerPc: "8kg",
-      scanRate: "1/15",
-      brightness: ">1000 nits",
-      refreshRate: "3840-7680Hz",
-      powerConsumptionMax: "<552 W/m2",
-      ipRating: "IP30",
-    },
-  },
-  {
-  name: "P3.6 Indoor Advertising LED Display Screen (Elite Series)",
-  id: "p3-6-indoor-advertising-led-display-screen-elite-series",
-  metaTitle:
-    "P3.6 Indoor Advertising LED Display Screen (Elite Series) | Indoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3.6 Indoor Advertising LED Display Screens for retail stores, malls, offices & exhibition centers with vibrant visuals, seamless performance, and professional indoor display solutions.",
-  catId: "indoor-advertising-led-displays",
-    catName: "Indoor Advertising LED Displays",
-  img: "/product/elite.webp",
-
-  images: ["/product/elite.webp"],
-
-  overview: [
-    "Indoor Advertising LED Display Screen (Elite Series – P3.6) is a premium indoor LED display screen designed to deliver vibrant visuals, sharp image clarity, and seamless performance for modern commercial and professional environments. This advanced advertising LED display screen helps businesses create impactful indoor branding and digital communication experiences.",
-    "Designed for retail stores, shopping malls, corporate offices, showrooms, conference halls, hospitality spaces, and exhibition centers, the Elite Series – P3.6 enhances audience engagement through dynamic and visually immersive content display.",
-    "Engineered with advanced LED technology, this LED display screen for advertising provides smooth playback, accurate color reproduction, and balanced brightness, making it an ideal LED video wall display solution for indoor advertising applications.",
-    "Featuring a sleek modular cabinet structure and seamless panel integration, this LED wall display supports flexible installation and scalable screen configurations for premium indoor digital signage projects.",
-    "Built for continuous indoor operation, the Elite Series – P3.6 combines energy efficiency, durability, and stable long-term performance to maximize advertising visibility and professional presentation quality.",
-  ],
-
-  features: [
-    "P3.6 Pixel Pitch Technology delivers clear visuals and sharp image quality, making this indoor LED display screen ideal for medium-distance indoor viewing applications.",
-    "Seamless Modular Cabinet Design enables scalable LED video wall display installations with smooth panel alignment and uninterrupted visual performance.",
-    "Optimized Indoor Brightness & Color Accuracy ensure the advertising LED display screen delivers vibrant visuals and comfortable viewing in indoor environments.",
-    "High Refresh Rate & Smooth Playback provide flicker-free content display, making this LED display screen for advertising suitable for videos, promotions, presentations, and digital branding.",
-    "Lightweight Structure with Easy Maintenance Access supports convenient installation, servicing, and reliable long-term operation of the LED wall display system.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering premium indoor LED display screen solutions for commercial, corporate, and retail advertising applications.",
-    "Our advanced advertising LED display screen systems are engineered for superior image quality, seamless visuals, and long-lasting indoor performance.",
-    "We provide customized LED video wall display solutions tailored to your business goals, installation environment, and audience engagement requirements.",
-    "With extensive expertise in professional LED display board installations, we help businesses enhance indoor advertising and digital communication with advanced LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless execution and reliable performance.",
-  ],
-
-  specs: {
-    "P3.6":{
-       "pixelPitch": "3.6mm",
-    "pixelDensity": "77156 Pixels/m2",
-    "ledType": "SMD2020",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "80*80",
-    "panelSize": "576*576mm",
-    "panelResolution": "160*160",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "8kg",
-    "scanRate": "1/20",
-    "brightness": ">1000 nits",
-    }
-  },
-  },
 
   //Outdoor Advertising LED Displays
   {
@@ -1024,1876 +812,218 @@ export const products = [
     },
   },
   {
-  name: "Transparent Outdoor LED Display Fixed Solution",
-  id: "transparent-outdoor-led-display-fixed-solution",
-  metaTitle:
-    "Transparent Outdoor LED Display Fixed Solution | Transparent LED Display Screen | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
-    catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
-  img: "/product/fixed.webp",
-
-  images: ["/product/fixed.webp"],
-
-  overview: [
-    "Transparent Outdoor LED Display Fixed Solution is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
-    "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this outdoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
-    "Engineered with advanced transparent LED technology, this LED display screen for advertising delivers vibrant visuals, smooth playback, and excellent brightness while preserving up to high transparency levels for an elegant and futuristic appearance.",
-    "Featuring a lightweight modular cabinet structure and fixed installation system, this LED video wall display supports seamless integration into architectural environments without affecting building aesthetics.",
-    "Built for continuous outdoor operation, the Transparent Outdoor LED Display Fixed Solution combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
-  ],
-
-  features: [
-    "High Transparency LED Technology allows natural light and visibility through the screen while displaying vivid advertising and branding content.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and outdoor lighting conditions.",
-    "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Fixed Installation Design enables smooth LED wall display integration with glass facades, building structures, and architectural spaces.",
-    "Lightweight & Energy-Efficient Operation reduces structural load and power consumption while maintaining stable long-term outdoor performance.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced transparent LED display screen solutions for modern outdoor advertising and architectural digital signage applications.",
-    "Our premium advertising LED display screen systems are engineered for superior transparency, brightness, durability, and long-term outdoor reliability.",
-    "We provide customized LED video wall display solutions tailored to architectural requirements, installation environments, and branding objectives.",
-    "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative outdoor advertising experiences using cutting-edge LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless integration and reliable performance.",
-  ],
-
-  specs: {
-    "pixelPitch": "2.6-6.9 mm",
-    "ledType": "3-in-1 SMD",
-    "brightness": "4,500 nits",
-    "pixelsPerPanel": "384*72",
-    "pixelDensity": "55,296 dot/m2",
-    "panelWeightPerPc": "8kg",
-    "moduleSize": "1000x500x80mm",
-    "material": "Die Cast Aluminum",
-    "environment": "Outdoor",
-    "ipRating": "IP65",
-    "refreshRate": "3840Hz",
-    "transparency": "51%",
-    "installationMethod": "Lifting/Fixing",
-    "grayScale": "14 bits",
-    "ledLifetime": "1,00,000 Hours",
-
-  },
-  },
-  {
-  name: "P3.8 Outdoor LED Display Screen (Prime Plus Series)",
-  id: "p3-8-outdoor-led-display-screen-prime-plus-series",
-  metaTitle:
-    "P3.8 Outdoor LED Display Screen (Prime Plus Series) | High-Brightness Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3.8 Outdoor LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/prime.webp",
-
-  images: ["/product/prime.webp"],
-
-  overview: [
-    "Outdoor LED Display Screen (Prime Plus Series – P3.8) is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
-    "This advanced advertising LED display screen ensures impactful digital communication even in challenging outdoor environments",
-    "Ideal for billboards, commercial buildings, highways, shopping malls, transportation hubs, stadiums, and outdoor branding applications",
-    "Engineered with advanced LED technology, this LED display screen for advertising delivers smooth playback, vivid color accuracy, and stable image quality for continuous outdoor operation",
-    "The modular cabinet structure and seamless panel integration support scalable LED wall display installations for both medium and large-format outdoor display projects with a premium and professional appearance",
-    "Designed for durability and energy efficiency, this outdoor LED display screen combines weather-resistant protection, high brightness performance, and long operational life for reliable outdoor advertising and communication",
-  ],
-
-  features: [
-    "P3.8 Pixel Pitch Technology delivers sharp visuals and excellent readability, making this outdoor LED display screen ideal for medium-distance outdoor viewing applications",
-    "High Brightness LED Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and high ambient outdoor lighting conditions",
-    "Weatherproof & Durable Cabinet Design protects the LED video wall display against rain, dust, humidity, and harsh environmental conditions for stable outdoor operation",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual performance",
-    "Energy-Efficient & Stable Operation reduces power consumption while maintaining reliable performance for continuous outdoor advertising and branding applications",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and large-scale outdoor communication projects",
-    "Our advanced advertising LED display screen systems are engineered for superior brightness, durability, and long-term outdoor reliability",
-    "We provide customized LED video wall display solutions tailored to project requirements, installation environments, and business advertising objectives",
-    "With extensive expertise in professional LED display board installations, we help businesses create high-impact outdoor advertising experiences using advanced LED technology",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure smooth execution and reliable long-term performance",
-  ],
-
-  specs: {
-    "P3.8":{
-        "pixelPitch": "3.84mm",
-    "pixelDensity": "67800 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "75*75",
-    "panelSize": "576*576mm",
-    "panelResolution": "150*150",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "9.2kg",
-    "scanRate": "1/15",
-    "brightness": ">5000 White / >4000 Black nits",
-    "frameRate": ">60Hz",
-    "voltage": "220-110 +/- 10%",
-    }
-  },
-  
-  },
-  {
-  name: "P3 Outdoor Fixed LED Display Screen (NVS Pro Series)",
-  id: "p3-outdoor-fixed-led-display-screen-nvs-pro-series",
-  metaTitle:
-    "P3 Outdoor Fixed LED Display Screen (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with ultra-clear visuals, high brightness, and reliable outdoor advertising performance.",
-      catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
-  img: "/product/nvs.webp",
-
-  images: ["/product/nvs.webp"],
-
-  overview: [
-    "P3 Outdoor Fixed LED Display Screen (NVS Pro Series) is a high-resolution outdoor LED display screen designed to deliver ultra-clear visuals, high brightness performance, and seamless digital advertising for premium outdoor environments. This advanced advertising LED display screen ensures exceptional visibility and audience engagement even in challenging weather and lighting conditions.",
-    "Built for billboards, highways, shopping malls, stadiums, transportation hubs, commercial buildings, and public advertising spaces, the NVS Pro Series P3 provides impactful digital communication with vibrant colors, sharp image quality, and dynamic content presentation.",
-    "Engineered with fine pixel pitch LED technology, this LED display screen for advertising delivers smooth playback, high refresh rates, and detailed image rendering, making it an ideal LED video wall display solution for high-definition outdoor advertising applications.",
-    "Featuring a precision-engineered fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects while maintaining a clean and professional appearance.",
-    "Designed for continuous outdoor operation, this outdoor LED display screen combines weatherproof durability, energy-efficient performance, and reliable long-term stability to ensure uninterrupted advertising and public communication.",
-  ],
-
-  features: [
-    "P3 Fine Pixel Pitch Technology delivers sharp visuals, detailed image clarity, and smooth playback, making this outdoor LED display screen ideal for premium outdoor advertising applications.",
-    "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor environments.",
-    "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format displays.",
-    "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and large-scale public communication projects.",
-    "Our advanced advertising LED display screen systems are engineered for superior brightness, seamless visuals, durability, and reliable long-term outdoor performance.",
-    "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising goals for maximum visual impact.",
-    "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using innovative LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable operation.",
-  ],
-
-  specs: {
-    "pixelPitch": "3.076mm",
-    "pixelDensity": "1,11,099 Pixels/m2",
-    "ledType": "SMD1415",
-    "moduleSize": "320*160mm",
-    "moduleResolution": "104*52",
-    "panelSize": "312*312mm",
-    "panelResolution": "312*312",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "22.5kg",
-    "drivingIc": "CFD3225",
-    "scanRate": "1/13",
-    "brightness": "5000 nits",
-  },
-  },
-  {
-  name: "P3.8 Outdoor Advertising LED Display Screen (Elite Series)",
-  id: "p3-8-outdoor-advertising-led-display-screen-elite-series",
-  metaTitle:
-    "P3.8 Outdoor Advertising LED Display Screen (Elite Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3.8 Outdoor Advertising LED Display Screens for billboards, malls, highways & stadiums with ultra-bright visuals, weatherproof durability, and reliable outdoor advertising performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/elite.webp",
-
-  images: ["/product/elite.webp"],
-
-  overview: [
-    "Outdoor Advertising LED Display Screen (Elite Series – P3.8) is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor advertising performance. This premium advertising LED display screen helps businesses maximize brand visibility and audience engagement in high-traffic outdoor environments.",
-    "Designed for billboards, shopping malls, highways, commercial buildings, stadiums, transportation hubs, and public advertising spaces, the Elite Series – P3.8 provides impactful digital communication with vibrant and dynamic visual output.",
-    "Engineered with advanced LED technology, this LED display screen for advertising ensures smooth playback, vivid color accuracy, and seamless image rendering, making it a dependable LED video wall display solution for large-scale outdoor applications.",
-    "Featuring a robust modular cabinet structure and seamless panel integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects.",
-    "Built for continuous outdoor operation, the Elite Series – P3.8 combines weather-resistant durability, energy efficiency, and stable long-term performance to ensure uninterrupted outdoor advertising and branding.",
-  ],
-
-  features: [
-    "P3.8 Pixel Pitch Technology delivers sharp visuals and excellent readability, making this outdoor LED display screen ideal for medium-distance outdoor viewing applications.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and bright environmental conditions.",
-    "Weatherproof & Durable Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh outdoor environments for reliable long-term operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality.",
-    "Energy-Efficient & Stable Operation reduces operational costs while maintaining reliable performance for continuous outdoor advertising applications.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced outdoor LED display screen solutions for advertising, branding, and public communication projects.",
-    "Our premium advertising LED display screen systems are engineered for superior brightness, durability, and high-performance outdoor operation.",
-    "We provide customized LED video wall display solutions tailored to installation environments, audience requirements, and business advertising goals.",
-    "With strong expertise in professional LED display board installations, we help businesses create impactful outdoor advertising experiences using advanced LED technology.",
-    "From consultation and planning to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure smooth execution and long-term reliability.",
-  ],
-
-  specs: {
-    "P3.8":{
-       "pixelPitch": "3.84mm",
-    "pixelDensity": "67600 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "75*75",
-    "panelSize": "576*576mm",
-    "panelResolution": "150*150",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "8.5kg",
-    "scanRate": "1/15",
-    "brightness": ">4500 nits",
-    }
-  },
-  },
-  {
-  name: "P4.8 Outdoor Advertising LED Display Screen (Elite Series)",
-  id: "p4-8-outdoor-advertising-led-display-screen-elite-series",
-  metaTitle:
-    "P4.8 Outdoor Advertising LED Display Screen (Elite Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P4.8 Outdoor Advertising LED Display Screens for billboards, malls, highways & stadiums with high-brightness visuals, weatherproof durability, and reliable outdoor advertising performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/elite.webp",
-
-  images: ["/product/elite.webp"],
-
-  overview: [
-    "Outdoor Advertising LED Display Screen (Elite Series – P4.8) is a premium outdoor LED display screen designed to deliver bright, high-impact visuals and seamless performance for modern outdoor advertising applications. This advanced advertising LED display screen ensures powerful brand visibility and audience engagement in high-traffic outdoor environments.",
-    "Built for billboards, highways, shopping malls, commercial buildings, stadiums, transportation hubs, and public digital signage applications, the Elite Series – P4.8 helps businesses showcase dynamic advertising content with exceptional clarity and vibrant color performance.",
-    "Engineered with advanced LED technology, this LED display screen for advertising provides smooth playback, high brightness output, and stable image quality, making it a dependable LED video wall display solution for continuous outdoor operation.",
-    "Featuring a rugged modular cabinet structure and seamless panel integration, this LED wall display supports scalable installations for medium and large-format outdoor advertising projects while maintaining a clean and professional appearance.",
-    "Designed for durability and energy efficiency, this outdoor LED display screen combines weatherproof protection, long operational life, and reliable performance to support uninterrupted outdoor branding and communication.",
-  ],
-
-  features: [
-    "P4.8 Pixel Pitch Technology delivers sharp visuals and clear readability, making this outdoor LED display screen suitable for medium-distance outdoor viewing applications.",
-    "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor conditions.",
-    "Weatherproof & Heavy-Duty Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual performance.",
-    "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced outdoor LED display screen solutions for advertising, branding, and public communication applications.",
-    "Our premium advertising LED display screen systems are engineered for superior brightness, durability, and long-term outdoor performance.",
-    "We provide customized LED video wall display solutions tailored to project requirements, installation environments, and business advertising goals.",
-    "With extensive expertise in professional LED display board installations, we help businesses create impactful outdoor advertising experiences using innovative LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure smooth execution and reliable long-term performance.",
-  ],
-
-  specs: {
-    "P4.8":{
-        "pixelPitch": "4.8mm",
-    "pixelDensity": "43264 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "60*60",
-    "panelSize": "576*576mm",
-    "panelResolution": "120*120",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "8.5kg",
-    "scanRate": "1/10",
-    "brightness": ">5500 nits",
-    }
-  },
-  },
-
-  {
-  name: "P3.8 Outdoor Video Wall – 3D Anamorphic Cabinet",
-  id: "p3-8-outdoor-video-wall-3d-anamorphic-cabinet",
-  metaTitle:
-    "P3.8 Outdoor Video Wall – 3D Anamorphic Cabinet | 3D Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P3.8 Outdoor 3D Anamorphic LED Video Wall Displays for immersive DOOH advertising, commercial buildings, malls & public spaces with ultra-bright and realistic 3D visuals.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/3d-anamor.webp",
-
-  images: ["/product/3d-anamor.webp"],
-
-  overview: [
-    "Outdoor Video Wall – 3D Anamorphic Cabinet (P3.8) is a next-generation outdoor LED display screen designed to create immersive 3D visual experiences with stunning depth, realism, and high-impact advertising performance. This premium advertising LED display screen transforms outdoor spaces into engaging digital landmarks that capture audience attention instantly.",
-    "Specially engineered for anamorphic 3D content, this advanced LED video wall display delivers seamless corner visuals, ultra-bright output, and realistic motion effects without requiring 3D glasses, making it ideal for modern DOOH advertising applications.",
-    "Designed for shopping malls, commercial buildings, public squares, entertainment districts, stadiums, airports, and high-traffic urban locations, the P3.8 3D Anamorphic Cabinet helps brands create unforgettable advertising experiences.",
-    "With precision cabinet engineering and modular integration, this LED wall display supports custom corner installations and large-scale creative configurations for premium outdoor digital signage projects.",
-    "Built for continuous outdoor operation, this outdoor LED display screen combines high brightness, weatherproof durability, smooth playback, and stable performance to ensure impactful visual communication in all environments.",
-  ],
-
-  features: [
-    "P3.8 Pixel Pitch Technology delivers sharp visuals and realistic image depth, making this LED display screen for advertising ideal for premium 3D anamorphic content.",
-    "3D Anamorphic Display Capability creates immersive naked-eye 3D visual effects that enhance audience engagement and brand recall in outdoor advertising environments.",
-    "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor conditions.",
-    "Weatherproof & Heavy-Duty Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Corner & Modular Installation enables flexible LED wall display configurations for large-scale creative 3D video wall applications.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative outdoor LED display screen solutions for premium advertising and immersive digital communication projects.",
-    "Our advanced advertising LED display screen systems are engineered for exceptional brightness, seamless visuals, and long-term outdoor reliability.",
-    "We provide customized LED video wall display solutions for anamorphic 3D installations tailored to architectural spaces and branding objectives.",
-    "With strong expertise in large-scale LED display board installations, we help businesses create iconic digital advertising experiences with cutting-edge LED technology.",
-    "From concept planning and installation to calibration and maintenance, NewTech offers complete support for every LED wall display project to ensure flawless execution and maximum visual impact.",
-  ],
-
-  specs: {
-    "P3.8":{
-       "pixelPitch": "3.84mm",
-    "pixelDensity": "67800 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "75*75",
-    "panelSize": "288*576mm",
-    "panelResolution": "75*150",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "5.5kg",
-    "scanRate": "1/15",
-    }
-  },
-  },
-  {
-  name: "P4.8 Outdoor Video Wall – 3D Anamorphic Cabinet",
-  id: "p4-8-outdoor-video-wall-3d-anamorphic-cabinet",
-  metaTitle:
-    "P4.8 Outdoor Video Wall – 3D Anamorphic Cabinet | 3D Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P4.8 Outdoor 3D Anamorphic LED Video Wall Displays for immersive DOOH advertising, malls, commercial buildings & public spaces with ultra-bright and realistic 3D visuals.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/3d-anamor.webp",
-
-  images: ["/product/3d-anamor.webp"],
-
-  overview: [
-    "Outdoor Video Wall – 3D Anamorphic Cabinet (P4.8) is a premium outdoor LED display screen designed to create stunning naked-eye 3D visual experiences with exceptional brightness, depth, and realism. This advanced advertising LED display screen transforms outdoor advertising into immersive digital storytelling that captures audience attention instantly.",
-    "Engineered for high-impact anamorphic content, this innovative LED video wall display delivers seamless corner visuals, smooth playback, and vibrant color performance without the need for 3D glasses, making it ideal for modern DOOH advertising applications.",
-    "Designed for commercial buildings, shopping malls, entertainment zones, public squares, airports, stadiums, and urban advertising spaces, the P4.8 3D Anamorphic Cabinet helps brands create unforgettable digital experiences and maximize advertising visibility.",
-    "Featuring precision-engineered modular cabinets and seamless panel integration, this LED wall display supports custom corner installations and scalable large-format creative video wall configurations.",
-    "Built for long-term outdoor operation, this outdoor LED display screen combines weatherproof durability, high brightness performance, and stable operation to ensure reliable advertising and branding in demanding environments.",
-  ],
-
-  features: [
-    "P4.8 Pixel Pitch Technology delivers clear visuals and realistic depth effects, making this LED display screen for advertising ideal for large-scale 3D anamorphic content.",
-    "Naked-Eye 3D Display Capability creates immersive visual experiences with realistic motion and depth perception to maximize audience engagement.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor lighting conditions.",
-    "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh outdoor environments for reliable long-term operation.",
-    "Seamless Corner & Modular Installation Design enables flexible LED wall display configurations for premium outdoor 3D video wall projects.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced outdoor LED display screen solutions for immersive advertising and creative digital communication projects.",
-    "Our premium advertising LED display screen systems are engineered for superior brightness, seamless visuals, and durable outdoor performance.",
-    "We provide customized LED video wall display solutions for anamorphic 3D installations tailored to architectural spaces, audience engagement, and branding objectives.",
-    "With extensive expertise in large-scale LED display board installations, we help businesses create iconic outdoor advertising experiences using innovative LED technology.",
-    "From design consultation and installation to calibration and maintenance, NewTech offers complete support for every LED wall display project to ensure flawless execution and maximum visual impact.",
-  ],
-
-  specs: {
-    "P4.8":{
-       "pixelPitch": "4.8mm",
-    "pixelDensity": "43264 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "60*60",
-    "panelSize": "288*576mm",
-    "panelResolution": "60*120",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "5.5kg",
-    "scanRate": "1/12",
-    "brightness": ">5500 nits",
-    }
-  },
-  },
-
-  {
-  name: "P4.8 Outdoor LED Display Screen (Prime Plus Series)",
-  id: "p4-8-outdoor-led-display-screen-prime-plus-series",
-  metaTitle:
-    "P4.8 Outdoor LED Display Screen (Prime Plus Series) | High-Brightness Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P4.8 Outdoor LED Display Screens for billboards, malls, highways & stadiums. Durable and weatherproof advertising LED display solutions with sharp visuals and reliable outdoor performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/prime.webp",
-
-  images: ["/product/prime.webp"],
-
-  overview: [
-    "Outdoor LED Display Screen (Prime Plus Series – P4.8) is a high-performance outdoor LED display screen designed to deliver bright, sharp, and impactful visuals for outdoor advertising and digital communication applications. This premium advertising LED display screen ensures excellent visibility and stable performance in all outdoor environments.",
-    "Built for billboards, highways, shopping malls, commercial buildings, stadiums, transportation hubs, and public advertising spaces, the Prime Plus Series – P4.8 helps businesses enhance brand visibility and audience engagement with dynamic digital content.",
-    "Engineered with advanced LED technology, this LED display screen for advertising delivers smooth playback, vibrant color performance, and consistent image clarity, making it a reliable LED video wall display solution for large-scale outdoor installations.",
-    "Featuring a durable modular cabinet structure and seamless panel integration, the Prime Plus Series – P4.8 supports scalable LED wall display configurations for medium and large-format outdoor projects.",
-    "Designed for continuous outdoor operation, this outdoor LED display screen combines high brightness, weather-resistant protection, energy efficiency, and long operational life for reliable advertising performance.",
-  ],
-
-  features: [
-    "P4.8 Pixel Pitch Technology delivers clear visuals and excellent readability, making this outdoor LED display screen suitable for medium-distance outdoor viewing applications.",
-    "High Brightness LED Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and bright outdoor conditions.",
-    "Weatherproof & Rugged Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for stable outdoor performance.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality.",
-    "Energy-Efficient & Reliable Operation supports continuous outdoor advertising while reducing power consumption and maintenance requirements.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced outdoor LED display screen solutions for advertising, branding, and public communication applications.",
-    "Our premium advertising LED display screen systems are engineered for superior brightness, durability, and long-term outdoor reliability.",
-    "We provide customized LED video wall display solutions tailored to installation environments, audience requirements, and business advertising goals.",
-    "With extensive expertise in professional LED display board installations, we help businesses create impactful outdoor advertising experiences using advanced LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure reliable long-term operation.",
-  ],
-
-  specs: {
-    "P4.8":{
-       "pixelPitch": "4.8mm",
-    "pixelDensity": "43264 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "288*288mm",
-    "moduleResolution": "60*60",
-    "panelSize": "576*576mm",
-    "panelResolution": "120*120",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "9.2kg",
-    "scanRate": "1/12",
-    "brightness": ">5500 nits",
-    }
-  },
-  },
-  {
-    name: "X-Series Outdoor LED Display Screen (P4.8)",
-    id: "p4.8-outdoor-led-display-screen-x-series",
+    name: "Transparent Outdoor LED Display Fixed Solution",
+    id: "transparent-outdoor-led-display-fixed-solution",
     metaTitle:
-      "P4.8 Outdoor LED Display Screen (X-Series) | Advertising LED Display Screen | NewTech Video Systems",
+      "Transparent Outdoor LED Display Fixed Solution | Transparent LED Display Screen | Newtech Video Systems",
     metaDescription:
-      "NewTech Video Systems Pvt. Ltd. offers P4.8 Outdoor LED Display Screen (X-Series) with high brightness, seamless LED video wall display performance, and advanced outdoor advertising solutions for commercial and public spaces.",
+      "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
-    img: "/product/X SERIES.webp",
+    img: "/ProductImages/Picture1.png",
 
-    images: ["/product/X SERIES.webp"],
+    images: ["/ProductImages/Picture1.png",],
 
     overview: [
-      "Outdoor LED Display Screen (X-Series P4.8) is a high-brightness advertising LED display screen designed to deliver powerful visual performance in outdoor environments. Engineered for durability and visibility, this outdoor LED display screen ensures clear and vibrant content display even under direct sunlight and challenging weather conditions.",
-      "Built for outdoor advertising, branding, and public communication, the X-Series P4.8 is ideal for billboards, commercial buildings, highways, shopping centers, stadiums, transportation hubs, and large-scale digital signage applications.",
-      "This advanced LED display screen for advertising features seamless image rendering, smooth playback, and high color accuracy, making it a reliable LED video wall display solution for dynamic outdoor content.",
-      "With its modular cabinet structure and scalable design, the X-Series P4.8 supports flexible LED wall display installations for both medium and large-format outdoor advertising projects.",
-      "Designed for continuous outdoor operation, this advertising LED display screen combines weather-resistant protection, energy efficiency, and stable long-term performance to maximize audience engagement and brand visibility.",
+      "Transparent Outdoor LED Display Fixed Solution is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
+      "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this outdoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
+      "Engineered with advanced transparent LED technology, this LED display screen for advertising delivers vibrant visuals, smooth playback, and excellent brightness while preserving up to high transparency levels for an elegant and futuristic appearance.",
+      "Featuring a lightweight modular cabinet structure and fixed installation system, this LED video wall display supports seamless integration into architectural environments without affecting building aesthetics.",
+      "Built for continuous outdoor operation, the Transparent Outdoor LED Display Fixed Solution combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
     ],
 
     features: [
-      "P4.8 Outdoor Pixel Pitch Technology delivers sharp visuals and excellent readability, making this outdoor LED display screen ideal for medium-distance outdoor viewing applications.",
-      "High Brightness Performance ensures the LED display screen for advertising remains clearly visible even in direct sunlight and high ambient lighting conditions.",
-      "Weatherproof Cabinet Design protects the LED video wall display against rain, dust, humidity, and harsh outdoor environments for reliable long-term performance.",
-      "Seamless Modular LED Structure allows scalable LED wall display configurations with smooth panel alignment and uninterrupted visual quality.",
-      "Energy-Efficient & Stable Operation reduces power consumption while maintaining reliable performance for continuous outdoor advertising and digital signage applications.",
+      "High Transparency LED Technology allows natural light and visibility through the screen while displaying vivid advertising and branding content.",
+      "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and outdoor lighting conditions.",
+      "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Fixed Installation Design enables smooth LED wall display integration with glass facades, building structures, and architectural spaces.",
+      "Lightweight & Energy-Efficient Operation reduces structural load and power consumption while maintaining stable long-term outdoor performance.",
     ],
 
     whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and public communication projects.",
-      "Our high-quality advertising LED display screen systems are engineered for superior brightness, durability, and reliable outdoor performance.",
-      "We provide customized LED video wall display solutions tailored to project size, installation environment, and business advertising goals.",
-      "With extensive expertise in LED display board installations, we help businesses create impactful outdoor advertising experiences with advanced LED technology.",
-      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure smooth execution and long-term reliability.",
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced transparent LED display screen solutions for modern outdoor advertising and architectural digital signage applications.",
+      "Our premium advertising LED display screen systems are engineered for superior transparency, brightness, durability, and long-term outdoor reliability.",
+      "We provide customized LED video wall display solutions tailored to architectural requirements, installation environments, and branding objectives.",
+      "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative outdoor advertising experiences using cutting-edge LED technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless integration and reliable performance.",
     ],
 
     specs: {
-      "P4.8": {
-        pixelPitch: "4.8mm",
-        pixelDensity: "43264 Pixels/m2",
-        ledType: "SMD1921",
-        moduleSize: "288*288mm",
-        moduleResolution: "60*60",
-        panelSize: "576*576mm",
-        panelResolution: "120*120",
-        panelMaterial: "Die-casting Aluminum",
-        weightPerPc: "8.5kg",
-        scanRate: "1/10",
-        brightness: ">5500 nits",
+      "pixelPitch": "2.6-6.9 mm",
+      "ledType": "3-in-1 SMD",
+      "brightness": "4,500 nits",
+      "pixelsPerPanel": "384*72",
+      "pixelDensity": "55,296 dot/m2",
+      "panelWeightPerPc": "8kg",
+      "moduleSize": "1000x500x80mm",
+      "material": "Die Cast Aluminum",
+      "environment": "Outdoor",
+      "ipRating": "IP65",
+      "refreshRate": "3840Hz",
+      "transparency": "51%",
+      "installationMethod": "Lifting/Fixing",
+      "grayScale": "14 bits",
+      "ledLifetime": "1,00,000 Hours",
+
+    },
+  },
+  {
+    name: "Optima Outdoor led display",
+    id: "optima-outdoor-led-display",
+    metaTitle:
+      "Optima Outdoor led display | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Optima Outdoor led displays for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
+    catId: "outdoor-advertising-led-displays",
+    catName: "Outdoor Advertising LED Displays",
+    img: "/p4.jpg",
+
+    images: ["/p4.jpg",],
+
+    overview: [
+      "Optima Outdoor led display is a premium LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
+      "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this outdoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
+      "Engineered with advanced LED technology, this LED display screen for advertising delivers vibrant visuals, smooth playback, and excellent brightness while preserving up to high transparency levels for an elegant and futuristic appearance.",
+      "Featuring a lightweight modular cabinet structure and fixed installation system, this LED video wall display supports seamless integration into architectural environments without affecting building aesthetics.",
+      "Built for continuous outdoor operation, the Optima Outdoor led display combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
+    ],
+
+    features: [
+      "High Transparency LED Technology allows natural light and visibility through the screen while displaying vivid advertising and branding content.",
+      "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and outdoor lighting conditions.",
+      "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Fixed Installation Design enables smooth LED wall display integration with glass facades, building structures, and architectural spaces.",
+      "Lightweight & Energy-Efficient Operation reduces structural load and power consumption while maintaining stable long-term outdoor performance.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced transparent LED display screen solutions for modern outdoor advertising and architectural digital signage applications.",
+      "Our premium advertising LED display screen systems are engineered for superior transparency, brightness, durability, and long-term outdoor reliability.",
+      "We provide customized LED video wall display solutions tailored to architectural requirements, installation environments, and branding objectives.",
+      "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative outdoor advertising experiences using cutting-edge LED technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless integration and reliable performance.",
+    ],
+
+    specs: {
+      "pixelPitch": "2.5, 3.076, 4, 5, 5.926, 8, 10 mm",
+      "cabinetSize": "960 X 960",
+      "cabinetBuild": "DieCast-Aluminium",
+      "cabinetBuild": "DieCast-Aluminium",
+      "brightness": "5,000 nit to 5,500 nit",
+      "contrast": "3,000:1",
+      "power": "200 to 488 W/m²",
+      "refreshRate": "3,840 Hz",
+    },
+  },
+  {
+    name: "Outdoor Fixed LED Display Screen (NVS Pro Series)",
+    id: "outdoor-fixed-led-display-screen",
+    metaTitle:
+      "Outdoor Fixed LED Display Screen (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Outdoor Fixed LED Display Screen for billboards, highways, malls & stadiums with ultra-clear visuals, high brightness, and reliable outdoor advertising performance.",
+    catId: "outdoor-advertising-led-displays",
+    catName: "Outdoor Advertising LED Displays",
+    img: "/product/nvs.webp",
+
+    images: ["/product/nvs.webp"],
+
+    overview: [
+      "Outdoor Fixed LED Display Screen (NVS Pro Series) is a high-resolution outdoor LED display screen designed to deliver ultra-clear visuals, high brightness performance, and seamless digital advertising for premium outdoor environments. This advanced advertising LED display screen ensures exceptional visibility and audience engagement even in challenging weather and lighting conditions.",
+      "Built for billboards, highways, shopping malls, stadiums, transportation hubs, commercial buildings, and public advertising spaces, the NVS Pro Series provides impactful digital communication with vibrant colors, sharp image quality, and dynamic content presentation.",
+      "Engineered with fine pixel pitch LED technology, this LED display screen for advertising delivers smooth playback, high refresh rates, and detailed image rendering, making it an ideal LED video wall display solution for high-definition outdoor advertising applications.",
+      "Featuring a precision-engineered fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects while maintaining a clean and professional appearance.",
+      "Designed for continuous outdoor operation, this outdoor LED display screen combines weatherproof durability, energy-efficient performance, and reliable long-term stability to ensure uninterrupted advertising and public communication.",
+    ],
+
+    features: [
+      "Fine Pixel Pitch Technology delivers sharp visuals, detailed image clarity, and smooth playback, making this outdoor LED display screen ideal for premium outdoor advertising applications.",
+      "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor environments.",
+      "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format displays.",
+      "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and large-scale public communication projects.",
+      "Our advanced advertising LED display screen systems are engineered for superior brightness, seamless visuals, durability, and reliable long-term outdoor performance.",
+      "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising goals for maximum visual impact.",
+      "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using innovative LED technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable operation.",
+    ],
+
+    specs: {
+      "Common": {
+        pixelPitch: "3.076, 4, 5, 6mm",
+        power: "200 to 488 W/m²",
+        brightness: "5000 nits",
+        operatingTemperature: "-20°C to +70°C",
+        panelMaterial: "Die-cast Aluminum",
+        lifetime: "100,000 hours",
+        installation: "Fixed Installation",
+        maintenance: "Front Maintenance",
+        refreshRate: "≥ 3840 Hz",
       },
-      
-    },
-  },
-  {
-    name: "Outdoor Advertising LED Display",
-    id: "outdoor-advertising-led-display",
-    metaTitle:
-      "Outdoor Advertising LED Display | High-Brightness LED Screen Solutions | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers outdoor advertising LED displays for billboards, branding & public signage. Durable, weatherproof LED screens with high brightness for maximum visibility.",
-    catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
-    img: "/outdoor-full-color-led-display-1000x1000.webp",
 
-    images: ["/outdoor-full-color-led-display-1000x1000.webp"],
+      "P3": {
+        "pixelPitch": "3.076mm",
+        "pixelDensity": "1,11,099 Pixels/m2",
+        "ledType": "SMD1415",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "104*52",
+        "panelSize": "312*312mm",
+        "panelResolution": "312*312",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/13",
+        "brightness": "5000 nits",
+      },
 
-    overview: [
-      "Outdoor Advertising LED Displays are high-performance outdoor LED display screens designed to deliver bright, vivid, and impactful visuals in open environments",
-      "Built for maximum visibility, these advertising LED display screens ensure clear communication even under direct sunlight and high ambient lighting conditions",
-      "Ideal for billboards, highways, stadiums, malls, and public spaces where large-scale audience engagement is essential",
-      "Engineered with weatherproof technology, these displays provide reliable performance in rain, dust, and extreme temperatures",
-      "A powerful LED video wall display solution that helps businesses enhance brand visibility and deliver dynamic advertising content",
-    ],
+      "P4": {
+        "pixelPitch": "4mm",
+        "pixelDensity": "62,500 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "80*40",
+        "panelSize": "960*960mm",
+        "panelResolution": "240*240",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/10",
+        "brightness": "5500-6000 nits",
+      },
 
-    features: [
-      "Ultra-High Brightness Output ensures excellent visibility in outdoor environments, making content readable even in direct sunlight",
-      "Weatherproof & Durable Design with high IP ratings protects against dust, rain, and harsh environmental conditions",
-      "Seamless Modular Panels allow flexible installation and scalable LED wall display configurations for different screen sizes",
-      "Energy-Efficient Performance reduces operational costs while maintaining high brightness and consistent display quality",
-      "Wide Viewing Angle & High Refresh Rate deliver smooth visuals and clear visibility from multiple directions",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced outdoor LED display solutions tailored for high-impact advertising and large-scale installations",
-      "High-quality advertising LED display screens designed for durability, brightness, and long-term performance",
-      "Customized LED display board solutions based on project requirements, location, and audience engagement needs",
-      "Proven track record in executing reliable LED video wall display installations across industries",
-      "End-to-end support including design, installation, and maintenance for seamless project execution",
-    ],
-
-    specs: {
-      model: "1249",
-      application: "Outdoor Advertising",
-      displayTechnology: "Square Matrix",
-      pixelDensity: "10,000 dots/m²",
-      resolution: "32 × 16",
-      brightness: "6500 cd/m²",
-      refreshRate: "300 Hz",
-      voltage: "AC 220V / 110V ±10%",
-      lightingColor: "Full Color",
-      dimensions: "Customizable",
-      activeScreenSize: "Software adjustable",
-      lifespan: "100,000 hours",
-      humidity: "10% – 90%",
-      availability: "In Stock",
-    },
-  },
-  {
-  name: "P4 Outdoor Fixed LED Display Screen (NVS Pro Series)",
-  id: "p4-outdoor-fixed-led-display-screen-nvs-pro-series",
-  metaTitle:
-    "P4 Outdoor Fixed LED Display Screen (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P4 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with bright visuals, weatherproof durability, and reliable outdoor advertising performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/nvs.webp",
-
-  images: ["/product/nvs.webp"],
-
-  overview: [
-    "P4 Outdoor Fixed LED Display Screen (NVS Pro Series) is a premium outdoor LED display screen engineered to deliver bright visuals, sharp image clarity, and reliable performance for modern outdoor advertising and digital communication applications. This advanced advertising LED display screen ensures strong visibility and impactful content presentation in all outdoor environments.",
-    "Designed for billboards, highways, shopping malls, commercial buildings, stadiums, transportation hubs, and public advertising spaces, the NVS Pro Series P4 helps businesses maximize brand visibility and audience engagement with dynamic digital content.",
-    "Built with advanced LED technology, this LED display screen for advertising offers smooth playback, vivid color accuracy, and seamless image rendering, making it a dependable LED video wall display solution for continuous outdoor operation.",
-    "Featuring a durable fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects while maintaining a clean and professional appearance.",
-    "Designed for long-term outdoor use, this outdoor LED display screen combines weatherproof durability, energy-efficient performance, and stable operation to ensure uninterrupted advertising and public communication in challenging environmental conditions.",
-  ],
-
-  features: [
-    "P4 Pixel Pitch Technology delivers clear visuals and excellent readability, making this outdoor LED display screen suitable for medium-distance outdoor viewing applications.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor lighting conditions.",
-    "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format screens.",
-    "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced outdoor LED display screen solutions for advertising, branding, and public communication applications.",
-    "Our premium advertising LED display screen systems are engineered for superior brightness, seamless visuals, durability, and long-term outdoor reliability.",
-    "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising objectives.",
-    "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using advanced LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable long-term performance.",
-  ],
-
-  specs: {
-
-    "P3":{ "pixelPitch": "4mm",
-    "pixelDensity": "62,500 Pixels/m2",
-    "ledType": "SMD1921",
-    "moduleSize": "320*160mm",
-    "moduleResolution": "80*40",
-    "panelSize": "960*960mm",
-    "panelResolution": "240*240",
-    "panelMaterial": "Die-casting Aluminum",
-    "weightPerPc": "22.5kg",
-    "drivingIc": "CFD3225",
-    "scanRate": "1/10",
-    "brightness": "5500-6000 nits",
-    }
-  },
-  },
-
-  {
-  name: "P5 Outdoor Fixed LED Display Screen (NVS Pro Series)",
-  id: "p5-outdoor-fixed-led-display-screen-nvs-pro-series",
-  metaTitle:
-    "P5 Outdoor Fixed LED Display Screen (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P5 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with high brightness, weatherproof durability, and reliable outdoor advertising performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/nvs.webp",
-
-  images: ["/product/nvs.webp"],
-
-  overview: [
-    "P5 Outdoor Fixed LED Display Screen (NVS Pro Series) is a high-performance outdoor LED display screen designed to deliver bright visuals, seamless playback, and reliable outdoor advertising performance for large-scale digital communication applications. This advanced advertising LED display screen ensures strong visibility and impactful audience engagement in all outdoor environments.",
-    "Built for billboards, highways, shopping malls, stadiums, transportation hubs, commercial buildings, and public advertising spaces, the NVS Pro Series P5 helps businesses showcase dynamic digital content with excellent clarity and vibrant color performance.",
-    "Engineered with advanced LED technology, this LED display screen for advertising delivers smooth video playback, high brightness output, and stable image quality, making it a dependable LED video wall display solution for continuous outdoor operation.",
-    "Featuring a rugged fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects while maintaining a professional and modern appearance.",
-    "Designed for durability and energy-efficient operation, this outdoor LED display screen combines weatherproof protection, reliable long-term stability, and low maintenance requirements for uninterrupted advertising and public communication.",
-  ],
-
-  features: [
-    "P5 Pixel Pitch Technology delivers clear visuals and excellent readability, making this outdoor LED display screen suitable for medium to long-distance outdoor viewing applications.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and bright outdoor conditions.",
-    "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format displays.",
-    "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing operational costs and maintenance requirements.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and public communication applications.",
-    "Our advanced advertising LED display screen systems are engineered for superior brightness, durability, seamless visuals, and long-term outdoor reliability.",
-    "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising objectives for maximum visual impact.",
-    "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using innovative LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable long-term performance.",
-  ],
-
-  specs: {
-    "P5":{
+      "P5": {
         "pixelPitch": "5mm",
-      "pixelDensity": "40,000 Pixels/m2",
-      "ledType": "SMD1921",
-      "moduleSize": "320*160mm",
-      "moduleResolution": "64*32",
-      "panelSize": "960*960mm",
-      "panelResolution": "192*192",
-      "panelMaterial": "Die-casting Aluminum",
-      "weightPerPc": "22.5kg",
-      "drivingIc": "SMI6269S",
-      "scanRate": "1/8",
-      "brightness": "5500-6000 nits",
-    }
-  },
-  },
-  {
-  name: "P6 Outdoor Fixed LED Display Screen (NVS Pro Series)",
-  id: "p6-outdoor-fixed-led-display-screen-nvs-pro-series",
-  metaTitle:
-    "P6 Outdoor Fixed LED Display Screen (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P6 Outdoor Fixed LED Display Screens for billboards, highways, malls & stadiums with high brightness, weatherproof durability, and reliable outdoor advertising performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/nvs.webp",
-
-  images: ["/product/nvs.webp"],
-
-  overview: [
-    "P6 Outdoor Fixed LED Display Screen (NVS Pro Series) is a durable and high-performance outdoor LED display screen designed to deliver bright visuals, smooth playback, and reliable advertising performance for large-scale outdoor digital signage applications. This advanced advertising LED display screen ensures strong visibility and impactful audience engagement in all lighting and weather conditions.",
-    "Designed for billboards, highways, stadiums, shopping malls, transportation hubs, commercial buildings, and public advertising spaces, the NVS Pro Series P6 helps businesses showcase dynamic digital content with vibrant colors and clear image quality.",
-    "Engineered with advanced LED technology, this LED display screen for advertising provides stable brightness, seamless image rendering, and smooth video playback, making it a dependable LED video wall display solution for continuous outdoor operation.",
-    "Featuring a robust fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor display projects while maintaining a professional and modern appearance.",
-    "Built for long-term outdoor use, this outdoor LED display screen combines weatherproof durability, energy-efficient operation, and stable performance to ensure uninterrupted advertising and public communication.",
-  ],
-
-  features: [
-    "P6 Pixel Pitch Technology delivers excellent visibility and clear content display, making this outdoor LED display screen ideal for medium to long-distance outdoor viewing applications.",
-    "High Brightness Outdoor Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor environments.",
-    "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh weather conditions for reliable outdoor operation.",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format screens.",
-    "Energy-Efficient & Reliable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and public communication applications.",
-    "Our advanced advertising LED display screen systems are engineered for superior brightness, durability, seamless visuals, and reliable long-term outdoor performance.",
-    "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising goals.",
-    "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using innovative LED technology.",
-    "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable operation.",
-  ],
-
-  specs: {
-    "P6":{
-        "pixelPitch": "6mm",
-      "pixelDensity": "27,777 Pixels/m2",
-      "ledType": "SMD2727",
-      "moduleSize": "192*192mm",
-      "moduleResolution": "32*32",
-      "panelSize": "960*960mm",
-      "panelResolution": "160*160",
-      "panelMaterial": "Die-casting Aluminum",
-      "weightPerPc": "22.5kg",
-      "drivingIc": "CFD3225",
-      "scanRate": "1/8",
-      "brightness": "6000-6500 nits",
-    }
-  },
-  },
-  {
-  name: "P6 Outdoor LED Display Screen (X-Series)",
-  id: "p6-outdoor-led-display-screen-x-series",
-  metaTitle:
-    "P6 Outdoor LED Display Screen (X-Series) | High-Brightness Advertising LED Display | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers P6 Outdoor LED Display Screens for billboards, highways, stadiums & outdoor branding. Durable, weatherproof advertising LED display solutions with high brightness and stable performance.",
-  catId: "outdoor-advertising-led-displays",
-  catName: "Outdoor Advertising LED Displays",
-  img: "/product/X SERIES.webp",
-
-  images: ["/product/X SERIES.webp"],
-
-  overview: [
-    "Outdoor LED Display Screen (X-Series P6) is a high-performance outdoor LED display screen engineered to deliver bright, clear, and impactful visuals for large-scale outdoor advertising and digital communication",
-    "Designed for durability and visibility, this advertising LED display screen performs efficiently in direct sunlight and demanding outdoor conditions",
-    "Ideal for billboards, highways, commercial buildings, stadiums, public spaces, transportation hubs, and outdoor branding applications",
-    "This advanced LED display screen for advertising delivers smooth playback, vibrant color performance, and stable image quality for continuous outdoor operation",
-    "Featuring a robust modular cabinet structure, the X-Series P6 supports scalable LED wall display configurations for flexible installation in medium and large-format outdoor display projects",
-    "Engineered for energy efficiency and long-term reliability, this outdoor LED display screen combines high brightness, weather resistance, and stable performance for uninterrupted advertising and communication",
-  ],
-
-  features: [
-    "P6 Pixel Pitch Technology provides excellent visibility and clear content display, making this outdoor LED display screen suitable for medium to long-distance outdoor viewing applications",
-    "High Brightness LED Performance ensures the advertising LED display screen remains highly visible even in direct sunlight and bright outdoor environments",
-    "Weatherproof & Durable Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh weather conditions for reliable outdoor performance",
-    "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel integration and consistent visual quality across large screens",
-    "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing power consumption and maintenance requirements",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. is a trusted provider of premium outdoor LED display screen solutions for advertising, branding, and large-scale outdoor communication projects",
-    "Our advanced advertising LED display screen systems are engineered for superior brightness, durability, and long-lasting outdoor performance",
-    "We deliver customized LED video wall display solutions tailored to project requirements, installation environments, and business advertising objectives",
-    "With strong expertise in professional LED display board installations, we help businesses create impactful outdoor advertising experiences using advanced LED technology",
-    "From consultation and planning to installation, calibration, and maintenance, NewTech provides complete support for every LED wall display project to ensure reliable long-term operation",
-  ],
-
-  specs: {
-    P6: {
-        pixelPitch: "6mm",
-        pixelDensity: "27777 Pixels/m2",
-        ledType: "SMD2727",
-        moduleSize: "288*288mm",
-        moduleResolution: "48*48",
-        panelSize: "576*576mm",
-        panelResolution: "96*96",
-        panelMaterial: "Die-casting Aluminum",
-        weightPerPc: "8.5kg",
-        scanRate: "1/8",
-        brightness: ">5500 nits",
+        "pixelDensity": "40,000 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "64*32",
+        "panelSize": "960*960mm",
+        "panelResolution": "192*192",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "SMI6269S",
+        "scanRate": "1/8",
+        "brightness": "5500-6000 nits",
       },
-  },
-},
-  {
-    name: "Fixed Outdoor Advertising LED Display Screen",
-    id: "fixed-outdoor-advertising-led-display-screen",
-    metaTitle:
-      "Fixed Outdoor Advertising LED Display Screen | Permanent LED Billboard Solutions ",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers fixed outdoor advertising LED display screens for permanent installations. High-brightness, weatherproof LED billboards for branding & public signage.",
-    catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
-    img: "/ProductImages/optima-1.jpg",
 
-    images: ["/ProductImages/optima-1.jpg"],
-
-    overview: [
-      "Fixed Outdoor Advertising LED Display Screen is a robust and high-performance outdoor LED display screen designed for permanent installations in high-visibility locations",
-      "Engineered to deliver bright, clear, and impactful visuals, it ensures consistent performance for long-term outdoor advertising",
-      "Ideal for billboards, highways, building facades, and public spaces where continuous display operation is required",
-      "Built with weather-resistant materials, this advertising LED display screen performs reliably in harsh environmental conditions",
-      "A durable and scalable LED video wall display solution that enhances brand visibility and audience engagement",
-    ],
-
-    features: [
-      "High Brightness Output ensures excellent visibility in direct sunlight, making it ideal for outdoor advertising applications",
-      "Weatherproof Construction (High IP Rating) protects against dust, rain, humidity, and extreme temperatures",
-      "Fixed Installation Design provides stability and long-term durability for permanent display setups",
-      "Seamless Panel Integration allows large-format LED wall display configurations with uniform image quality",
-      "Energy-Efficient Performance reduces power consumption while maintaining consistent brightness and reliability",
-    ],
-
-    whyUs: [
-      "Specialized expertise in delivering fixed outdoor LED display solutions for large-scale advertising projects",
-      "High-quality advertising LED display screens built for durability, performance, and long-term outdoor use",
-      "Customized LED display board solutions tailored to installation environment and business requirements",
-      "Proven experience in executing reliable LED video wall display systems across commercial and public spaces",
-      "End-to-end support including design, installation, and maintenance for seamless project execution",
-    ],
-
-    specs: {
-      application: "Outdoor",
-      pixelPitch: "4 mm (P4)",
-      brightness: "≥ 5000 nits",
-      moduleSize: "320 × 160 mm",
-      ipRating: "IP65",
-      maintenance: "Front & Rear",
-      controller: "Newtech",
-      warranty: "2 Years",
-      availability: "In Stock",
-    },
-  },
-
-  //Advertising LED Display
-  {
-    name: "LED Display Screen for Advertising",
-    id: "led-display-screen-for-advertising",
-    metaTitle:
-      "Buy LED Display Screen for Advertising | Outdoor & Indoor LED Screens | Newtech Video Systems",
-    metaDescription:
-      "Premium LED display screens for advertising with high brightness and durability. Perfect for businesses, events, retail branding & outdoor promotions.",
-    catId: "advertising-led-display",
-    catName: "Advertising LED Display",
-    img: "https://5.imimg.com/data5/SELLER/Default/2024/7/437552918/PI/GS/FM/7685006/led-advertisement-display-screen-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/437552918/PI/GS/FM/7685006/led-advertisement-display-screen-1000x1000.jpg",
-    ],
-
-    overview: [
-      "LED Display Screen for Advertising is a high-impact advertising LED display screen designed to deliver vibrant visuals, dynamic content, and superior visibility for modern digital promotion",
-      "Built for indoor and outdoor applications, it ensures clear communication of brand messages in retail, commercial, and public environments",
-      "Ideal for billboards, storefronts, malls, corporate spaces, and events where strong audience engagement is required",
-      "Designed with advanced LED technology, it delivers smooth playback, sharp image quality, and consistent performance",
-      "A versatile LED video wall display solution that helps businesses enhance brand visibility and marketing effectiveness",
-    ],
-
-    features: [
-      "High Brightness & Sharp Clarity ensures content remains visible and impactful in both indoor and outdoor lighting conditions",
-      "Seamless Modular Design enables flexible installation and scalable LED wall display configurations for any screen size",
-      "Energy-Efficient Performance reduces operational cost while maintaining stable brightness and long-term reliability",
-      "Wide Viewing Angle & Smooth Refresh Rate delivers consistent visual quality from multiple directions without distortion",
-      "Durable & Reliable Build Quality ensures long-lasting performance for continuous advertising applications",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced advertising LED display solutions for retail, commercial, and large-scale outdoor applications",
-      "High-quality LED display screens designed for brightness, durability, and long-term operational stability",
-      "Customized LED video wall display solutions tailored to business needs and installation environments",
-      "Proven experience in delivering impactful LED display board systems across multiple industries",
-      "End-to-end support including consultation, installation, and maintenance for smooth project execution",
-    ],
-
-    specs: {
-      displayFunction: "Graphics, Video",
-      shape: "Square",
-      pixelPitch: "10 mm, 12 mm",
-      bodyMaterial: "Metal",
-      lightingType: "LED",
-      usage: "Outdoor",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Digital Advertising LED Display Screen",
-    id: "digital-advertising-led-display-screen",
-    metaTitle:
-      "Digital Advertising LED Display Screen | Outdoor & Indoor LED Screens | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers digital advertising LED display screens for indoor & outdoor use. High-brightness LED screens for branding, promotions & digital signage.",
-    catId: "advertising-led-display",
-    catName: "Advertising LED Display",
-    img: "https://5.imimg.com/data5/IG/ID/MY-7685006/digital-advertising-led-screen-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/IG/ID/MY-7685006/digital-advertising-led-screen-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Digital Advertising LED Display Screen is a next-generation advertising LED display screen designed to deliver dynamic, high-impact visual communication for modern digital marketing needs",
-      "Built to showcase real-time content, videos, and graphics, it enhances brand visibility across retail, commercial, and public environments",
-      "Ideal for malls, highways, airports, corporate buildings, and retail storefronts where continuous audience engagement is required",
-      "Engineered with advanced LED technology, it ensures sharp visuals, smooth playback, and consistent performance in all lighting conditions",
-      "A powerful LED video wall display solution that transforms traditional advertising into engaging digital experiences",
-    ],
-
-    features: [
-      "High Brightness Digital Output ensures maximum visibility and clarity even in bright indoor and outdoor environments",
-      "Real-Time Content Display Capability allows instant updates for promotions, offers, and dynamic advertising campaigns",
-      "Seamless Modular LED Design supports scalable LED wall display installations for various screen sizes and formats",
-      "Energy-Efficient Operation reduces power consumption while maintaining strong visual performance and reliability",
-      "Wide Viewing Angle & Smooth Refresh Rate delivers consistent image quality from all viewing directions without flicker",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced digital advertising LED display solutions for high-impact marketing and branding",
-      "High-quality advertising LED display screens built for performance, durability, and long-term reliability",
-      "Customized LED video wall display solutions designed to match specific business and installation requirements",
-      "Proven experience in executing large-scale LED display board projects across commercial and public sectors",
-      "End-to-end support including consultation, installation, and maintenance for seamless project delivery",
-    ],
-
-    specs: {
-      color: "Full Colour, Blue",
-      pixelPitch: "15 mm, 16 mm",
-      displayFunction: "Graphics, Video",
-      lightingApplication: "Outdoor Lighting, Indoor Lighting",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Advertising LED Display Screen",
-    id: "advertising-led-display-screen-p6",
-    metaTitle:
-      "Advertising LED Display Screen | Indoor & Outdoor LED Advertising Solutions | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers advertising LED display screens for indoor & outdoor use. High-brightness LED screens for branding, promotions & digital signage.",
-    catId: "advertising-led-display",
-    catName: "Advertising LED Display",
-    img: "https://5.imimg.com/data5/NL/TX/XC/ANDROID-53231493/product-jpeg-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/NL/TX/XC/ANDROID-53231493/product-jpeg-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Advertising LED Display Screen is a high-performance advertising LED display screen designed to deliver vibrant, dynamic, and attention-grabbing visuals for modern digital marketing applications",
-      "Built to enhance brand communication, it enables businesses to showcase videos, animations, and real-time promotional content with exceptional clarity",
-      "Ideal for retail stores, malls, corporate buildings, exhibitions, and outdoor advertising installations where maximum audience engagement is required",
-      "Engineered with advanced LED technology, it ensures consistent brightness, smooth playback, and reliable long-term operation",
-      "A versatile LED video wall display solution that transforms traditional advertising into powerful digital experiences",
-    ],
-
-    features: [
-      "High Brightness & Vivid Color Output ensures strong visibility and impactful advertising in all lighting environments",
-      "Seamless Modular Design allows flexible installation and scalable LED wall display configurations for different screen sizes",
-      "Energy-Efficient Performance reduces power consumption while maintaining stable brightness and long operational life",
-      "Wide Viewing Angle & High Refresh Rate delivers smooth, flicker-free visuals visible from multiple directions",
-      "Durable & Reliable Construction ensures stable performance for continuous advertising and commercial use",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium advertising LED display solutions for indoor, outdoor, and commercial applications",
-      "High-quality LED display screens engineered for brightness, durability, and long-term reliability",
-      "Customized LED video wall display solutions tailored to business goals and installation environments",
-      "Proven experience in delivering impactful LED display board systems across multiple industries",
-      "End-to-end support including consultation, installation, and maintenance for seamless execution",
-    ],
-
-    specs: {
-      brand: "Sunray",
-      model: "P6 Outdoor",
-      displayFunction: "Video",
-      pixelPitch: "6 mm",
-      ipRating: "IP65",
-      usage: "Outdoor",
-      voltage: "220–240 V AC",
-      shape: "Square",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Railway Station Advertising LED Display Screen",
-    id: "railway-station-advertising-led-display-screen",
-    metaTitle:
-      "Railway Station Advertising LED Display Screen | Digital LED Signage Solutions | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers railway station advertising LED display screens for real-time announcements & branding. High-brightness LED signage for public information & promotions.",
-    catId: "advertising-led-display",
-    catName: "Advertising LED Display",
-    img: "https://5.imimg.com/data5/HJ/MW/WR/SELLER-22673717/high-quality-led-panels-indoor-advertising-led-display-screen-flexible-led-screen-rental-programab-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/HJ/MW/WR/SELLER-22673717/high-quality-led-panels-indoor-advertising-led-display-screen-flexible-led-screen-rental-programab-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Railway Station Advertising LED Display Screens are high-impact advertising LED display screens designed to deliver clear, real-time, and engaging visual communication in high-traffic transportation environments",
-      "Built for continuous operation, these displays ensure reliable performance for announcements, advertisements, and passenger information systems",
-      "Ideal for platforms, concourses, waiting areas, ticket counters, and entry/exit zones where large audience visibility is essential",
-      "Engineered with advanced LED technology, they provide sharp visuals, smooth playback, and excellent readability even from long distances",
-      "A powerful LED video wall display solution that enhances passenger experience while maximizing advertising revenue opportunities",
-    ],
-
-    features: [
-      "High Brightness Visibility ensures clear content display even in brightly lit station environments and large open spaces",
-      "24/7 Continuous Operation Design supports long-hour usage required in railway and transportation infrastructure",
-      "Wide Viewing Angle & Clear Readability allows passengers from multiple directions and distances to view content easily",
-      "Seamless Modular LED Design enables flexible LED wall display installations for large-format station signage systems",
-      "Durable & Low Maintenance Structure ensures long-term reliability with minimal downtime in high-traffic environments",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced advertising LED display solutions for transportation hubs and public infrastructure projects",
-      "High-quality LED display screens designed for durability, brightness, and uninterrupted performance",
-      "Customized LED video wall display solutions tailored for railway station layouts and passenger flow requirements",
-      "Proven experience in executing large-scale LED display board installations in high-footfall environments",
-      "End-to-end support including planning, installation, and maintenance for smooth and reliable operation",
-    ],
-
-    specs: {
-      displaySize: "576 × 576 mm",
-      type: "SMD Display",
-      shape: "Rectangle",
-      brand: "Newtech",
-      features: "Offline / Online",
-      bodyMaterial: "Aluminum",
-      advertisingArea: "Customizable",
-      certification: "BIS, ISO",
-      lightingType: "LED",
-      pixelPitch: "3.9 – 16 mm",
-      color: "Full Color",
-      inputVoltage: "110 – 220 V",
-      operatingTemperature: "-5°C to 65°C",
-      viewingAngle: "120°",
-      ipRating: "IP65",
-      lifespan: "100,000 hours",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Flexible LED Display",
-    id: "flexible-led-display",
-    metaTitle:
-      "Flexible LED Display | Curved & Soft LED Screen Solutions | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers flexible LED displays for curved and creative installations. High-resolution, bendable LED screens for advertising, retail & events.",
-    catId: "advertising-led-display",
-    catName: "Advertising LED Display",
-    img: "https://5.imimg.com/data5/ANDROID/Default/2023/12/367122930/PY/RM/MX/26536911/product-jpeg-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/ANDROID/Default/2023/12/367122930/PY/RM/MX/26536911/product-jpeg-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Flexible LED Display is an innovative advertising LED display screen designed with bendable LED modules that allow creative curved, wave, and cylindrical installations",
-      "Built to deliver high-impact visuals with smooth image quality, it enables unique design freedom for modern architectural and branding applications",
-      "Ideal for retail stores, exhibitions, museums, luxury interiors, stage designs, and creative advertising environments",
-      "Engineered with advanced flexible LED technology, it ensures seamless visuals even on curved and non-flat surfaces",
-      "A premium LED video wall display solution that transforms traditional displays into immersive visual experiences",
-    ],
-
-    features: [
-      "Flexible & Bendable Design allows concave, convex, and creative curved LED wall display installations for unique visual effects",
-      "Seamless Image Output ensures smooth visuals without gaps or distortion even on curved surfaces",
-      "Lightweight & Thin Structure enables easy installation on walls, columns, and creative architectural surfaces",
-      "High Brightness & Color Accuracy delivers vibrant and consistent visuals in indoor and semi-outdoor environments",
-      "Custom Installation Capability supports innovative designs for branding, retail, and experiential marketing",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced flexible LED display solutions for creative and architectural applications",
-      "High-quality advertising LED display screens engineered for precision, durability, and visual performance",
-      "Customized LED video wall display solutions tailored for curved and complex installation requirements",
-      "Proven experience in executing innovative LED display board projects across retail, events, and luxury spaces",
-      "End-to-end support including design consultation, installation, and technical assistance for seamless execution",
-    ],
-
-    specs: {
-      application: "Indoor",
-      pixelPitch: "6 mm (P6)",
-      usage: "Cylinder, Indoor",
-      displaySize: "3 × 4 Ft",
-      displayColor: "RGB",
-      installationType: "Indoor",
-      shape: "Rectangle",
-      brightness: "≥ 6000 nits",
-      refreshRate: "≥ 1920 Hz",
-      moduleSize: "1500 × 250 mm",
-      color: "Black",
-      availability: "In Stock",
-    },
-  },
-
-  //LED Video Wall Display
-  {
-    name: "Wall Mounted LED Video Display",
-    id: "wall-mounted-led-video-display",
-    metaTitle:
-      "Wall Mounted LED Video Display | LED Video Wall & Advertising Screen | Newtech Video Systems",
-    metaDescription:
-      "High-quality wall mounted LED video displays for indoor advertising, corporate branding & presentations. Seamless LED video wall solutions from Newtech Video Systems.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/edu.jpg",
-
-    images: ["/edu.jpg"],
-
-    overview: [
-      "Wall Mounted LED Video Display is a high-performance advertising LED display screen designed for fixed installation on walls, delivering sharp, dynamic, and attention-grabbing visuals",
-      "Built for both indoor and semi-outdoor applications, it provides a clean and space-saving solution for modern digital signage needs",
-      "Ideal for retail stores, corporate offices, malls, showrooms, control rooms, and public spaces where clear communication and branding are essential",
-      "Engineered with advanced LED technology, it ensures smooth playback, high brightness, and consistent image quality",
-      "A reliable LED video wall display solution that transforms any wall into a powerful digital communication platform",
-    ],
-
-    features: [
-      "Space-Saving Wall Mounted Design enables clean installation without occupying floor space, ideal for modern interiors",
-      "High Brightness & Sharp Clarity ensures excellent visibility even in well-lit environments",
-      "Seamless Modular LED Panels allow scalable LED wall display configurations for different screen sizes",
-      "Energy-Efficient Performance reduces power consumption while maintaining stable and long-lasting operation",
-      "Wide Viewing Angle & Smooth Refresh Rate delivers consistent visuals from multiple viewing positions without distortion",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium wall mounted LED display solutions for commercial and professional environments",
-      "High-quality advertising LED display screens engineered for durability, brightness, and long-term performance",
-      "Customized LED video wall display solutions tailored to space, design, and business requirements",
-      "Proven experience in executing impactful LED display board installations across retail and corporate sectors",
-      "End-to-end support including consultation, installation, and maintenance for seamless project execution",
-    ],
-
-    specs: {
-      pixelDensity: "P10",
-      displayShape: "Rectangle",
-      voltage: "220 V",
-      frequency: "60 Hz",
-      brightness: "450 cd/m²",
-      mountingType: "Wall Mounted",
-      displayType: "LED Display",
-      countryOfOrigin: "Made in India",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "LED Video Wall Display",
-    id: "led-video-wall-display",
-    metaTitle:
-      "Buy LED Video Wall Display | Indoor & Outdoor LED Wall Solutions | Newtech Video Systems",
-    metaDescription:
-      "High-performance LED video wall displays for businesses, events & advertising. Durable, high-brightness LED wall systems for impactful visual communication.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/luxe-2-banner.jpg",
-
-    images: ["/luxe-2-banner.jpg"],
-
-    overview: [
-      "LED Video Wall Display is a high-performance advertising LED display screen designed to deliver seamless, large-format visuals for impactful digital communication",
-      "Built with modular LED panels, it creates a unified display surface that showcases videos, graphics, and real-time content with exceptional clarity",
-      "Ideal for corporate offices, malls, airports, control rooms, events, and public spaces where high-resolution visual impact is required",
-      "Engineered with advanced LED technology, it ensures smooth playback, vibrant colors, and consistent brightness across the entire display",
-      "A powerful LED video wall display solution that transforms any space into an immersive digital experience platform",
-    ],
-
-    features: [
-      "Seamless Modular Panel Design enables bezel-free large-screen installations for uninterrupted visual performance",
-      "High Resolution & Color Accuracy delivers sharp, vibrant, and professional-grade image quality",
-      "Wide Viewing Angle & Uniform Brightness ensures consistent visibility from multiple directions and distances",
-      "Flexible Configuration Options support custom LED wall display sizes and shapes for various installation needs",
-      "24/7 Reliable Performance designed for continuous operation in commercial and mission-critical environments",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced LED video wall display solutions for corporate, commercial, and public applications",
-      "High-quality advertising LED display screens engineered for precision, durability, and long-term stability",
-      "Customized LED display board solutions tailored to space, content, and business requirements",
-      "Proven experience in executing large-scale video wall installations across multiple industries",
-      "End-to-end support including consultation, design, installation, and maintenance for seamless execution",
-    ],
-
-    specs: {
-      application: "Indoor",
-      pixelPitch: "2 mm",
-      brightness: "600 cd/m²",
-      refreshRate: "3840 / 6000 Hz",
-      moduleSize: "320 × 160 mm",
-      videoSupport: "2K HD, 4K UHD",
-      controlSystem: "HUIDU",
-      countryOfOrigin: "Made in India",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "LED Video Wall",
-    id: "led-video-wall-p6",
-    metaTitle:
-      "LED Video Wall | Advertising & Commercial LED Video Wall Display | Newtech Video Systems",
-    metaDescription:
-      "High-performance LED video walls for indoor and outdoor applications. Ideal for advertising, events, control rooms & branding with seamless display technology.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "http://5.imimg.com/data5/SELLER/Default/2022/11/LA/QL/YK/69745314/p6-led-video-wall-500x500.jpeg",
-
-    images: [
-      "http://5.imimg.com/data5/SELLER/Default/2022/11/LA/QL/YK/69745314/p6-led-video-wall-500x500.jpeg",
-    ],
-
-    overview: [
-      "LED Video Wall is a high-performance advertising LED display screen solution designed to deliver seamless, large-format digital visuals with exceptional clarity and impact",
-      "Built using modular LED panels, it creates a unified display surface for showing videos, images, live feeds, and dynamic content without bezels",
-      "Ideal for corporate lobbies, shopping malls, airports, stadiums, control rooms, exhibitions, and events requiring high visual engagement",
-      "Engineered with advanced LED technology, it ensures smooth playback, uniform brightness, and vibrant color reproduction across the entire screen",
-      "A versatile LED video wall display system that transforms any space into a powerful digital communication platform",
-    ],
-
-    features: [
-      "Seamless Modular Panel System enables large-scale, bezel-free LED wall display installations for immersive viewing experiences",
-      "High Resolution & Sharp Image Quality delivers clear, detailed visuals suitable for professional and commercial environments",
-      "Uniform Brightness & Wide Viewing Angle ensures consistent visibility from all directions without color distortion",
-      "Flexible Installation Options support creative configurations including flat, curved, and custom-sized video walls",
-      "24/7 Continuous Operation Capability designed for reliable performance in high-demand commercial applications",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium LED video wall solutions for indoor, outdoor, and commercial installations",
-      "High-quality advertising LED display screens engineered for performance, durability, and long-term reliability",
-      "Customized LED display board solutions tailored to business needs, space, and content requirements",
-      "Proven experience in executing large-scale video wall projects across multiple industries and environments",
-      "End-to-end support including consultation, design, installation, and maintenance for smooth project execution",
-    ],
-
-    specs: {
-      pixelPitch: "6 mm",
-      altPixel: "3.9 mm",
-      shape: "Rectangle",
-      brightness: "1500 nits",
-      mountingType: "Wall Mounting",
-      displayType: "LED Display",
-      displayFunction: "Video",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Indoor LED Video Wall Display",
-    id: "indoor-led-video-wall-display",
-    metaTitle:
-      "Indoor LED Video Wall Display | High-Resolution Commercial LED Wall | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers indoor LED video wall displays for retail, corporate & events. High-resolution, seamless LED wall solutions for impactful visuals.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/8/339008261/JL/UK/PQ/11977596/indoor-led-video-wall-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/SELLER/Default/2023/8/339008261/JL/UK/PQ/11977596/indoor-led-video-wall-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Indoor LED Video Wall Display is a high-resolution advertising LED display screen designed to deliver seamless, vibrant, and immersive visuals for indoor environments",
-      "Built with precision LED modules, it creates a bezel-free display surface ideal for presentations, branding, and digital content playback",
-      "Perfect for corporate offices, retail stores, shopping malls, airports, exhibition halls, control rooms, and event venues",
-      "Engineered for indoor lighting conditions, it ensures smooth performance, accurate color reproduction, and consistent brightness",
-      "A premium LED video wall display solution that enhances communication, engagement, and visual storytelling indoors",
-    ],
-
-    features: [
-      "High-Resolution Indoor Display Technology delivers sharp, detailed visuals ideal for close viewing distances",
-      "Seamless Modular Panel Design enables bezel-free LED wall display setups for a unified viewing experience",
-      "Optimized Brightness for Indoor Use ensures comfortable viewing without glare or eye strain",
-      "Wide Viewing Angle & Color Accuracy provides consistent visuals from every angle in indoor spaces",
-      "Low Power Consumption & Stable Performance ensures energy-efficient and reliable 24/7 operation",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced indoor LED video wall display solutions for corporate and commercial environments",
-      "High-quality advertising LED display screens engineered for clarity, precision, and long-term performance",
-      "Customized LED display board solutions tailored to indoor space, design, and business needs",
-      "Proven experience in executing indoor video wall installations across retail, corporate, and institutional sectors",
-      "End-to-end support including consultation, installation, and maintenance for seamless deployment",
-    ],
-
-    specs: {
-      pixelPitch: "4 mm",
-      color: "Black",
-      installationType: "Wall Mounted",
-      shape: "Rectangle",
-      application: "Indoor",
-      type: "LED Video Wall",
-      brand: "Newtech",
-      countryOfOrigin: "Made in India",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Wall Mounted LED Advertising Video Display",
-    id: "wall-mounted-led-advertising-video-display",
-    metaTitle:
-      "Wall Mounted LED Advertising Video Display | Indoor LED Video Wall | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers wall mounted LED advertising video displays for indoor use. High-resolution LED video wall screens for branding, retail & promotions.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/12/369041726/XM/UY/AP/143500992/led-advertising-display-1000x1000.jpeg",
-
-    images: [
-      "https://5.imimg.com/data5/SELLER/Default/2023/12/369041726/XM/UY/AP/143500992/led-advertising-display-1000x1000.jpeg",
-    ],
-
-    overview: [
-      "Wall Mounted LED Advertising Video Display is a premium advertising LED display screen designed for fixed wall installation, delivering dynamic and high-impact digital content with exceptional clarity",
-      "Built for modern commercial environments, it transforms empty wall spaces into powerful advertising and communication platforms",
-      "Ideal for retail stores, shopping malls, corporate offices, showrooms, hotels, and public spaces where strong visual branding is required",
-      "Engineered with advanced LED technology, it ensures smooth video playback, vibrant colors, and consistent brightness for indoor and semi-outdoor use",
-      "A versatile LED video wall display solution that combines space efficiency with high-performance digital signage",
-    ],
-
-    features: [
-      "Space-Saving Wall Mounted Design enables clean, permanent installation without occupying floor space",
-      "High Brightness & Sharp Visual Output ensures clear visibility of content in all indoor lighting conditions",
-      "Seamless Modular LED Panels support scalable LED wall display configurations for different screen sizes",
-      "Wide Viewing Angle & Smooth Refresh Rate delivers consistent visuals without flicker or distortion",
-      "Energy-Efficient & Durable Performance ensures long-term operation with reduced maintenance requirements",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced wall mounted LED advertising video display solutions for commercial and retail environments",
-      "High-quality advertising LED display screens engineered for clarity, durability, and long-term reliability",
-      "Customized LED video wall display solutions tailored to space, design, and branding requirements",
-      "Proven experience in executing impactful LED display board installations across multiple industries",
-      "End-to-end support including consultation, installation, and maintenance for seamless project execution",
-    ],
-
-    specs: {
-      resolution: "1080p Full HD",
-      mountingType: "Wall Mounted",
-      inputVoltage: "16 V",
-      brightness: "4000 nits",
-      connectivity: "Ethernet",
-      viewingDistance: "4 meter",
-      fontStylesSupported: "Bold",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Outdoor LED Video Wall Display",
-    id: "outdoor-led-video-wall-display",
-    metaTitle:
-      "Outdoor LED Video Wall Display | High-Brightness LED Wall Screens | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers outdoor LED video wall displays for advertising, events & public signage. Durable, high-brightness LED wall solutions for all weather conditions.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
-
-    images: [
-      "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
-    ],
-
-    overview: [
-      "Outdoor LED Video Wall Display is a high-performance advertising LED display screen designed to deliver large-format, high-brightness visuals for outdoor digital advertising and public communication",
-      "Built with rugged, weatherproof modular panels, it creates a seamless display surface for videos, live content, and dynamic advertisements in open environments",
-      "Ideal for billboards, stadiums, highways, building facades, public squares, and event venues requiring maximum visibility",
-      "Engineered with advanced LED technology, it ensures strong brightness, sharp image quality, and stable performance even under direct sunlight",
-      "A powerful LED video wall display solution that transforms outdoor spaces into high-impact digital advertising platforms",
-    ],
-
-    features: [
-      "Ultra-High Brightness Output ensures clear visibility even in direct sunlight and challenging outdoor lighting conditions",
-      "Weatherproof IP-Rated Design protects against rain, dust, humidity, and extreme temperatures for reliable outdoor operation",
-      "Seamless Modular Panel System enables large-scale LED wall display installations with uniform image quality",
-      "Wide Viewing Angle & High Refresh Rate delivers smooth, flicker-free visuals visible from long distances",
-      "Heavy-Duty Structural Build ensures durability and stability for permanent and semi-permanent outdoor installations",
-    ],
-
-    whyUs: [
-      "Expertise in delivering high-impact outdoor LED video wall display solutions for advertising and large-scale public installations",
-      "Premium-quality advertising LED display screens designed for brightness, durability, and continuous performance",
-      "Customized LED display board solutions tailored for outdoor environments and project requirements",
-      "Proven experience in executing large-format LED video wall display projects across commercial and public sectors",
-      "End-to-end support including design, installation, and maintenance for reliable long-term performance",
-    ],
-
-    specs: {
-      powerSource: "Electric",
-      type: "Outdoor",
-      application:
-        "Club & Pubs, Sports Arena/Stadium, Hoarding/Advertising & Mobile Vans, Airport/Transport",
-      voltage: "220–240 V AC",
-      frequency: "50 Hz",
-      ipRating: "IP54",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Video Wall Display",
-    id: "video-wall-display-p8",
-    metaTitle:
-      "Buy Video Wall Display Systems | Indoor & Outdoor LED Video Walls | Newtech Video Systems",
-    metaDescription:
-      "High-performance video wall display systems for businesses, events & advertising. Seamless LED video wall solutions for impactful visual communication.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/vivid-2.jpg",
-
-    images: ["/vivid-2.jpg"],
-
-    overview: [
-      "Video Wall Display is a high-performance advertising LED display screen solution designed to deliver seamless, large-format visuals for impactful digital communication",
-      "Built using modular LED panels, it creates a unified display surface that showcases videos, images, live feeds, and dynamic content with exceptional clarity",
-      "Ideal for corporate lobbies, control rooms, shopping malls, airports, exhibition centers, events, and public spaces",
-      "Engineered with advanced LED technology, it ensures smooth playback, vibrant colors, and consistent brightness across the entire screen",
-      "A versatile LED video wall display system that transforms any environment into a powerful digital engagement platform",
-    ],
-
-    features: [
-      "Seamless Modular Panel Design enables bezel-free LED wall display installations for immersive and uninterrupted viewing experiences",
-      "High Resolution & Color Accuracy delivers sharp, vivid visuals suitable for professional and commercial applications",
-      "Uniform Brightness & Wide Viewing Angle ensures consistent visibility from all directions without distortion",
-      "Flexible Installation Options support custom configurations including flat, curved, and large-format video wall setups",
-      "24/7 Reliable Performance designed for continuous operation in demanding commercial environments",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium video wall display solutions for indoor, outdoor, and commercial applications",
-      "High-quality advertising LED display screens engineered for durability, clarity, and long-term performance",
-      "Customized LED display board solutions tailored to project size, environment, and business needs",
-      "Proven experience in executing large-scale LED video wall display installations across multiple industries",
-      "End-to-end support including consultation, design, installation, and maintenance for seamless execution",
-    ],
-
-    specs: {
-      pixelPitch: "8 mm",
-      bodyMaterial: "Acrylic",
-      application: "Outdoor",
-      countryOfOrigin: "Made in India",
-      service: "All India",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "Pole Mounted Blue Outdoor LED Video Display",
-    id: "pole-mounted-blue-outdoor-led-video-display",
-    metaTitle:
-      "Pole Mounted Outdoor LED Video Display | Blue LED Advertising Screen | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers pole mounted blue outdoor LED video displays for high-visibility advertising. Durable, weatherproof LED screens for roads, highways & public signage.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/outdoor-led-video-wall-500x500.webp",
-
-    images: ["/outdoor-led-video-wall-500x500.webp", "/pole-mounted-led-2.jpg"],
-
-    overview: [
-      "Pole Mounted Blue Outdoor LED Video Display is a high-visibility outdoor LED display screen designed for street-level advertising and public information delivery on poles and urban infrastructure",
-      "Built for maximum exposure in high-traffic outdoor environments, it delivers bright, clear, and dynamic content that captures attention instantly",
-      "Ideal for highways, city roads, commercial streets, smart city projects, bus stops, and public zones requiring continuous visual communication",
-      "Engineered with durable weatherproof technology, it ensures stable performance in rain, dust, heat, and varying environmental conditions",
-      "A powerful advertising LED display screen solution that enhances urban branding and outdoor digital communication",
-    ],
-
-    features: [
-      "Pole Mounted Installation Design enables space-efficient deployment on street poles and urban infrastructure for maximum visibility",
-      "High Brightness Outdoor LED Technology ensures clear readability even under direct sunlight and long-distance viewing conditions",
-      "Weatherproof IP-Rated Construction protects against dust, rain, humidity, and harsh outdoor environments",
-      "Blue Cabinet Structure for Enhanced Visibility & Aesthetics provides a distinctive, modern appearance suitable for city installations",
-      "Energy-Efficient & Low Maintenance Operation ensures reliable long-term performance for 24/7 public display usage",
-    ],
-
-    whyUs: [
-      "Expertise in delivering advanced pole mounted outdoor LED display solutions for smart city and urban advertising applications",
-      "High-quality advertising LED display screens engineered for durability, brightness, and continuous outdoor performance",
-      "Customized LED video wall display and signage solutions tailored for infrastructure-based installations",
-      "Proven experience in executing large-scale public LED display board projects across cities and highways",
-      "End-to-end support including design, installation, and maintenance for seamless and reliable deployment",
-    ],
-
-    specs: {
-      resolution: "1080p Full HD",
-      viewingDistance: "4 m",
-      mountingType: "Pole Mounted",
-      lightingColor: "Blue",
-      refreshRate: "3840 Hz – 7680 Hz",
-      countryOfOrigin: "Made in India",
-      availability: "In Stock",
-    },
-  },
-  {
-    name: "LMini P1.2 Indoor LED Video Wall",
-    id: "lmini-p1-2-indoor-led-video-wall",
-    metaTitle:
-      "LMini P1.2 Indoor LED Video Wall | Fine Pitch LED Display Screen | Newtech Video Systems",
-    metaDescription:
-      "High-quality LMini P1.2 indoor LED video wall with ultra-clear resolution. Ideal for control rooms, boardrooms, retail & high-end indoor applications.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/lmini-p1-2-led-video-wall-500x500.webp",
-
-    images: ["/lmini-p1-2-led-video-wall-500x500.webp", "/lmini-p1-2-2.jpg"],
-
-    overview: [
-      "LMini P1.2 Indoor LED Video Wall is a high-resolution advertising LED display screen designed for ultra-fine pixel pitch performance, delivering exceptional clarity for close-view indoor applications",
-      "Built for premium visual experiences, it ensures smooth image rendering, sharp details, and accurate color reproduction for professional environments",
-      "Ideal for corporate boardrooms, control rooms, luxury retail stores, studios, exhibition halls, and command centers where precision visuals are critical",
-      "Engineered with advanced LED technology, it provides seamless performance with uniform brightness and stable long-term operation",
-      "A premium LED video wall display solution that transforms indoor spaces into high-definition digital communication environments",
-    ],
-
-    features: [
-      "Ultra-Fine P1.2 Pixel Pitch delivers extremely sharp and detailed visuals for close viewing distances",
-      "Seamless Modular LED Design ensures bezel-free LED wall display installation for a unified viewing experience",
-      "High Color Accuracy & Contrast Performance provides realistic and vibrant image reproduction for professional use",
-      "Stable Low Brightness Operation optimized for indoor environments to ensure comfortable viewing without glare",
-      "High Refresh Rate & Smooth Playback delivers flicker-free visuals ideal for video conferencing, monitoring, and presentations",
-    ],
-
-    whyUs: [
-      "Expertise in delivering ultra-fine pitch indoor LED video wall display solutions for premium commercial environments",
-      "High-quality advertising LED display screens engineered for precision, clarity, and long-term reliability",
-      "Customized LED display board solutions tailored for control rooms, corporate spaces, and luxury installations",
-      "Proven experience in executing high-resolution LED video wall display projects across industries",
-      "End-to-end support including consultation, installation, calibration, and maintenance for flawless performance",
-    ],
-
-    specs: {
-      modelNumber: "P 1.2",
-      pixelPitch: "1.2 – 3 mm",
-      brand: "Lampro",
-      panelMaterial: "Die Casting Aluminum",
-      panelWeight: "6 kg",
-      ipRating: "IP54",
-      operatingTemperature: "-10°C to +40°C",
-      storageTemperature: "-20°C to +60°C",
-    },
-  },
-  {
-    name: "LMini P1.8 Indoor LED Video Wall",
-    id: "lmini-p1-8-indoor-led-video-wall",
-    metaTitle:
-      "LMini P1.8 Indoor LED Video Wall | High-Resolution LED Display | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers LMini P1.8 indoor LED video walls with high clarity and smooth visuals. Ideal for corporate, retail & indoor advertising applications.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/lmini-p-1-8-led-video-wall-500x500.webp",
-
-    images: ["/lmini-p-1-8-led-video-wall-500x500.webp", "/lmini-p1-8-2.jpg"],
-
-    overview: [
-      "LMini P1.8 Indoor LED Video Wall is a high-quality advertising LED display screen designed for smooth, clear, and reliable visual performance in indoor environments",
-      "Built to deliver excellent image clarity and balanced brightness, it is ideal for medium viewing distance applications",
-      "Perfect for corporate offices, retail stores, shopping malls, exhibition halls, classrooms, and meeting spaces",
-      "Engineered with advanced LED technology, it ensures seamless visuals, stable performance, and consistent color output",
-      "A dependable LED video wall display solution that enhances communication, presentations, and digital branding indoors",
-    ],
-
-    features: [
-      "P1.8 Fine Pixel Pitch delivers sharp and clear visuals suitable for indoor medium-distance viewing",
-      "Seamless Modular Design ensures smooth LED wall display installation without visible gaps",
-      "Balanced Brightness Output optimized for indoor environments to ensure comfortable and clear viewing",
-      "Wide Viewing Angle Performance provides consistent visuals from different positions in the room",
-      "Stable 24/7 Operation Capability ensures reliable performance for continuous commercial usage",
-    ],
-
-    whyUs: [
-      "Expertise in delivering reliable indoor LED video wall display solutions for corporate and commercial spaces",
-      "High-quality advertising LED display screens engineered for durability, clarity, and long-term performance",
-      "Customized LED display board solutions tailored to business communication and branding needs",
-      "Proven experience in executing indoor LED video wall display installations across multiple industries",
-      "End-to-end support including consultation, installation, and maintenance for smooth operation",
-    ],
-
-    specs: {
-      modelNumber: "P 1.8",
-      pixelPitch: "1.2 – 4 mm",
-      moduleSize: "150 x 168.75 mm",
-      panelSize: "600 x 675 x 39.75 mm",
-      panelWeight: "7.9 kg",
-      pixelDensity: "284,444 pixels/m²",
-      pixelsPerPanel: "320 x 360",
-      brand: "Lampro",
-      operatingTemperature: "-10°C to +40°C",
-      operatingHumidity: "10% ~ 80%",
-      storageTemperature: "-20°C to +60°C",
-      storageHumidity: "10% ~ 90%",
-    },
-  },
-  {
-    name: "LMini P1.5 Indoor LED Video Wall",
-    id: "lmini-p1-5-indoor-led-video-wall",
-    metaTitle:
-      "Buy LMini P1.5 Indoor LED Video Wall | Fine Pitch LED Screen | Newtech Video Systems",
-    metaDescription:
-      "Premium LMini P1.5 indoor LED video wall for sharp visuals and smooth performance. Ideal for business presentations, branding & professional indoor displays.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/lmini-p-1-8-led-video-wall-500x500.webp",
-
-    images: ["/lmini-p-1-8-led-video-wall-500x500.webp", "/lmini-p1-8-2.jpg"],
-
-    overview: [
-      "LMini P1.5 Indoor LED Video Wall is a high-performance advertising LED display screen designed to deliver sharp, detailed, and visually balanced content for modern indoor environments",
-      "Built with fine pixel pitch technology, it ensures smooth image quality, accurate color reproduction, and excellent viewing experience",
-      "Ideal for corporate offices, retail spaces, shopping malls, control rooms, exhibition centers, and meeting rooms",
-      "Engineered for reliability and consistency, it provides seamless performance for continuous indoor usage",
-      "A versatile LED video wall display solution that enhances branding, communication, and digital presentation impact",
-    ],
-
-    features: [
-      "P1.5 Fine Pixel Pitch delivers high-definition visuals with excellent clarity for indoor viewing applications",
-      "Seamless Modular LED Design ensures smooth LED wall display installation with no visible bezels or gaps",
-      "High Color Accuracy & Smooth Gradient Output provides natural and vibrant image reproduction",
-      "Optimized Indoor Brightness Levels ensure comfortable viewing without strain in enclosed environments",
-      "Stable Performance for 24/7 Use supports reliable operation for commercial and professional installations",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium indoor LED video wall display solutions for corporate and commercial applications",
-      "High-quality advertising LED display screens engineered for clarity, durability, and long-term performance",
-      "Customized LED display board solutions tailored to business communication and branding needs",
-      "Proven experience in executing high-quality LED video wall display installations across industries",
-      "End-to-end support including consultation, installation, calibration, and maintenance for smooth operation",
-    ],
-
-    specs: {
-      brand: "Lampro",
-      modelNumber: "P 1.5",
-      moduleSize: "150 x 168.75 mm",
-      panelSize: "600 x 337.5 x 39.75 mm",
-      panelMaterial: "Die Casting Aluminum",
-      panelWeight: "4 kg",
-      pixelDensity: "409,600 pixels/m²",
-      pixelsPerPanel: "384 x 216",
-      processingDepth: "13 bit",
-      operatingTemperature: "-10°C to +40°C",
-      storageTemperature: "-20°C to +60°C",
-      storageHumidity: "10% ~ 90%",
-    },
-  },
-  {
-    name: "P3 Outdoor Aluminum Die Cast Cabinet",
-    id: "p3-outdoor-aluminum-die-cast-cabinet",
-    metaTitle:
-      "P3 Outdoor LED Display Cabinet | Aluminum Die Cast LED Screen | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers P3 outdoor aluminum die cast cabinets for LED displays. Durable, weatherproof and ideal for high-brightness outdoor advertising screens.",
-    catId: "led-video-wall-display",
-    catName: "LED Video Wall Display",
-    img: "/p3-outdoor-aluminium-die-cast-led-video-wall-cabinet-500x500.webp",
-
-    images: [
-      "/p3-outdoor-aluminium-die-cast-led-video-wall-cabinet-500x500.webp",
-      "/p3-cabinet-2.jpg",
-    ],
-
-    overview: [
-      "P3 Outdoor Aluminum Die Cast Cabinet is a high-performance outdoor LED display screen cabinet system designed for sharp visuals, strong durability, and reliable outdoor advertising applications",
-      "Built with precision die-cast aluminum structure, it ensures excellent strength, heat dissipation, and long-term stability in harsh environments",
-      "Ideal for billboards, building facades, highways, stadiums, and public advertising installations requiring high visibility and continuous operation",
-      "Engineered for P3 pixel pitch LED modules, it delivers clear, vibrant, and detailed visuals even at medium viewing distances",
-      "A robust LED video wall display cabinet solution that supports large-scale outdoor digital signage projects",
-    ],
-
-    features: [
-      "Die-Cast Aluminum Cabinet Structure ensures lightweight strength, high precision, and long-term durability for outdoor installations",
-      "P3 Pixel Pitch Compatibility delivers sharp and detailed visuals suitable for medium-distance outdoor viewing",
-      "High Brightness Support ensures excellent visibility even under direct sunlight and bright outdoor conditions",
-      "Weather-Resistant Construction protects against dust, rain, humidity, and temperature variations",
-      "Seamless Modular Design enables flexible and scalable LED wall display configurations for large-format installations",
-    ],
-
-    whyUs: [
-      "Expertise in delivering premium outdoor LED display cabinet solutions for large-scale advertising projects",
-      "High-quality advertising LED display screens engineered for durability, brightness, and long-term outdoor performance",
-      "Customized LED video wall display solutions tailored to infrastructure and branding requirements",
-      "Proven experience in executing reliable LED display board installations across commercial and public sectors",
-      "End-to-end support including design, installation, and maintenance for seamless project execution",
-    ],
-
-    specs: {
-      modelNumber: "P3",
-      pixelPitch: "3.076 mm",
-      ledType: "SMD1415",
-      pixelConfiguration: "1R1G1B",
-      pixelDensity: "105,689 dots/m²",
-      moduleSize: "320 x 160 mm",
-      cabinetWeight: "9 kg",
-      material: "Aluminium",
-      interface: "HUB75",
-      videoFrameRate: "60 fps",
-      signalProcessingDepth: "16384",
-      brand: "Novastar",
-      usage: "Outdoor",
-    },
-  },
-
-  ///Rental Led
-  {
-    name: "Rental Cabinets Outdoor LED Display",
-    id: "rental-cabinets-outdoor-led-display",
-    applicationIds: ["rental"],
-    metaTitle:
-      "Rental Outdoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers rental outdoor LED display cabinets for events and temporary installations. Durable, high-brightness LED video wall rental solutions for outdoor use.",
-    catId: "rental-led",
-    catName: "Rental Led",
-    img: "/new18.jpg",
-
-    images: ["/new18.jpg", "/new17.jpg"],
-
-    overview: [
-      "Rental Cabinets Outdoor LED Display is a high-performance advertising LED display screen engineered for rugged outdoor environments, delivering bright, clear, and impactful visuals even under direct sunlight",
-      "Designed for modular LED video wall display setups, it enables quick installation and dismantling, making it ideal for temporary outdoor events and large-scale productions",
-      "Perfect for concerts, festivals, sports events, exhibitions, and outdoor advertising where visibility and reliability are critical",
-      "Built with durable, weather-resistant construction to ensure consistent performance in varying environmental conditions",
-      "Combines high brightness, seamless display quality, and robust design to deliver reliable outdoor visual experiences",
-    ],
-
-    features: [
-      "High Brightness Output ensures excellent visibility in daylight and high ambient light conditions, making content stand out clearly in outdoor settings",
-      "Weather-Resistant Construction protects against dust, rain, and harsh environmental factors, ensuring long-term durability and stable performance",
-      "Lightweight & Modular Cabinet Design allows easy transportation, fast installation, and flexible screen configurations for different event requirements",
-      "Seamless Panel Alignment ensures smooth, gapless LED video wall display performance for professional and immersive visuals",
-      "Designed for reliable operation with smooth playback and high refresh rates, ensuring flicker-free content during live events",
-    ],
-
-    whyUs: [
-      "Expertise in delivering high-performance advertising LED display solutions for demanding outdoor and event-based applications",
-      "Advanced engineering ensures durable and reliable outdoor LED display screens capable of handling tough environmental conditions",
-      "Proven capability in deploying large-scale LED video wall displays for concerts, festivals, and public events",
-      "Strong focus on durability, brightness, and performance consistency across all LED display solutions",
-      "End-to-end support including consultation, installation, and on-site assistance for smooth and successful event execution",
-    ],
-
-    specs: {
-      pixelPitch: "3.6 mm, 3.5 mm, 2.9 mm",
-      ledType: "3-in-1 SMD",
-      brightness: "1200 cd/m²",
-      pixelDensity: "77,100 pixels/m²",
-      resolutionPerPanel: "160 × 160 pixels",
-      moduleSize: "288 mm × 288 mm",
-      panelSize: "576 mm × 576 mm, 500 mm × 500 mm",
-      weightPerPanel: "8.5 kg",
-      maintenance: "Front / Back",
-      ipRating: "IP43 (Rear)",
-      ledLamp: "Nationstar SMD 2020",
-      driverIC: "ICN 2153",
-      scanRatio: "1/16 Scan",
-      controlSystem: "NovaStar",
-      recommendedViewingDistance: "≈ 3.6 m",
-      environment: "Outdoor",
-      material: "Die-cast Aluminum",
-      ledLifetime: "100,000 Hours",
-      brightnessControl: "Manual / Automatic",
-      colorTemperature: "2000K – 9500K Adjustable",
-      refreshRate: "3840 Hz",
-      videoFrameRate: "50 & 60 Hz",
-      powerFrequency: "50 ~ 60 Hz",
-      horizontalViewingAngle: "140°",
-      verticalViewingAngle: "140°",
-      contrastRatio: "5000 : 1",
-      maxPowerConsumption: "270 W / panel",
-      typicalPowerConsumption: "59 W / panel",
-      inputVoltage: "100 ~ 240 V (50 ~ 60 Hz)",
-      processingDepth: "16 bit",
-      operatingCondition: "-10°C ~ +45°C / 10 ~ 80% RH",
-      storageCondition: "-20°C ~ +55°C / 10 ~ 85% RH",
-      powerStatus: "Diagnostic LEDs",
-    },
-  },
-  {
-  name: "Transparent Display LED Rental ",
-  id: "transparent-display-led-rental",
-  metaTitle:
-    "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
-  catId: "rental-led",
-    catName: "Rental Led",
-  img: "/product/rental.webp",
-
-  images: ["/product/rental.webp"],
-
-  overview: [
-    "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
-    "Designed for concerts, exhibitions, stage productions, product launches, fashion shows, corporate events, shopping malls, and live entertainment environments, this LED display screen for advertising offers a perfect combination of visual impact and elegant design flexibility.",
-    "Engineered for temporary and rental installations, the Transparent Display LED Rental Solution features lightweight cabinets, quick-lock systems, and seamless panel integration for fast setup and dismantling during events and productions.",
-    "With high brightness performance, smooth playback, and transparent visual technology, this LED video wall display delivers dynamic content presentation while maintaining an open and futuristic appearance.",
-    "Built for reliability and portability, this LED wall display solution combines energy-efficient operation, durable construction, and creative installation possibilities for modern event and advertising applications.",
-  ],
-
-  features: [
-    "High Transparency LED Technology allows visibility through the screen while delivering vibrant and impactful visual content for premium event experiences.",
-    "Lightweight Rental Cabinet Design enables fast installation, easy transportation, and quick dismantling for temporary event setups and touring applications.",
-    "Seamless Modular LED Structure supports scalable LED video wall display configurations with smooth panel alignment and uninterrupted visuals.",
-    "High Brightness & Smooth Playback Performance ensure the advertising LED display screen remains visually striking in indoor and semi-outdoor environments.",
-    "Creative & Flexible Installation Capability allows the LED wall display to be used for stage backdrops, glass facades, suspended installations, and immersive event displays.",
-  ],
-
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative transparent LED display screen solutions for premium events, exhibitions, and digital advertising applications.",
-    "Our advanced advertising LED display screen systems are engineered for seamless visuals, lightweight portability, and reliable rental performance.",
-    "We provide customized LED video wall display solutions tailored to event requirements, venue layouts, and creative branding objectives.",
-    "With strong expertise in professional LED display board installations, we help businesses and event organizers create visually engaging and memorable digital experiences.",
-    "From consultation and setup planning to installation and technical support, NewTech offers complete assistance for every LED wall display rental project to ensure flawless execution and maximum visual impact.",
-  ],
-
-  specs: {
-     "pixelPitch": "3.9-7.8mm",
-    "ledType": "3-in-1 SMD",
-    "brightness": "4,000 nits",
-    "pixelsPerPanel": "256*64",
-    "pixelDensity": "32,768 dot/m2",
-    "panelWeightPerPc": "6.5kg",
-    "moduleSize": "1000x500x80mm",
-    "material": "Die Cast Aluminum",
-    "environment": "Outdoor",
-    "ipRating": "IP65",
-    "refreshRate": "3840Hz",
-    "transparency": "44%",
-    "curve": "(Convex) -15°~+15° (Concave)",
-    "cube": "90 Degree",
-  },
-  },
-  {
-    name: "Rental Cabinet Indoor LED Display",
-    id: "rental-cabinet-indoor-led-display",
-    applicationIds: ["rental"],
-    metaTitle:
-      "Rental Indoor LED Display Cabinets | LED Video Wall Rental System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers rental indoor LED display cabinets for events, exhibitions & corporate setups. High-resolution LED video wall rental solutions for indoor use.",
-    catId: "rental-led",
-    catName: "Rental Led",
-    img: "/indoor-1.png",
-
-    images: ["/indoor-1.png", "/rental-cabinet-1.jpg"],
-
-    overview: [
-      "Rental Cabinet Indoor LED Display is a high-performance advertising LED display screen designed for fast-paced event environments, delivering seamless visuals with high clarity and consistent brightness",
-      "Engineered for temporary and modular LED video wall display setups, it enables quick installation and dismantling without compromising performance",
-      "Ideal for concerts, exhibitions, conferences, stage productions, and corporate events where flexibility and speed are essential",
-      "Lightweight cabinet structure with precise engineering ensures easy handling, transport, and setup across different venues",
-      "Designed to deliver reliable and high-quality indoor visuals, making it a perfect solution for dynamic and large-scale event applications",
-    ],
-
-    features: [
-      "Lightweight & Portable Cabinet Design allows easy transportation and quick setup, making it ideal for rental and event-based applications",
-      "Smart Locking System ensures fast assembly and secure panel alignment, reducing installation time and improving overall efficiency",
-      "Seamless Panel Alignment provides smooth and gapless LED video wall display performance for a professional visual experience",
-      "Delivers sharp image clarity and consistent indoor brightness for high-quality video playback and live event visuals",
-      "Modular design supports flexible configurations, allowing different screen sizes and creative stage setups",
-    ],
-
-    whyUs: [
-      "Expertise in delivering high-quality advertising LED display solutions specifically designed for rental and event applications",
-      "Advanced engineering ensures reliable and seamless LED video wall display performance in fast-paced environments",
-      "Proven capability in providing flexible and scalable LED wall display systems for concerts, exhibitions, and live events",
-      "Strong focus on durability, ease of use, and consistent performance across all rental display solutions",
-      "End-to-end support including consultation, setup guidance, and technical assistance for smooth event execution",
-    ],
-
-    specs: {
-      pixelPitch: "3.6 mm, 4.8 mm, 3.8 mm",
-      ledType: "3-in-1 SMD",
-      brightness: "1200 cd/m²",
-      pixelDensity: "77,100 pixels/m²",
-      resolutionPerPanel: "160 × 160 pixels",
-      moduleSize: "288 mm × 288 mm",
-      panelSize: "576 mm × 576 mm, 500 mm × 500 mm",
-      weightPerPanel: "8.5 kg",
-      maintenance: "Front / Back",
-      ipRating: "IP43 (Rear)",
-      ledLamp: "Nationstar SMD 2020",
-      driverIC: "ICN 2153",
-      scanRatio: "1/16 Scan",
-      controlSystem: "NovaStar",
-      recommendedViewingDistance: "≈ 3.6 m",
-      environment: "Indoor",
-      material: "Die-cast Aluminum",
-      ledLifetime: "100,000 Hours",
-      brightnessControl: "Manual / Automatic",
-      colorTemperature: "2000K – 9500K Adjustable",
-      refreshRate: "3840 Hz",
-      videoFrameRate: "50 & 60 Hz",
-      powerFrequency: "50 ~ 60 Hz",
-      horizontalViewingAngle: "140°",
-      verticalViewingAngle: "140°",
-      contrastRatio: "5000 : 1",
-      maxPowerConsumption: "270 W / panel",
-      typicalPowerConsumption: "59 W / panel",
-      inputVoltage: "100 ~ 240 V (50 ~ 60 Hz)",
-      processingDepth: "16 bit",
-      operatingCondition: "-10°C ~ +45°C / 10 ~ 80% RH",
-      storageCondition: "-20°C ~ +55°C / 10 ~ 85% RH",
-      powerStatus: "Diagnostic LEDs",
+      "P6": {
+        "pixelPitch": "6mm",
+        "pixelDensity": "27,777 Pixels/m2",
+        "ledType": "SMD2727",
+        "moduleSize": "192*192mm",
+        "moduleResolution": "32*32",
+        "panelSize": "960*960mm",
+        "panelResolution": "160*160",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/8",
+        "brightness": "6000-6500 nits",
+      }
     },
   },
   {
@@ -2904,8 +1034,8 @@ export const products = [
       "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
-    catId: "rental-led",
-    catName: "Rental Led",
+    catId: "outdoor-advertising-led-displays",
+    catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Image.jpg",
 
     images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
@@ -2956,6 +1086,289 @@ export const products = [
       packing: "Two standee in one flight case",
     },
   },
+
+  ///Rental Led
+  {
+    name: "Prime Plus Series",
+    id: "prime-plus-series",
+    metaTitle: "Prime Plus Series | High-Brightness Rental LED Display | Newtech Video Systems",
+    metaDescription: "Newtech Video Systems Pvt. Ltd. offers Prime Plus Series LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
+    catId: "rental-led",
+    catName: "Rental Led",
+    img: "/product/prime.webp",
+    images: ["/product/prime.webp"],
+
+    overview: [
+      "Prime Plus Series LED Display Screen is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
+      "This advanced advertising LED display screen ensures impactful digital communication even in challenging outdoor environments",
+      "Ideal for billboards, commercial buildings, highways, shopping malls, transportation hubs, stadiums, and outdoor branding applications",
+      "Engineered with advanced LED technology, this LED display screen for advertising delivers smooth playback, vivid color accuracy, and stable image quality for continuous outdoor operation",
+      "The modular cabinet structure and seamless panel integration support scalable LED wall display installations for both medium and large-format outdoor display projects with a premium and professional appearance",
+      "Designed for durability and energy efficiency, this outdoor LED display screen combines weather-resistant protection, high brightness performance, and long operational life for reliable outdoor advertising and communication",
+    ],
+
+    features: [
+      "Prime Plus Series LED Display Screen Pixel Pitch Technology delivers sharp visuals and excellent readability, making this outdoor LED display screen ideal for medium-distance outdoor viewing applications",
+      "High Brightness LED Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and high ambient outdoor lighting conditions",
+      "Weatherproof & Durable Cabinet Design protects the LED video wall display against rain, dust, humidity, and harsh environmental conditions for stable outdoor operation",
+      "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual performance",
+      "Energy-Efficient & Stable Operation reduces power consumption while maintaining reliable performance for continuous outdoor advertising and branding applications",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and large-scale outdoor communication projects",
+      "Our advanced advertising LED display screen systems are engineered for superior brightness, durability, and long-term outdoor reliability",
+      "We provide customized LED video wall display solutions tailored to project requirements, installation environments, and business advertising objectives",
+      "With extensive expertise in professional LED display board installations, we help businesses create high-impact outdoor advertising experiences using advanced LED technology",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure smooth execution and reliable long-term performance",
+    ],
+
+    specs: {
+      "P3.5 Indoor": {
+        "pixelPitch": "3.5mm",
+        "pixelDensity": "81625 Pixels/m2",
+        "ledType": "SMD2020",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "82*82",
+        "panelSize": "576*576mm",
+        "panelResolution": "164*164",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "8.8kg",
+        "scanRate": "1/21",
+        "brightness": ">1000 nits",
+      },
+
+      "P3.8 Outdoor": {
+        "pixelPitch": "3.84mm",
+        "pixelDensity": "67800 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "75*75",
+        "panelSize": "576*576mm",
+        "panelResolution": "150*150",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "9.2kg",
+        "scanRate": "1/15",
+        "brightness": ">5000 White / >4000 Black nits",
+        "frameRate": ">60Hz",
+        "voltage": "220-110 +/- 10%",
+      },
+
+      "P4.8 Outdoor": {
+        "pixelPitch": "4.8mm",
+        "pixelDensity": "43264 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "60*60",
+        "panelSize": "576*576mm",
+        "panelResolution": "120*120",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "9.2kg",
+        "scanRate": "1/12",
+        "brightness": ">5500 nits",
+      },
+    },
+
+  },
+  {
+    name: "Transparent Display LED Rental ",
+    id: "transparent-display-led-rental",
+    metaTitle:
+      "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
+    catId: "rental-led",
+    catName: "Rental Led",
+    img: "/ProductImages/Picture1.png",
+
+    images: ["/ProductImages/Picture1.png",],
+
+    overview: [
+      "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
+      "Designed for concerts, exhibitions, stage productions, product launches, fashion shows, corporate events, shopping malls, and live entertainment environments, this LED display screen for advertising offers a perfect combination of visual impact and elegant design flexibility.",
+      "Engineered for temporary and rental installations, the Transparent Display LED Rental Solution features lightweight cabinets, quick-lock systems, and seamless panel integration for fast setup and dismantling during events and productions.",
+      "With high brightness performance, smooth playback, and transparent visual technology, this LED video wall display delivers dynamic content presentation while maintaining an open and futuristic appearance.",
+      "Built for reliability and portability, this LED wall display solution combines energy-efficient operation, durable construction, and creative installation possibilities for modern event and advertising applications.",
+    ],
+
+    features: [
+      "High Transparency LED Technology allows visibility through the screen while delivering vibrant and impactful visual content for premium event experiences.",
+      "Lightweight Rental Cabinet Design enables fast installation, easy transportation, and quick dismantling for temporary event setups and touring applications.",
+      "Seamless Modular LED Structure supports scalable LED video wall display configurations with smooth panel alignment and uninterrupted visuals.",
+      "High Brightness & Smooth Playback Performance ensure the advertising LED display screen remains visually striking in indoor and semi-outdoor environments.",
+      "Creative & Flexible Installation Capability allows the LED wall display to be used for stage backdrops, glass facades, suspended installations, and immersive event displays.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative transparent LED display screen solutions for premium events, exhibitions, and digital advertising applications.",
+      "Our advanced advertising LED display screen systems are engineered for seamless visuals, lightweight portability, and reliable rental performance.",
+      "We provide customized LED video wall display solutions tailored to event requirements, venue layouts, and creative branding objectives.",
+      "With strong expertise in professional LED display board installations, we help businesses and event organizers create visually engaging and memorable digital experiences.",
+      "From consultation and setup planning to installation and technical support, NewTech offers complete assistance for every LED wall display rental project to ensure flawless execution and maximum visual impact.",
+    ],
+
+    specs: {
+      "pixelPitch": "3.9-7.8mm",
+      "ledType": "3-in-1 SMD",
+      "brightness": "4,000 nits",
+      "pixelsPerPanel": "256*64",
+      "pixelDensity": "32,768 dot/m2",
+      "panelWeightPerPc": "6.5kg",
+      "moduleSize": "1000x500x80mm",
+      "material": "Die Cast Aluminum",
+      "environment": "Outdoor",
+      "ipRating": "IP65",
+      "refreshRate": "3840Hz",
+      "transparency": "44%",
+      "curve": "(Convex) -15°~+15° (Concave)",
+      "cube": "90 Degree",
+    },
+  },
+  {
+    name: "3D Anamorphic Series",
+    id: "3d-anamorphic-series",
+    metaTitle: "3D Anamorphic Series | 3D Anamorphic Rental LED Display | Newtech Video Systems",
+    metaDescription: "Newtech Video Systems Pvt. Ltd. offers 3D Anamorphic Series LED Video Wall Displays for immersive DOOH advertising, commercial buildings, malls & public spaces with ultra-bright and realistic 3D visuals.",
+    catId: "rental-led",
+    catName: "Rental Led",
+    img: "/product/3d-anamor.webp",
+
+    images: ["/product/3d-anamor.webp"],
+
+    overview: [
+      "Rental Led Video Wall – 3D Anamorphic Cabinet is a next-generation outdoor LED display screen designed to create immersive 3D visual experiences with stunning depth, realism, and high-impact advertising performance. This premium advertising LED display screen transforms outdoor spaces into engaging digital landmarks that capture audience attention instantly.",
+      "Specially engineered for anamorphic 3D content, this advanced LED video wall display delivers seamless corner visuals, ultra-bright output, and realistic motion effects without requiring 3D glasses, making it ideal for modern DOOH advertising applications.",
+      "Designed for shopping malls, commercial buildings, public squares, entertainment districts, stadiums, airports, and high-traffic urban locations, the 3D Anamorphic Cabinet helps brands create unforgettable advertising experiences.",
+      "With precision cabinet engineering and modular integration, this LED wall display supports custom corner installations and large-scale creative configurations for premium outdoor digital signage projects.",
+      "Built for continuous outdoor operation, this outdoor LED display screen combines high brightness, weatherproof durability, smooth playback, and stable performance to ensure impactful visual communication in all environments.",
+    ],
+
+    features: [
+      "3D Anamorphic Series Pixel Pitch Technology delivers sharp visuals and realistic image depth, making this LED display screen for advertising ideal for premium 3D anamorphic content.",
+      "3D Anamorphic Display Capability creates immersive naked-eye 3D visual effects that enhance audience engagement and brand recall in outdoor advertising environments.",
+      "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor conditions.",
+      "Weatherproof & Heavy-Duty Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Corner & Modular Installation enables flexible LED wall display configurations for large-scale creative 3D video wall applications.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative outdoor LED display screen solutions for premium advertising and immersive digital communication projects.",
+      "Our advanced advertising LED display screen systems are engineered for exceptional brightness, seamless visuals, and long-term outdoor reliability.",
+      "We provide customized LED video wall display solutions for anamorphic 3D installations tailored to architectural spaces and branding objectives.",
+      "With strong expertise in large-scale LED display board installations, we help businesses create iconic digital advertising experiences with cutting-edge LED technology.",
+      "From concept planning and installation to calibration and maintenance, NewTech offers complete support for every LED wall display project to ensure flawless execution and maximum visual impact.",
+    ],
+
+    specs: {
+      "P3.8": {
+        "pixelPitch": "3.84mm",
+        "pixelDensity": "67800 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "75*75",
+        "panelSize": "288*576mm",
+        "panelResolution": "75*150",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "5.5kg",
+        "scanRate": "1/15",
+      },
+
+      "P4.8": {
+        "pixelPitch": "4.8mm",
+        "pixelDensity": "43264 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "60*60",
+        "panelSize": "288*576mm",
+        "panelResolution": "60*120",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "5.5kg",
+        "scanRate": "1/12",
+        "brightness": ">5500 nits",
+      },
+    },
+  },
+  {
+    name: "X Series",
+    id: "x-series",
+    metaTitle: "X Series LED Display Screen  | Rental LED Display Screen | NewTech Video Systems",
+    metaDescription: "NewTech Video Systems Pvt. Ltd. offers X Series LED Display Screen (X-Series) with sharp visuals, seamless LED video wall display performance, and advanced indoor advertising solutions for retail, corporate, and commercial spaces.",
+    catId: "rental-led",
+    catName: "Rental Led",
+    img: "/product/X SERIES.webp",
+
+    images: ["/product/X SERIES.webp"],
+
+    overview: [
+      "Rental LED Display Screen (X-Series) is a high-performance advertising LED display screen designed to deliver bright, sharp, and visually engaging content for modern indoor environments. This advanced indoor LED display screen provides smooth image rendering, vibrant color accuracy, and reliable long-term performance for professional applications.",
+      "Designed for retail stores, shopping malls, corporate offices, conference rooms, exhibition halls, and commercial interiors, this LED display screen for advertising helps businesses create impactful digital communication and branding experiences.",
+      "The X-Series features advanced LED technology that delivers seamless visuals, stable brightness, and excellent clarity, making it an ideal LED video wall display solution for indoor advertising and presentation applications.",
+      "With its sleek cabinet structure and modular design, this LED wall display supports flexible installation and scalable configurations for creating large-format advertising LED display screen setups with a premium appearance.",
+      "Engineered for continuous operation, the X-Series offers an energy-efficient and durable indoor LED display screen solution that enhances audience engagement, improves brand visibility, and supports professional digital signage requirements.",
+    ],
+
+    features: [
+      "X-Series Pixel Pitch Technology delivers clear and detailed visuals, making this indoor LED display screen ideal for medium-distance viewing in commercial and corporate environments.",
+      "Seamless Modular Cabinet Design enables scalable LED video wall display installations with smooth panel alignment and uninterrupted visual performance for professional advertising applications.",
+      "Optimized Indoor Brightness Performance ensures this advertising LED display screen delivers comfortable viewing with vibrant visuals and balanced brightness in indoor spaces.",
+      "High Refresh Rate & Smooth Playback provide flicker-free visuals and stable content display, making this LED display screen for advertising suitable for videos, presentations, promotions, and digital branding.",
+      "Lightweight Cabinet with Easy Maintenance Access allows fast installation and simplified servicing, ensuring reliable long-term operation of the LED wall display system.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. is a trusted provider of premium advertising LED display screen solutions for indoor commercial, retail, and corporate applications.",
+      "We deliver high-quality indoor LED display screen systems engineered for superior clarity, durability, energy efficiency, and long-term performance.",
+      "Our customized LED video wall display solutions are designed to match your business requirements, installation space, and audience engagement goals.",
+      "With strong expertise in professional LED display board installations, we help businesses enhance digital advertising, branding, and communication through advanced display technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech provides complete support for every LED wall display project to ensure smooth execution and reliable performance.",
+    ],
+
+    specs: {
+      "P4.8 Indoor": {
+        pixelPitch: "4.8mm",
+        pixelDensity: "43264 Pixels/m2",
+        ledType: "SMD2020",
+        moduleResolution: "60*60",
+        panelResolution: "120*120",
+        weightPerPc: "8kg",
+        scanRate: "1/15",
+        brightness: ">1000 nits",
+        refreshRate: "3840-7680Hz",
+        powerConsumptionMax: "<552 W/m2",
+        ipRating: "IP30",
+      },
+
+      "P4.8 Outdoor": {
+        pixelPitch: "4.8mm",
+        pixelDensity: "43264 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "60*60",
+        panelSize: "576*576mm",
+        panelResolution: "120*120",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8.5kg",
+        scanRate: "1/10",
+        brightness: ">5500 nits",
+        ipRating: "IP65",
+      },
+
+      "P6 Outdoor": {
+        pixelPitch: "6mm",
+        pixelDensity: "27777 Pixels/m2",
+        ledType: "SMD2727",
+        moduleSize: "288*288mm",
+        moduleResolution: "48*48",
+        panelSize: "576*576mm",
+        panelResolution: "96*96",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8.5kg",
+        scanRate: "1/8",
+        brightness: ">5500 nits",
+        ipRating: "IP65",
+      },
+    },
+  },
   {
     name: "Elite Series Cabinets",
     id: "elite-series-cabinets",
@@ -2995,25 +1408,813 @@ export const products = [
     ],
 
     specs: {
-      model: "P2.5",
-      screenSize: "640 × 1920 mm",
-      application: "Advertising",
-      displayType: "LED Video Display",
-      pixelPitch: "2.5 mm",
-      pixelDensity: "160,000 dots/m²",
-      pixelConfiguration: "1R, 1G, 1B",
-      scanMode: "1/32 Scan",
-      brightness: "≥ 500 nits",
-      refreshRate: "≥ 1920 Hz",
-      averagePowerConsumption: "300 W/m²",
-      ipRating: "IP30",
-      maintenance: "Front / Rear",
-      weight: "≈ 35 kg",
-      chipType: "Full Color",
-      brand: "NVS",
-      certifications: "CE, ROHS, FCC",
-      origin: "India",
-      packing: "Two standee in one flight case",
+      "P3.6 Indoor": {
+        "pixelPitch": "3.6mm",
+        "pixelDensity": "77156 Pixels/m2",
+        "ledType": "SMD2020",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "80*80",
+        "panelSize": "576*576mm",
+        "panelResolution": "160*160",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "8kg",
+        "scanRate": "1/20",
+        "brightness": ">1000 nits",
+        "ipRating": "IP30",
+      },
+
+      "P3.8 Outdoor": {
+        "pixelPitch": "3.84mm",
+        "pixelDensity": "67600 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "75*75",
+        "panelSize": "576*576mm",
+        "panelResolution": "150*150",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "8.5kg",
+        "scanRate": "1/15",
+        "brightness": ">4500 nits",
+        "ipRating": "IP65",
+      },
+
+      "P4.8 Outdoor": {
+        "pixelPitch": "4.8mm",
+        "pixelDensity": "43264 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "288*288mm",
+        "moduleResolution": "60*60",
+        "panelSize": "576*576mm",
+        "panelResolution": "120*120",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "8.5kg",
+        "scanRate": "1/10",
+        "brightness": ">5500 nits",
+        "ipRating": "IP65",
+      },
+    },
+  },
+
+  // Sports Perimeter Boards
+  {
+    name: "NVS Pro Series",
+    id: "nvs-pro-series",
+    metaTitle:
+      "Sports Perimeter Boards (NVS Pro Series) | Outdoor LED Display | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Sports Perimeter Boards for billboards, highways, malls & stadiums with ultra-clear visuals, high brightness, and reliable outdoor advertising performance.",
+    catId: "sports-perimeter-boards",
+    catName: "Sports Perimeter Boards",
+    img: "/product/nvs.webp",
+
+    images: ["/product/nvs.webp"],
+
+    overview: [
+      "Sports Perimeter Boards (NVS Pro Series) is a high-resolution outdoor LED display screen designed to deliver ultra-clear visuals, high brightness performance, and seamless digital advertising for premium outdoor environments. This advanced advertising LED display screen ensures exceptional visibility and audience engagement even in challenging weather and lighting conditions.",
+      "Built for billboards, highways, shopping malls, stadiums, transportation hubs, commercial buildings, and public advertising spaces, the NVS Pro Series provides impactful digital communication with vibrant colors, sharp image quality, and dynamic content presentation.",
+      "Engineered with fine pixel pitch LED technology, this LED display screen for advertising delivers smooth playback, high refresh rates, and detailed image rendering, making it an ideal LED video wall display solution for high-definition outdoor advertising applications.",
+      "Featuring a precision-engineered fixed cabinet structure with seamless modular integration, this LED wall display supports scalable installations for medium and large-format outdoor digital signage projects while maintaining a clean and professional appearance.",
+      "Designed for continuous outdoor operation, this outdoor LED display screen combines weatherproof durability, energy-efficient performance, and reliable long-term stability to ensure uninterrupted advertising and public communication.",
+    ],
+
+    features: [
+      "Fine Pixel Pitch Technology delivers sharp visuals, detailed image clarity, and smooth playback, making this outdoor LED display screen ideal for premium outdoor advertising applications.",
+      "Ultra-High Brightness Performance ensures the advertising LED display screen remains highly visible even under direct sunlight and bright outdoor environments.",
+      "Weatherproof Fixed Cabinet Design protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Modular LED Structure enables scalable LED wall display installations with smooth panel alignment and uninterrupted visual quality across large-format displays.",
+      "Energy-Efficient & Stable Operation supports continuous outdoor advertising while reducing maintenance requirements and operational costs.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering premium outdoor LED display screen solutions for advertising, branding, and large-scale public communication projects.",
+      "Our advanced advertising LED display screen systems are engineered for superior brightness, seamless visuals, durability, and reliable long-term outdoor performance.",
+      "We provide customized LED video wall display solutions tailored to installation environments, project requirements, and business advertising goals for maximum visual impact.",
+      "With extensive expertise in professional LED display board installations, NewTech helps businesses create impactful outdoor advertising experiences using innovative LED technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete end-to-end support for every LED wall display project to ensure seamless execution and reliable operation.",
+    ],
+
+    specs: {
+      "Common": {
+        pixelPitch: "3.076, 4, 5, 6mm",
+        power: "200 to 488 W/m²",
+        brightness: "5000 nits",
+        operatingTemperature: "-20°C to +70°C",
+        panelMaterial: "Die-cast Aluminum",
+        lifetime: "100,000 hours",
+        installation: "Fixed Installation",
+        maintenance: "Front Maintenance",
+        refreshRate: "≥ 3840 Hz",
+      },
+
+      "P3": {
+        "pixelPitch": "3.076mm",
+        "pixelDensity": "1,11,099 Pixels/m2",
+        "ledType": "SMD1415",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "104*52",
+        "panelSize": "312*312mm",
+        "panelResolution": "312*312",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/13",
+        "brightness": "5000 nits",
+      },
+
+      "P4": {
+        "pixelPitch": "4mm",
+        "pixelDensity": "62,500 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "80*40",
+        "panelSize": "960*960mm",
+        "panelResolution": "240*240",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/10",
+        "brightness": "5500-6000 nits",
+      },
+
+      "P5": {
+        "pixelPitch": "5mm",
+        "pixelDensity": "40,000 Pixels/m2",
+        "ledType": "SMD1921",
+        "moduleSize": "320*160mm",
+        "moduleResolution": "64*32",
+        "panelSize": "960*960mm",
+        "panelResolution": "192*192",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "SMI6269S",
+        "scanRate": "1/8",
+        "brightness": "5500-6000 nits",
+      },
+
+      "P6": {
+        "pixelPitch": "6mm",
+        "pixelDensity": "27,777 Pixels/m2",
+        "ledType": "SMD2727",
+        "moduleSize": "192*192mm",
+        "moduleResolution": "32*32",
+        "panelSize": "960*960mm",
+        "panelResolution": "160*160",
+        "panelMaterial": "Die-casting Aluminum",
+        "weightPerPc": "22.5kg",
+        "drivingIc": "CFD3225",
+        "scanRate": "1/8",
+        "brightness": "6000-6500 nits",
+      }
+    },
+  },
+  {
+    name: "Brite Outdoor LED Display",
+    id: "brite-outdoor-led-display",
+    applicationIds: [
+      "corporate",
+      "dooh",
+      "smart-city",
+      "building-facade",
+      "stadiums",
+    ],
+    metaTitle:
+      "Brite Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
+    catId: "sports-perimeter-boards",
+    catName: "Sports Perimeter Boards",
+    img: "/ProductImages/p5.jpg",
+
+    images: ["/ProductImages/p5.jpg"],
+
+    overview: [
+      "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
+      "Engineered for large-scale outdoor LED display applications, it ensures strong visibility even under direct sunlight and high ambient light conditions",
+      "Ideal for billboards, highways, events, stadiums, and commercial advertising spaces where attention-grabbing visuals are essential",
+      "Built for reliable performance with smooth content playback, making it suitable for continuous operation in dynamic environments",
+      "Combines durability, brightness, and advanced display technology to deliver impactful and consistent LED video wall display performance",
+    ],
+
+    features: [
+      "Energy-Saving Design optimizes power consumption while maintaining high brightness, making it cost-effective for long-term outdoor usage",
+      "Lightweight Cabinets with IP66 Front & Back Protection ensure durability against dust, rain, and harsh environmental conditions while allowing easier installation",
+      "Supports 3D Display Capability for advanced and immersive advertising experiences that capture audience attention",
+      "High Brightness up to 8000 nits ensures exceptional visibility and readability even in direct sunlight and outdoor conditions",
+      "Smooth and stable performance with high refresh rates ensures flicker-free visuals for videos, live content, and advertisements",
+    ],
+
+    whyUs: [
+      "Expertise in delivering high-performance advertising LED display solutions for demanding outdoor and large-scale applications",
+      "Advanced engineering in outdoor LED display screens to ensure durability, weather resistance, and long-term reliability",
+      "Proven capability in designing impactful LED video wall displays for advertising, events, and public installations",
+      "Strong focus on energy efficiency, brightness optimization, and performance consistency across all LED display solutions",
+      "Complete end-to-end support including consultation, installation, and after-sales service for seamless project execution",
+    ],
+
+    specs: {
+      pixelPitchOptions: "4.44 mm, 6.67 mm, 8 mm, 10 mm",
+      cabinetSize: "960 × 960 mm",
+      cabinetMaterial: "Die-cast Aluminium",
+      brightness: "4.44 mm: 5500 – 6500 nits (depending on model)",
+      contrastRatio: "40000:1",
+      maxPowerConsumption: "520 W/m²",
+      avgPowerConsumption: "200 W/m²",
+      refreshRate: "7680 Hz",
+      protection: "IP66 (Front & Rear)",
+    },
+  },
+  {
+    name: "Luxe Pro Active LED Display Screen",
+    id: "luxe-pro-active-led-display-screen",
+    applicationIds: [
+      "command-and-control-rooms",
+      "boardroom-and-meeting-room",
+      "corporate",
+      "smart-city",
+    ],
+    metaTitle:
+      "Luxe Pro Active LED Display Screen | Premium LED Video Wall System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Luxe Pro Active LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
+    catId: "sports-perimeter-boards",
+    catName: "Sports Perimeter Boards",
+    img: "/ProductImages/luxe-p.png",
+
+    images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
+
+    overview: [
+      "Luxe Pro-Active LED is a high-end advertising LED display screen engineered for premium indoor environments, delivering superior brightness, deep contrast, and ultra-smooth visual performance for impactful communication",
+      "Designed for advanced LED video wall display applications, it ensures seamless visuals with precise color accuracy and consistent image quality across large display surfaces",
+      "Ideal for professional spaces such as corporate boardrooms, broadcast studios, control rooms, luxury retail environments, and high-end digital signage installations",
+      "Built with a refined and elegant cabinet design that enhances interior aesthetics while maintaining structural strength and ease of installation",
+      "Wide viewing angle capability ensures uniform brightness and color consistency, allowing audiences to experience clear and immersive visuals from every position",
+    ],
+
+    features: [
+      "Flip-Chip COB with Common Cathode Technology enhances energy efficiency, reduces heat generation, and improves overall display lifespan while maintaining superior brightness and performance",
+      "Power & Data Redundancy Support ensures uninterrupted operation by providing backup systems that maintain display performance even in case of signal or power failure",
+      "Highly Power-Efficient Design reduces energy consumption significantly without compromising brightness, making it cost-effective for long-term continuous use",
+      "Delivers ultra-smooth playback with high refresh rates, ensuring flicker-free visuals ideal for video content, live feeds, and broadcast applications",
+      "Engineered for high reliability and stability, making it suitable for mission-critical environments where consistent display performance is essential",
+    ],
+
+    whyUs: [
+      "Expertise in delivering premium advertising LED display solutions designed for high-performance and visually demanding applications",
+      "Integration of advanced technologies like Flip-Chip COB and Common Cathode in LED video wall displays for enhanced efficiency and durability",
+      "Proven ability to design and deploy seamless, high-resolution LED wall display systems tailored to complex and large-scale installations",
+      "Strong focus on quality, innovation, and long-term reliability across all LED display solutions",
+      "Complete end-to-end support including consultation, system design, installation, and after-sales service to ensure a smooth and professional experience",
+    ],
+
+    specs: {
+      Common: {
+        panelMaterial: "Die-casting Aluminum",
+        moduleLayout: "4 × 2",
+        brightness: "600–2000 nits",
+        contrastRatio: "20000:1",
+        grayScale: "16 bit",
+        ipRating: "IP65 (Front) / IP30 (Rear)",
+        inputVoltage: "100–240V",
+        installation: "Mounting / Stacking / Hanging",
+        maintenance: "Front",
+        certifications: "CCC, CE, CB, ETL, FCC, RoHS",
+      },
+
+      "i0.7": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "0.7 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "768 × 432",
+        fhdLayout: "3 × 3",
+        uhd4kLayout: "5 × 5",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "192 × 216",
+        refreshRate: "3840 Hz",
+        maxPower: "190 W/m²",
+        avgPower: "65 W/m²",
+        driveType: "Common Cathode",
+        scanRate: "36S",
+      },
+
+      "i0.9": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "0.9 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "640 × 360",
+        fhdLayout: "3 × 3",
+        uhd4kLayout: "6 × 6",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "160 × 180",
+        refreshRate: "3840 Hz",
+        maxPower: "165 W/m²",
+        avgPower: "55 W/m²",
+        driveType: "Common Cathode",
+        scanRate: "36S",
+      },
+
+      "i1.2": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "1.25 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "480 × 270",
+        fhdLayout: "4 × 4",
+        uhd4kLayout: "8 × 8",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "120 × 135",
+        refreshRate: "7680 Hz",
+        maxPower: "160 W/m²",
+        avgPower: "50 W/m²",
+        scanRate: "27S",
+      },
+
+      // "i1.2Pro": {
+      //   ledType: "Flip-Chip COB",
+      //   pixelPitch: "1.25 mm",
+      //   panelSize: "600 × 337.5 × 35 mm",
+      //   resolution: "480 × 270",
+      //   fhdLayout: "4 × 4",
+      //   uhd4kLayout: "8 × 8",
+      //   panelWeight: "4.8 kg",
+      //   moduleSize: "150 × 168.75 mm",
+      //   moduleResolution: "120 × 135",
+      //   refreshRate: "7680 Hz",
+      //   maxPower: "160 W/m²",
+      //   avgPower: "50 W/m²",
+      //   scanRate: "15S",
+      // },
+    },
+  },
+  {
+    name: "Aura Video Wall Display",
+    id: "aura-video-wall-display",
+    applicationIds: [
+      "reception-and-lobby-areas",
+      "auditoriums",
+      "corporate",
+      "news-rooms",
+      "education",
+      "banking-and-finance",
+      "retail-outlets",
+      "transportation",
+      "real-estate",
+    ],
+    metaTitle:
+      "Aura Video Wall Display | Indoor & Outdoor LED Video Wall System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Aura video wall displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for advertising, events & branding.",
+    catId: "sports-perimeter-boards",
+    catName: "Sports Perimeter Boards",
+    img: "/ProductImages/aura-d.webp",
+
+    images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
+
+    overview: [
+      "Aura LED Display is a premium advertising LED display screen designed to deliver soft, refined brightness with exceptionally smooth image quality for sophisticated indoor environments",
+      "Engineered for seamless LED video wall display applications, it provides natural color balance, enhanced clarity, and a visually comfortable viewing experience",
+      "Ideal for luxury interiors, hospitality spaces, corporate offices, and high-end environments where aesthetics and visual quality are equally important",
+      "Ultra-slim and elegant design enhances modern interiors while maintaining high-performance display capabilities",
+      "Wide viewing angles and balanced brightness ensure a calming yet impactful visual presence across different viewing positions",
+    ],
+
+    features: [
+      "Ultra-Thin 2.9mm Design offers a sleek and modern profile, making it perfect for space-sensitive and design-focused installations",
+      "Supports Power & Data Redundancy ensures uninterrupted display performance by providing backup systems for critical applications",
+      "Wall Mounting Installation allows clean and seamless integration into interiors, eliminating the need for bulky structures",
+      "Delivers smooth image rendering with consistent brightness and natural color tones for a premium viewing experience",
+      "Energy-efficient design ensures reliable performance while reducing power consumption during extended usage",
+    ],
+
+    whyUs: [
+      "Expertise in delivering high-end advertising LED display solutions tailored for luxury and premium indoor environments",
+      "Advanced engineering used in LED video wall displays to ensure seamless visuals and refined display performance",
+      "Proven capability in designing ultra-slim and elegant LED wall display systems for modern architectural spaces",
+      "Strong focus on quality, durability, and long-term performance across all LED display solutions",
+      "Complete end-to-end support including consultation, installation, and after-sales service for a smooth project experience",
+    ],
+
+    specs: {
+      Common: {
+        pixelPitch: "1.2, 1.5, 1.8, 2.0, 3.076, 4.0",
+        power: "200 to 488 W/m²",
+        brightness: "500 nits",
+        operatingTemperature: "-20°C to +70°C",
+        panelMaterial: "Die-cast Aluminum",
+        lifetime: "100,000 hours",
+        installation: "Fixed Installation",
+        maintenance: "Front Maintenance",
+        refreshRate: "≥ 3840 Hz",
+      },
+
+      "P2.42": {
+        ledConfiguration: "SMD2020 Copper Bracket",
+        lampBrand: "GKGD / Kinglight",
+        ic: "ICN1065L",
+        controlCard: "Novastar MRV412",
+        pixelPitch: "2.42 mm",
+        moduleResolution: "132 × 66",
+        panelResolution: "264 × 198",
+        pixelDensity: "170,156 dots/m²",
+        moduleSize: "320 × 160 mm",
+        panelSize: "640 × 480 mm",
+        panelMaterial: "Die-cast Aluminum",
+        moduleCurrent: "≈ 4.5 A",
+        refreshRate: "≥ 3840 Hz",
+        scan: "1/33 Scan",
+        brightnessGKGD: "≈ 800 cd/m²",
+        brightnessKinglight: "> 800 cd/m²",
+      },
+
+      "P1.77": {
+        ledConfiguration: "SMD1515 Copper Bracket",
+        lampBrand: "GKGD / Kinglight",
+        ic: "ICN1065L",
+        controlCard: "Novastar MRV412",
+        pixelPitch: "1.702 mm",
+        moduleResolution: "180 × 90",
+        panelResolution: "360 × 270",
+        pixelDensity: "316,406 dots/m²",
+        moduleSize: "320 × 160 mm",
+        panelSize: "640 × 480 mm",
+        panelMaterial: "Die-cast Aluminum",
+        moduleCurrent: "≈ 4.5 A",
+        refreshRate: "≥ 3840 Hz",
+        scan: "1/45 Scan",
+        brightnessGKGD: "≈ 600 cd/m²",
+        brightnessKinglight: "≈ 650 cd/m²",
+      },
+
+      "P1.48": {
+        ledConfiguration: "SMD1212 Copper Bracket",
+        lampBrand: "GKGD / Kinglight",
+        ic: "ICN1065L",
+        controlCard: "Novastar MRV416",
+        pixelPitch: "1.403 mm",
+        moduleResolution: "216 × 108",
+        panelResolution: "432 × 324",
+        pixelDensity: "455,625 dots/m²",
+        moduleSize: "320 × 160 mm",
+        panelSize: "640 × 480 mm",
+        panelMaterial: "Die-cast Aluminum",
+        moduleCurrent: "≈ 4.5 A",
+        refreshRate: "≥ 3840 Hz",
+        scan: "1/54 Scan",
+        brightnessGKGD: "≈ 600 cd/m²",
+        brightnessKinglight: "≈ 650 cd/m²",
+      },
+    },
+  },
+
+  // Transparent LED
+  {
+    name: "Transparent Outdoor LED Display Fixed Solution",
+    id: "transparent-outdoor-led-display-fixed-solution",
+    metaTitle:
+      "Transparent Outdoor LED Display Fixed Solution | Transparent LED Display Screen | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
+    catId: "transparent-led",
+    catName: "Transparent LED",
+    img: "/ProductImages/Picture1.png",
+
+    images: ["/ProductImages/Picture1.png",],
+
+    overview: [
+      "Transparent Outdoor LED Display Fixed Solution is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
+      "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this outdoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
+      "Engineered with advanced transparent LED technology, this LED display screen for advertising delivers vibrant visuals, smooth playback, and excellent brightness while preserving up to high transparency levels for an elegant and futuristic appearance.",
+      "Featuring a lightweight modular cabinet structure and fixed installation system, this LED video wall display supports seamless integration into architectural environments without affecting building aesthetics.",
+      "Built for continuous outdoor operation, the Transparent Outdoor LED Display Fixed Solution combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
+    ],
+
+    features: [
+      "High Transparency LED Technology allows natural light and visibility through the screen while displaying vivid advertising and branding content.",
+      "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and outdoor lighting conditions.",
+      "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "Seamless Fixed Installation Design enables smooth LED wall display integration with glass facades, building structures, and architectural spaces.",
+      "Lightweight & Energy-Efficient Operation reduces structural load and power consumption while maintaining stable long-term outdoor performance.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced transparent LED display screen solutions for modern outdoor advertising and architectural digital signage applications.",
+      "Our premium advertising LED display screen systems are engineered for superior transparency, brightness, durability, and long-term outdoor reliability.",
+      "We provide customized LED video wall display solutions tailored to architectural requirements, installation environments, and branding objectives.",
+      "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative outdoor advertising experiences using cutting-edge LED technology.",
+      "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless integration and reliable performance.",
+    ],
+
+    specs: {
+      "pixelPitch": "2.6-6.9 mm",
+      "ledType": "3-in-1 SMD",
+      "brightness": "4,500 nits",
+      "pixelsPerPanel": "384*72",
+      "pixelDensity": "55,296 dot/m2",
+      "panelWeightPerPc": "8kg",
+      "moduleSize": "1000x500x80mm",
+      "material": "Die Cast Aluminum",
+      "environment": "Outdoor",
+      "ipRating": "IP65",
+      "refreshRate": "3840Hz",
+      "transparency": "51%",
+      "installationMethod": "Lifting/Fixing",
+      "grayScale": "14 bits",
+      "ledLifetime": "1,00,000 Hours",
+
+    },
+  },
+  {
+    name: "Transparent Display LED Rental ",
+    id: "transparent-display-led-rental",
+    metaTitle:
+      "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
+    catId: "transparent-led",
+    catName: "Transparent LED",
+    img: "/ProductImages/Picture1.png",
+
+    images: ["/ProductImages/Picture1.png",],
+
+    overview: [
+      "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
+      "Designed for concerts, exhibitions, stage productions, product launches, fashion shows, corporate events, shopping malls, and live entertainment environments, this LED display screen for advertising offers a perfect combination of visual impact and elegant design flexibility.",
+      "Engineered for temporary and rental installations, the Transparent Display LED Rental Solution features lightweight cabinets, quick-lock systems, and seamless panel integration for fast setup and dismantling during events and productions.",
+      "With high brightness performance, smooth playback, and transparent visual technology, this LED video wall display delivers dynamic content presentation while maintaining an open and futuristic appearance.",
+      "Built for reliability and portability, this LED wall display solution combines energy-efficient operation, durable construction, and creative installation possibilities for modern event and advertising applications.",
+    ],
+
+    features: [
+      "High Transparency LED Technology allows visibility through the screen while delivering vibrant and impactful visual content for premium event experiences.",
+      "Lightweight Rental Cabinet Design enables fast installation, easy transportation, and quick dismantling for temporary event setups and touring applications.",
+      "Seamless Modular LED Structure supports scalable LED video wall display configurations with smooth panel alignment and uninterrupted visuals.",
+      "High Brightness & Smooth Playback Performance ensure the advertising LED display screen remains visually striking in indoor and semi-outdoor environments.",
+      "Creative & Flexible Installation Capability allows the LED wall display to be used for stage backdrops, glass facades, suspended installations, and immersive event displays.",
+    ],
+
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative transparent LED display screen solutions for premium events, exhibitions, and digital advertising applications.",
+      "Our advanced advertising LED display screen systems are engineered for seamless visuals, lightweight portability, and reliable rental performance.",
+      "We provide customized LED video wall display solutions tailored to event requirements, venue layouts, and creative branding objectives.",
+      "With strong expertise in professional LED display board installations, we help businesses and event organizers create visually engaging and memorable digital experiences.",
+      "From consultation and setup planning to installation and technical support, NewTech offers complete assistance for every LED wall display rental project to ensure flawless execution and maximum visual impact.",
+    ],
+
+    specs: {
+      "pixelPitch": "3.9-7.8mm",
+      "ledType": "3-in-1 SMD",
+      "brightness": "4,000 nits",
+      "pixelsPerPanel": "256*64",
+      "pixelDensity": "32,768 dot/m2",
+      "panelWeightPerPc": "6.5kg",
+      "moduleSize": "1000x500x80mm",
+      "material": "Die Cast Aluminum",
+      "environment": "Outdoor",
+      "ipRating": "IP65",
+      "refreshRate": "3840Hz",
+      "transparency": "44%",
+      "curve": "(Convex) -15°~+15° (Concave)",
+      "cube": "90 Degree",
+    },
+  },
+
+  // COB/GOB Solutions
+  {
+    name: "Luxe LED Display",
+    id: "luxe-led-display",
+    applicationIds: [
+      "command-and-control-rooms",
+      "boardroom-and-meeting-room",
+      "auditoriums",
+      "corporate",
+      "news-rooms",
+      "home-entertainment",
+    ],
+    metaTitle:
+      "Luxe LED Display | Premium High-Resolution LED Video Wall | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Luxe LED displays for premium indoor & outdoor applications. High-resolution LED video wall solutions for luxury branding, retail & events.",
+    catId: "cob-gob-solutions",
+    catName: "COB/GOB Solutions",
+    img: "/luxe-page-main.jpg",
+
+    images: ["/luxe-page-main.jpg", "/ProductImages/lux-2.png"],
+
+    overview: [
+      "Luxe LED Display-Y is a next-generation advertising LED display screen engineered to deliver ultra-fine visual performance with exceptional clarity, deep contrast, and true-to-life color reproduction, making it ideal for premium indoor environments where visual precision is critical",
+      "Designed for high-end LED video wall display applications, it ensures seamless image rendering with no visible gaps, smooth motion handling, and consistent brightness across the entire screen surface",
+      "Perfectly suited for corporate boardrooms, control rooms, broadcast studios, luxury retail spaces, and modern digital signage installations that demand high-resolution display quality",
+      "Built with a sleek, lightweight, and space-efficient cabinet structure that enhances aesthetics while allowing easy handling, installation, and maintenance",
+      "Wide viewing angle technology ensures uniform image quality from multiple perspectives, delivering a consistent and immersive experience for large audiences in any indoor setting",
+    ],
+
+    features: [
+      "Flip-Chip COB Technology improves durability by protecting LEDs from physical damage, enhances heat dissipation, and ensures stable long-term performance with reduced pixel failure rates",
+      "Integrated Hub Design for Cabinet simplifies internal connections, reduces cable clutter, improves signal stability, and enables faster and more efficient installation and maintenance",
+      "Supports 90° Display Configuration, allowing creative corner installations and flexible LED wall display designs for unique architectural and interior applications",
+      "Ultra-fine pixel pitch delivers high-resolution LED video wall display output with sharp details, smooth gradients, and superior image depth, ideal for close viewing distances",
+      "Energy-efficient design optimizes power consumption while maintaining consistent brightness, high refresh rates, and flicker-free performance for extended usage",
+    ],
+
+    whyUs: [
+      "Strong expertise in delivering premium advertising LED display solutions designed specifically for high-end indoor environments and demanding visual applications",
+      "Integration of advanced technologies such as Flip-Chip COB in LED video wall displays to ensure durability, performance stability, and superior display quality",
+      "Proven capability in designing seamless and customized LED wall display systems tailored to specific space, resolution, and installation requirements",
+      "Commitment to quality, precision engineering, and long-term reliability across all LED display solutions, ensuring consistent performance over time",
+      "Comprehensive end-to-end support including consultation, system design, installation, and after-sales service to ensure a smooth and hassle-free project experience",
+    ],
+
+    specs: {
+      Common: {
+        processingDepth: "13 bit",
+        maintenance: "Full Front",
+        refreshRate: "3840 Hz",
+        signalTransmission: "CAT6 <100m, Single-mode fiber <10 km",
+        brightness: "600 cd/m²",
+        viewingAngle: "0°–160°",
+        contrastRatio: "10000:1",
+        inputVoltage: "AC 100–240V (50–60Hz)",
+        operatingTemperature: "-10°C to +40°C",
+        storageTemperature: "-20°C to +60°C",
+        ipRating: "IP65 (Front)",
+        operatingHumidity: "10%–80% RH",
+        storageHumidity: "10%–90% RH",
+        ledLifetime: "100,000 hours",
+        installation: "Fixed",
+        certifications: "CCC, CE, CB, ETL, FCC, RoHS",
+      },
+
+      "P0.9": {
+        pixelPitch: "0.9 mm",
+        resolutionPerPanel: "640 × 360",
+        pixelDensity: "1,137,777 pixels/m²",
+        panelSize: "600 × 337.5 × 39.75 mm",
+        moduleSize: "150 × 168.75 mm",
+        panelMaterial: "Die-casting Aluminum",
+        panelWeight: "4 kg",
+        drivingType: "1/54",
+        maxPower: "75 W/panel, 375 W/m²",
+        avgPower: "35 W/panel, 175 W/m²",
+      },
+
+      "P1.25": {
+        pixelPitch: "1.25 mm",
+        ledType: "Flip-chip COB",
+        resolutionPerPanel: "480 × 270",
+        pixelDensity: "640,000 pixels/m²",
+        panelSize: "600 × 337.5 × 39.75 mm",
+        panelMaterial: "Die-casting Aluminum",
+        drivingType: "1/60",
+        maxPower: "70 W/panel, 350 W/m²",
+        avgPower: "30 W/panel, 150 W/m²",
+      },
+
+      "P1.5": {
+        pixelPitch: "1.5 mm",
+        resolutionPerPanel: "384 × 216",
+        pixelDensity: "439,062 pixels/m²",
+        panelSize: "600 × 337.5 × 39.75 mm",
+        panelMaterial: "Die-casting Aluminum",
+        drivingType: "1/54",
+        maxPower: "25 W/panel, 125 W/m²",
+      },
+
+      // "P1.8": {
+      //   pixelPitch: "1.8 mm",
+      //   resolutionPerPanel: "320 × 180",
+      //   pixelDensity: "284,444 pixels/m²",
+      //   panelSize: "600 × 675 × 39.75 mm",
+      //   panelMaterial: "Die-casting Aluminum",
+      //   panelWeight: "7.9 kg",
+      //   drivingType: "1/54",
+      //   maxPower: "130 W/panel, 320 W/m²",
+      //   avgPower: "48 W/panel, 120 W/m²",
+      // },
+    },
+  },
+  {
+    name: "Luxe Pro Active LED Display Screen",
+    id: "luxe-pro-active-led-display-screen",
+    applicationIds: [
+      "command-and-control-rooms",
+      "boardroom-and-meeting-room",
+      "corporate",
+      "smart-city",
+    ],
+    metaTitle:
+      "Luxe Pro Active LED Display Screen | Premium LED Video Wall System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Luxe Pro Active LED display screens for premium advertising and branding. High-resolution LED video wall solutions for indoor & outdoor use.",
+    catId: "cob-gob-solutions",
+    catName: "COB/GOB Solutions",
+    img: "/ProductImages/luxe-p.png",
+
+    images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
+
+    overview: [
+      "Luxe Pro-Active LED is a high-end advertising LED display screen engineered for premium indoor environments, delivering superior brightness, deep contrast, and ultra-smooth visual performance for impactful communication",
+      "Designed for advanced LED video wall display applications, it ensures seamless visuals with precise color accuracy and consistent image quality across large display surfaces",
+      "Ideal for professional spaces such as corporate boardrooms, broadcast studios, control rooms, luxury retail environments, and high-end digital signage installations",
+      "Built with a refined and elegant cabinet design that enhances interior aesthetics while maintaining structural strength and ease of installation",
+      "Wide viewing angle capability ensures uniform brightness and color consistency, allowing audiences to experience clear and immersive visuals from every position",
+    ],
+
+    features: [
+      "Flip-Chip COB with Common Cathode Technology enhances energy efficiency, reduces heat generation, and improves overall display lifespan while maintaining superior brightness and performance",
+      "Power & Data Redundancy Support ensures uninterrupted operation by providing backup systems that maintain display performance even in case of signal or power failure",
+      "Highly Power-Efficient Design reduces energy consumption significantly without compromising brightness, making it cost-effective for long-term continuous use",
+      "Delivers ultra-smooth playback with high refresh rates, ensuring flicker-free visuals ideal for video content, live feeds, and broadcast applications",
+      "Engineered for high reliability and stability, making it suitable for mission-critical environments where consistent display performance is essential",
+    ],
+
+    whyUs: [
+      "Expertise in delivering premium advertising LED display solutions designed for high-performance and visually demanding applications",
+      "Integration of advanced technologies like Flip-Chip COB and Common Cathode in LED video wall displays for enhanced efficiency and durability",
+      "Proven ability to design and deploy seamless, high-resolution LED wall display systems tailored to complex and large-scale installations",
+      "Strong focus on quality, innovation, and long-term reliability across all LED display solutions",
+      "Complete end-to-end support including consultation, system design, installation, and after-sales service to ensure a smooth and professional experience",
+    ],
+
+    specs: {
+      Common: {
+        panelMaterial: "Die-casting Aluminum",
+        moduleLayout: "4 × 2",
+        brightness: "600–2000 nits",
+        contrastRatio: "20000:1",
+        grayScale: "16 bit",
+        ipRating: "IP65 (Front) / IP30 (Rear)",
+        inputVoltage: "100–240V",
+        installation: "Mounting / Stacking / Hanging",
+        maintenance: "Front",
+        certifications: "CCC, CE, CB, ETL, FCC, RoHS",
+      },
+
+      "i0.7": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "0.7 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "768 × 432",
+        fhdLayout: "3 × 3",
+        uhd4kLayout: "5 × 5",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "192 × 216",
+        refreshRate: "3840 Hz",
+        maxPower: "190 W/m²",
+        avgPower: "65 W/m²",
+        driveType: "Common Cathode",
+        scanRate: "36S",
+      },
+
+      "i0.9": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "0.9 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "640 × 360",
+        fhdLayout: "3 × 3",
+        uhd4kLayout: "6 × 6",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "160 × 180",
+        refreshRate: "3840 Hz",
+        maxPower: "165 W/m²",
+        avgPower: "55 W/m²",
+        driveType: "Common Cathode",
+        scanRate: "36S",
+      },
+
+      "i1.2": {
+        ledType: "Flip-Chip COB",
+        pixelPitch: "1.25 mm",
+        panelSize: "600 × 337.5 × 35 mm",
+        resolution: "480 × 270",
+        fhdLayout: "4 × 4",
+        uhd4kLayout: "8 × 8",
+        panelWeight: "4.8 kg",
+        moduleSize: "150 × 168.75 mm",
+        moduleResolution: "120 × 135",
+        refreshRate: "7680 Hz",
+        maxPower: "160 W/m²",
+        avgPower: "50 W/m²",
+        scanRate: "27S",
+      },
+
+      // "i1.2Pro": {
+      //   ledType: "Flip-Chip COB",
+      //   pixelPitch: "1.25 mm",
+      //   panelSize: "600 × 337.5 × 35 mm",
+      //   resolution: "480 × 270",
+      //   fhdLayout: "4 × 4",
+      //   uhd4kLayout: "8 × 8",
+      //   panelWeight: "4.8 kg",
+      //   moduleSize: "150 × 168.75 mm",
+      //   moduleResolution: "120 × 135",
+      //   refreshRate: "7680 Hz",
+      //   maxPower: "160 W/m²",
+      //   avgPower: "50 W/m²",
+      //   scanRate: "15S",
+      // },
     },
   },
 
@@ -3683,44 +2884,44 @@ export const products = [
     },
   },
   {
-  name: "T16 Pro LED Display Controller (Taurus Series)",
-  id: "t16-pro-led-display-controller-taurus-series",
-  metaTitle:
-    "T16 Pro LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers T16 Pro LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with advanced multimedia processing and cloud-based control.",
-  catId: "accessories-and-controllers",
+    name: "T16 Pro LED Display Controller (Taurus Series)",
+    id: "t16-pro-led-display-controller-taurus-series",
+    metaTitle:
+      "T16 Pro LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers T16 Pro LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with advanced multimedia processing and cloud-based control.",
+    catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-  img: "/product/t16 plus.webp",
+    img: "/product/t16 plus.webp",
 
-  images: ["/product/t16 plus.webp"],
+    images: ["/product/t16 plus.webp"],
 
-  overview: [
-    "T16 Pro LED Display Controller (Taurus Series) is a powerful and intelligent LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for reliable performance and seamless control, this advanced controller ensures smooth playback and stable communication across modern LED video wall display installations.",
-    "Designed for commercial advertising, retail displays, digital signage, corporate installations, transportation hubs, and smart city applications, the T16 Pro provides efficient content management and high-performance display control for both indoor and outdoor LED screens.",
-    "Featuring advanced multimedia processing capabilities, this LED display controller supports synchronized and asynchronous playback, enabling flexible content scheduling, remote publishing, and real-time display management.",
-    "Built for professional display environments, the T16 Pro delivers stable signal transmission, smooth video performance, and intelligent screen management, making it an ideal solution for large-scale advertising LED display screen applications.",
-    "With reliable connectivity options, cloud-based management support, and user-friendly operation, this LED video wall display controller enhances efficiency, simplifies display control, and ensures uninterrupted digital communication performance.",
-  ],
+    overview: [
+      "T16 Pro LED Display Controller (Taurus Series) is a powerful and intelligent LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for reliable performance and seamless control, this advanced controller ensures smooth playback and stable communication across modern LED video wall display installations.",
+      "Designed for commercial advertising, retail displays, digital signage, corporate installations, transportation hubs, and smart city applications, the T16 Pro provides efficient content management and high-performance display control for both indoor and outdoor LED screens.",
+      "Featuring advanced multimedia processing capabilities, this LED display controller supports synchronized and asynchronous playback, enabling flexible content scheduling, remote publishing, and real-time display management.",
+      "Built for professional display environments, the T16 Pro delivers stable signal transmission, smooth video performance, and intelligent screen management, making it an ideal solution for large-scale advertising LED display screen applications.",
+      "With reliable connectivity options, cloud-based management support, and user-friendly operation, this LED video wall display controller enhances efficiency, simplifies display control, and ensures uninterrupted digital communication performance.",
+    ],
 
-  features: [
-    "Advanced LED Display Control System ensures stable signal transmission and seamless content playback for professional LED wall display applications.",
-    "Synchronous & Asynchronous Playback Support allows flexible content scheduling and remote management for modern advertising LED display screen installations.",
-    "Cloud-Based Content Management Capability enables users to control and update LED display screen for advertising applications from remote locations.",
-    "High-Performance Multimedia Processing delivers smooth video playback, accurate image rendering, and stable visual output for LED video wall display systems.",
-    "Reliable Connectivity & Intelligent Operation support efficient screen management for retail, digital signage, smart city, and commercial LED display applications.",
-  ],
+    features: [
+      "Advanced LED Display Control System ensures stable signal transmission and seamless content playback for professional LED wall display applications.",
+      "Synchronous & Asynchronous Playback Support allows flexible content scheduling and remote management for modern advertising LED display screen installations.",
+      "Cloud-Based Content Management Capability enables users to control and update LED display screen for advertising applications from remote locations.",
+      "High-Performance Multimedia Processing delivers smooth video playback, accurate image rendering, and stable visual output for LED video wall display systems.",
+      "Reliable Connectivity & Intelligent Operation support efficient screen management for retail, digital signage, smart city, and commercial LED display applications.",
+    ],
 
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-    "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient display management.",
-    "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication needs.",
-    "With extensive expertise in professional LED display board systems, NewTech helps businesses create smooth and impactful digital display experiences using advanced LED technology.",
-    "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term performance.",
-  ],
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient display management.",
+      "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication needs.",
+      "With extensive expertise in professional LED display board systems, NewTech helps businesses create smooth and impactful digital display experiences using advanced LED technology.",
+      "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term performance.",
+    ],
 
-  specs: {
-    "pixelLoadingCapacity": "650,000 Max W: 2048; Max H: 2048 ",
+    specs: {
+      "pixelLoadingCapacity": "650,000 Max W: 2048; Max H: 2048 ",
       "switchableWifi": "Switchable AP & STA Mode",
       "control": "Phone/Cloud/Pc",
       "sensorConnectivity": "Available",
@@ -3728,47 +2929,47 @@ export const products = [
       "4gModule": "Available",
       "hdmiInAndLoop": "N/A",
       "usbPlayback": "Available"
-  },
+    },
   },
   {
-  name: "TB10 Plus LED Display Controller (Taurus Series)",
-  id: "tb10-plus-led-display-controller-taurus-series",
-  metaTitle:
-    "TB10 Plus LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers TB10 Plus LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
-  catId: "accessories-and-controllers",
-  catName: "Accessories & Controllers",
-  img: "/product/tb10 plus.webp",
+    name: "TB10 Plus LED Display Controller (Taurus Series)",
+    id: "tb10-plus-led-display-controller-taurus-series",
+    metaTitle:
+      "TB10 Plus LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers TB10 Plus LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/product/tb10 plus.webp",
 
-  images: [ "/product/tb10 plus.webp"],
+    images: ["/product/tb10 plus.webp"],
 
-  overview: [
-    "TB10 Plus LED Display Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
-    "Designed for retail stores, commercial advertising, digital signage, transportation hubs, corporate environments, and smart city applications, the TB10 Plus provides flexible content management and reliable display control for both indoor and outdoor LED screens.",
-    "Featuring integrated playback and sending capabilities, this LED display controller supports synchronized and asynchronous content playback, enabling users to schedule, publish, and manage content efficiently across multiple advertising LED display screen installations.",
-    "Built with advanced multimedia processing technology, the TB10 Plus delivers smooth video playback, accurate image rendering, and stable communication, making it an ideal solution for professional LED wall display systems.",
-    "With cloud-based management support, remote control functionality, and user-friendly operation, this LED display screen for advertising controller simplifies digital signage management while ensuring reliable long-term performance.",
-  ],
+    overview: [
+      "TB10 Plus LED Display Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
+      "Designed for retail stores, commercial advertising, digital signage, transportation hubs, corporate environments, and smart city applications, the TB10 Plus provides flexible content management and reliable display control for both indoor and outdoor LED screens.",
+      "Featuring integrated playback and sending capabilities, this LED display controller supports synchronized and asynchronous content playback, enabling users to schedule, publish, and manage content efficiently across multiple advertising LED display screen installations.",
+      "Built with advanced multimedia processing technology, the TB10 Plus delivers smooth video playback, accurate image rendering, and stable communication, making it an ideal solution for professional LED wall display systems.",
+      "With cloud-based management support, remote control functionality, and user-friendly operation, this LED display screen for advertising controller simplifies digital signage management while ensuring reliable long-term performance.",
+    ],
 
-  features: [
-    "Integrated Playback & Sending Functionality enables efficient management and seamless operation of professional LED video wall display systems.",
-    "Synchronous & Asynchronous Playback Support allows flexible content scheduling and real-time display control for modern advertising LED display screen applications.",
-    "Cloud-Based Remote Management enables users to control and update LED display screen for advertising installations from anywhere through connected devices.",
-    "Advanced Multimedia Processing Technology delivers smooth playback, stable image performance, and reliable signal transmission for professional LED wall display projects.",
-    "Smart Connectivity & Easy Operation support efficient screen management for retail displays, digital signage, smart city projects, and commercial LED installations.",
-  ],
+    features: [
+      "Integrated Playback & Sending Functionality enables efficient management and seamless operation of professional LED video wall display systems.",
+      "Synchronous & Asynchronous Playback Support allows flexible content scheduling and real-time display control for modern advertising LED display screen applications.",
+      "Cloud-Based Remote Management enables users to control and update LED display screen for advertising installations from anywhere through connected devices.",
+      "Advanced Multimedia Processing Technology delivers smooth playback, stable image performance, and reliable signal transmission for professional LED wall display projects.",
+      "Smart Connectivity & Easy Operation support efficient screen management for retail displays, digital signage, smart city projects, and commercial LED installations.",
+    ],
 
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-    "Our premium advertising LED display screen control systems are engineered for reliable operation, seamless content management, and long-term performance.",
-    "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication objectives.",
-    "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful digital display experiences using advanced LED technology.",
-    "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable and efficient operation.",
-  ],
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+      "Our premium advertising LED display screen control systems are engineered for reliable operation, seamless content management, and long-term performance.",
+      "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication objectives.",
+      "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful digital display experiences using advanced LED technology.",
+      "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable and efficient operation.",
+    ],
 
-  specs: {
-     "pixelLoadingCapacity": "650,000; Max W: 2048; Max H: 2048",
+    specs: {
+      "pixelLoadingCapacity": "650,000; Max W: 2048; Max H: 2048",
       "switchableWifi": "Switchable AP & STA Mode",
       "control": "Phone/Cloud/Pc",
       "sensorConnectivity": "Available",
@@ -3776,7 +2977,7 @@ export const products = [
       "4gModule": "Available",
       "hdmiInAndLoop": "N/A",
       "usbPlayback": "Available"
-  },
+    },
   },
   {
     name: "TB60 Video Wall Display",
@@ -3888,300 +3089,105 @@ export const products = [
     },
   },
   {
-  name: "SMP6 Pro LED Display Controller (Ultra Taurus Series)",
-  id: "smp6-pro-led-display-controller-ultra-taurus-series",
-  metaTitle:
-    "SMP6 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers SMP6 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
-  catId: "accessories-and-controllers",
-  catName: "Accessories & Controllers",
-  img: "/product/smp6 pro.webp",
+    name: "SMP6 Pro LED Display Controller (Ultra Taurus Series)",
+    id: "smp6-pro-led-display-controller-ultra-taurus-series",
+    metaTitle:
+      "SMP6 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers SMP6 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/product/smp6 pro.webp",
 
-  images: ["/product/smp6 pro.webp"],
+    images: ["/product/smp6 pro.webp"],
 
-  overview: [
-    "SMP6 Pro LED Display Controller (Ultra Taurus Series) is a powerful all-in-one LED display controller designed for intelligent playback control, seamless content management, and stable operation in professional LED display systems. Engineered for modern digital signage and commercial display applications, this advanced controller ensures smooth and reliable performance for premium LED video wall display installations.",
-    "Designed for corporate meeting rooms, exhibition halls, retail stores, hotel lobbies, educational institutions, smart offices, and commercial environments, the SMP6 Pro provides flexible and efficient control for dynamic advertising LED display screen solutions.",
-    "Featuring an integrated Android-based system with playback and sending functionality, this LED display controller supports wireless screen mirroring, remote operation, and interactive content management for enhanced user convenience and efficient digital communication.",
-    "Built with advanced multimedia processing technology, the SMP6 Pro delivers smooth playback, stable signal transmission, and accurate image rendering, making it an ideal solution for professional LED wall display systems requiring high-quality visual performance.",
-    "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable and long-term performance for commercial and corporate LED applications.",
-  ],
+    overview: [
+      "SMP6 Pro LED Display Controller (Ultra Taurus Series) is a powerful all-in-one LED display controller designed for intelligent playback control, seamless content management, and stable operation in professional LED display systems. Engineered for modern digital signage and commercial display applications, this advanced controller ensures smooth and reliable performance for premium LED video wall display installations.",
+      "Designed for corporate meeting rooms, exhibition halls, retail stores, hotel lobbies, educational institutions, smart offices, and commercial environments, the SMP6 Pro provides flexible and efficient control for dynamic advertising LED display screen solutions.",
+      "Featuring an integrated Android-based system with playback and sending functionality, this LED display controller supports wireless screen mirroring, remote operation, and interactive content management for enhanced user convenience and efficient digital communication.",
+      "Built with advanced multimedia processing technology, the SMP6 Pro delivers smooth playback, stable signal transmission, and accurate image rendering, making it an ideal solution for professional LED wall display systems requiring high-quality visual performance.",
+      "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable and long-term performance for commercial and corporate LED applications.",
+    ],
 
-  features: [
-    "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
-    "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
-    "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
-    "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
-    "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, retail spaces, exhibition halls, and commercial LED display environments.",
-  ],
+    features: [
+      "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
+      "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
+      "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
+      "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
+      "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, retail spaces, exhibition halls, and commercial LED display environments.",
+    ],
 
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-    "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
-    "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
-    "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
-    "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
-  ],
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
+      "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
+      "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
+      "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
+    ],
 
-  specs: {
-  pixelLoadingCapacity: "3.9M Pixels",
-  sensorConnectivity: "Available",
-  dualWifi: "Dual WiFi",
-  storage: "32 GB",
-  inputPorts: "HDMI, USB",
-  outputPorts: "RJ45, HDMI, Audio",
-  controlPorts: "RJ45/WiFi/RS232",
-  intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
-  wirelessMirroring: "Windows/iOS/Android",
-  whiteboard: "Supported",
+    specs: {
+      pixelLoadingCapacity: "3.9M Pixels",
+      sensorConnectivity: "Available",
+      dualWifi: "Dual WiFi",
+      storage: "32 GB",
+      inputPorts: "HDMI, USB",
+      outputPorts: "RJ45, HDMI, Audio",
+      controlPorts: "RJ45/WiFi/RS232",
+      intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
+      wirelessMirroring: "Windows/iOS/Android",
+      whiteboard: "Supported",
+    },
   },
-  },
-
   {
-  name: "SMP20 Pro LED Display Controller (Ultra Taurus Series)",
-  id: "smp20-pro-led-display-controller-ultra-taurus-series",
-  metaTitle:
-    "SMP20 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
-  metaDescription:
-    "Newtech Video Systems Pvt. Ltd. offers SMP20 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
-  catId: "accessories-and-controllers",
-  catName: "Accessories & Controllers",
-  img: "/product/smp20 pro.webp",
+    name: "SMP20 Pro LED Display Controller (Ultra Taurus Series)",
+    id: "smp20-pro-led-display-controller-ultra-taurus-series",
+    metaTitle:
+      "SMP20 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers SMP20 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/product/smp20 pro.webp",
 
-  images: ["/product/smp20 pro.webp"],
+    images: ["/product/smp20 pro.webp"],
 
-  overview: [
-    "SMP20 Pro LED Display Controller (Ultra Taurus Series) is a high-performance all-in-one LED display controller designed to deliver intelligent playback management, seamless content control, and stable operation for professional LED display systems. Engineered for advanced digital signage and commercial display applications, this powerful controller ensures reliable performance for premium LED video wall display installations.",
-    "Designed for corporate meeting rooms, exhibition centers, retail stores, hotel lobbies, educational institutions, command centers, and commercial environments, the SMP20 Pro provides flexible and efficient management for dynamic advertising LED display screen applications.",
-    "Featuring an integrated Android-based system with playback and sending capabilities, this LED display controller supports wireless screen mirroring, remote management, and interactive content sharing for enhanced communication and user convenience.",
-    "Built with advanced multimedia processing technology, the SMP20 Pro delivers smooth playback, accurate image rendering, and stable signal transmission, making it an ideal solution for professional LED wall display systems requiring superior visual performance and operational stability.",
-    "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable long-term performance for commercial and corporate LED applications.",
-  ],
+    overview: [
+      "SMP20 Pro LED Display Controller (Ultra Taurus Series) is a high-performance all-in-one LED display controller designed to deliver intelligent playback management, seamless content control, and stable operation for professional LED display systems. Engineered for advanced digital signage and commercial display applications, this powerful controller ensures reliable performance for premium LED video wall display installations.",
+      "Designed for corporate meeting rooms, exhibition centers, retail stores, hotel lobbies, educational institutions, command centers, and commercial environments, the SMP20 Pro provides flexible and efficient management for dynamic advertising LED display screen applications.",
+      "Featuring an integrated Android-based system with playback and sending capabilities, this LED display controller supports wireless screen mirroring, remote management, and interactive content sharing for enhanced communication and user convenience.",
+      "Built with advanced multimedia processing technology, the SMP20 Pro delivers smooth playback, accurate image rendering, and stable signal transmission, making it an ideal solution for professional LED wall display systems requiring superior visual performance and operational stability.",
+      "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable long-term performance for commercial and corporate LED applications.",
+    ],
 
-  features: [
-    "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
-    "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
-    "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
-    "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
-    "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, exhibition halls, retail environments, and commercial LED display applications.",
-  ],
+    features: [
+      "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
+      "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
+      "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
+      "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
+      "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, exhibition halls, retail environments, and commercial LED display applications.",
+    ],
 
-  whyUs: [
-    "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-    "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
-    "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
-    "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
-    "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
-  ],
+    whyUs: [
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
+      "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
+      "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
+      "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
+    ],
 
- specs: {
-  pixelLoadingCapacity: "13M Pixels",
-  sensorConnectivity: "Available",
-  dualWifi: "Dual WiFi",
-  storage: "128 GB",
-  inputPorts: "HDMI, USB",
-  outputPorts: "RJ45, HDMI, Audio",
-  controlPorts: "RJ45 + WiFi",
-  intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
-  wirelessMirroring: "Windows/iOS/Android",
-  whiteboard: "Supported",
-},  
-}
-
-  //LED Display Boards
-  // {
-  //     "name": "LED Display Board",
-  //     "id": "led-display-board",
-  //     metaTitle: "LED Display Board Manufacturer | Advertising & Outdoor LED Display Screen | Newtech Video Systems",
-  //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers high-quality LED display boards for advertising, branding & information display. Indoor & outdoor LED display screen solutions for businesses.",
-  //     "catId": "led-display-boards",
-  //     "catName": "LED Display Boards",
-  //     "img": "/led-video-wall-display-screen-1000x1000.webp",
-
-  //     "images": [
-  //         "/led-video-wall-display-screen-1000x1000.webp",
-  //         "/led-video-wall-display-screen-1000x1000.webp",
-  //     ],
-
-  //     "overview": [
-  //         "LED Display Board is a versatile advertising LED display screen designed to deliver clear, dynamic, and attention-grabbing digital content for indoor and outdoor applications",
-  //         "Built for modern advertising and communication needs, it allows businesses to showcase text, images, videos, and real-time updates with high visibility",
-  //         "Ideal for retail stores, commercial spaces, schools, offices, transportation hubs, and public areas where effective messaging is required",
-  //         "Engineered with advanced LED technology, it ensures smooth performance, vibrant colors, and consistent brightness in all environments",
-  //         "A flexible LED video wall display solution that enhances brand communication and audience engagement"
-  //     ],
-
-  //     "features": [
-  //         "High Brightness & Clear Visibility ensures messages are easily readable even in bright indoor and outdoor environments",
-  //         "Customizable Display Formats support text, images, videos, and real-time content for versatile communication",
-  //         "Seamless Modular Design enables scalable LED wall display installations in various sizes and configurations",
-  //         "Energy-Efficient Operation reduces power consumption while maintaining stable performance and long lifespan",
-  //         "Wide Application Flexibility suitable for advertising, announcements, branding, and information display"
-  //     ],
-
-  //     "whyUs": [
-  //         "Expertise in delivering high-quality LED display board solutions for commercial, retail, and public applications",
-  //         "Advanced advertising LED display screens designed for durability, clarity, and long-term reliability",
-  //         "Customized LED video wall display systems tailored to specific business and communication needs",
-  //         "Proven experience in executing impactful digital signage projects across multiple industries",
-  //         "End-to-end support including consultation, installation, and maintenance for seamless performance"
-  //     ],
-
-  //     "specs": {
-  //         "usage": "Advertisement",
-  //         "displayTechnology": "Dot Matrix",
-  //         "shape": "Rectangle",
-  //         "availability": "In Stock"
-  //     }
-  // },
-  // {
-  //     "name": "LED Display Board for Advertisement",
-  //     "id": "led-display-board-for-advertisement",
-  //     metaTitle: "Buy LED Display Board for Advertisement | LED Screen Manufacturer | Newtech Video Systems",
-  //     metaDescription: "Premium LED display boards for advertisement with high brightness and durability. Ideal for outdoor billboards, indoor branding & commercial advertising displays.",
-  //     "catId": "led-display-boards",
-  //     "catName": "LED Display Boards",
-  //     "img": "/led-display-board-1000x1000.webp",
-
-  //     "images": [
-  //         "/led-display-board-1000x1000.webp",
-  //         "/led-display-board-adv-2.jpg"
-  //     ],
-
-  //     "overview": [
-  //         "LED Display Board for Advertisement is a high-impact digital advertising LED display screen designed to deliver vibrant visuals, dynamic motion content, and powerful brand messaging",
-  //         "It is built to replace traditional static boards with real-time, eye-catching digital content that enhances customer engagement and visibility",
-  //         "Ideal for retail stores, shopping malls, showrooms, airports, railway stations, highways, and commercial spaces requiring continuous advertising",
-  //         "Designed with advanced LED technology, it ensures sharp image quality, bright output, and smooth video playback in all lighting conditions",
-  //         "A modern LED video wall display solution that maximizes advertising reach and brand recall"
-  //     ],
-
-  //     "features": [
-  //         "Ultra-Bright Display Performance ensures strong visibility even in sunlight and high-traffic environments",
-  //         "Dynamic Content Support enables videos, animations, images, scrolling text, and live updates for engaging advertisements",
-  //         "Modular & Scalable Design allows flexible LED wall display installations in various sizes and shapes",
-  //         "Energy Efficient Technology reduces operational cost while maintaining stable and long-lasting performance",
-  //         "24/7 Continuous Operation built for uninterrupted advertising in commercial and public environments"
-  //     ],
-
-  //     "whyUs": [
-  //         "Leading provider of advanced advertising LED display screen solutions for high-visibility marketing",
-  //         "Expertise in designing durable and high-performance LED display boards for advertisement across industries",
-  //         "Customized LED video wall display solutions tailored for maximum brand exposure and audience impact",
-  //         "Trusted experience in executing large-scale digital signage and outdoor advertising projects",
-  //         "Complete support from design, installation, and maintenance for long-term reliable performance"
-  //     ],
-
-  //     "specs": {
-  //         "usage": "Advertisement",
-  //         "displayColor": "As Needed",
-  //         "shape": "Rectangle",
-  //         "color": "Black",
-  //         "bodyMaterial": "Aluminium",
-  //         "lightingType": "LED",
-  //         "countryOfOrigin": "Made in India",
-  //         "availability": "In Stock"
-  //     }
-  // },
-  // {
-  //     "name": "Safety Static LED Display Board",
-  //     "id": "safety-static-led-display-board",
-  //     metaTitle: "Safety Static LED Display Board | Fixed LED Advertising Screen | Newtech Video Systems",
-  //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers safety static LED display boards for reliable advertising. High-brightness fixed LED screens for indoor & outdoor installations.",
-  //     "catId": "led-display-boards",
-  //     "catName": "LED Display Boards",
-  //     "img": "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp",
-
-  //     "images": [
-  //         "/318604180-5832320366880875-1806510621321898268-n-1000x1000.webp"
-  //     ],
-
-  //     "overview": [
-  //         "Safety Static LED Display Board is a reliable digital LED signage solution designed specifically for displaying safety instructions, alerts, warnings, and important information in a clear and visible format",
-  //         "Widely used in industrial facilities, construction sites, factories, warehouses, highways, and public areas to improve awareness and ensure compliance with safety standards",
-  //         "Built with high-brightness LED technology, ensuring messages remain readable even in low light, bright daylight, or challenging environmental conditions",
-  //         "Designed for continuous operation, offering stable performance and long-term durability in demanding environments",
-  //         "An effective LED display board solution that enhances workplace safety communication and reduces operational risks"
-  //     ],
-
-  //     "features": [
-  //         "High Visibility Output ensures safety messages are clearly readable from long distances in all lighting conditions",
-  //         "Static & Dynamic Message Support allows display of fixed safety instructions as well as animated alerts when required",
-  //         "Rugged & Durable Design built for industrial and outdoor environments with stable long-term operation",
-  //         "Energy Efficient Operation ensures low power consumption for 24/7 safety communication systems",
-  //         "Easy Content Management allows quick updates for emergency instructions, warnings, and safety notifications"
-  //     ],
-
-  //     "whyUs": [
-  //         "Expert manufacturer of high-quality LED display board solutions for safety and industrial communication needs",
-  //         "Reliable advertising LED display screen technology adapted for critical information and warning systems",
-  //         "Customized LED video wall display solutions designed for industrial safety compliance and visibility",
-  //         "Proven experience in delivering robust display systems for factories, infrastructure, and public safety applications",
-  //         "Complete support from system design to installation and maintenance for uninterrupted safety communication"
-  //     ],
-
-  //     "specs": {
-  //         "usage": "Outdoor",
-  //         "brand": "Newtech",
-  //         "displayTechnology": "Dot Matrix",
-  //         "mountingType": "Wall Mounted",
-  //         "ledLifeSpan": "8-10 Years",
-  //         "displayType": "Outdoor",
-  //         "serviceLocation": "Pan India and Exports Available",
-  //         "shape": "Rectangle",
-  //         "inputPower": "230V AC",
-  //         "countryOfOrigin": "Made in India",
-  //         "availability": "In Stock"
-  //     }
-  // },
-  // {
-  //     "name": "Corporate Video Screen",
-  //     "id": "corporate-video-screen",
-  //     metaTitle: "Corporate Video Screen | Heavy-Duty LED Screen Solutions | Newtech Video Systems",
-  //     metaDescription: "Newtech Video Systems Pvt. Ltd. offers Corporate Video Screen for factories, control rooms & monitoring systems. Durable, high-performance LED screen solutions for industrial use.",
-  //     "catId": "led-display-boards",
-  //     "catName": "LED Display Boards",
-  //     "img": "/industrial-displays-1000x1000.webp",
-
-  //     "images": [
-  //         "/industrial-displays-1000x1000.webp",
-  //     ],
-
-  //     "overview": [
-  //         "Corporate Video Screen are high-performance digital LED signage solutions designed to deliver clear, reliable, and continuous communication in demanding industrial environments",
-  //         "Built for factories, manufacturing plants, warehouses, logistics hubs, power stations, and heavy-duty operational sites, ensuring critical information is always visible and accessible",
-  //         "Engineered to display safety alerts, production updates, operational data, warnings, and real-time announcements with high clarity",
-  //         "Designed with robust LED technology to provide stable performance even in dust, vibration, humidity, and temperature variations",
-  //         "A dependable LED display board solution for industrial communication and monitoring, ensuring smooth information flow across operations"
-  //     ],
-
-  //     "features": [
-  //         "High Brightness Industrial Display ensures excellent visibility even in harsh lighting and large factory environments",
-  //         "Continuous 24/7 Operation Capability supports uninterrupted performance for critical industrial communication needs",
-  //         "Rugged & Durable Build Quality designed to withstand dust, heat, vibration, and challenging working conditions",
-  //         "Real-Time Information Display Support enables instant updates for production data, alerts, and safety notifications",
-  //         "Scalable Modular System Design allows flexible LED wall display configurations for small to large industrial setups"
-  //     ],
-
-  //     "whyUs": [
-  //         "Trusted provider of advanced industrial LED display board solutions for mission-critical environments",
-  //         "High-quality advertising LED display screen technology adapted for industrial monitoring and communication",
-  //         "Customized LED video wall display systems designed for factories, plants, and large-scale operations",
-  //         "Proven expertise in delivering durable and reliable display systems for industrial and infrastructure projects",
-  //         "End-to-end service including design, installation, integration, and long-term maintenance support"
-  //     ],
-
-  //     "specs": {
-  //         "brand": "Newtech",
-  //         "mountingType": "LED",
-  //         "displayType": "Industrial",
-  //         "material": "Brass",
-  //         "color": "Black",
-  //         "countryOfOrigin": "Made in India",
-  //         "availability": "In Stock"
-  //     }
-  // },
+    specs: {
+      pixelLoadingCapacity: "13M Pixels",
+      sensorConnectivity: "Available",
+      dualWifi: "Dual WiFi",
+      storage: "128 GB",
+      inputPorts: "HDMI, USB",
+      outputPorts: "RJ45, HDMI, Audio",
+      controlPorts: "RJ45 + WiFi",
+      intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
+      wirelessMirroring: "Windows/iOS/Android",
+      whiteboard: "Supported",
+    },
+  },
 ];
 
 export const applicationsDescription = [
