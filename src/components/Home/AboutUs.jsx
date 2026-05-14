@@ -52,13 +52,10 @@ export default function AboutUs() {
                         and practical expertise to deliver display solutions that actually work for your business.
                     </p>
 
-                    <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        className="mt-6"
-                    >
-                        <Link href={'/about-us'} className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
-                           Download Company Profile →
-                        </Link>
+                    <motion.button whileHover={{ scale: 1.05 }} className="mt-6">
+                        <a target="blank" href="/NVS CATALOGUE 2026.pdf" download="NVS CATALOGUE 2026.pdf" className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
+                            Download Company Profile →
+                        </a>
                     </motion.button>
                 </motion.div>
             </div>
