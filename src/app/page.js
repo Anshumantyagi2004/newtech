@@ -17,6 +17,7 @@ import ClientSays from "@/components/Home/Testimonial";
 import Footer from "@/components/Main/Footer";
 import CityKeyword from "@/components/Home/CityKeyword";
 import TenderSupportSection from "@/components/Home/TenderSection";
+import HowWeProcess from "@/components/Home/HowWeProcess";
 
 export default function Home() {
   return (
@@ -29,9 +30,10 @@ export default function Home() {
       <ClientExperience />
       <CertificateSlider />
       <AboutSolutions />
-      <WhyChooseUs />
-      <TenderSupportSection />
       <CTASection />
+      <WhyChooseUs />
+      <HowWeProcess />
+      <TenderSupportSection />
       <ClientSlider />
       <ClientSays />
       <FAQSection />

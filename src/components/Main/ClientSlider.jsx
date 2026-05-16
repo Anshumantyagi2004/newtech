@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+import "swiper/css";
 
 const clients = [
     "/Client/1.png",
@@ -24,43 +27,55 @@ const clients = [
     "/Client/18.png",
 ];
 
-// duplicate for seamless loop
-const loopClients = [...clients, ...clients];
-
 export default function ClientSlider() {
     return (
-        <div className="w-full figtree bg-gray-100 py-10 overflow-hidden">
-            <div className="text-center mb-8">
-                <h2 className="text-2xl md:text-4xl font-bold text-black">
+        <section className="w-full bg-gray-100 pt-10 overflow-hidden">
+            <div className="text-center">
+                <h2 className="text-3xl md:text-5xl font-bold text-black">
                     Trusted by Leading Brands
                 </h2>
             </div>
 
-            <div className="relative">
-                <motion.div
-                    className="flex gap-10 items-center"
-                    animate={{ x: ["0%", "-50%"] }}
-                    transition={{
-                        ease: "linear",
-                        duration: 20,
-                        repeat: Infinity,
+            <div className="px-4 md:px-10">
+                <Swiper
+                    modules={[Autoplay]}
+                    //   spaceBetween={24}
+                    loop={true}
+                    speed={6000}
+                    autoplay={{
+                        delay: 0,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: true,
                     }}
+                    breakpoints={{
+                        0: {
+                            spaceBetween: 10,
+                            slidesPerView: 2,
+                        },
+                        768: {
+                            spaceBetween: 15,
+                            slidesPerView: 3,
+                        },
+                        1024: {
+                            spaceBetween: 24,
+                            slidesPerView: 5,
+                        },
+                    }}
+                    className="client-swiper py-10!"
                 >
-                    {loopClients.map((img, index) => (
-                        <div
-                            key={index}
-                            className="bg-white min-w-[40%] sm:min-w-[25%] md:min-w-[18%] lg:min-w-[12%] flex justify-center items-center border py-2 rounded-md border-gray-200"
-                        >
-                            <img
-                                src={img}
-                                alt="client"
-                                className="h-[60px] md:h-[80px] object-contain transition duration-300"
-                            />
-                        </div>
+                    {clients.map((img, index) => (
+                        <SwiperSlide key={index}>
+                            <div className="group bg-white h-30 md:h-40 rounded-2xl border border-gray-200 flex items-center justify-center p-4 md:p-6 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
+                                <img
+                                    src={img}
+                                    alt={`client-${index}`}
+                                    className="w-full h-full object-contain transition duration-500"
+                                />
+                            </div>
+                        </SwiperSlide>
                     ))}
-                </motion.div>
-
+                </Swiper>
             </div>
-        </div>
+        </section>
     );
 }

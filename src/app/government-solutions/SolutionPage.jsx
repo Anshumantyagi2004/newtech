@@ -1,11 +1,13 @@
 "use client";
 import { solutions } from '@/data/data'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from "framer-motion";
 import Image from "next/image";
+import ContactPopup from '@/components/Main/PopupForm';
 
 export default function SolutionPage() {
+    const [open, setOpen] = useState(false);
     return (<>
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
             <div
@@ -89,13 +91,18 @@ export default function SolutionPage() {
                                 {item.description}
                             </p>
 
-                            {/* Bottom Line */}
-                            <div className="mt-6 w-12 h-[2px] bg-red-500 group-hover:w-24 transition-all duration-300"></div>
-                        </div>
+                            <div className='flex justify-between mt-2 items-center'>
+                                {/* Bottom Line */}
+                                <div className=" w-12 h-[2px] bg-red-500 group-hover:w-24 transition-all duration-300"></div>
 
+                                <button onClick={() => setOpen(true)} className='bg-red-500 hover:bg-red-600 font-medium text-sm px-3 py-2 rounded-md'>
+                                    Enquiry Now
+                                </button>
+                            </div>
+                        </div>
                     </motion.div>
                 ))}
-
+                <ContactPopup isOpen={open} setIsOpen={setOpen} />
             </div>
         </section>
     </>)

@@ -21,12 +21,12 @@ const loopItems = [...categories, ...categories];
 
 export default function CategorySlider() {
   return (
-    <div className="w-full bg-black py-12 px-4 md:px-15 figtree overflow-hidden">
+    <div className="w-full bg-white py-12 px-4 md:px-15 figtree overflow-hidden">
       <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl md:text-5xl font-bold text-black">
           Browse LED Display Categories
         </h2>
-        <p className="text-gray-400 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+        <p className="text-gray-800 mt-3 max-w-2xl mx-auto text-sm md:text-base">
           Explore our complete range of advertising LED display solutions designed
           for different applications and environments.
         </p>
@@ -44,9 +44,8 @@ export default function CategorySlider() {
           }}
         >
           {loopItems.map((item, index) => (
-            <div
-              key={index}
-              className="min-w-[45%] sm:min-w-[30%] md:min-w-[25%] lg:min-w-[20%] border border-white group relative rounded-2xl overflow-hidden cursor-pointer"
+            <div key={index}
+              className="min-w-[45%] shadow-2xl sm:min-w-[30%] md:min-w-[25%] lg:min-w-[20%] border border-white group relative rounded-2xl overflow-hidden cursor-pointer"
             >
               {/* Image */}
               <img
@@ -56,7 +55,7 @@ export default function CategorySlider() {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition"></div>
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition"></div>
 
               {/* Content */}
               <div className="absolute inset-0 flex flex-col justify-end p-4 text-white">

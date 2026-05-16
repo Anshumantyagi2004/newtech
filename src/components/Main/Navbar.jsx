@@ -1,5 +1,5 @@
 "use client";
-import { Search, Menu, X, PhoneCall } from "lucide-react";
+import { Search, Menu, X, PhoneCall, CircleChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import ContactPopup from "./PopupForm";
@@ -42,11 +42,10 @@ export default function Navbar() {
           <div className="relative group hidden md:flex items-center">
 
             {/* Button */}
-            <Link
-              href="/government-solutions"
-              className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200 transition"
+            <Link href="/government-solutions"
+              className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md animate-[pulse_1.5s_ease-in-out_infinite]"
             >
-              Government Solutions
+              Government Solutions <CircleChevronDown size={18} />
             </Link>
 
             {/* Mega Menu */}
@@ -60,44 +59,44 @@ export default function Navbar() {
               <div className="w-[900px] rounded-3xl border border-gray-200 bg-white shadow-2xl p-2">
                 <div className="grid  grid-cols-4 gap-3">
                   {solutions.map((item, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.05 }}
-                      whileHover={{ y: -5 }}
-                      className="group/card overflow-hidden rounded-2xl
+                    <Link key={index} href="/government-solutions">
+                      <motion.div initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.05 }}
+                        whileHover={{ y: -5 }}
+                        className="group/card overflow-hidden rounded-2xl
                        border border-gray-200 bg-white
                        hover:shadow-xl transition-all duration-300"
-                    >
+                      >
 
-                      {/* Image */}
-                      <div className="relative h-36 overflow-hidden">
-                        <Image
-                          src={item.image}
-                          alt={item.title}
-                          fill
-                          className="object-cover group-hover/card:scale-110 transition duration-500"
-                        />
+                        {/* Image */}
+                        <div className="relative h-36 overflow-hidden">
+                          <Image
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            className="object-cover group-hover/card:scale-110 transition duration-500"
+                          />
 
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                      </div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                        </div>
 
-                      {/* Content */}
-                      <div className="px-3 py-2">
-                        <h3 className="text-base font-bold text-gray-900 line-clamp-1">
-                          {item.title}
-                        </h3>
+                        {/* Content */}
+                        <div className="px-3 py-2">
+                          <h3 className="text-base font-bold text-gray-900 line-clamp-1">
+                            {item.title}
+                          </h3>
 
-                        {/* <p className="text-xs text-gray-600 leading-relaxed line-clamp-3">
+                          {/* <p className="text-xs text-gray-600 leading-relaxed line-clamp-3">
                           {item.description}
                         </p> */}
 
-                        <div className="mt-2 w-10 h-[2px] bg-red-500 group-hover/card:w-20 transition-all duration-300"></div>
+                          <div className="mt-2 w-10 h-[2px] bg-red-500 group-hover/card:w-20 transition-all duration-300"></div>
 
-                      </div>
+                        </div>
 
-                    </motion.div>
+                      </motion.div>
+                    </Link>
                   ))}
 
                 </div>
