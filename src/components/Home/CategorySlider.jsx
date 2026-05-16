@@ -45,7 +45,7 @@ export default function CategorySlider() {
         >
           {loopItems.map((item, index) => (
             <div key={index}
-              className="min-w-[45%] shadow-2xl sm:min-w-[30%] md:min-w-[25%] lg:min-w-[20%] border border-white group relative rounded-2xl overflow-hidden cursor-pointer"
+              className="min-w-[45%] hover:shadow-2xl shadow-md transition-all sm:min-w-[30%] md:min-w-[25%] lg:min-w-[20%] border border-white group relative rounded-2xl overflow-hidden cursor-pointer"
             >
               {/* Image */}
               <img
