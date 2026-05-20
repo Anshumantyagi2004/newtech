@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Menu, X, LogOut, LayoutDashboard, PlusCircle, } from "lucide-react";
+import { Menu, X, LogOut, LayoutDashboard, PlusCircle, Headphones, } from "lucide-react";
 
 export default function Sidebar({ setSidebarOpen, sidebarOpen }) {
     const router = useRouter();
@@ -36,6 +36,11 @@ export default function Sidebar({ setSidebarOpen, sidebarOpen }) {
                 <Link href="/admin/projects" className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition">
                     <PlusCircle size={20} />
                     Projects
+                </Link>
+
+                <Link href="/admin/ticket" className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition">
+                    <Headphones size={20} />
+                    Ticket
                 </Link>
 
                 <button onClick={handleLogout} className="flex items-center gap-3 w-full text-left bg-red-600 text-white px-4 py-2 rounded-lg shadow hover:bg-red-700 transition mt-auto">

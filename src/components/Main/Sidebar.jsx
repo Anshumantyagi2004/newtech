@@ -12,7 +12,8 @@ import {
   Menu,
   Briefcase,
   Proportions,
-  MonitorCloud
+  MonitorCloud,
+  Headset
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -27,6 +28,7 @@ const menuItems = [
   { name: "Government Solutions", icon: MonitorCloud, link: "/government-solutions" },
   { name: "About Us", icon: User, link: "/about-us" },
   { name: "Contact", icon: Phone, link: "/contact-us" },
+  { name: "Support", icon: Headset, link: "/support" },
   { name: "Articles", icon: FileText, link: "/our-articles" },
 ];
 
