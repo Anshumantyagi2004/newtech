@@ -38,7 +38,7 @@ export async function POST(req) {
             fileUrl = uploadedFile.url;
             fileKey = uploadedFile.key;
         }
-
+        console.log("FILE URL:", fileUrl);
         // GENERATE TICKET ID
         const ticketId = `TICKET-${Date.now()}`;
 
@@ -87,23 +87,23 @@ export async function POST(req) {
 }
 
 export async function GET() {
-  try {
-    await connect();
+    try {
+        await connect();
 
-    const tickets = await Support.find().sort({ createdAt: -1 });
+        const tickets = await Support.find().sort({ createdAt: -1 });
 
-    return new Response(JSON.stringify(tickets), {
-      status: 200,
-    });
-  } catch (error) {
-    console.log(error);
+        return new Response(JSON.stringify(tickets), {
+            status: 200,
+        });
+    } catch (error) {
+        console.log(error);
 
-    return new Response(
-      JSON.stringify({
-        success: false,
-        error: error.message,
-      }),
-      { status: 500 }
-    );
-  }
+        return new Response(
+            JSON.stringify({
+                success: false,
+                error: error.message,
+            }),
+            { status: 500 }
+        );
+    }
 }

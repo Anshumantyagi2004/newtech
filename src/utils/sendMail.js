@@ -22,7 +22,10 @@ export const sendMail = async ({
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
 
-      to: process.env.SUPPORT_RECEIVER,
+      to: [
+        process.env.SUPPORT_RECEIVER,
+        process.env.SUPPORT_RECEIVER1,
+      ],
 
       subject: `New Support Ticket - ${ticketId}`,
 
@@ -44,11 +47,25 @@ export const sendMail = async ({
 
           <p>${problemDescription}</p>
 
-          ${
-            fileUrl
-              ? `<p><a href="${fileUrl}" target="_blank">View Uploaded File</a></p>`
-              : ""
-          }
+          ${fileUrl ? `
+                  <div style="margin-top:25px;">
+                    <a
+                      href="${fileUrl}"
+                      target="_blank"
+                      style="
+                        background:#2563eb;
+                        color:#ffffff;
+                        padding:12px 18px;
+                        text-decoration:none;
+                        border-radius:8px;
+                        display:inline-block;
+                        font-weight:bold;
+                        ">
+                      View Uploaded File
+                    </a>
+                  </div>
+                `
+          : ""}
         </div>
       `,
     });
