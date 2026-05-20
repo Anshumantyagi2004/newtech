@@ -213,20 +213,20 @@ export default function ProductPage() {
                 </span>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
-                    transition={{ duration: 0.4 }} className="flex gap-4 my-5">
+                    transition={{ duration: 0.4 }} className="flex gap-2 md:gap-4 my-5">
                     <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
-                        target="_blank" className="flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
+                        target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
                         <MessageCircle size={18} /> WhatsApp Now
                     </a>
 
-                    <a href="tel:+919810103697" className="flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
+                    <a href="tel:+919810103697" className="text-nowrap flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
                         <Phone size={18} /> Enquire Now
                     </a>
                 </motion.div>
             </div>
         </div>
 
-        <div className="py-10 md:px-15 px-4 bg-white">
+        <div className="py-6 md:py-10 md:px-15 px-4 bg-white">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
