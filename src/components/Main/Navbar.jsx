@@ -1,5 +1,5 @@
 "use client";
-import { Search, Menu, X, PhoneCall, CircleChevronDown } from "lucide-react";
+import { Search, Menu, X, PhoneCall, CircleChevronDown, Briefcase, LayoutGrid, Proportions, MonitorCloud, Headset, FileText } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import ContactPopup from "./PopupForm";
@@ -24,6 +24,14 @@ export default function Navbar() {
     .filter((product) => product.catId === activeCategory)
     .slice(0, 8);
 
+  const menuItems = [
+    { name: "Applications", icon: Briefcase, link: "/applications" },
+    { name: "Projects", icon: Proportions, link: "/projects" },
+    { name: "Government Solutions", icon: MonitorCloud, link: "/government-solutions" },
+    { name: "Support", icon: Headset, link: "/support" },
+    { name: "Articles", icon: FileText, link: "/our-articles" },
+  ];
+
   return (
     <div className="w-full bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-48">
       <div className="h-18 flex items-center justify-between px-2 md:px-6">
@@ -36,7 +44,6 @@ export default function Navbar() {
             GSTIN: 07AAECN8156D3ZE
           </span>
         </div>
-
 
         <div className="hidden lg:flex items-center gap-4">
           <div className="relative group hidden md:flex items-center">
@@ -140,21 +147,29 @@ export default function Navbar() {
         <div className="lg:hidden absolute top-full left-0 w-full bg-black text-white px-4 py-4 flex flex-col gap-4 border-t border-gray-700 z-50">
           <SearchBar />
 
-          <div className="flex gap-3">
-            <a
-              href="https://wa.me/+919810103697"
-              className="flex-1 bg-white text-green-600 p-3 rounded-lg flex justify-center"
-            >
-              <FaWhatsapp size={22} />
-            </a>
+          {menuItems.map((item, index) => {
+            const Icon = item.icon;
+            return (
+              <div key={index} className="relative"
+              >
+                <Link href={item.link}
+                  className="border border-gray-600 flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 hover:text-black transition cursor-pointer"
+                >
+                  <Icon className="w-5 h-5" />
 
-            <a
-              href="tel:+919810103697"
-              className="flex-1 bg-white text-red-600 p-3 rounded-lg flex justify-center"
-            >
-              <PhoneCall size={20} />
-            </a>
-          </div>
+                  {/* {open && ( */}
+                  <motion.span
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    className="text-sm text-white"
+                  >
+                    {item.name}
+                  </motion.span>
+                  {/* )} */}
+                </Link>
+              </div>
+            );
+          })}
 
           <button
             onClick={() => {
