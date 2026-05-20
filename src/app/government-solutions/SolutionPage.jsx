@@ -82,7 +82,7 @@ export default function SolutionPage() {
                         </div>
 
                         {/* Content */}
-                        <div className="p-6">
+                        <div className="px-6 py-4">
                             <h3 className="text-xl font-bold text-gray-900 mb-3">
                                 {item.title}
                             </h3>
@@ -95,7 +95,7 @@ export default function SolutionPage() {
                                 {/* Bottom Line */}
                                 <div className=" w-12 h-[2px] bg-red-500 group-hover:w-24 transition-all duration-300"></div>
 
-                                <button onClick={() => setOpen(true)} className='bg-red-500 hover:bg-red-600 font-medium text-sm px-3 py-2 rounded-md'>
+                                <button onClick={() => setOpen(true)} className='bg-red-500 hover:bg-red-600 text-white font-bold text-sm px-3 py-2 rounded-md'>
                                     Enquiry Now
                                 </button>
                             </div>
