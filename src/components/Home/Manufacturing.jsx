@@ -159,7 +159,7 @@ export default function ManufacturingSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="relative rounded-3xl border border-red-500/20 bg-gradient-to-br from-red-600/10 to-white/5 p-10 backdrop-blur-xl"
+          className="relative rounded-3xl border border-red-500/20 bg-linear-to-br from-red-600/10 to-white/5 p-4 md:p-10 backdrop-blur-xl"
         >
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div>
@@ -190,7 +190,7 @@ export default function ManufacturingSection() {
                       <ShieldCheck className="w-5 h-5 text-white" />
                     </div>
 
-                    <span className="text-white font-medium">{point}</span>
+                    <span className="text-white font-bold">{point}</span>
                   </motion.div>
                 ))}
               </div>
