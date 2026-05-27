@@ -7,7 +7,7 @@ import React from 'react'
 export default function Product() {
   return (<>
     <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
-      <div
+      <divs
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: "url('/rental-cabinet-1.jpg')", // change path

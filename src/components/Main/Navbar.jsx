@@ -9,6 +9,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { categories, products, solutions } from "@/data/data.js";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { MdOutlineSupportAgent, MdPrivacyTip } from "react-icons/md";
+import { GoLaw } from "react-icons/go";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -27,8 +29,9 @@ export default function Navbar() {
   const menuItems = [
     { name: "Applications", icon: Briefcase, link: "/applications" },
     { name: "Projects", icon: Proportions, link: "/projects" },
-    { name: "Government Solutions", icon: MonitorCloud, link: "/government-solutions" },
+    { name: "Disclaimer & Terms", icon: GoLaw, link: "/terms-conditions" },
     { name: "Support", icon: Headset, link: "/support" },
+    { name: "Privacy Policy", icon: MdPrivacyTip, link: "/privacy-policy" },
     { name: "Articles", icon: FileText, link: "/our-articles" },
   ];
 
@@ -49,66 +52,10 @@ export default function Navbar() {
           <div className="relative group hidden md:flex items-center">
 
             {/* Button */}
-            <Link href="/government-solutions"
-              className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md animate-[pulse_1.5s_ease-in-out_infinite]"
-            >
-              Government Solutions <CircleChevronDown size={18} />
-            </Link>
+           
 
             {/* Mega Menu */}
-            <div
-              className="absolute top-full left-1/2 -translate-x-1/2 pt-4
-               opacity-0 invisible
-               group-hover:opacity-100 group-hover:visible
-               transition-all duration-300 z-[9999]"
-            >
-
-              <div className="w-[900px] rounded-3xl border border-gray-200 bg-white shadow-2xl p-2">
-                <div className="grid  grid-cols-4 gap-3">
-                  {solutions.map((item, index) => (
-                    <Link key={index} href="/government-solutions">
-                      <motion.div initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.05 }}
-                        whileHover={{ y: -5 }}
-                        className="group/card overflow-hidden rounded-2xl
-                       border border-gray-200 bg-white
-                       hover:shadow-xl transition-all duration-300"
-                      >
-
-                        {/* Image */}
-                        <div className="relative h-36 overflow-hidden">
-                          <Image
-                            src={item.image}
-                            alt={item.title}
-                            fill
-                            className="object-cover group-hover/card:scale-110 transition duration-500"
-                          />
-
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                        </div>
-
-                        {/* Content */}
-                        <div className="px-3 py-2">
-                          <h3 className="text-base font-bold text-gray-900 line-clamp-1">
-                            {item.title}
-                          </h3>
-
-                          {/* <p className="text-xs text-gray-600 leading-relaxed line-clamp-3">
-                          {item.description}
-                        </p> */}
-
-                          <div className="mt-2 w-10 h-[2px] bg-red-500 group-hover/card:w-20 transition-all duration-300"></div>
-
-                        </div>
-
-                      </motion.div>
-                    </Link>
-                  ))}
-
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           <SearchBar />
@@ -126,6 +73,46 @@ export default function Navbar() {
           >
             <PhoneCall size={22} />
           </a> */}
+
+            <div className="relative group inline-block">
+      
+      {/* Main Button */}
+      <button
+        
+        className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md"
+      >
+        Support <MdOutlineSupportAgent size={20} />
+      </button>
+
+      {/* Dropdown */}
+      <div
+        className="
+          absolute top-full left-0 mt-2
+          w-60 bg-white rounded-lg shadow-xl
+          opacity-0 invisible
+          group-hover:opacity-100
+          group-hover:visible
+          transition-all duration-300
+          overflow-hidden z-50
+        "
+      >
+        <Link
+          href="/terms-conditions"
+          className="block px-5 py-3 text-black hover:bg-gray-100"
+        >
+          Disclaimer & Terms
+        </Link>
+
+        
+
+        <Link
+          href="/privacy-policy"
+          className="block px-5 py-3 text-black hover:bg-gray-100"
+        >
+          Privacy Policy
+        </Link>
+      </div>
+    </div>
 
           <button onClick={() => setOpen(true)}
             className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200"
@@ -150,9 +137,10 @@ export default function Navbar() {
           {menuItems.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div key={index} className="relative"
+              <div key={index}  className="relative"
               >
                 <Link href={item.link}
+                  onClick={() => setMenuOpen(false)}
                   className="border border-gray-600 flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 hover:text-black transition cursor-pointer"
                 >
                   <Icon className="w-5 h-5" />
