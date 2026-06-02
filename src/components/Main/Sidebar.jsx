@@ -81,6 +81,7 @@ export default function Sidebar() {
           const isApplication = item.name === "Applications";
           return (
             <div
+              onClick={() => setOpen(false)}
               key={index}
               onMouseEnter={() => {
                 setOpen(true);

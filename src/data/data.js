@@ -2356,7 +2356,7 @@ export const products = [
     ],
 
     specs: {
-      H2: {
+      "NVS ULTRA 2": {
         chassis: "2U",
         inputCards: 1,
         inputChannels: 16,
@@ -2367,7 +2367,7 @@ export const products = [
         size: "482.6×88.1×252.8 mm",
         weight: "15.5 kg",
       },
-      H5: {
+      "NVS ULTRA 5": {
         chassis: "5U",
         inputCards: 5,
         inputChannels: 40,
@@ -2402,164 +2402,164 @@ export const products = [
       },
     },
   },
-  {
-    name: "Led Display Controllers",
-    id: "led-display-controllers",
-    metaTitle:
-      "Indoor LED Display Controllers | LED Video Wall Control Systems | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers indoor LED display controllers for seamless video wall performance. Advanced control systems for high-resolution LED screens and signage.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/download.jfif",
+  // {
+  //   name: "Led Display Controllers",
+  //   id: "led-display-controllers",
+  //   metaTitle:
+  //     "Indoor LED Display Controllers | LED Video Wall Control Systems | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers indoor LED display controllers for seamless video wall performance. Advanced control systems for high-resolution LED screens and signage.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/download.jfif",
 
-    images: ["/download.jfif", "/con-1.jpg"],
+  //   images: ["/download.jfif", "/con-1.jpg"],
 
-    overview: [
-      "LED Display Controllers are the core processing units behind every advertising LED display screen, managing, optimizing, and distributing visual content with precision and stability",
-      "Designed to support seamless LED video wall display performance, they ensure synchronized playback across multiple panels and large-scale display systems",
-      "Ideal for events, digital signage, control rooms, and complex multi-screen environments requiring accurate and reliable content management",
-      "Enable smooth communication between input sources and display systems, ensuring consistent image quality and real-time content delivery",
-      "Built to handle both simple and advanced display setups, making them essential for achieving high-performance LED wall display operations",
-    ],
+  //   overview: [
+  //     "LED Display Controllers are the core processing units behind every advertising LED display screen, managing, optimizing, and distributing visual content with precision and stability",
+  //     "Designed to support seamless LED video wall display performance, they ensure synchronized playback across multiple panels and large-scale display systems",
+  //     "Ideal for events, digital signage, control rooms, and complex multi-screen environments requiring accurate and reliable content management",
+  //     "Enable smooth communication between input sources and display systems, ensuring consistent image quality and real-time content delivery",
+  //     "Built to handle both simple and advanced display setups, making them essential for achieving high-performance LED wall display operations",
+  //   ],
 
-    features: [
-      "Advanced Signal Processing ensures smooth video playback, accurate color reproduction, and high-quality image output across all connected displays",
-      "Seamless Synchronization between panels enables flawless LED video wall display performance without lag or visual distortion",
-      "Supports multiple input sources and flexible configurations for both small-scale and large, complex display systems",
-      "Designed for stable and reliable operation, ensuring uninterrupted performance during continuous usage and live events",
-      "User-friendly control interfaces allow easy setup, monitoring, and real-time adjustments for efficient display management",
-    ],
+  //   features: [
+  //     "Advanced Signal Processing ensures smooth video playback, accurate color reproduction, and high-quality image output across all connected displays",
+  //     "Seamless Synchronization between panels enables flawless LED video wall display performance without lag or visual distortion",
+  //     "Supports multiple input sources and flexible configurations for both small-scale and large, complex display systems",
+  //     "Designed for stable and reliable operation, ensuring uninterrupted performance during continuous usage and live events",
+  //     "User-friendly control interfaces allow easy setup, monitoring, and real-time adjustments for efficient display management",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering complete advertising LED display solutions including high-performance control systems",
-      "Advanced technology integration ensures optimized performance for LED video wall displays and multi-screen environments",
-      "Proven capability in handling complex LED wall display systems with seamless synchronization and control",
-      "Strong focus on reliability, precision, and performance across all display components and solutions",
-      "End-to-end support including system configuration, installation assistance, and technical support for smooth operation",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering complete advertising LED display solutions including high-performance control systems",
+  //     "Advanced technology integration ensures optimized performance for LED video wall displays and multi-screen environments",
+  //     "Proven capability in handling complex LED wall display systems with seamless synchronization and control",
+  //     "Strong focus on reliability, precision, and performance across all display components and solutions",
+  //     "End-to-end support including system configuration, installation assistance, and technical support for smooth operation",
+  //   ],
 
-    specs: {
-      dimensions: "178 mm × 102.5 mm × 28.5 mm",
-      weight: "380.1 g",
-      inputVoltage: "5 V DC",
-      powerConsumption: "10 W",
-      operatingTemperature: "-40°C – 75°C",
-      operatingHumidity: "0% RH – 80% RH",
-      storageTemperature: "0°C – 50°C",
-      storageHumidity: "0% RH – 80% RH",
-      memory: "1 GB",
-      internalStorage: "8 GB",
-      dimensions: "335 mm × 190 mm × 62 mm",
-    },
-  },
-  {
-    name: "Led Display Controller",
-    id: "led-display-controllers",
-    metaTitle:
-      "LED Display Controllers | Video Wall Control Processor | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers LED display controllers for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/ProductImages/4K Prime Pro.png",
+  //   specs: {
+  //     dimensions: "178 mm × 102.5 mm × 28.5 mm",
+  //     weight: "380.1 g",
+  //     inputVoltage: "5 V DC",
+  //     powerConsumption: "10 W",
+  //     operatingTemperature: "-40°C – 75°C",
+  //     operatingHumidity: "0% RH – 80% RH",
+  //     storageTemperature: "0°C – 50°C",
+  //     storageHumidity: "0% RH – 80% RH",
+  //     memory: "1 GB",
+  //     internalStorage: "8 GB",
+  //     dimensions: "335 mm × 190 mm × 62 mm",
+  //   },
+  // },
+  // {
+  //   name: "Led Display Controller",
+  //   id: "led-display-controllers",
+  //   metaTitle:
+  //     "LED Display Controllers | Video Wall Control Processor | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers LED display controllers for seamless video wall control. High-performance processing for indoor & outdoor LED display screens.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/ProductImages/4K Prime Pro.png",
 
-    images: ["/ProductImages/4K Prime Pro.png", "/download.jfif"],
+  //   images: ["/ProductImages/4K Prime Pro.png", "/download.jfif"],
 
-    overview: [
-      "LED Display Processor is the central engine behind every advertising LED display screen, responsible for managing image processing, signal conversion, and real-time content optimization",
-      "Designed to enhance LED video wall display performance, it ensures sharp visuals, smooth playback, and accurate color calibration across all connected panels",
-      "Ideal for professional installations, events, control rooms, and large-scale display systems requiring precision and reliability",
-      "Supports complex display configurations, enabling seamless integration across multiple screens and high-resolution output setups",
-      "Plays a critical role in maintaining visual consistency, synchronization, and performance in advanced LED wall display environments",
-    ],
+  //   overview: [
+  //     "LED Display Processor is the central engine behind every advertising LED display screen, responsible for managing image processing, signal conversion, and real-time content optimization",
+  //     "Designed to enhance LED video wall display performance, it ensures sharp visuals, smooth playback, and accurate color calibration across all connected panels",
+  //     "Ideal for professional installations, events, control rooms, and large-scale display systems requiring precision and reliability",
+  //     "Supports complex display configurations, enabling seamless integration across multiple screens and high-resolution output setups",
+  //     "Plays a critical role in maintaining visual consistency, synchronization, and performance in advanced LED wall display environments",
+  //   ],
 
-    features: [
-      "Advanced Image Processing Technology ensures sharp visuals, enhanced contrast, and accurate color reproduction for high-quality display output",
-      "Real-Time Signal Conversion & Scaling allows seamless compatibility with multiple input sources and resolutions",
-      "Seamless Synchronization across panels ensures smooth and unified LED video wall display performance without lag or distortion",
-      "Supports high-resolution outputs and complex multi-screen configurations for large-scale and professional display setups",
-      "Designed for stable, continuous operation, ensuring reliable performance during long hours and live events",
-    ],
+  //   features: [
+  //     "Advanced Image Processing Technology ensures sharp visuals, enhanced contrast, and accurate color reproduction for high-quality display output",
+  //     "Real-Time Signal Conversion & Scaling allows seamless compatibility with multiple input sources and resolutions",
+  //     "Seamless Synchronization across panels ensures smooth and unified LED video wall display performance without lag or distortion",
+  //     "Supports high-resolution outputs and complex multi-screen configurations for large-scale and professional display setups",
+  //     "Designed for stable, continuous operation, ensuring reliable performance during long hours and live events",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering complete advertising LED display solutions including advanced processing systems",
-      "Integration of high-performance processors to optimize LED video wall displays for superior visual output",
-      "Proven capability in handling complex LED wall display systems with precision and seamless synchronization",
-      "Strong focus on performance, reliability, and cutting-edge display technology across all solutions",
-      "End-to-end support including system configuration, technical guidance, and after-sales service for smooth operation",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering complete advertising LED display solutions including advanced processing systems",
+  //     "Integration of high-performance processors to optimize LED video wall displays for superior visual output",
+  //     "Proven capability in handling complex LED wall display systems with precision and seamless synchronization",
+  //     "Strong focus on performance, reliability, and cutting-edge display technology across all solutions",
+  //     "End-to-end support including system configuration, technical guidance, and after-sales service for smooth operation",
+  //   ],
 
-    specs: {
-      powerConnector: "100–240V~, 1.5A, 50/60Hz",
-      powerConsumption: "28 W",
-      operatingTemperature: "-10°C to +60°C",
-      operatingHumidity: "20% RH to 90% RH, non-condensing",
-      storageTemperature: "-20°C to +70°C",
-      storageHumidity: "10% RH to 95% RH, non-condensing",
-      dimensions: "483.6 mm × 351.2 mm × 50.1 mm",
-      weight: "4 kg",
-      noiseLevel: "45 dB (A)",
-      size: "521.0 mm × 102.0 mm × 517.0 mm",
-      weight: "10.4 kg",
-    },
-  },
-  {
-    name: "VX1 Advertising LED Display Screen",
-    id: "vx1-advertising-led-display-screen",
-    metaTitle:
-      "VX1 Advertising LED Display Screen | High-Performance LED Video Wall | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers VX1 advertising LED display screens for high-quality digital signage. Ideal for indoor & outdoor LED video wall advertising and branding solutions.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/ProductImages/VX1 (1).png",
+  //   specs: {
+  //     powerConnector: "100–240V~, 1.5A, 50/60Hz",
+  //     powerConsumption: "28 W",
+  //     operatingTemperature: "-10°C to +60°C",
+  //     operatingHumidity: "20% RH to 90% RH, non-condensing",
+  //     storageTemperature: "-20°C to +70°C",
+  //     storageHumidity: "10% RH to 95% RH, non-condensing",
+  //     dimensions: "483.6 mm × 351.2 mm × 50.1 mm",
+  //     weight: "4 kg",
+  //     noiseLevel: "45 dB (A)",
+  //     size: "521.0 mm × 102.0 mm × 517.0 mm",
+  //     weight: "10.4 kg",
+  //   },
+  // },
+  // {
+  //   name: "VX1 Advertising LED Display Screen",
+  //   id: "vx1-advertising-led-display-screen",
+  //   metaTitle:
+  //     "VX1 Advertising LED Display Screen | High-Performance LED Video Wall | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers VX1 advertising LED display screens for high-quality digital signage. Ideal for indoor & outdoor LED video wall advertising and branding solutions.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/ProductImages/VX1 (1).png",
 
-    images: [
-      "/ProductImages/VX1 (1).png",
-      "/ProductImages/VX1 (2).png",
-      "/ProductImages/VX1 (3).png",
-    ],
+  //   images: [
+  //     "/ProductImages/VX1 (1).png",
+  //     "/ProductImages/VX1 (2).png",
+  //     "/ProductImages/VX1 (3).png",
+  //   ],
 
-    overview: [
-      "VX1 Processor is a high-performance control unit designed to manage and optimize advertising LED display screen operations with precision and stability",
-      "Acts as the central processing engine in LED video wall display systems, handling data input, validation, and real-time content rendering",
-      "Ensures smooth communication between input sources, controllers, and display panels for consistent and reliable performance",
-      "Ideal for small to mid-scale LED setups, events, and digital signage applications requiring efficient and streamlined processing",
-      "Designed to maintain clean and organized system flow by managing core operations, ensuring stable and high-quality display output",
-    ],
+  //   overview: [
+  //     "VX1 Processor is a high-performance control unit designed to manage and optimize advertising LED display screen operations with precision and stability",
+  //     "Acts as the central processing engine in LED video wall display systems, handling data input, validation, and real-time content rendering",
+  //     "Ensures smooth communication between input sources, controllers, and display panels for consistent and reliable performance",
+  //     "Ideal for small to mid-scale LED setups, events, and digital signage applications requiring efficient and streamlined processing",
+  //     "Designed to maintain clean and organized system flow by managing core operations, ensuring stable and high-quality display output",
+  //   ],
 
-    features: [
-      "Efficient Data Processing & Management ensures smooth handling of content, signal input, and output for uninterrupted display performance",
-      "Real-Time Content Control enables seamless playback and quick updates across connected LED video wall display systems",
-      "Integrated System Coordination acts as a bridge between input sources and display units, ensuring synchronized operation",
-      "Supports multiple input formats and resolutions for flexible content management and compatibility",
-      "Compact and reliable design ensures stable performance with minimal latency during continuous usage",
-      "Wide variety of ports including DVI, HDMI, VGA, USB, and CVBS for enhanced connectivity flexibility",
-      "Dual Ethernet output with support for up to 1.3 million pixels and maximum width of 3840",
-      "Simple operation with web control and smart configuration support for easy setup and adjustments",
-      "User-friendly features like fade-in/fade-out effects, operational status indicators, and 6 user presets",
-    ],
+  //   features: [
+  //     "Efficient Data Processing & Management ensures smooth handling of content, signal input, and output for uninterrupted display performance",
+  //     "Real-Time Content Control enables seamless playback and quick updates across connected LED video wall display systems",
+  //     "Integrated System Coordination acts as a bridge between input sources and display units, ensuring synchronized operation",
+  //     "Supports multiple input formats and resolutions for flexible content management and compatibility",
+  //     "Compact and reliable design ensures stable performance with minimal latency during continuous usage",
+  //     "Wide variety of ports including DVI, HDMI, VGA, USB, and CVBS for enhanced connectivity flexibility",
+  //     "Dual Ethernet output with support for up to 1.3 million pixels and maximum width of 3840",
+  //     "Simple operation with web control and smart configuration support for easy setup and adjustments",
+  //     "User-friendly features like fade-in/fade-out effects, operational status indicators, and 6 user presets",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering complete advertising LED display ecosystems including processors and control systems",
-      "Advanced integration capabilities for seamless LED video wall display performance across different setups",
-      "Proven experience in configuring efficient and reliable LED wall display systems for various applications",
-      "Focus on delivering stable, high-performance processing solutions tailored to business needs",
-      "End-to-end support including system setup, configuration, and technical assistance for smooth operation",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering complete advertising LED display ecosystems including processors and control systems",
+  //     "Advanced integration capabilities for seamless LED video wall display performance across different setups",
+  //     "Proven experience in configuring efficient and reliable LED wall display systems for various applications",
+  //     "Focus on delivering stable, high-performance processing solutions tailored to business needs",
+  //     "End-to-end support including system setup, configuration, and technical assistance for smooth operation",
+  //   ],
 
-    specs: {
-      inputs: "DVI ×1, HDMI ×1, VGA ×1, USB ×1, CVBS ×1",
-      ethernetOutput: "Dual Ethernet",
-      loadingCapacity: "1.3 million pixels",
-      maxWidth: "1920 px",
-      control: "Web control, Smart Configuration support",
-      presets: "6 user presets",
-      effects: "Fade-in / Fade-out switching",
-      indicators: "Operational status lights",
-    },
-  },
+  //   specs: {
+  //     inputs: "DVI ×1, HDMI ×1, VGA ×1, USB ×1, CVBS ×1",
+  //     ethernetOutput: "Dual Ethernet",
+  //     loadingCapacity: "1.3 million pixels",
+  //     maxWidth: "1920 px",
+  //     control: "Web control, Smart Configuration support",
+  //     presets: "6 user presets",
+  //     effects: "Fade-in / Fade-out switching",
+  //     indicators: "Operational status lights",
+  //   },
+  // },
   // {
   //   name: "DSP400 Controller LED Wall Display",
   //   id: "dsp400-controller-led-wall-display",
@@ -2612,12 +2612,12 @@ export const products = [
   //   },
   // },
   {
-    name: "DSP400 Pro LED Display Screen Accessories",
-    id: "dsp400-pro-led-display-screen-accessories",
+    name: " NVS 400 Accessories",
+    id: "nvs-400-accessories",
     metaTitle:
-      "DSP400 Pro LED Display Accessories | LED Video Wall Controller System | Newtech Video Systems",
+      "NVS 400 Accessories Accessories | LED Video Wall Controller System | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers DSP400 Pro LED display accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS 400 Accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/DSP400PRO.png",
@@ -2625,7 +2625,7 @@ export const products = [
     images: ["/ProductImages/DSP400PRO.png", "/ProductImages/DPS400PRO.png"],
 
     overview: [
-      "DSP400 Pro is a powerful all-in-one advertising LED display screen controller that combines advanced video processing and control functionalities into a single, efficient device",
+      "NVS 400 Accessories is a powerful all-in-one advertising LED display screen controller that combines advanced video processing and control functionalities into a single, efficient device",
       "Designed for high-end LED video wall display systems, it supports ultra-wide and ultra-high-resolution outputs with exceptional clarity and stability",
       "Capable of managing up to 2.6 million pixels, making it ideal for medium to high-end rental, stage productions, and fine-pitch LED installations",
       "Supports multiple working modes including video controller, fiber converter, and bypass, offering flexibility for diverse system configurations",
@@ -2715,10 +2715,10 @@ export const products = [
   //   },
   // },
   {
-    name: "DSP600 Pro LED Display Accessories",
-    id: "dsp600-pro-led-display-accessories",
+    name: "NVS 600 Accessories",
+    id: "nvs-600-accessories",
     metaTitle:
-      "DSP600 Pro LED Display Accessories | Advanced LED Controller System | Newtech Video Systems",
+      "NVS 600 Accessories | Advanced LED Controller System | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers DSP600 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
@@ -2728,7 +2728,7 @@ export const products = [
     images: ["/ProductImages/DSP600PRO.png", "/ProductImages/DPS600PRO.png"],
 
     overview: [
-      "DSP600 Pro is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
+      "NVS 600 is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
       "Designed for large-scale LED video wall display systems, it supports ultra-wide and ultra-high-resolution outputs with superior clarity and stability",
       "Capable of managing up to 3.9 million pixels, making it ideal for complex rental setups, stage productions, and fine-pitch LED installations",
       "Equipped with 6 Ethernet ports to handle higher data loads and larger display configurations efficiently",
@@ -2766,12 +2766,12 @@ export const products = [
     },
   },
   {
-    name: "DSP1000 Pro LED Display Accessories",
-    id: "dsp1000-pro-led-display-accessories",
+    name: "NVS 1000 Accessories",
+    id: "nvs-1000-accessories",
     metaTitle:
-      "DSP1000 Pro LED Display Accessories | Advanced LED Video Wall Controller | Newtech Video Systems",
+      "NVS 1000 Accessories | Advanced LED Video Wall Controller | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers DSP1000 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS 1000 Accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/DSP1000PRO.png",
@@ -2779,7 +2779,7 @@ export const products = [
     images: ["/ProductImages/DSP1000PRO.png", "/ProductImages/DPS1000PRO.png"],
 
     overview: [
-      "DSP1000 Pro is a flagship all-in-one advertising LED display screen controller that combines advanced video processing and control capabilities into a single high-performance device",
+      "NVS 1000  is a flagship all-in-one advertising LED display screen controller that combines advanced video processing and control capabilities into a single high-performance device",
       "Designed for ultra-large and complex LED video wall display systems, it delivers exceptional clarity, synchronization, and stability across massive screen setups",
       "Capable of handling up to 6.5 million pixels, making it ideal for high-end rental, large-scale events, broadcast environments, and fine-pitch LED installations",
       "Equipped with 10 Ethernet ports to support extensive data transmission and manage highly demanding display configurations efficiently",
@@ -2818,12 +2818,12 @@ export const products = [
     },
   },
   {
-    name: "4K Prime Pro Controller for LED Display System",
-    id: "4k-prime-pro-controller-for-led-display-system",
+    name: "NVS 4K ULTRA Controller for LED Display System",
+    id: "nvs-4k-ultra-controller-for-led-display-system",
     metaTitle:
-      "4K Prime Pro LED Controller | Ultra HD LED Display Control System | Newtech Video Systems",
+      "NVS 4K ULTRA Controller | Ultra HD LED Display Control System | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers the 4K Prime Pro controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
+      "Newtech Video Systems Pvt. Ltd. offers the NVS 4K ULTRA controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/4K Prime Pro.png",
@@ -2834,7 +2834,7 @@ export const products = [
     ],
 
     overview: [
-      "4K Prime Pro is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
+      "NVS 4K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
       "Designed for next-generation LED video wall display systems, it delivers exceptional clarity, synchronization, and performance across ultra-wide and ultra-high resolution displays",
       "Capable of managing up to 13 million pixels, making it ideal for mega installations, broadcast environments, large events, and fine-pitch LED display systems",
       "Equipped with 20 Ethernet ports to support massive data transmission and handle extremely complex and high-density display configurations",
@@ -2873,12 +2873,12 @@ export const products = [
     },
   },
   {
-    name: "TB20 Plus LED Display and Video Wall Screen System",
-    id: "tb20-plus-led-display-and-video-wall-screen-system",
+    name: "NVS CB2 and Video Wall Screen System",
+    id: "nvs-cb2-and-video-wall-screen-system",
     metaTitle:
-      "TB20 Plus LED Display System | Video Wall Controller & Screen Solution | Newtech Video Systems",
+      "NVS CB2 | Video Wall Controller & Screen Solution | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers the TB20 Plus LED display and video wall system for high-performance control. Advanced solution for seamless LED screen management and digital signage.",
+      "Newtech Video Systems Pvt. Ltd. offers the NVS CB2 and video wall system for high-performance control. Advanced solution for seamless LED screen management and digital signage.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/tb20.png",
@@ -2886,7 +2886,7 @@ export const products = [
     images: ["/ProductImages/tb20.png"],
 
     overview: [
-      "TB20 Plus is a next-generation multimedia player designed to power advertising LED display screen systems with seamless content playback and control capabilities",
+      "NVS CB2 is a next-generation multimedia player designed to power advertising LED display screen systems with seamless content playback and control capabilities",
       "Combines playback and sending functions into a single device, making it an efficient solution for managing LED video wall display and digital signage applications",
       "Supports both synchronous and asynchronous modes, offering flexibility for real-time and scheduled content management",
       "Ideal for commercial applications such as retail stores, digital signage, smart city displays, and advertising networks",
@@ -2928,12 +2928,12 @@ export const products = [
     },
   },
   {
-    name: "TB40 LED Wall Screen",
-    id: "tb40-led-wall-screen",
+    name: "NVS CB40 LED Wall Screen",
+    id: "nvs-cb40-led-wall-screen",
     metaTitle:
-      "TB40 LED Wall Screen | High-Performance LED Video Wall System | Newtech Video Systems",
+      "NVS CB40 LED Wall Screen | High-Performance LED Video Wall System | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers TB40 LED wall screens for high-performance video wall applications. Ideal for advertising, events, control rooms & digital signage solutions.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS CB40 LED wall screens for high-performance video wall applications. Ideal for advertising, events, control rooms & digital signage solutions.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/TB40.png",
@@ -2941,7 +2941,7 @@ export const products = [
     images: ["/ProductImages/TB40.png"],
 
     overview: [
-      "TB40 is an advanced multimedia player designed to power advertising LED display screen systems with seamless content playback and intelligent control",
+      "NVS CB40 is an advanced multimedia player designed to power advertising LED display screen systems with seamless content playback and intelligent control",
       "Combines playback and sending capabilities in a single device, making it ideal for efficient LED video wall display and digital signage management",
       "Supports both synchronous and asynchronous modes, enabling flexible real-time and scheduled content delivery",
       "Designed for multi-screen environments, allowing synchronized playback across multiple displays for consistent visual output",
@@ -2982,61 +2982,61 @@ export const products = [
       note: "Third-party applications are not supported",
     },
   },
+  // {
+  //   name: "T16 Pro LED Display Controller (Taurus Series)",
+  //   id: "t16-pro-led-display-controller-taurus-series",
+  //   metaTitle:
+  //     "T16 Pro LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers T16 Pro LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with advanced multimedia processing and cloud-based control.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/product/t16 plus.webp",
+
+  //   images: ["/product/t16 plus.webp"],
+
+  //   overview: [
+  //     "T16 Pro LED Display Controller (Taurus Series) is a powerful and intelligent LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for reliable performance and seamless control, this advanced controller ensures smooth playback and stable communication across modern LED video wall display installations.",
+  //     "Designed for commercial advertising, retail displays, digital signage, corporate installations, transportation hubs, and smart city applications, the T16 Pro provides efficient content management and high-performance display control for both indoor and outdoor LED screens.",
+  //     "Featuring advanced multimedia processing capabilities, this LED display controller supports synchronized and asynchronous playback, enabling flexible content scheduling, remote publishing, and real-time display management.",
+  //     "Built for professional display environments, the T16 Pro delivers stable signal transmission, smooth video performance, and intelligent screen management, making it an ideal solution for large-scale advertising LED display screen applications.",
+  //     "With reliable connectivity options, cloud-based management support, and user-friendly operation, this LED video wall display controller enhances efficiency, simplifies display control, and ensures uninterrupted digital communication performance.",
+  //   ],
+
+  //   features: [
+  //     "Advanced LED Display Control System ensures stable signal transmission and seamless content playback for professional LED wall display applications.",
+  //     "Synchronous & Asynchronous Playback Support allows flexible content scheduling and remote management for modern advertising LED display screen installations.",
+  //     "Cloud-Based Content Management Capability enables users to control and update LED display screen for advertising applications from remote locations.",
+  //     "High-Performance Multimedia Processing delivers smooth video playback, accurate image rendering, and stable visual output for LED video wall display systems.",
+  //     "Reliable Connectivity & Intelligent Operation support efficient screen management for retail, digital signage, smart city, and commercial LED display applications.",
+  //   ],
+
+  //   whyUs: [
+  //     "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+  //     "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient display management.",
+  //     "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication needs.",
+  //     "With extensive expertise in professional LED display board systems, NewTech helps businesses create smooth and impactful digital display experiences using advanced LED technology.",
+  //     "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term performance.",
+  //   ],
+
+  //   specs: {
+  //     "pixelLoadingCapacity": "650,000 Max W: 2048; Max H: 2048 ",
+  //     "switchableWifi": "Switchable AP & STA Mode",
+  //     "control": "Phone/Cloud/Pc",
+  //     "sensorConnectivity": "Available",
+  //     "storage": "32 GB",
+  //     "4gModule": "Available",
+  //     "hdmiInAndLoop": "N/A",
+  //     "usbPlayback": "Available"
+  //   },
+  // },
   {
-    name: "T16 Pro LED Display Controller (Taurus Series)",
-    id: "t16-pro-led-display-controller-taurus-series",
+    name: "NVS CB1 Controller (Taurus Series)",
+    id: "nvs-cb1-controller-taurus-series",
     metaTitle:
-      "T16 Pro LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
+      "NVS CB1 Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers T16 Pro LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with advanced multimedia processing and cloud-based control.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/product/t16 plus.webp",
-
-    images: ["/product/t16 plus.webp"],
-
-    overview: [
-      "T16 Pro LED Display Controller (Taurus Series) is a powerful and intelligent LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for reliable performance and seamless control, this advanced controller ensures smooth playback and stable communication across modern LED video wall display installations.",
-      "Designed for commercial advertising, retail displays, digital signage, corporate installations, transportation hubs, and smart city applications, the T16 Pro provides efficient content management and high-performance display control for both indoor and outdoor LED screens.",
-      "Featuring advanced multimedia processing capabilities, this LED display controller supports synchronized and asynchronous playback, enabling flexible content scheduling, remote publishing, and real-time display management.",
-      "Built for professional display environments, the T16 Pro delivers stable signal transmission, smooth video performance, and intelligent screen management, making it an ideal solution for large-scale advertising LED display screen applications.",
-      "With reliable connectivity options, cloud-based management support, and user-friendly operation, this LED video wall display controller enhances efficiency, simplifies display control, and ensures uninterrupted digital communication performance.",
-    ],
-
-    features: [
-      "Advanced LED Display Control System ensures stable signal transmission and seamless content playback for professional LED wall display applications.",
-      "Synchronous & Asynchronous Playback Support allows flexible content scheduling and remote management for modern advertising LED display screen installations.",
-      "Cloud-Based Content Management Capability enables users to control and update LED display screen for advertising applications from remote locations.",
-      "High-Performance Multimedia Processing delivers smooth video playback, accurate image rendering, and stable visual output for LED video wall display systems.",
-      "Reliable Connectivity & Intelligent Operation support efficient screen management for retail, digital signage, smart city, and commercial LED display applications.",
-    ],
-
-    whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient display management.",
-      "We provide customized LED wall display solutions tailored to project requirements, installation environments, and commercial communication needs.",
-      "With extensive expertise in professional LED display board systems, NewTech helps businesses create smooth and impactful digital display experiences using advanced LED technology.",
-      "From consultation and system integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term performance.",
-    ],
-
-    specs: {
-      "pixelLoadingCapacity": "650,000 Max W: 2048; Max H: 2048 ",
-      "switchableWifi": "Switchable AP & STA Mode",
-      "control": "Phone/Cloud/Pc",
-      "sensorConnectivity": "Available",
-      "storage": "32 GB",
-      "4gModule": "Available",
-      "hdmiInAndLoop": "N/A",
-      "usbPlayback": "Available"
-    },
-  },
-  {
-    name: "TB10 Plus LED Display Controller (Taurus Series)",
-    id: "tb10-plus-led-display-controller-taurus-series",
-    metaTitle:
-      "TB10 Plus LED Display Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers TB10 Plus LED Display Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS CB1 Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/product/tb10 plus.webp",
@@ -3044,7 +3044,7 @@ export const products = [
     images: ["/product/tb10 plus.webp"],
 
     overview: [
-      "TB10 Plus LED Display Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
+      "NVS CB1 Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
       "Designed for retail stores, commercial advertising, digital signage, transportation hubs, corporate environments, and smart city applications, the TB10 Plus provides flexible content management and reliable display control for both indoor and outdoor LED screens.",
       "Featuring integrated playback and sending capabilities, this LED display controller supports synchronized and asynchronous content playback, enabling users to schedule, publish, and manage content efficiently across multiple advertising LED display screen installations.",
       "Built with advanced multimedia processing technology, the TB10 Plus delivers smooth video playback, accurate image rendering, and stable communication, making it an ideal solution for professional LED wall display systems.",
@@ -3079,12 +3079,12 @@ export const products = [
     },
   },
   {
-    name: "TB60 Video Wall Display",
-    id: "tb60-video-wall-display",
+    name: "NVS CB60 Video Wall Display",
+    id: "nvs-cb60-video-wall-display",
     metaTitle:
-      "TB60 Video Wall Display | Advanced LED Video Wall System | Newtech Video Systems",
+      "NVS CB60 Video Wall Display | Advanced LED Video Wall System | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers TB60 video wall displays for high-performance applications. Ideal for advertising, events, control rooms & large-scale LED display systems.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS CB60 video wall displays for high-performance applications. Ideal for advertising, events, control rooms & large-scale LED display systems.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/tb60.png",
@@ -3092,7 +3092,7 @@ export const products = [
     images: ["/ProductImages/tb60.png"],
 
     overview: [
-      "TB60 is a high-performance multimedia player designed to power advanced advertising LED display screen systems with seamless playback and intelligent control",
+      "NVS CB60 is a high-performance multimedia player designed to power advanced advertising LED display screen systems with seamless playback and intelligent control",
       "Built for efficient LED video wall display and digital signage management, combining content playback and sending capabilities in a single device",
       "Supports both synchronous and asynchronous modes, enabling flexible real-time broadcasting and scheduled content playback",
       "Designed for multi-screen environments, allowing synchronized playback across multiple displays for consistent and impactful visual communication",
@@ -3134,159 +3134,159 @@ export const products = [
       note: "Total weight includes product, accessories, and packaging. Third-party applications are not supported",
     },
   },
-  {
-    name: "SMP4 Pro LED Controller for Video Wall Screen",
-    id: "smp4-pro-led-controller-for-video-wall-screen",
-    metaTitle:
-      "SMP4 Pro LED Controller | Video Wall Screen Control System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers the SMP4 Pro LED controller for video wall screens. Advanced control system for seamless, high-performance LED display management.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/ProductImages/smp4.png",
+  // {
+  //   name: "SMP4 Pro LED Controller for Video Wall Screen",
+  //   id: "smp4-pro-led-controller-for-video-wall-screen",
+  //   metaTitle:
+  //     "SMP4 Pro LED Controller | Video Wall Screen Control System | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers the SMP4 Pro LED controller for video wall screens. Advanced control system for seamless, high-performance LED display management.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/ProductImages/smp4.png",
 
-    images: ["/ProductImages/smp4.png"],
+  //   images: ["/ProductImages/smp4.png"],
 
-    overview: [
-      "SMP4 Pro is an advanced playback control processor designed for indoor advertising LED display screen applications, combining powerful media playback, control, and processing capabilities in a single device",
-      "Built on an integrated Android system, it enables seamless operation and supports third-party applications for enhanced flexibility and functionality",
-      "Designed for efficient LED video wall display control in single-screen environments such as meeting rooms, corporate spaces, and exhibition halls",
-      "Supports wireless screen mirroring from Windows, macOS, iOS, and Android devices, enabling effortless content sharing and collaboration",
-      "Ideal for professional indoor environments including corporate presentations, education spaces, hospitality, and telemedicine setups",
-    ],
+  //   overview: [
+  //     "SMP4 Pro is an advanced playback control processor designed for indoor advertising LED display screen applications, combining powerful media playback, control, and processing capabilities in a single device",
+  //     "Built on an integrated Android system, it enables seamless operation and supports third-party applications for enhanced flexibility and functionality",
+  //     "Designed for efficient LED video wall display control in single-screen environments such as meeting rooms, corporate spaces, and exhibition halls",
+  //     "Supports wireless screen mirroring from Windows, macOS, iOS, and Android devices, enabling effortless content sharing and collaboration",
+  //     "Ideal for professional indoor environments including corporate presentations, education spaces, hospitality, and telemedicine setups",
+  //   ],
 
-    features: [
-      "Integrated Android System allows installation of third-party apps, providing enhanced flexibility and interactive capabilities",
-      "Wireless Screen Mirroring Support enables seamless casting from multiple devices including laptops, smartphones, and tablets",
-      "Multiple Display Modes optimized for presentations, video playback, and remote meetings to ensure best visual performance",
-      "Remote Control Operation allows easy and convenient management of the LED display board without complex setup",
-      "Easy Installation & Setup with no need for structural changes, supporting wall mounting or tabletop placement for quick deployment",
-    ],
+  //   features: [
+  //     "Integrated Android System allows installation of third-party apps, providing enhanced flexibility and interactive capabilities",
+  //     "Wireless Screen Mirroring Support enables seamless casting from multiple devices including laptops, smartphones, and tablets",
+  //     "Multiple Display Modes optimized for presentations, video playback, and remote meetings to ensure best visual performance",
+  //     "Remote Control Operation allows easy and convenient management of the LED display board without complex setup",
+  //     "Easy Installation & Setup with no need for structural changes, supporting wall mounting or tabletop placement for quick deployment",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering smart and integrated advertising LED display solutions with advanced control and playback systems",
-      "Seamless integration with LED video wall displays for professional indoor environments and single-screen applications",
-      "Proven capability in deploying user-friendly and scalable LED display board solutions across corporate and institutional sectors",
-      "Strong focus on innovation, ease of use, and performance across all display technologies",
-      "End-to-end support including consultation, configuration, installation, and technical assistance for smooth and efficient operations",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering smart and integrated advertising LED display solutions with advanced control and playback systems",
+  //     "Seamless integration with LED video wall displays for professional indoor environments and single-screen applications",
+  //     "Proven capability in deploying user-friendly and scalable LED display board solutions across corporate and institutional sectors",
+  //     "Strong focus on innovation, ease of use, and performance across all display technologies",
+  //     "End-to-end support including consultation, configuration, installation, and technical assistance for smooth and efficient operations",
+  //   ],
 
-    specs: {
-      inputVoltage: "DC 12V 3A (Negative Outside, Positive Inside)",
-      powerConsumption: "21 W",
-      ram: "4 GB",
-      internalStorage: "32 GB",
-      operatingTemperature: "−20°C to +60°C",
-      operatingHumidity: "0% RH to 80% RH, non-condensing",
-      storageTemperature: "−40°C to +80°C",
-      storageHumidity: "0% RH to 95% RH, non-condensing",
-      dimensions: "211.7 mm × 185.0 mm × 50.6 mm",
-      netWeight: "1.12 kg",
-      grossWeight: "2.9 kg",
-      packingSize: "387 mm × 359 mm × 173 mm",
-      note: "Total weight includes product, accessories, and packaging",
-    },
-  },
-  {
-    name: "SMP6 Pro LED Display Controller (Ultra Taurus Series)",
-    id: "smp6-pro-led-display-controller-ultra-taurus-series",
-    metaTitle:
-      "SMP6 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers SMP6 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/product/smp6 pro.webp",
+  //   specs: {
+  //     inputVoltage: "DC 12V 3A (Negative Outside, Positive Inside)",
+  //     powerConsumption: "21 W",
+  //     ram: "4 GB",
+  //     internalStorage: "32 GB",
+  //     operatingTemperature: "−20°C to +60°C",
+  //     operatingHumidity: "0% RH to 80% RH, non-condensing",
+  //     storageTemperature: "−40°C to +80°C",
+  //     storageHumidity: "0% RH to 95% RH, non-condensing",
+  //     dimensions: "211.7 mm × 185.0 mm × 50.6 mm",
+  //     netWeight: "1.12 kg",
+  //     grossWeight: "2.9 kg",
+  //     packingSize: "387 mm × 359 mm × 173 mm",
+  //     note: "Total weight includes product, accessories, and packaging",
+  //   },
+  // },
+  // {
+  //   name: "SMP6 Pro LED Display Controller (Ultra Taurus Series)",
+  //   id: "smp6-pro-led-display-controller-ultra-taurus-series",
+  //   metaTitle:
+  //     "SMP6 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers SMP6 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/product/smp6 pro.webp",
 
-    images: ["/product/smp6 pro.webp"],
+  //   images: ["/product/smp6 pro.webp"],
 
-    overview: [
-      "SMP6 Pro LED Display Controller (Ultra Taurus Series) is a powerful all-in-one LED display controller designed for intelligent playback control, seamless content management, and stable operation in professional LED display systems. Engineered for modern digital signage and commercial display applications, this advanced controller ensures smooth and reliable performance for premium LED video wall display installations.",
-      "Designed for corporate meeting rooms, exhibition halls, retail stores, hotel lobbies, educational institutions, smart offices, and commercial environments, the SMP6 Pro provides flexible and efficient control for dynamic advertising LED display screen solutions.",
-      "Featuring an integrated Android-based system with playback and sending functionality, this LED display controller supports wireless screen mirroring, remote operation, and interactive content management for enhanced user convenience and efficient digital communication.",
-      "Built with advanced multimedia processing technology, the SMP6 Pro delivers smooth playback, stable signal transmission, and accurate image rendering, making it an ideal solution for professional LED wall display systems requiring high-quality visual performance.",
-      "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable and long-term performance for commercial and corporate LED applications.",
-    ],
+  //   overview: [
+  //     "SMP6 Pro LED Display Controller (Ultra Taurus Series) is a powerful all-in-one LED display controller designed for intelligent playback control, seamless content management, and stable operation in professional LED display systems. Engineered for modern digital signage and commercial display applications, this advanced controller ensures smooth and reliable performance for premium LED video wall display installations.",
+  //     "Designed for corporate meeting rooms, exhibition halls, retail stores, hotel lobbies, educational institutions, smart offices, and commercial environments, the SMP6 Pro provides flexible and efficient control for dynamic advertising LED display screen solutions.",
+  //     "Featuring an integrated Android-based system with playback and sending functionality, this LED display controller supports wireless screen mirroring, remote operation, and interactive content management for enhanced user convenience and efficient digital communication.",
+  //     "Built with advanced multimedia processing technology, the SMP6 Pro delivers smooth playback, stable signal transmission, and accurate image rendering, making it an ideal solution for professional LED wall display systems requiring high-quality visual performance.",
+  //     "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable and long-term performance for commercial and corporate LED applications.",
+  //   ],
 
-    features: [
-      "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
-      "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
-      "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
-      "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
-      "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, retail spaces, exhibition halls, and commercial LED display environments.",
-    ],
+  //   features: [
+  //     "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
+  //     "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
+  //     "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
+  //     "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
+  //     "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, retail spaces, exhibition halls, and commercial LED display environments.",
+  //   ],
 
-    whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
-      "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
-      "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
-      "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
-    ],
+  //   whyUs: [
+  //     "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+  //     "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
+  //     "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
+  //     "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
+  //     "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
+  //   ],
 
-    specs: {
-      pixelLoadingCapacity: "3.9M Pixels",
-      sensorConnectivity: "Available",
-      dualWifi: "Dual WiFi",
-      storage: "32 GB",
-      inputPorts: "HDMI, USB",
-      outputPorts: "RJ45, HDMI, Audio",
-      controlPorts: "RJ45/WiFi/RS232",
-      intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
-      wirelessMirroring: "Windows/iOS/Android",
-      whiteboard: "Supported",
-    },
-  },
-  {
-    name: "SMP20 Pro LED Display Controller (Ultra Taurus Series)",
-    id: "smp20-pro-led-display-controller-ultra-taurus-series",
-    metaTitle:
-      "SMP20 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers SMP20 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/product/smp20 pro.webp",
+  //   specs: {
+  //     pixelLoadingCapacity: "3.9M Pixels",
+  //     sensorConnectivity: "Available",
+  //     dualWifi: "Dual WiFi",
+  //     storage: "32 GB",
+  //     inputPorts: "HDMI, USB",
+  //     outputPorts: "RJ45, HDMI, Audio",
+  //     controlPorts: "RJ45/WiFi/RS232",
+  //     intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
+  //     wirelessMirroring: "Windows/iOS/Android",
+  //     whiteboard: "Supported",
+  //   },
+  // },
+  // {
+  //   name: "SMP20 Pro LED Display Controller (Ultra Taurus Series)",
+  //   id: "smp20-pro-led-display-controller-ultra-taurus-series",
+  //   metaTitle:
+  //     "SMP20 Pro LED Display Controller (Ultra Taurus Series) | LED Display Controller | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers SMP20 Pro LED Display Controllers for digital signage, retail displays, meeting rooms & LED video walls with Android-based playback and wireless screen mirroring support.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/product/smp20 pro.webp",
 
-    images: ["/product/smp20 pro.webp"],
+  //   images: ["/product/smp20 pro.webp"],
 
-    overview: [
-      "SMP20 Pro LED Display Controller (Ultra Taurus Series) is a high-performance all-in-one LED display controller designed to deliver intelligent playback management, seamless content control, and stable operation for professional LED display systems. Engineered for advanced digital signage and commercial display applications, this powerful controller ensures reliable performance for premium LED video wall display installations.",
-      "Designed for corporate meeting rooms, exhibition centers, retail stores, hotel lobbies, educational institutions, command centers, and commercial environments, the SMP20 Pro provides flexible and efficient management for dynamic advertising LED display screen applications.",
-      "Featuring an integrated Android-based system with playback and sending capabilities, this LED display controller supports wireless screen mirroring, remote management, and interactive content sharing for enhanced communication and user convenience.",
-      "Built with advanced multimedia processing technology, the SMP20 Pro delivers smooth playback, accurate image rendering, and stable signal transmission, making it an ideal solution for professional LED wall display systems requiring superior visual performance and operational stability.",
-      "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable long-term performance for commercial and corporate LED applications.",
-    ],
+  //   overview: [
+  //     "SMP20 Pro LED Display Controller (Ultra Taurus Series) is a high-performance all-in-one LED display controller designed to deliver intelligent playback management, seamless content control, and stable operation for professional LED display systems. Engineered for advanced digital signage and commercial display applications, this powerful controller ensures reliable performance for premium LED video wall display installations.",
+  //     "Designed for corporate meeting rooms, exhibition centers, retail stores, hotel lobbies, educational institutions, command centers, and commercial environments, the SMP20 Pro provides flexible and efficient management for dynamic advertising LED display screen applications.",
+  //     "Featuring an integrated Android-based system with playback and sending capabilities, this LED display controller supports wireless screen mirroring, remote management, and interactive content sharing for enhanced communication and user convenience.",
+  //     "Built with advanced multimedia processing technology, the SMP20 Pro delivers smooth playback, accurate image rendering, and stable signal transmission, making it an ideal solution for professional LED wall display systems requiring superior visual performance and operational stability.",
+  //     "With intelligent connectivity options, remote control support, and user-friendly operation, this LED display screen for advertising controller simplifies display management while ensuring reliable long-term performance for commercial and corporate LED applications.",
+  //   ],
 
-    features: [
-      "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
-      "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
-      "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
-      "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
-      "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, exhibition halls, retail environments, and commercial LED display applications.",
-    ],
+  //   features: [
+  //     "Integrated Android-Based Playback & Sending System enable seamless operation and efficient management of professional LED video wall display installations.",
+  //     "Wireless Screen Mirroring Support allows smooth content sharing from Windows, macOS, iOS, and Android devices for interactive advertising LED display screen applications.",
+  //     "Remote Control & Intelligent Display Management provide convenient operation and flexible content control for modern LED wall display systems.",
+  //     "Advanced Multimedia Processing Technology deliver stable playback, smooth visuals, and accurate image quality for professional LED display screen for advertising projects.",
+  //     "Flexible Installation & User-Friendly Design support quick deployment in meeting rooms, exhibition halls, retail environments, and commercial LED display applications.",
+  //   ],
 
-    whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
-      "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
-      "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
-      "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
-      "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
-    ],
+  //   whyUs: [
+  //     "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced LED display controller solutions for professional digital signage and LED video wall display applications.",
+  //     "Our premium advertising LED display screen control systems are engineered for reliable performance, seamless connectivity, and efficient content management.",
+  //     "We provide customized LED wall display solutions tailored to corporate environments, commercial applications, and professional communication requirements.",
+  //     "With extensive expertise in professional LED display board systems, NewTech helps businesses create impactful and interactive digital display experiences using advanced LED technology.",
+  //     "From consultation and integration to installation and technical support, NewTech offers complete end-to-end support for every LED display controller project to ensure reliable long-term operation and seamless performance.",
+  //   ],
 
-    specs: {
-      pixelLoadingCapacity: "13M Pixels",
-      sensorConnectivity: "Available",
-      dualWifi: "Dual WiFi",
-      storage: "128 GB",
-      inputPorts: "HDMI, USB",
-      outputPorts: "RJ45, HDMI, Audio",
-      controlPorts: "RJ45 + WiFi",
-      intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
-      wirelessMirroring: "Windows/iOS/Android",
-      whiteboard: "Supported",
-    },
-  },
+  //   specs: {
+  //     pixelLoadingCapacity: "13M Pixels",
+  //     sensorConnectivity: "Available",
+  //     dualWifi: "Dual WiFi",
+  //     storage: "128 GB",
+  //     inputPorts: "HDMI, USB",
+  //     outputPorts: "RJ45, HDMI, Audio",
+  //     controlPorts: "RJ45 + WiFi",
+  //     intelligentBroadcastControl: "Remote/Cloud/PC/Phone",
+  //     wirelessMirroring: "Windows/iOS/Android",
+  //     whiteboard: "Supported",
+  //   },
+  // },
 ];
 
 export const applicationsDescription = [
