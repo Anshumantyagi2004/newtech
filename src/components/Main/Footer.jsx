@@ -241,12 +241,14 @@ export default function Footer() {
 
         <p>
           Website Designed By{" "}
-          <Link
-            href="https://promozionebranding.com/"
-            className="hover:underline text-bold"
-          >
-            Promozione Branding Pvt Ltd.
-          </Link>
+           Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a>
         </p>
       </div>
     </footer>
