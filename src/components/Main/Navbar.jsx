@@ -58,7 +58,7 @@ export default function Navbar() {
             
           </div>
 
-          <SearchBar />
+          {/* <SearchBar /> */}
 
           {/* <a
             href="https://wa.me/+919810103697"
@@ -111,6 +111,13 @@ export default function Navbar() {
         >
           Privacy Policy
         </Link>
+        <a
+        target="_blank"
+          href="https://nvsledwall.com/support"
+          className="block px-5 py-3 text-black hover:bg-gray-100"
+        >
+          Raise Ticket
+        </a>
       </div>
     </div>
 
@@ -132,7 +139,7 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-black text-white px-4 py-4 flex flex-col gap-4 border-t border-gray-700 z-50">
-          <SearchBar />
+          {/* <SearchBar /> */}
 
           {menuItems.map((item, index) => {
             const Icon = item.icon;
