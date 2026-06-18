@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Building } from "lucide-react";
+import { Mail, Phone, MapPin, Building, Headset } from "lucide-react";
 import ContactMapForm from '@/components/Main/FormSection';
 
 const containerVariant = {
@@ -57,7 +57,7 @@ export default function ContactUs() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    className="grid md:grid-cols-3 gap-6"
+                    className="grid md:grid-cols-4 gap-6"
                 >
                     {[{
                         icon: Mail,
@@ -70,9 +70,14 @@ export default function ContactUs() {
                         content: ["+91 9810103697", "+91 9810103197" ,"Toll Free no. 1800-202-1270"]
                     },
                     {
+                        icon: Headset,
+                        title: "Technical Support",
+                        content: ["📞 +91 9810103697", "📧 support@nvsledwall.com"]
+                    },
+                    {
                         icon: MapPin,
                         title: "Head Office",
-                        phone: "+91-9810103197, +91-9810103697",
+                        phone: "+91-8796177844, +91-9810103697",
                         content: ["M5-A, DSIDC, Badli Industrial Area, Phase-1, Near Samaypur Badli Metro Rd, Rohini, Delhi - 110042"]
                     }].map((item, i) => {
                         const Icon = item.icon;

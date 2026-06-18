@@ -5,7 +5,7 @@ import { useParams } from "next/navigation"
 import { categories, products } from "@/data/data"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { MessageCircle, Phone } from "lucide-react"
+import { Download, MessageCircle, Phone } from "lucide-react"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Thumbs } from "swiper/modules";
@@ -221,6 +221,9 @@ export default function ProductPage() {
 
                     <a href="tel:+919810103697" className="text-nowrap flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
                         <Phone size={18} /> Enquire Now
+                    </a>
+                    <a  download="Brochure.pdf" href="/" className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
+                        <Download size={18} /> Download Brochure
                     </a>
                 </motion.div>
             </div>
