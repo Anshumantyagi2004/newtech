@@ -15,6 +15,7 @@ import {
   MonitorCloud,
   Headset,
   Cross,
+  Landmark,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -25,7 +26,7 @@ const menuItems = [
   { name: "Home", icon: Home, link: "/" },
   { name: "Applications", icon: Briefcase, link: "/applications" },
   { name: "Categories", icon: LayoutGrid, link: "/categories" },
-  { name: "Government Policy", icon: LayoutGrid, link: "/government-solutions" },
+  { name: "Government Policy", icon: Landmark, link: "/government-solutions" },
   { name: "Products", icon: ShoppingCart, link: "/products" },
   { name: "Projects", icon: Proportions, link: "/projects" },
   { name: "About Us", icon: User, link: "/about-us" },

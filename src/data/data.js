@@ -870,9 +870,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
-    img: "/ProductImages/p5.jpg",
+    img: "/ProductImages/Brite-new.webp",
 
-    images: ["/ProductImages/p5.jpg"],
+    images: ["/ProductImages/Brite-new.webp"],
 
     overview: [
       "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
@@ -975,7 +975,7 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Optima Outdoor led displays for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
-    img: "/p4.jpg",
+    img: "/ProductImages/Optima-new.webp",
 
     images: ["/p4.jpg",],
 
@@ -1682,9 +1682,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
     catId: "sports-perimeter-boards",
     catName: "Sports Perimeter Boards",
-    img: "/ProductImages/p5.jpg",
+    img: "/ProductImages/Brite-new.webp",
 
-    images: ["/ProductImages/p5.jpg"],
+    images: ["/ProductImages/Brite-new.webp"],
 
     overview: [
       "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
