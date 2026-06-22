@@ -804,9 +804,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Crystal LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
-    img: "/ProductImages/Picture1.png",
+    img: "/ProductImages/crystal-1.webp",
 
-    images: ["/ProductImages/Picture1.png"],
+    images: ["/ProductImages/crystal-1.webp","/ProductImages/crystal-2.webp","/ProductImages/crystal-3.webp"],
 
     overview: [
       "Crystal LED Display is an advanced advertising LED display screen featuring up to 80% transparency, allowing natural light and visibility while delivering vibrant and high-quality visual content",
@@ -975,9 +975,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Optima Outdoor led displays for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
-    img: "/ProductImages/Optima-new.webp",
+    img: "/ProductImages/Optima-1.webp",
 
-    images: ["/p4.jpg",],
+    images: ["/ProductImages/Optima-1.webp"],
 
     overview: [
       "Optima Outdoor led display is a premium LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
@@ -1194,8 +1194,8 @@ export const products = [
     metaDescription: "Newtech Video Systems Pvt. Ltd. offers Prime Plus Series LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
     catId: "rental-led",
     catName: "Rental Led",
-    img: "/product/prime.webp",
-    images: ["/product/prime.webp"],
+    img: "/product/prime1.webp",
+    images: ["/product/prime1.webp","/product/prime2.webp","/product/prime3.webp"],
 
     overview: [
       "Prime Plus Series LED Display Screen is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
@@ -1330,9 +1330,9 @@ export const products = [
     metaDescription: "Newtech Video Systems Pvt. Ltd. offers 3D Anamorphic Series LED Video Wall Displays for immersive DOOH advertising, commercial buildings, malls & public spaces with ultra-bright and realistic 3D visuals.",
     catId: "rental-led",
     catName: "Rental Led",
-    img: "/product/3d-anamor.webp",
+    img: "/product/3d-ana1.webp",
 
-    images: ["/product/3d-anamor.webp"],
+    images: ["/product/3d-ana1.webp","/product/3d-ana2.webp","/product/3d-ana3.webp","/product/3d-ana4.webp"],
 
     overview: [
       "Rental Led Video Wall – 3D Anamorphic Cabinet is a next-generation outdoor LED display screen designed to create immersive 3D visual experiences with stunning depth, realism, and high-impact advertising performance. This premium advertising LED display screen transforms outdoor spaces into engaging digital landmarks that capture audience attention instantly.",
@@ -1478,9 +1478,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Elite Series for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
     catId: "rental-led",
     catName: "Rental Led",
-    img: "/elite (1).jpeg",
+    img: "/product/elite-1.webp",
 
-    images: ["/elite (1).jpeg", "/elite (2).jpeg"],
+    images: ["/product/elite-1.webp", "/product/elite-2.webp","/product/elite-3.webp","/product/elite-4.webp"],
 
     overview: [
       "Elite Series is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
