@@ -275,6 +275,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/luxe-page-main.jpg",
+     pdf:"/indoorPDF.pdf",
 
     images: ["/luxe-page-main.jpg", "/ProductImages/lux-2.png"],
 
@@ -386,6 +387,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/luxe-p.png",
+    pdf:"/indoorPDF.pdf",
 
     images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
 
@@ -604,6 +606,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/vivid0.png",
+    pdf:"/indoorPDF.pdf",
 
     images: ["/ProductImages/vivid0.png"],
 
@@ -697,6 +700,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/aura-d.webp",
+    pdf:"/indoorPDF.pdf",
 
     images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
 
@@ -805,6 +809,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/crystal-1.webp",
+    pdf:"/indoorPDF.pdf",
 
     images: ["/ProductImages/crystal-1.webp","/ProductImages/crystal-2.webp","/ProductImages/crystal-3.webp"],
 
@@ -871,6 +876,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Brite-new.webp",
+    pdf:"/outdoorPDF.pdf",  
 
     images: ["/ProductImages/Brite-new.webp"],
 
@@ -920,6 +926,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Picture1.png",
+     pdf:"/outdoorPDF.pdf",
 
     images: ["/ProductImages/Picture1.png",],
 
@@ -976,6 +983,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Optima-1.webp",
+     pdf:"/outdoorPDF.pdf",
 
     images: ["/ProductImages/Optima-1.webp"],
 
@@ -1024,6 +1032,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/product/nvs.webp",
+     pdf:"/outdoorPDF.pdf",
 
     images: ["/product/nvs.webp"],
 
@@ -1136,6 +1145,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Image.jpg",
+     pdf:"/standLee.pdf",
 
     images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
 
@@ -1196,6 +1206,7 @@ export const products = [
     catName: "Rental Led",
     img: "/product/prime1.webp",
     images: ["/product/prime1.webp","/product/prime2.webp","/product/prime3.webp"],
+     pdf:"/rentalPDF.pdf",
 
     overview: [
       "Prime Plus Series LED Display Screen is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
@@ -1279,6 +1290,7 @@ export const products = [
     catId: "rental-led",
     catName: "Rental Led",
     img: "/ProductImages/Picture1.png",
+     pdf:"/rentalPDF.pdf",
 
     images: ["/ProductImages/Picture1.png",],
 
@@ -1331,6 +1343,7 @@ export const products = [
     catId: "rental-led",
     catName: "Rental Led",
     img: "/product/3d-ana1.webp",
+     pdf:"/rentalPDF.pdf",
 
     images: ["/product/3d-ana1.webp","/product/3d-ana2.webp","/product/3d-ana3.webp","/product/3d-ana4.webp"],
 
@@ -1395,7 +1408,7 @@ export const products = [
     catId: "rental-led",
     catName: "Rental Led",
     img: "/product/X SERIES.webp",
-
+     pdf:"/rentalPDF.pdf",
     images: ["/product/X SERIES.webp"],
 
     overview: [
@@ -1479,6 +1492,7 @@ export const products = [
     catId: "rental-led",
     catName: "Rental Led",
     img: "/product/elite-1.webp",
+     pdf:"/rentalPDF.pdf",
 
     images: ["/product/elite-1.webp", "/product/elite-2.webp","/product/elite-3.webp","/product/elite-4.webp"],
 
@@ -1666,62 +1680,62 @@ export const products = [
       }
     },
   },
-  {
-    name: "Brite Outdoor LED Display",
-    id: "brite-outdoor-led-display",
-    applicationIds: [
-      "corporate",
-      "dooh",
-      "smart-city",
-      "building-facade",
-      "stadiums",
-    ],
-    metaTitle:
-      "Brite Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
-    catId: "sports-perimeter-boards",
-    catName: "Sports Perimeter Boards",
-    img: "/ProductImages/Brite-new.webp",
+  // {
+  //   name: "Brite Outdoor LED Display",
+  //   id: "brite-outdoor-led-display",
+  //   applicationIds: [
+  //     "corporate",
+  //     "dooh",
+  //     "smart-city",
+  //     "building-facade",
+  //     "stadiums",
+  //   ],
+  //   metaTitle:
+  //     "Brite Outdoor LED Display | High-Brightness LED Advertising Screen | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers Brite outdoor LED displays for high-visibility advertising. Durable, weatherproof LED screens for billboards, events & public signage.",
+  //   catId: "sports-perimeter-boards",
+  //   catName: "Sports Perimeter Boards",
+  //   img: "/ProductImages/Brite-new.webp",
 
-    images: ["/ProductImages/Brite-new.webp"],
+  //   images: ["/ProductImages/Brite-new.webp"],
 
-    overview: [
-      "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
-      "Engineered for large-scale outdoor LED display applications, it ensures strong visibility even under direct sunlight and high ambient light conditions",
-      "Ideal for billboards, highways, events, stadiums, and commercial advertising spaces where attention-grabbing visuals are essential",
-      "Built for reliable performance with smooth content playback, making it suitable for continuous operation in dynamic environments",
-      "Combines durability, brightness, and advanced display technology to deliver impactful and consistent LED video wall display performance",
-    ],
+  //   overview: [
+  //     "Brite Outdoor LED Display is a high-brightness advertising LED display screen designed to deliver powerful visual impact with crisp clarity and vibrant color performance in both indoor and outdoor environments",
+  //     "Engineered for large-scale outdoor LED display applications, it ensures strong visibility even under direct sunlight and high ambient light conditions",
+  //     "Ideal for billboards, highways, events, stadiums, and commercial advertising spaces where attention-grabbing visuals are essential",
+  //     "Built for reliable performance with smooth content playback, making it suitable for continuous operation in dynamic environments",
+  //     "Combines durability, brightness, and advanced display technology to deliver impactful and consistent LED video wall display performance",
+  //   ],
 
-    features: [
-      "Energy-Saving Design optimizes power consumption while maintaining high brightness, making it cost-effective for long-term outdoor usage",
-      "Lightweight Cabinets with IP66 Front & Back Protection ensure durability against dust, rain, and harsh environmental conditions while allowing easier installation",
-      "Supports 3D Display Capability for advanced and immersive advertising experiences that capture audience attention",
-      "High Brightness up to 8000 nits ensures exceptional visibility and readability even in direct sunlight and outdoor conditions",
-      "Smooth and stable performance with high refresh rates ensures flicker-free visuals for videos, live content, and advertisements",
-    ],
+  //   features: [
+  //     "Energy-Saving Design optimizes power consumption while maintaining high brightness, making it cost-effective for long-term outdoor usage",
+  //     "Lightweight Cabinets with IP66 Front & Back Protection ensure durability against dust, rain, and harsh environmental conditions while allowing easier installation",
+  //     "Supports 3D Display Capability for advanced and immersive advertising experiences that capture audience attention",
+  //     "High Brightness up to 8000 nits ensures exceptional visibility and readability even in direct sunlight and outdoor conditions",
+  //     "Smooth and stable performance with high refresh rates ensures flicker-free visuals for videos, live content, and advertisements",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering high-performance advertising LED display solutions for demanding outdoor and large-scale applications",
-      "Advanced engineering in outdoor LED display screens to ensure durability, weather resistance, and long-term reliability",
-      "Proven capability in designing impactful LED video wall displays for advertising, events, and public installations",
-      "Strong focus on energy efficiency, brightness optimization, and performance consistency across all LED display solutions",
-      "Complete end-to-end support including consultation, installation, and after-sales service for seamless project execution",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering high-performance advertising LED display solutions for demanding outdoor and large-scale applications",
+  //     "Advanced engineering in outdoor LED display screens to ensure durability, weather resistance, and long-term reliability",
+  //     "Proven capability in designing impactful LED video wall displays for advertising, events, and public installations",
+  //     "Strong focus on energy efficiency, brightness optimization, and performance consistency across all LED display solutions",
+  //     "Complete end-to-end support including consultation, installation, and after-sales service for seamless project execution",
+  //   ],
 
-    specs: {
-      pixelPitchOptions: "4.44 mm, 6.67 mm, 8 mm, 10 mm",
-      cabinetSize: "960 × 960 mm",
-      cabinetMaterial: "Die-cast Aluminium",
-      brightness: "4.44 mm: 5500 – 6500 nits (depending on model)",
-      contrastRatio: "40000:1",
-      maxPowerConsumption: "520 W/m²",
-      avgPowerConsumption: "200 W/m²",
-      refreshRate: "7680 Hz",
-      protection: "IP66 (Front & Rear)",
-    },
-  },
+  //   specs: {
+  //     pixelPitchOptions: "4.44 mm, 6.67 mm, 8 mm, 10 mm",
+  //     cabinetSize: "960 × 960 mm",
+  //     cabinetMaterial: "Die-cast Aluminium",
+  //     brightness: "4.44 mm: 5500 – 6500 nits (depending on model)",
+  //     contrastRatio: "40000:1",
+  //     maxPowerConsumption: "520 W/m²",
+  //     avgPowerConsumption: "200 W/m²",
+  //     refreshRate: "7680 Hz",
+  //     protection: "IP66 (Front & Rear)",
+  //   },
+  // },
   {
     name: "Luxe Pro Active LED Display Screen",
     id: "luxe-pro-active-led-display-screen",
