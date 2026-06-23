@@ -18,6 +18,29 @@ export default function ProductPage() {
     const product = products.find((p) => p.id === id)
     const cat = categories.find((i) => (i.id == product.catId))
     const relProduct = products.filter((p) => p.catId === product.catId)
+
+const getYoutubeId = (url) => {
+  if (!url) return null;
+
+  const regExp =
+    /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^?&/]+)/;
+
+  const match = url.match(regExp);
+
+  return match ? match[1] : null;
+};
+
+const getYoutubeThumbnail = (url) => {
+  const videoId = getYoutubeId(url);
+
+  return videoId
+    ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
+    : null;
+};
+
+const videoId = getYoutubeId(product?.ytlink);
+const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
+
     if (!product) return <div className="text-white">Not found</div>
 
     const [loading, setLoading] = useState(false);
@@ -116,28 +139,47 @@ export default function ProductPage() {
 
         <div className="relative z-40 grid md:grid-cols-2 grid-cols-1 gap-5 w-full bg-gray-50 text-black md:px-20 px-4 py-6 md:pt-20 md:pb-10">
             <div className="md:sticky md:top-20 h-fit">
-                <Swiper
-                    modules={[Navigation, Autoplay, Thumbs]}
-                    navigation={true}
-                    autoplay={{
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    }}
-                    thumbs={{ swiper: thumbsSwiper }}
-                    spaceBetween={10}
-                    slidesPerView={1}
-                    grabCursor={true}
-                    className="md:h-120 bg-white"
-                >
-                    {product.images.map((img, i) => (
-                        <SwiperSlide key={i}>
-                            <img
-                                src={img}
-                                className="w-full h-full object-cover rounded-xl"
-                            />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+               <Swiper
+  modules={[Navigation, Autoplay, Thumbs]}
+  navigation
+  autoplay={{
+    delay: 5000,
+    disableOnInteraction: true,
+  }}
+  thumbs={{ swiper: thumbsSwiper }}
+  spaceBetween={10}
+  slidesPerView={1}
+  grabCursor
+  className="md:h-120 bg-white"
+>
+  
+
+  {/* Images */}
+  {product.images.map((img, i) => (
+    <SwiperSlide key={i}>
+      <img
+        src={img}
+        alt={product.name}
+        className="w-full h-full object-cover rounded-xl"
+      />
+    </SwiperSlide>
+  ))}
+  {videoId && (
+    <SwiperSlide>
+      <div className="w-full h-full">
+        <iframe
+            href={product.ytlink}
+          className="w-full h-full min-h-[500px]"
+          src={`https://www.youtube.com/embed/${videoId}`}
+          title="Product Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </SwiperSlide>
+  )}
+</Swiper>
+                
 
                 {/* Thumbnail Slider */}
                 <Swiper
@@ -155,7 +197,40 @@ export default function ProductPage() {
                             />
                         </SwiperSlide>
                     ))}
+
+                      {product?.ytlink && youtubeThumb && (
+        <SwiperSlide>
+            <a
+                // href={product.ytlink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block w-20 h-20"
+            >
+                <img
+                    src={youtubeThumb}
+                    alt="Product Video"
+                    className="w-full h-full object-cover rounded-xl"
+                />
+
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                    <div className="bg-red-600 rounded-full p-2 shadow-xl">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="40"
+                            height="40"
+                            fill="white"
+                            viewBox="0 0 16 16"
+                        >
+                            <path d="M11.596 8.697L6.233 11.82A.802.802 0 0 1 5 11.123V4.877c0-.618.668-1.01 1.233-.697l5.363 3.123a.802.802 0 0 1 0 1.394z" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </SwiperSlide>
+    )}
                 </Swiper>
+
+                
             </div>
 
             <div className="md:pl-5">

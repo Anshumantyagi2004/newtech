@@ -196,18 +196,15 @@ export default function ManufacturingSection() {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="rounded-3xl border border-white/10 bg-black/40 p-8 backdrop-blur-xl">
-                <div className="text-6xl text-red-500 font-bold mb-4">“</div>
-
-                <h4 className="text-2xl lg:text-3xl font-semibold leading-relaxed text-white">
-                  Every LED cabinet undergoes multi-stage quality testing before
-                  dispatch.
-                </h4>
-
-                <div className="mt-8 h-1 w-24 bg-red-500 rounded-full" />
-              </div>
-            </div>
+            <div className="relative w-full overflow-hidden rounded-xl">
+  <iframe
+    className="w-full aspect-video"
+    src="https://www.youtube.com/embed/amE_Btjt2io"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
           </div>
         </motion.div>
       </div>

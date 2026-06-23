@@ -607,6 +607,7 @@ export const products = [
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/vivid0.png",
     pdf:"/indoorPDF.pdf",
+    ytlink:"https://youtu.be/wK1uf28Dkeg",
 
     images: ["/ProductImages/vivid0.png"],
 
@@ -810,7 +811,7 @@ export const products = [
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/crystal-1.webp",
     pdf:"/indoorPDF.pdf",
-
+    ytlink:"https://youtu.be/yNHTZwX6MAA",
     images: ["/ProductImages/crystal-1.webp","/ProductImages/crystal-2.webp","/ProductImages/crystal-3.webp"],
 
     overview: [
@@ -984,6 +985,7 @@ export const products = [
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Optima-1.webp",
      pdf:"/outdoorPDF.pdf",
+     ytlink:"https://youtu.be/z7A9QSVHk0Q",
 
     images: ["/ProductImages/Optima-1.webp"],
 
@@ -1146,6 +1148,7 @@ export const products = [
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Image.jpg",
      pdf:"/standLee.pdf",
+     ytlink:"https://youtu.be/CxO-PU01uCY",
 
     images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
 
@@ -1207,6 +1210,7 @@ export const products = [
     img: "/product/prime1.webp",
     images: ["/product/prime1.webp","/product/prime2.webp","/product/prime3.webp"],
      pdf:"/rentalPDF.pdf",
+     ytlink:"https://youtu.be/OFPfRmFCXuw",
 
     overview: [
       "Prime Plus Series LED Display Screen is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
@@ -1344,6 +1348,7 @@ export const products = [
     catName: "Rental Led",
     img: "/product/3d-ana1.webp",
      pdf:"/rentalPDF.pdf",
+     ytlink:"https://www.youtube.com/shorts/WdRhKnxxcxI",
 
     images: ["/product/3d-ana1.webp","/product/3d-ana2.webp","/product/3d-ana3.webp","/product/3d-ana4.webp"],
 
@@ -1410,6 +1415,7 @@ export const products = [
     img: "/product/X SERIES.webp",
      pdf:"/rentalPDF.pdf",
     images: ["/product/X SERIES.webp"],
+    ytlink:"https://youtu.be/qb58BQazRJs",
 
     overview: [
       "Rental LED Display Screen (X-Series) is a high-performance advertising LED display screen designed to deliver bright, sharp, and visually engaging content for modern indoor environments. This advanced indoor LED display screen provides smooth image rendering, vibrant color accuracy, and reliable long-term performance for professional applications.",
@@ -1493,6 +1499,7 @@ export const products = [
     catName: "Rental Led",
     img: "/product/elite-1.webp",
      pdf:"/rentalPDF.pdf",
+     ytlink:"https://youtu.be/SYkvkWgEyxI",
 
     images: ["/product/elite-1.webp", "/product/elite-2.webp","/product/elite-3.webp","/product/elite-4.webp"],
 
@@ -1579,6 +1586,7 @@ export const products = [
     catId: "sports-perimeter-boards",
     catName: "Sports Perimeter Boards",
     img: "/product/nvs.webp",
+    ytlink:"https://youtu.be/y8bvg5VlYIw",
 
     images: ["/product/nvs.webp"],
 
