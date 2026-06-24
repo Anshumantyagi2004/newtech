@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin } from "lucide-react";
+import { MapPin ,X} from "lucide-react";
 import React, { useEffect, useState } from "react";
 
 const SkeletonCard = () => (
@@ -26,6 +26,8 @@ const AllProject = () => {
   const [mounted, setMounted] = useState(false);
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const getProjects = async () => {
     try {
@@ -111,7 +113,8 @@ const AllProject = () => {
                     className="relative w-full rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
                   >
                     {/* Image */}
-                    <div className="relative w-full h-64 overflow-hidden">
+                    <div onClick={() => setSelectedImage(project?.image)} className="relative w-full h-64 overflow-hidden ">
+                      <Image src="/download.png" alt="logo" width={80} height={80} className="absolute z-20 top-2 left-2" />
                       <Image
                         src={project?.image }
                         alt={project?.name }
@@ -124,14 +127,14 @@ const AllProject = () => {
                     </div>
 
                     {/* Overlay */}
-                    <div className="absolute bottom-0 left-0 w-full p-3 translate-y-1 group-hover:-translate-y-2 transition-all duration-500">
-                      <div className="flex items-center justify-between bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3 text-white shadow-lg">
+                    <div className=" text-black w-full p-3 translate-y-1 group-hover:-translate-y-2 transition-all duration-500">
+                      <div className="flex items-center justify-between bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3  shadow-lg">
                         <div>
                           <p className="font-semibold text-lg md:text-xl leading-tight">
                             {project?.name}
                           </p>
 
-                          <p className="text-xs text-white/70 mt-1 tracking-wide">
+                          <p className="text-xs  mt-1 tracking-wide">
                             {project?.dimension}
                           </p>
                         </div>
@@ -162,6 +165,45 @@ const AllProject = () => {
           )}
         </div>
       </section>
+
+      {selectedImage && (
+  <div
+    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4"
+    onClick={() => setSelectedImage(null)}
+  >
+    <div
+      className="relative max-w-5xl w-full"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* Close Button */}
+      <button
+        onClick={() => setSelectedImage(null)}
+        className="absolute -top-4 -right-4 z-30 bg-white rounded-full p-2 shadow-lg"
+      >
+        <X size={22} className="text-black" />
+      </button>
+
+      {/* Logo */}
+      <Image
+        src="/download.png"
+        alt="Logo"
+        width={120}
+        height={120}
+        className="absolute top-4 left-4 z-20 bg-white p-2 rounded-lg shadow-lg"
+      />
+
+      {/* Main Image */}
+      <div className="relative w-full h-[80vh] rounded-xl overflow-hidden bg-white">
+        <Image
+          src={selectedImage}
+          alt="Project"
+          fill
+          className="object-cover"
+        />
+      </div>
+    </div>
+  </div>
+)}
     </>
   );
 };
