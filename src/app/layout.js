@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Advertising LED Display Manufacturer| Newtech Video Systems",
-  description: "Newtech Video Systems Pvt. Ltd. is a leading manufacturer of advertising LED displays, outdoor LED screens, commercial LED video walls & industrial LED display systems for high-impact visual communication solutions.",
+  title: "Advertising LED Display Supplier| Newtech Video Systems",
+  description: "Newtech Video Systems Pvt. Ltd. is a leading supplier of advertising LED displays, outdoor LED screens, commercial LED video walls & industrial LED display systems for high-impact visual communication solutions.",
 };
 
 export default function RootLayout({ children }) {

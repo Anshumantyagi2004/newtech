@@ -2,7 +2,7 @@ import React from 'react'
 import ContactUs from './Contact'
 
 export const metadata = {
-  title: "Contact Us | LED Video Wall & Advertising LED Display Manufacturer | Newtech Video Systems",
+  title: "Contact Us | LED Video Wall & Advertising LED Display Supplier | Newtech Video Systems",
   description: "Contact Newtech Video Systems Private Limited for high-quality advertising LED displays, outdoor LED screens, commercial LED video walls & industrial LED display systems. Fast response guaranteed.",
 };
 

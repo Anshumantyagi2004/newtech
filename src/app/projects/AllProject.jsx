@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin ,X} from "lucide-react";
+import { MapPin, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
 
 const SkeletonCard = () => (
@@ -105,54 +105,54 @@ const AllProject = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {loading
               ? Array.from({ length: 6 }).map((_, i) => (
-                  <SkeletonCard key={i} />
-                ))
+                <SkeletonCard key={i} />
+              ))
               : projects?.map((project) => (
-                  <div
-                    key={project?._id}
-                    className="relative w-full rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
-                  >
-                    {/* Image */}
-                    <div onClick={() => setSelectedImage(project?.image)} className="relative w-full h-64 overflow-hidden ">
-                      <Image src="/download.png" alt="logo" width={80} height={80} className="absolute p-1 bg-black z-20 top-2 left-2" />
-                      <Image
-                        src={project?.image }
-                        alt={project?.name }
-                        fill
-                        sizes="(max-width:768px) 100vw, 33vw"
-                        className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
-                      />
+                <div
+                  key={project?._id}
+                  className="relative w-full rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
+                >
+                  {/* Image */}
+                  <div onClick={() => setSelectedImage(project?.image)} className="relative w-full h-64 overflow-hidden ">
+                    <Image src="/download.png" alt="logo" width={80} height={80} className="absolute p-1 bg-black z-20 top-2 left-2" />
+                    <Image
+                      src={project?.image}
+                      alt={project?.name}
+                      fill
+                      sizes="(max-width:768px) 100vw, 33vw"
+                      className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                    />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  </div>
 
-                    {/* Overlay */}
-                    <div className=" text-black w-full p-3 translate-y-1 group-hover:-translate-y-2 transition-all duration-500">
-                      <div className="flex items-center justify-between bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3  shadow-lg">
-                        <div>
-                          <p className="font-semibold text-lg md:text-xl leading-tight">
-                            {project?.name}
-                          </p>
+                  {/* Overlay */}
+                  <div className=" text-black w-full p-3">
+                    <div className="flex items-center justify-between bg-white/10 backdrop-blur-md border border-white/20 rounded-xl">
+                      <div>
+                        <p className="font-semibold text-lg md:text-xl leading-tight">
+                          {project?.name}
+                        </p>
 
-                          <p className="text-xs  mt-1 tracking-wide">
-                            {project?.dimension}
-                          </p>
-                        </div>
-
-                        <button
-                          type="button"
-                          className="flex items-center gap-1.5 bg-white/15 hover:bg-white/25 border border-white/20 rounded-full px-3 py-2 text-xs font-medium capitalize transition-all duration-300"
-                        >
-                          <MapPin size={18} className="opacity-80" />
-
-                          <span>
-                            {project?.city}, {project?.state}
-                          </span>
-                        </button>
+                        <p className="text-xs  mt-1 tracking-wide">
+                          {project?.dimension}
+                        </p>
                       </div>
+
+                      <button
+                        type="button"
+                        className="flex items-center gap-1.5 bg-white/15 hover:bg-white/25 border border-white/20 rounded-full px-3 py-2 text-xs font-medium capitalize transition-all duration-300"
+                      >
+                        <MapPin size={18} className="opacity-80" />
+
+                        <span>
+                          {project?.city}, {project?.state}
+                        </span>
+                      </button>
                     </div>
                   </div>
-                ))}
+                </div>
+              ))}
           </div>
 
           {/* Empty State */}
@@ -167,43 +167,43 @@ const AllProject = () => {
       </section>
 
       {selectedImage && (
-  <div
-    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4"
-    onClick={() => setSelectedImage(null)}
-  >
-    <div
-      className="relative max-w-5xl w-full"
-      onClick={(e) => e.stopPropagation()}
-    >
-      {/* Close Button */}
-      <button
-        onClick={() => setSelectedImage(null)}
-        className="absolute -top-4 -right-4 z-30 bg-white rounded-full p-2 shadow-lg"
-      >
-        <X size={22} className="text-black" />
-      </button>
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div
+            className="relative max-w-5xl w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute -top-4 -right-4 z-30 bg-white rounded-full p-2 shadow-lg"
+            >
+              <X size={22} className="text-black" />
+            </button>
 
-      {/* Logo */}
-      <Image
-        src="/download.png"
-        alt="Logo"
-        width={120}
-        height={120}
-        className="absolute top-4 left-4 z-20 bg-black p-2 rounded-lg shadow-lg"
-      />
+            {/* Logo */}
+            <Image
+              src="/download.png"
+              alt="Logo"
+              width={120}
+              height={120}
+              className="absolute top-4 left-4 z-20 bg-black p-2 rounded-lg shadow-lg"
+            />
 
-      {/* Main Image */}
-      <div className="relative w-full h-[80vh] rounded-xl overflow-hidden bg-white">
-        <Image
-          src={selectedImage}
-          alt="Project"
-          fill
-          className="object-cover"
-        />
-      </div>
-    </div>
-  </div>
-)}
+            {/* Main Image */}
+            <div className="relative w-full h-[80vh] rounded-xl overflow-hidden bg-white">
+              <Image
+                src={selectedImage}
+                alt="Project"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
