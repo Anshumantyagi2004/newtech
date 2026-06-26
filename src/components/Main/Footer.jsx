@@ -64,7 +64,7 @@ export default function Footer() {
   return (
     <footer className="bg-black figtree text-white py-12 px-4 md:px-10">
       {/* subtle background glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div>
+      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div> */}
 
       <div className="relative max-w-7xl mx-auto flex flex-wrap justify-between gap-4 text-white mb-8">
         {address.map((item, index) => {
