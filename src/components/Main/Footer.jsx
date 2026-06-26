@@ -111,12 +111,25 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="mt-4 space-y-2 text-sm text-gray-200">
-            <p className="flex items-center gap-2">
-              <Phone size={14} /> +91 9810103697
-            </p>
-            <p className="flex items-center gap-2">
-              <Mail size={14} /> director@nvsledwall.com
-            </p>
+           <p className="flex items-center gap-2">
+  <Phone size={14} />
+  <a
+    href="tel:+919810103697"
+    className="hover:text-[#915946] transition-colors"
+  >
+    +91 9810103697
+  </a>
+</p>
+
+<p className="flex items-center gap-2">
+  <Mail size={14} />
+  <a
+    href="mailto:director@nvsledwall.com"
+    className="hover:text-[#915946]  transition-colors"
+  >
+    director@nvsledwall.com
+  </a>
+</p>
             <p className="flex items-center gap-2">
               <MapPin size={14} /> Delhi, India
             </p>

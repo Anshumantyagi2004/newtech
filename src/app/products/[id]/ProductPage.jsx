@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Thumbs } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import ContactPopup from "@/components/Main/PopupForm";
 
 export default function ProductPage() {
     const { id } = useParams()
@@ -88,6 +89,8 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
     const isNestedSpecs = typeof Object.values(product.specs)[0] === "object";
     const defaultTab = isNestedSpecs ? Object.keys(product.specs)[0] : "Specs";
     const [activeTab, setActiveTab] = useState(defaultTab);
+    const [open, setOpen] = useState(false);
+
     const spec = isNestedSpecs ? product.specs[activeTab] : product.specs;
 
     const formatLabel = (key) => {
@@ -368,8 +371,8 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                     transition={{ duration: 0.4 }}
                     className="mt-6 flex justify-center"
                 >
-                    <button className="px-6 py-3 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800 transition">
-                        Learn More →
+                    <button onClick={() => setOpen(true)} className="px-6 py-3 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800 transition">
+                        Contact Now →
                     </button>
                 </motion.div>
             </motion.div>
@@ -423,5 +426,7 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                 </Link>
             </motion.div>
         </motion.div>
+
+        <ContactPopup isOpen={open} setIsOpen={setOpen} />
     </div>)
 }
