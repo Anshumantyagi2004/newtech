@@ -14,7 +14,8 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
+  
+  FaYoutube,
 } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -137,17 +138,35 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex gap-3 mt-4">
-            {[FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter].map(
-              (Icon, i) => (
-                <div
-                  key={i}
-                  className="bg-white text-black p-2 rounded-full hover:scale-110 transition cursor-pointer"
-                >
-                  <Icon size={14} />
-                </div>
-              ),
-            )}
-          </div>
+  {[
+    {
+      icon: FaFacebookF,
+      href: "https://www.facebook.com/NewtechVideoSystemsPvtLtd",
+    },
+    {
+      icon: FaInstagram,
+      href: "https://www.instagram.com/newtechvideosystems/",
+    },
+    {
+      icon: FaLinkedinIn,
+      href: "https://www.linkedin.com/company/newtech-video-systems-private-limited/",
+    },
+    {
+      icon: FaYoutube,
+      href: "https://www.youtube.com/@newtechvideosystemspvtltd",
+    },
+  ].map(({ icon: Icon, href }, i) => (
+    <a
+      key={i}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white text-black p-2 rounded-full hover:scale-110 transition cursor-pointer"
+    >
+      <Icon size={14} />
+    </a>
+  ))}
+</div>
         </div>
 
         <div>
