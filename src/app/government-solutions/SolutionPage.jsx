@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ContactPopup from '@/components/Main/PopupForm';
+import TenderSupportSection from '@/components/Home/TenderSection';
 
 export default function SolutionPage() {
     const [open, setOpen] = useState(false);
@@ -105,5 +106,7 @@ export default function SolutionPage() {
                 <ContactPopup isOpen={open} setIsOpen={setOpen} />
             </div>
         </section>
+              <TenderSupportSection />
+        
     </>)
 }

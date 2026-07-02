@@ -1,11 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
 import Sidebar from "@/components/Main/Sidebar";
 import Navbar from "@/components/Main/Navbar";
-import Footer from "@/components/Main/Footer";
 import MobileTabbar from "@/components/Main/BottomBar";
-import { Toaster } from "react-hot-toast";
 import StickyButton from "@/components/Main/StickyButtons";
+import LayoutFooter from "@/components/Main/LayoutFooter";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,8 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Advertising LED Display Supplier| Newtech Video Systems",
-  description: "Newtech Video Systems Pvt. Ltd. is a leading supplier of advertising LED displays, outdoor LED screens, commercial LED video walls & industrial LED display systems for high-impact visual communication solutions.",
+  title: "Advertising LED Display Supplier | Newtech Video Systems",
+  description:
+    "Newtech Video Systems Pvt. Ltd. is a leading supplier of advertising LED displays.",
 };
 
 export default function RootLayout({ children }) {
@@ -40,7 +42,8 @@ export default function RootLayout({ children }) {
           </main>
 
           <Toaster position="top-center" />
-          <Footer />
+
+          <LayoutFooter />
         </div>
 
         <MobileTabbar />

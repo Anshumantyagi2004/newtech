@@ -66,36 +66,7 @@ export default function Footer() {
       {/* subtle background glow */}
       {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div> */}
 
-      <div className="relative max-w-7xl mx-auto flex flex-wrap justify-between gap-4 text-white mb-8">
-        {address.map((item, index) => {
-          const Icon = item.icon;
-
-          return (
-            <div
-              key={index}
-              className="flex-1 min-w-[200px] flex flex-col items-center text-center 
-        p-5 rounded-xl 
-        bg-white/5 backdrop-blur-lg 
-        border border-white/10 
-        hover:bg-white/10 transition duration-300"
-            >
-              {/* Icon */}
-              <Icon className="w-6 h-6 text-white/70 mb-2" />
-
-              {/* Title */}
-              <h3 className="text-lg font-semibold">{item.title}</h3>
-
-              {/* Phone */}
-              <p className="text-xs text-gray-200 mt-1">{item.phone}</p>
-
-              {/* Address */}
-              <p className="text-xs text-gray-300 mt-2 leading-relaxed">
-                {item.text}
-              </p>
-            </div>
-          );
-        })}
-      </div>
+      
 
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         <div>
@@ -219,12 +190,22 @@ export default function Footer() {
             reliability, and customer support.
           </p>
 
-          <img
-            src="/trustseal.webp"
-            alt="trust"
-            className="w-25 mt-4 cursor-pointer"
-            onClick={() => setOpen(true)}
-          />
+          <div className="flex items-center gap-4 mt-4">
+  <img
+    src="/trustseal.webp"
+    alt="Trust Seal"
+    className="w-24 h-auto cursor-pointer object-contain hover:scale-105 transition"
+    onClick={() => setOpen(true)}
+  />
+
+  <div className="bg-white rounded-lg p-2 shadow-sm flex items-center justify-center">
+    <img
+      src="/gem-logo.webp"
+      alt="GeM Logo"
+      className="w-24 h-auto object-contain cursor-pointer hover:scale-105 transition"
+    />
+  </div>
+</div>
         </div>
       </div>
 

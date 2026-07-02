@@ -111,13 +111,13 @@ export default function Navbar() {
         >
           Privacy Policy
         </Link>
-        <a
+        {/* <a
         target="_blank"
           href="https://nvsledwall.com/support"
           className="block px-5 py-3 text-black hover:bg-gray-100"
         >
           Raise Ticket
-        </a>
+        </a> */}
       </div>
     </div>
 
