@@ -41,17 +41,23 @@ export default function page() {
         <div className="min-h-screen bg-gray-100 flex">
             <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
+            
+
             <div className="flex-1 flex flex-col">
                 <header className="bg-white shadow-sm p-4 flex items-center justify-between md:justify-end">
                     <button className="md:hidden" onClick={() => setSidebarOpen(!sidebarOpen)}>
-                        {sidebarOpen ? <X size={26} /> : <Menu size={26} />}
+                        {sidebarOpen ? <X className='text-black' size={26} /> : <Menu className='text-black' size={26} />}
                     </button>
+                    <div>
 
-                    <h1 className="hidden md:block text-2xl font-extrabold text-yellow-400">
-                        Create Blog
-                    </h1>
+                    
+                    </div>
                 </header>
                 <main className="p-6">
+
+                    <h1 className=" block text-2xl mb-2 text-center font-extrabold text-black">
+                        Create Blogs
+                    </h1>
                     <form onSubmit={handleSubmit} className="text-black max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6 space-y-6">
                         <div>
                             <label className="block font-semibold mb-1">Title</label>

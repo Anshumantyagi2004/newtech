@@ -1,6 +1,7 @@
 "use client";
 
 import Sidebar from "@/components/admin/Sidebar";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -52,7 +53,24 @@ export default function Page() {
     <div className="min-h-screen bg-gray-100 flex text-black">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
+      
+
       <div className="flex-1 p-4 md:p-8">
+        <header className="bg-white shadow-sm p-4 mb-4 flex items-center justify-between md:justify-end">
+          <button
+            className="md:hidden"
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+          >
+            {sidebarOpen ? (
+              <X size={26} />
+            ) : (
+              <Menu size={26} className="text-black" />
+            )}
+          </button>
+
+          
+        </header>
+        
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <h2 className="md:text-3xl text-xl font-bold">All Projects</h2>
