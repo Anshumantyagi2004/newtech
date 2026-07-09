@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import ContactPopup from '@/components/Main/PopupForm';
 import TenderSupportSection from '@/components/Home/TenderSection';
+import Footer2 from '@/components/governFooter/Footer2';
 
 export default function SolutionPage() {
     const [open, setOpen] = useState(false);
@@ -107,6 +108,7 @@ export default function SolutionPage() {
             </div>
         </section>
               <TenderSupportSection />
+              <Footer2/>
         
     </>)
 }

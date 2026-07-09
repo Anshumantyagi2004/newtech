@@ -147,14 +147,14 @@ export const applications = [
     bg: "bg-rose-500",
     hover: "hover:bg-rose-600",
   },
-  {
-    id: "building-facade",
-    title: "Building Façade",
-    bgImage: "/real3.png",
-    icon: PanelsTopLeft,
-    bg: "bg-violet-500",
-    hover: "hover:bg-violet-600",
-  },
+  // {
+  //   id: "building-facade",
+  //   title: "Building Façade",
+  //   bgImage: "/real3.png",
+  //   icon: PanelsTopLeft,
+  //   bg: "bg-violet-500",
+  //   hover: "hover:bg-violet-600",
+  // },
   {
     id: "stadiums",
     title: "Stadiums",
@@ -203,26 +203,17 @@ export const categories = [
     metaDescription:
       "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage.",
   },
-  {
-    title: "Rental Led",
-    img: "/vivid-2.jpg",
-    bgImage: "/rental-cabinet-1.jpg",
-    id: "rental-led",
-    metaTitle:
-      "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
-    metaDescription:
-      "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
-  },
-  {
-    title: "Sports Perimeter Boards",
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
-    bgImage: "/control.jpg",
-    id: "sports-perimeter-boards",
-    metaTitle:
-      "Sports Perimeter Boards | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
-    metaDescription:
-      "Explore Sports Perimeter Boards from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising.",
-  },
+  
+  // {
+  //   title: "Sports Perimeter Boards",
+  //   img: "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
+  //   bgImage: "/control.jpg",
+  //   id: "sports-perimeter-boards",
+  //   metaTitle:
+  //     "Sports Perimeter Boards | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+  //   metaDescription:
+  //     "Explore Sports Perimeter Boards from Newtech Video Systems Pvt. Ltd. for indoor & outdoor use. High-quality LED video wall solutions for impactful digital advertising.",
+  // },
   {
     title: "Transparent LED",
     img: "/ProductImages/Picture1.png",
@@ -233,16 +224,16 @@ export const categories = [
     metaDescription:
       "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding.",
   },
-  {
-    title: "COB/GOB Solutions",
-    img: "/luxe-page-main.jpg",
-    bgImage: "/control.jpg",
-    id: "cob-gob-solutions",
-    metaTitle:
-      "COB/GOB Solutions | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
-    metaDescription:
-      "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding.",
-  },
+  // {
+  //   title: "COB/GOB Solutions",
+  //   img: "/luxe-page-main.jpg",
+  //   bgImage: "/control.jpg",
+  //   id: "cob-gob-solutions",
+  //   metaTitle:
+  //     "COB/GOB Solutions | Indoor & Outdoor LED Video Wall | Newtech Video Systems",
+  //   metaDescription:
+  //     "Explore LED video wall displays from Newtech Video Systems Pvt. Ltd. for indoor & outdoor applications. High-resolution commercial LED video wall solutions for events, advertising & branding.",
+  // },
   {
     title: "Control Systems / Processors",
     img: "/H20.webp",
@@ -253,6 +244,16 @@ export const categories = [
     metaDescription:
       "Explore LED display accessories and controllers from Newtech Video Systems Pvt. Ltd. for advertising LED displays, outdoor screens, commercial LED video walls & industrial LED systems.",
   },
+  {
+    title: "Rental Led",
+    img: "/vivid-2.jpg",
+    bgImage: "/rental-cabinet-1.jpg",
+    id: "rental-led",
+    metaTitle:
+      "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
+    metaDescription:
+      "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
+  }
 ];
 
 export const products = [
@@ -1136,68 +1137,68 @@ export const products = [
       }
     },
   },
-  {
-    name: "LED Poster / Standee",
-    id: "led-poster-standee",
-    applicationIds: ["reception-and-lobby-areas", "rental"],
-    metaTitle:
-      "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
-    catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
-    img: "/ProductImages/Image.jpg",
-     pdf:"/standLee.pdf",
-     ytlink:"https://youtu.be/CxO-PU01uCY",
+  // {
+  //   name: "LED Poster / Standee",
+  //   id: "led-poster-standee",
+  //   applicationIds: ["reception-and-lobby-areas", "rental"],
+  //   metaTitle:
+  //     "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
+  //   catId: "outdoor-advertising-led-displays",
+  //   catName: "Outdoor Advertising LED Displays",
+  //   img: "/ProductImages/Image.jpg",
+  //    pdf:"/standLee.pdf",
+  //    ytlink:"https://youtu.be/CxO-PU01uCY",
 
-    images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
+  //   images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
 
-    overview: [
-      "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
-      "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
-      "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
-      "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
-      "A versatile LED display board solution for businesses seeking a flexible, plug-and-play digital signage option",
-    ],
+  //   overview: [
+  //     "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
+  //     "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
+  //     "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
+  //     "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
+  //     "A versatile LED display board solution for businesses seeking a flexible, plug-and-play digital signage option",
+  //   ],
 
-    features: [
-      "Portable & Lightweight Design enables easy movement and quick setup, making it ideal for temporary promotions and event-based usage",
-      "Plug-and-Play Operation ensures simple installation and operation without requiring technical expertise or additional systems",
-      "High brightness and vivid color performance ensure content stands out clearly in well-lit indoor environments",
-      "Seamless playback capability supports smooth video and image display for advertising, presentations, and announcements",
-      "Flexible content management allows easy updates and control for dynamic and real-time promotional campaigns",
-    ],
+  //   features: [
+  //     "Portable & Lightweight Design enables easy movement and quick setup, making it ideal for temporary promotions and event-based usage",
+  //     "Plug-and-Play Operation ensures simple installation and operation without requiring technical expertise or additional systems",
+  //     "High brightness and vivid color performance ensure content stands out clearly in well-lit indoor environments",
+  //     "Seamless playback capability supports smooth video and image display for advertising, presentations, and announcements",
+  //     "Flexible content management allows easy updates and control for dynamic and real-time promotional campaigns",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering innovative and user-friendly advertising LED display solutions tailored for modern indoor applications",
-      "High-quality LED display boards designed for consistent performance, durability, and long-term use",
-      "Advanced display technology ensures superior brightness, clarity, and smooth playback across all products",
-      "Ability to provide customized solutions based on branding and promotional requirements",
-      "End-to-end support including consultation, setup assistance, and after-sales service for a seamless experience",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering innovative and user-friendly advertising LED display solutions tailored for modern indoor applications",
+  //     "High-quality LED display boards designed for consistent performance, durability, and long-term use",
+  //     "Advanced display technology ensures superior brightness, clarity, and smooth playback across all products",
+  //     "Ability to provide customized solutions based on branding and promotional requirements",
+  //     "End-to-end support including consultation, setup assistance, and after-sales service for a seamless experience",
+  //   ],
 
-    specs: {
-      model: "P2.5",
-      screenSize: "640 × 1920 mm",
-      application: "Advertising",
-      displayType: "LED Video Display",
-      pixelPitch: "2.5 mm",
-      pixelDensity: "160,000 dots/m²",
-      pixelConfiguration: "1R, 1G, 1B",
-      scanMode: "1/32 Scan",
-      brightness: "≥ 500 nits",
-      refreshRate: "≥ 1920 Hz",
-      averagePowerConsumption: "300 W/m²",
-      ipRating: "IP30",
-      maintenance: "Front / Rear",
-      weight: "≈ 35 kg",
-      chipType: "Full Color",
-      brand: "NVS",
-      certifications: "CE, ROHS, FCC",
-      origin: "India",
-      packing: "Two standee in one flight case",
-    },
-  },
+  //   specs: {
+  //     model: "P2.5",
+  //     screenSize: "640 × 1920 mm",
+  //     application: "Advertising",
+  //     displayType: "LED Video Display",
+  //     pixelPitch: "2.5 mm",
+  //     pixelDensity: "160,000 dots/m²",
+  //     pixelConfiguration: "1R, 1G, 1B",
+  //     scanMode: "1/32 Scan",
+  //     brightness: "≥ 500 nits",
+  //     refreshRate: "≥ 1920 Hz",
+  //     averagePowerConsumption: "300 W/m²",
+  //     ipRating: "IP30",
+  //     maintenance: "Front / Rear",
+  //     weight: "≈ 35 kg",
+  //     chipType: "Full Color",
+  //     brand: "NVS",
+  //     certifications: "CE, ROHS, FCC",
+  //     origin: "India",
+  //     packing: "Two standee in one flight case",
+  //   },
+  // },
 
   ///Rental Led
   {
@@ -4230,76 +4231,76 @@ export const applicationsDescription = [
       },
     ],
   },
-  {
-    id: "building-facade",
-    title: "Applications of Active LED in Building Façade",
-    description: [
-      {
-        title: "Architectural Illumination & Aesthetic Enhancement",
-        content:
-          "Active LED façades transform ordinary structures into iconic architectural landmarks. Enable dynamic lighting effects, animations, and color transitions synchronized with building design. Enhance night-time visibility and create a distinct visual identity for commercial, residential, and public buildings.",
-        icon: Sparkles,
-        bg: "bg-red-500",
-        hover: "hover:bg-red-600",
-      },
-      {
-        title: "Dynamic Media Façades",
-        content:
-          "Buildings become digital canvases displaying multimedia content — videos, patterns, and visuals. Ideal for corporate headquarters, hotels, malls, and entertainment venues. Content can be programmed or scheduled to align with events, seasons, or brand campaigns.",
-        icon: Monitor,
-        bg: "bg-blue-500",
-        hover: "hover:bg-blue-600",
-      },
-      {
-        title: "Branding & Corporate Communication",
-        content:
-          "Active LED façades are powerful tools for corporate storytelling and brand projection. Display logos, slogans, taglines, or themed content directly on the building exterior. Reinforces brand presence and creates instant recognition in urban environments.",
-        icon: Megaphone,
-        bg: "bg-purple-500",
-        hover: "hover:bg-purple-600",
-      },
-      {
-        title: "Smart City Integration",
-        content:
-          "In smart urban projects, building façades serve as digital information and public communication surfaces. Display city updates, social campaigns, emergency alerts, or cultural visuals. Supports the digital infrastructure of smart, connected cities.",
-        icon: Cpu,
-        bg: "bg-green-500",
-        hover: "hover:bg-green-600",
-      },
-      {
-        title: "Event & Festival Display",
-        content:
-          "During national festivals, sporting events, or corporate celebrations, Active LED façades can display dynamic themes and light shows. Synchronize with music, lighting, and projection mapping systems for impactful public engagement.",
-        icon: Calendar,
-        bg: "bg-pink-500",
-        hover: "hover:bg-pink-600",
-      },
-      {
-        title: "Advertising & Revenue Generation",
-        content:
-          "Commercial façades in high-traffic areas can host digital advertisements (DOOH). Generate continuous revenue streams while enhancing building aesthetics. Easily update and manage ads remotely via content management systems.",
-        icon: BarChart,
-        bg: "bg-indigo-500",
-        hover: "hover:bg-indigo-600",
-      },
-      {
-        title: "Sustainable & Smart Lighting",
-        content:
-          "Energy-efficient LED modules provide low power consumption and long lifespan. Integration with ambient light sensors and IoT systems allows for automated brightness control. Promotes eco-friendly architectural design with minimal maintenance.",
-        icon: Leaf,
-        bg: "bg-orange-500",
-        hover: "hover:bg-orange-600",
-      },
-      {
-        title: "Custom Design & Modular Flexibility",
-        content:
-          "Available in various pixel pitches and transparent LED formats, adaptable to any architectural surface. Enables seamless integration into glass façades, curved structures, and media towers. Supports creative architectural freedom without compromising structure aesthetics.",
-        icon: Layout,
-        bg: "bg-yellow-500",
-        hover: "hover:bg-yellow-600",
-      },
-    ],
-  },
+  // {
+  //   id: "building-facade",
+  //   title: "Applications of Active LED in Building Façade",
+  //   description: [
+  //     {
+  //       title: "Architectural Illumination & Aesthetic Enhancement",
+  //       content:
+  //         "Active LED façades transform ordinary structures into iconic architectural landmarks. Enable dynamic lighting effects, animations, and color transitions synchronized with building design. Enhance night-time visibility and create a distinct visual identity for commercial, residential, and public buildings.",
+  //       icon: Sparkles,
+  //       bg: "bg-red-500",
+  //       hover: "hover:bg-red-600",
+  //     },
+  //     {
+  //       title: "Dynamic Media Façades",
+  //       content:
+  //         "Buildings become digital canvases displaying multimedia content — videos, patterns, and visuals. Ideal for corporate headquarters, hotels, malls, and entertainment venues. Content can be programmed or scheduled to align with events, seasons, or brand campaigns.",
+  //       icon: Monitor,
+  //       bg: "bg-blue-500",
+  //       hover: "hover:bg-blue-600",
+  //     },
+  //     {
+  //       title: "Branding & Corporate Communication",
+  //       content:
+  //         "Active LED façades are powerful tools for corporate storytelling and brand projection. Display logos, slogans, taglines, or themed content directly on the building exterior. Reinforces brand presence and creates instant recognition in urban environments.",
+  //       icon: Megaphone,
+  //       bg: "bg-purple-500",
+  //       hover: "hover:bg-purple-600",
+  //     },
+  //     {
+  //       title: "Smart City Integration",
+  //       content:
+  //         "In smart urban projects, building façades serve as digital information and public communication surfaces. Display city updates, social campaigns, emergency alerts, or cultural visuals. Supports the digital infrastructure of smart, connected cities.",
+  //       icon: Cpu,
+  //       bg: "bg-green-500",
+  //       hover: "hover:bg-green-600",
+  //     },
+  //     {
+  //       title: "Event & Festival Display",
+  //       content:
+  //         "During national festivals, sporting events, or corporate celebrations, Active LED façades can display dynamic themes and light shows. Synchronize with music, lighting, and projection mapping systems for impactful public engagement.",
+  //       icon: Calendar,
+  //       bg: "bg-pink-500",
+  //       hover: "hover:bg-pink-600",
+  //     },
+  //     {
+  //       title: "Advertising & Revenue Generation",
+  //       content:
+  //         "Commercial façades in high-traffic areas can host digital advertisements (DOOH). Generate continuous revenue streams while enhancing building aesthetics. Easily update and manage ads remotely via content management systems.",
+  //       icon: BarChart,
+  //       bg: "bg-indigo-500",
+  //       hover: "hover:bg-indigo-600",
+  //     },
+  //     {
+  //       title: "Sustainable & Smart Lighting",
+  //       content:
+  //         "Energy-efficient LED modules provide low power consumption and long lifespan. Integration with ambient light sensors and IoT systems allows for automated brightness control. Promotes eco-friendly architectural design with minimal maintenance.",
+  //       icon: Leaf,
+  //       bg: "bg-orange-500",
+  //       hover: "hover:bg-orange-600",
+  //     },
+  //     {
+  //       title: "Custom Design & Modular Flexibility",
+  //       content:
+  //         "Available in various pixel pitches and transparent LED formats, adaptable to any architectural surface. Enables seamless integration into glass façades, curved structures, and media towers. Supports creative architectural freedom without compromising structure aesthetics.",
+  //       icon: Layout,
+  //       bg: "bg-yellow-500",
+  //       hover: "hover:bg-yellow-600",
+  //     },
+  //   ],
+  // },
   {
     id: "stadiums",
     title: "Applications of Active LED in Stadiums",

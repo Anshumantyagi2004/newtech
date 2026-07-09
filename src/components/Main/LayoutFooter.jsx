@@ -10,12 +10,15 @@ export default function LayoutFooter() {
   const showAddressFooter =
     pathname === "/" ||
     pathname === "/about-us" ||
-    pathname === "/contact-us";
+    pathname === "/contact-us" ;
+
+    const hideFooter=pathname==="/government-solutions";
+
 
   return (
     <>
       {showAddressFooter && <AddressFooter />}
-      <Footer />
+      {!hideFooter &&<Footer />}
     </>
   );
 }

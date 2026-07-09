@@ -1,5 +1,18 @@
 "use client";
-import { Search, Menu, X, PhoneCall, CircleChevronDown, Briefcase, LayoutGrid, Proportions, MonitorCloud, Headset, FileText } from "lucide-react";
+import {
+  Search,
+  Menu,
+  X,
+  PhoneCall,
+  CircleChevronDown,
+  Briefcase,
+  LayoutGrid,
+  Proportions,
+  MonitorCloud,
+  Headset,
+  FileText,
+  Home,
+} from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import ContactPopup from "./PopupForm";
@@ -11,10 +24,26 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { MdOutlineSupportAgent, MdPrivacyTip } from "react-icons/md";
 import { GoLaw } from "react-icons/go";
+import {  AnimatePresence } from "framer-motion";
+import { applications } from "@/data/data";
+
+import {
+
+  User,
+  Phone,
+  ShoppingCart,
+  Cross,
+  Landmark,
+} from "lucide-react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+    const [showCategories, setShowCategories] = useState(false);
+    const [showApplications, setShowApplications] = useState(false);
+  
+
   const pathname = usePathname();
 
   const adminLayout = pathname.startsWith("/admin");
@@ -35,6 +64,21 @@ export default function Navbar() {
     { name: "Articles", icon: FileText, link: "/our-articles" },
   ];
 
+  const navLinks = [
+    { name: "Home", icon: Home, link: "/" },
+    { name: "Applications", icon: Briefcase, link: "/applications" },
+    { name: "Categories", icon: LayoutGrid, link: "/categories" },
+    { name: "Government Policy", icon: Landmark, link: "/government-solutions" },
+    // { name: "Products", icon: ShoppingCart, link: "/products" },
+    // { name: "Projects", icon: Proportions, link: "/projects" },
+    { name: "About Us", icon: User, link: "/about-us" },
+    { name: "Contact", icon: Phone, link: "/contact-us" },
+    { name: "Support", icon: Headset, link: "/support" },
+    { name: "Articles", icon: FileText, link: "/our-articles" },
+  ];
+
+
+
   return (
     <div className="w-full bg-black figtrees text-white border-b border-gray-400 shadow-md sticky top-0 z-48">
       <div className="h-18 flex items-center justify-between px-2 md:px-6">
@@ -47,15 +91,171 @@ export default function Navbar() {
             GSTIN: 07AAECN8156D3ZE
           </span>
         </div>
+        <div className="hidden lg:flex items-center  gap-4">
+          {navLinks.map((item) => {
+  const Icon = item.icon;
+  const isCategory = item.name === "Categories";
+  const isApplication = item.name === "Applications";
+
+  if (isCategory) {
+    return (
+      <div
+        key={item.name}
+        className="relative"
+        onMouseEnter={() => setShowCategories(true)}
+        onMouseLeave={() => setShowCategories(false)}
+      >
+        <Link
+          href={item.link}
+          className="flex items-center gap-1 text-[16px] font-medium text-white hover:text-[#a87561] transition"
+        >
+          <Icon className="w-5 h-5" />
+          <span>{item.name}</span>
+        </Link>
+
+        <AnimatePresence>
+          {showCategories && (
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 15 }}
+              transition={{ duration: 0.2 }}
+              className="
+                absolute
+                top-full
+                left-1/2
+                -translate-x-1/2
+                mt-5
+                w-[1100px]
+                bg-white
+                text-black
+                rounded-xl
+                shadow-2xl
+                p-6
+                grid
+                grid-cols-5
+                gap-5
+                z-50
+              "
+            >
+              {categories.map((cat) => (
+                <Link
+                  key={cat.id}
+                  href={`/categories/${cat.id}`}
+                  className="group"
+                >
+                  <div className="rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                    <Image
+                      src={cat.img}
+                      alt={cat.title}
+                      width={220}
+                      height={140}
+                      className="h-32 w-full object-fill group-hover:scale-105 transition"
+                    />
+
+                    <p className="p-3 text-center font-medium">
+                      {cat.title}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
+  }
+
+  if (isApplication) {
+    return (
+      <div
+        key={item.name}
+        className="relative"
+        onMouseEnter={() => setShowApplications(true)}
+        onMouseLeave={() => setShowApplications(false)}
+      >
+        <Link
+          href={item.link}
+          className="flex items-center gap-1 text-[16px] font-medium text-white hover:text-[#a87561] transition"
+        >
+          <Icon className="w-5 h-5" />
+          <span>{item.name}</span>
+        </Link>
+
+        <AnimatePresence>
+          {showApplications && (
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 15 }}
+              transition={{ duration: 0.2 }}
+              className="
+                absolute
+                top-full
+                left-1/2
+                -translate-x-1/2
+                mt-5
+                w-[1200px]
+                bg-white
+                text-black
+                rounded-xl
+                shadow-2xl
+                p-6
+                grid
+                grid-cols-5
+                gap-5
+                z-50
+                max-h-[80vh]
+                overflow-y-auto
+              "
+            >
+              {applications.map((app) => (
+                <Link
+                  key={app.id}
+                  href={`/applications/${app.id}`}
+                  className="group"
+                >
+                  <div className="rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                    <Image
+                      src={app.bgImage}
+                      alt={app.title}
+                      width={220}
+                      height={140}
+                      className="h-32 w-full object-cover group-hover:scale-105 transition"
+                    />
+
+                    <p className="p-3 text-center font-medium">
+                      {app.title}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
+  }
+
+  return (
+    <Link
+      key={item.name}
+      href={item.link}
+      className="flex items-center gap-1 text-[16px] font-medium text-white hover:text-[#a87561] transition"
+    >
+      <Icon className="w-5 h-5" />
+      <span>{item.name}</span>
+    </Link>
+  );
+})}
+          
+        </div>
 
         <div className="hidden lg:flex items-center gap-4">
           <div className="relative group hidden md:flex items-center">
-
             {/* Button */}
-           
 
             {/* Mega Menu */}
-            
           </div>
 
           {/* <SearchBar /> */}
@@ -74,19 +274,15 @@ export default function Navbar() {
             <PhoneCall size={22} />
           </a> */}
 
-            <div className="relative group inline-block">
-      
-      {/* Main Button */}
-      <button
-        
-        className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md"
-      >
-        Support <MdOutlineSupportAgent size={20} />
-      </button>
+          <div className="relative group inline-block">
+            {/* Main Button */}
+            <button className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md">
+              Support <MdOutlineSupportAgent size={20} />
+            </button>
 
-      {/* Dropdown */}
-      <div
-        className="
+            {/* Dropdown */}
+            <div
+              className="
           absolute top-full left-0 mt-2
           w-60 bg-white rounded-lg shadow-xl
           opacity-0 invisible
@@ -95,33 +291,32 @@ export default function Navbar() {
           transition-all duration-300
           overflow-hidden z-50
         "
-      >
-        <Link
-          href="/terms-conditions"
-          className="block px-5 py-3 text-black hover:bg-gray-100"
-        >
-          Disclaimer & Terms
-        </Link>
+            >
+              <Link
+                href="/terms-conditions"
+                className="block px-5 py-3 text-black hover:bg-gray-100"
+              >
+                Disclaimer & Terms
+              </Link>
 
-        
-
-        <Link
-          href="/privacy-policy"
-          className="block px-5 py-3 text-black hover:bg-gray-100"
-        >
-          Privacy Policy
-        </Link>
-        {/* <a
+              <Link
+                href="/privacy-policy"
+                className="block px-5 py-3 text-black hover:bg-gray-100"
+              >
+                Privacy Policy
+              </Link>
+              {/* <a
         target="_blank"
           href="https://nvsledwall.com/support"
           className="block px-5 py-3 text-black hover:bg-gray-100"
         >
           Raise Ticket
         </a> */}
-      </div>
-    </div>
+            </div>
+          </div>
 
-          <button onClick={() => setOpen(true)}
+          <button
+            onClick={() => setOpen(true)}
             className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200"
           >
             Enquiry Now
@@ -144,9 +339,9 @@ export default function Navbar() {
           {menuItems.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div key={index}  className="relative"
-              >
-                <Link href={item.link}
+              <div key={index} className="relative">
+                <Link
+                  href={item.link}
                   onClick={() => setMenuOpen(false)}
                   className="border border-gray-600 flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 hover:text-black transition cursor-pointer"
                 >

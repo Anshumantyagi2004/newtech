@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Building, Headset } from "lucide-react";
+import { Mail, Phone, MapPin, Building, Headset, Contact, FileText } from "lucide-react";
 import ContactMapForm from "@/components/Main/FormSection";
 
 const containerVariant = {
@@ -52,135 +52,178 @@ export default function ContactUs() {
       <section className="bg-gray-50 py-10 px-4">
         <div className="max-w-7xl mx-auto space-y-6">
           <motion.div
-  variants={containerVariant}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
-  className="grid md:grid-cols-4 gap-6"
->
-  {[
-    {
-      icon: Mail,
-      title: "Email Us",
-      content: [
-        {
-          type: "email",
-          value: "director@nvsledwall.com",
-        },
-      ],
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      content: [
-        {
-          type: "phone",
-          label: "+91 9810103697",
-          value: "+919810103697",
-        },
-        {
-          type: "phone",
-          label: "+91 9810103197",
-          value: "+919810103197",
-        },
-        {
-          type: "phone",
-          label: "Toll Free: 1800-202-1270",
-          value: "18002021270",
-        },
-      ],
-    },
-    {
-      icon: Headset,
-      title: "Technical Support",
-      content: [
-        {
-          type: "text",
-          value: "👤 Saurabh Sharma",
-        },
-        {
-          type: "phone",
-          label: "📞 +91 9289713130 (7 PM to 9 AM)",
-          value: "+919289713130",
-        },
-        {
-          type: "text",
-          value: "",
-        },
-        {
-          type: "text",
-          value: "👤 Neha Bisht",
-        },
-        {
-          type: "phone",
-          label: "📞 +91 8796177844 (10 AM to 7 PM)",
-          value: "+918796177844",
-        },
-      ],
-    },
-    {
-      icon: MapPin,
-      title: "Head Office",
-      content: [
-        {
-          type: "text",
-          value:
-            "M5-A, DSIDC, Badli Industrial Area, Phase-1, Near Samaypur Badli Metro Rd, Rohini, Delhi - 110042",
-        },
-      ],
-    },
-  ].map((item, i) => {
-    const Icon = item.icon;
+            variants={containerVariant}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="grid md:grid-cols-4 gap-6"
+          >
+            {[
+              {
+                icon: Contact,
+                title: "Contact Us",
+                content: [
+                  {
+                    type: "email",
+                    value: "director@nvsledwall.com",
+                  },
+                  {
+                    type: "phone",
+                    label: "+91 9810103697",
+                    value: "+919810103697",
+                  },
+                  {
+                    type: "phone",
+                    label: "+91 9810103197",
+                    value: "+919810103197",
+                  },
+                  {
+                    type: "phone",
+                    label: "Toll Free: 1800-202-1270",
+                    value: "18002021270",
+                  },
+                ],
+              },
+              // {
+              //   icon: Phone,
+              //   title: "Call Us",
+              //   content: [
+              //     {
+              //       type: "phone",
+              //       label: "+91 9810103697",
+              //       value: "+919810103697",
+              //     },
+              //     {
+              //       type: "phone",
+              //       label: "+91 9810103197",
+              //       value: "+919810103197",
+              //     },
+              //     {
+              //       type: "phone",
+              //       label: "Toll Free: 1800-202-1270",
+              //       value: "18002021270",
+              //     },
+              //   ],
+              // },
+              {
+                icon: Headset,
+                title: "Technical Support",
+                content: [
+                  {
+                    type: "text",
+                    value: "👤 Saurabh Sharma",
+                  },
+                  {
+                    type: "phone",
+                    label: "📞 +91 9289713130 (7 PM to 9 AM)",
+                    value: "+919289713130",
+                  },
+                  {
+                    type: "text",
+                    value: "",
+                  },
+                  {
+                    type: "text",
+                    value: "👤 Neha Bisht",
+                  },
+                  {
+                    type: "phone",
+                    label: "📞 +91 8796177844 (10 AM to 7 PM)",
+                    value: "+918796177844",
+                  },
+                ],
+              },
+              {
+                icon: MapPin,
+                title: "Head Office",
+                content: [
+                  {
+                    type: "text",
+                    value:
+                      "M5-A, DSIDC, Badli Industrial Area, Phase-1, Near Samaypur Badli Metro Rd, Rohini, Delhi - 110042",
+                  },
+                ],
+              },
+              {
+                icon: FileText,
+                title: "Institutional and Corporate Solutions",
+                content: [
+                  {
+                    type: "phone",
+                    label: "+91 9810103697",
+                    value: "+919810103697",
+                  },
+                  {
+                    type: "phone",
+                    label: "+91 99116 86960",
+                    value: "+919911686960",
+                  },
+                  {
+                    type: "phone",
+                    label: "+91 97114 98996",
+                    value: "+9197114 98996",
+                  },
+                  {
+                    type: "email",
+                    value: " ashish.khurana@nvsledwall.com",
+                  },
+                  {
+                    type: "email",
+                    value: "rajiv.arora@nvsledwall.com",
+                  },
+                  
+                ],
+              }
+              
+            ].map((item, i) => {
+              const Icon = item.icon;
 
-    return (
-      <motion.div
-        key={i}
-        variants={cardVariant}
-        whileHover={{ y: -8, scale: 1.03 }}
-        className="group bg-black/90 backdrop-blur-xl text-white p-6 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-[0_10px_40px_rgba(0,0,0,0.3)]"
-      >
-        <Icon className="mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3" />
+              return (
+                <motion.div
+                  key={i}
+                  variants={cardVariant}
+                  whileHover={{ y: -8, scale: 1.03 }}
+                  className="group bg-black/90 backdrop-blur-xl text-white p-6 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-[0_10px_40px_rgba(0,0,0,0.3)]"
+                >
+                  <Icon className="mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3" />
 
-        <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                  <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
 
-        {item.content.map((content, idx) => {
-          if (content.type === "phone") {
-            return (
-              <a
-                key={idx}
-                href={`tel:${content.value}`}
-                className="block text-sm mb-2 text-gray-300 hover:text-[#915946]  transition"
-              >
-                {content.label}
-              </a>
-            );
-          }
+                  {item.content.map((content, idx) => {
+                    if (content.type === "phone") {
+                      return (
+                        <a
+                          key={idx}
+                          href={`tel:${content.value}`}
+                          className="block text-sm mb-2 text-gray-300 hover:text-[#915946]  transition"
+                        >
+                          {content.label}
+                        </a>
+                      );
+                    }
 
-          if (content.type === "email") {
-            return (
-              <a
-                key={idx}
-                href={`mailto:${content.value}`}
-                className="block text-sm mb-2 text-gray-300 hover:text-[#915946] transition"
-              >
-                {content.value}
-              </a>
-            );
-          }
+                    if (content.type === "email") {
+                      return (
+                        <a
+                          key={idx}
+                          href={`mailto:${content.value}`}
+                          className="block text-sm mb-2 text-gray-300 hover:text-[#915946] transition"
+                        >
+                          {content.value}
+                        </a>
+                      );
+                    }
 
-          return (
-            <p
-              key={idx}
-              className="text-sm mb-2 text-gray-300"
-            >
-              {content.value}
-            </p>
-          );
-        })}
-      </motion.div>
-    );
-  })}
-</motion.div>
+                    return (
+                      <p key={idx} className="text-sm mb-2 text-gray-300">
+                        {content.value}
+                      </p>
+                    );
+                  })}
+                </motion.div>
+              );
+            })}
+          </motion.div>
 
           <motion.div
             variants={containerVariant}
