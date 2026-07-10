@@ -1294,10 +1294,10 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
     catId: "transparent-led",
     catName: "Transparent LED",
-    img: "/ProductImages/Picture1.png",
+    img: "/ProductImages/trans1.webp",
      pdf:"/rentalPDF.pdf",
 
-    images: ["/ProductImages/Picture1.png",],
+    images: ["/ProductImages/trans1.webp","/ProductImages/trans2.webp","/ProductImages/trans3.webp"],
 
     overview: [
       "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
@@ -1999,9 +1999,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "transparent-led",
     catName: "Transparent LED",
-    img: "/ProductImages/Picture1.png",
+    img: "/ProductImages/transOut1.webp",
 
-    images: ["/ProductImages/Picture1.png",],
+    images: ["/ProductImages/transOut1.webp","/ProductImages/transOut2.webp"],
 
     overview: [
       "Transparent Outdoor LED Display Fixed Solution is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",

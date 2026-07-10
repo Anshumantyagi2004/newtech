@@ -257,7 +257,7 @@ export default function Navbar() {
                 absolute
                 top-full
                 left-1/2
-                -translate-x-40          mt-5
+                -translate-x-48        mt-5
                 w-[1200px]
                 bg-white
                 text-black
