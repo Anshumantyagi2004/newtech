@@ -63,10 +63,7 @@ export default function ContactUs() {
                 icon: Contact,
                 title: "Contact Us",
                 content: [
-                  {
-                    type: "email",
-                    value: "director@nvsledwall.com",
-                  },
+                  
                   {
                     type: "phone",
                     label: "+91 9810103697",
@@ -81,6 +78,10 @@ export default function ContactUs() {
                     type: "phone",
                     label: "Toll Free: 1800-202-1270",
                     value: "18002021270",
+                  },
+                  {
+                    type: "email",
+                    value: "director@nvsledwall.com",
                   },
                 ],
               },
@@ -146,7 +147,7 @@ export default function ContactUs() {
               },
               {
                 icon: FileText,
-                title: "Institutional and Corporate Solutions",
+                title: "Institutional And Corporate Solutions",
                 content: [
                   {
                     type: "phone",
