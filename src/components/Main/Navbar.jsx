@@ -64,7 +64,7 @@ export default function Navbar() {
     {
       name: "Institutional and Corporate Solutions",
       icon: Landmark,
-      link: "/government-solutions",
+      link: "/institutional-and-corporate-solutions",
     },
     // { name: "Products", icon: ShoppingCart, link: "/products" },
     // { name: "Projects", icon: Proportions, link: "/projects" },
@@ -89,9 +89,10 @@ export default function Navbar() {
           </div>
 
           {/* Right Buttons */}
-          <div className="relative flex group gap-3">
+          <div className="relative flex  gap-3">
             {/* Main Button */}
-            <button className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md">
+            <div className="flex group">
+            <button className="bg-white group text-black px-4 py-2 rounded-lg flex items-center gap-1 hover:bg-gray-200 transition shadow-md">
               Support <MdOutlineSupportAgent size={20} />
             </button>
 
@@ -129,14 +130,19 @@ export default function Navbar() {
         </a> */}
             </div>
 
-            <button
+            </div>
+
+                <button
               onClick={() => setOpen(true)}
               className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200"
             >
               Enquiry Now
             </button>
+            
           </div>
+                
         </div>
+        
       </div>
 
       <div className="h-18 flex items-center justify-between px-2 md:px-8">
@@ -149,7 +155,7 @@ export default function Navbar() {
             GSTIN: 07AAECN8156D3ZE
           </span> */}
         </div>
-        <div className="hidden lg:flex items-center  gap-7">
+        <div className="hidden lg:flex items-center mr-10 gap-7">
           {navLinks.map((item) => {
             const Icon = item.icon;
             const isCategory = item.name === "Categories";
@@ -307,7 +313,7 @@ export default function Navbar() {
           })}
         </div>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden  items-center gap-4">
           <div className="relative group hidden md:flex items-center">
             {/* Button */}
 

@@ -43,7 +43,7 @@ export async function GET() {
         { loc: `${baseUrl}/about-us`, priority: 0.8, changefreq: "yearly" },
         { loc: `${baseUrl}/contact-us`, priority: 0.8, changefreq: "yearly" },
         { loc: `${baseUrl}/applications`, priority: 0.8, changefreq: "yearly" },
-        { loc: `${baseUrl}/government-solutions`, priority: 0.8, changefreq: "yearly" },
+        { loc: `${baseUrl}/institutional-and-corporate-solutions`, priority: 0.8, changefreq: "yearly" },
         { loc: `${baseUrl}/our-articles`, priority: 0.9, changefreq: "weekly" },
         { loc: `${baseUrl}/projects`, priority: 0.9, changefreq: "weekly" },
         { loc: `${baseUrl}/sitemap`, priority: 0.9, changefreq: "weekly" },

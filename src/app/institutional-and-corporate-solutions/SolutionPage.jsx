@@ -26,12 +26,12 @@ export default function SolutionPage() {
                         Home
                     </Link>
                     <span>/</span>
-                    <span className="text-gray-300">Government Solutions</span>
+                    <span className="text-gray-300">Institutional and Corporate Solutions</span>
                 </div>
 
                 {/* Title */}
                 <h1 className="text-2xl md:text-5xl font-bold mb-2">
-                    Government Solutions
+                    Institutional and Corporate Solutions
                 </h1>
             </div>
         </section>
@@ -44,7 +44,7 @@ export default function SolutionPage() {
                 </p> */}
 
                 <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
-                    Government Solutions
+                    Institutional and Corporate Solutions
                 </h2>
 
                 <p className="text-gray-600 mt-4 max-w-3xl mx-auto leading-relaxed">

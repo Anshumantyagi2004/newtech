@@ -12,7 +12,7 @@ export default function LayoutFooter() {
     pathname === "/about-us" ||
     pathname === "/contact-us" ;
 
-    const hideFooter=pathname==="/government-solutions";
+    const hideFooter=pathname==="/institutional-and-corporate-solutions";
 
 
   return (
