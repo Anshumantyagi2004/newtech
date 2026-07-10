@@ -808,8 +808,8 @@ export const products = [
       "Crystal LED Display Screen | Ultra HD LED Video Wall | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers Crystal LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
-    catId: "indoor-advertising-led-displays",
-    catName: "Indoor Advertising LED Displays",
+   catId: "transparent-led",
+    catName: "Transparent LED",
     img: "/ProductImages/crystal-1.webp",
     pdf:"/indoorPDF.pdf",
     ytlink:"https://youtu.be/yNHTZwX6MAA",
@@ -925,8 +925,8 @@ export const products = [
       "Transparent Outdoor LED Display Fixed Solution | Transparent LED Display Screen | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
-    catId: "outdoor-advertising-led-displays",
-    catName: "Outdoor Advertising LED Displays",
+    catId: "transparent-led",
+    catName: "Transparent LED",
     img: "/ProductImages/Picture1.png",
      pdf:"/outdoorPDF.pdf",
 
@@ -1137,68 +1137,68 @@ export const products = [
       }
     },
   },
-  // {
-  //   name: "LED Poster / Standee",
-  //   id: "led-poster-standee",
-  //   applicationIds: ["reception-and-lobby-areas", "rental"],
-  //   metaTitle:
-  //     "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
-  //   metaDescription:
-  //     "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
-  //   catId: "outdoor-advertising-led-displays",
-  //   catName: "Outdoor Advertising LED Displays",
-  //   img: "/ProductImages/Image.jpg",
-  //    pdf:"/standLee.pdf",
-  //    ytlink:"https://youtu.be/CxO-PU01uCY",
+  {
+    name: "LED Poster / Standee",
+    id: "led-poster-standee",
+    applicationIds: ["reception-and-lobby-areas", "rental"],
+    metaTitle:
+      "LED Poster Standee | Digital Advertising LED Display Screen | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
+    catId: "indoor-advertising-led-displays",
+    catName: "Indoor Advertising LED Displays",
+    img: "/ProductImages/Image.jpg",
+     pdf:"/standLee.pdf",
+     ytlink:"https://youtu.be/CxO-PU01uCY",
 
-  //   images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
+    images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
 
-  //   overview: [
-  //     "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
-  //     "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
-  //     "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
-  //     "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
-  //     "A versatile LED display board solution for businesses seeking a flexible, plug-and-play digital signage option",
-  //   ],
+    overview: [
+      "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
+      "Engineered for smooth and seamless playback, it ensures dynamic content presentation with vibrant colors and consistent image quality",
+      "Lightweight and portable structure allows easy placement and mobility across retail stores, exhibitions, events, malls, and corporate environments",
+      "Compact and sleek design integrates effortlessly into modern spaces while enhancing visual appeal without complex installation",
+      "A versatile LED display board solution for businesses seeking a flexible, plug-and-play digital signage option",
+    ],
 
-  //   features: [
-  //     "Portable & Lightweight Design enables easy movement and quick setup, making it ideal for temporary promotions and event-based usage",
-  //     "Plug-and-Play Operation ensures simple installation and operation without requiring technical expertise or additional systems",
-  //     "High brightness and vivid color performance ensure content stands out clearly in well-lit indoor environments",
-  //     "Seamless playback capability supports smooth video and image display for advertising, presentations, and announcements",
-  //     "Flexible content management allows easy updates and control for dynamic and real-time promotional campaigns",
-  //   ],
+    features: [
+      "Portable & Lightweight Design enables easy movement and quick setup, making it ideal for temporary promotions and event-based usage",
+      "Plug-and-Play Operation ensures simple installation and operation without requiring technical expertise or additional systems",
+      "High brightness and vivid color performance ensure content stands out clearly in well-lit indoor environments",
+      "Seamless playback capability supports smooth video and image display for advertising, presentations, and announcements",
+      "Flexible content management allows easy updates and control for dynamic and real-time promotional campaigns",
+    ],
 
-  //   whyUs: [
-  //     "Expertise in delivering innovative and user-friendly advertising LED display solutions tailored for modern indoor applications",
-  //     "High-quality LED display boards designed for consistent performance, durability, and long-term use",
-  //     "Advanced display technology ensures superior brightness, clarity, and smooth playback across all products",
-  //     "Ability to provide customized solutions based on branding and promotional requirements",
-  //     "End-to-end support including consultation, setup assistance, and after-sales service for a seamless experience",
-  //   ],
+    whyUs: [
+      "Expertise in delivering innovative and user-friendly advertising LED display solutions tailored for modern indoor applications",
+      "High-quality LED display boards designed for consistent performance, durability, and long-term use",
+      "Advanced display technology ensures superior brightness, clarity, and smooth playback across all products",
+      "Ability to provide customized solutions based on branding and promotional requirements",
+      "End-to-end support including consultation, setup assistance, and after-sales service for a seamless experience",
+    ],
 
-  //   specs: {
-  //     model: "P2.5",
-  //     screenSize: "640 × 1920 mm",
-  //     application: "Advertising",
-  //     displayType: "LED Video Display",
-  //     pixelPitch: "2.5 mm",
-  //     pixelDensity: "160,000 dots/m²",
-  //     pixelConfiguration: "1R, 1G, 1B",
-  //     scanMode: "1/32 Scan",
-  //     brightness: "≥ 500 nits",
-  //     refreshRate: "≥ 1920 Hz",
-  //     averagePowerConsumption: "300 W/m²",
-  //     ipRating: "IP30",
-  //     maintenance: "Front / Rear",
-  //     weight: "≈ 35 kg",
-  //     chipType: "Full Color",
-  //     brand: "NVS",
-  //     certifications: "CE, ROHS, FCC",
-  //     origin: "India",
-  //     packing: "Two standee in one flight case",
-  //   },
-  // },
+    specs: {
+      model: "P2.5",
+      screenSize: "640 × 1920 mm",
+      application: "Advertising",
+      displayType: "LED Video Display",
+      pixelPitch: "2.5 mm",
+      pixelDensity: "160,000 dots/m²",
+      pixelConfiguration: "1R, 1G, 1B",
+      scanMode: "1/32 Scan",
+      brightness: "≥ 500 nits",
+      refreshRate: "≥ 1920 Hz",
+      averagePowerConsumption: "300 W/m²",
+      ipRating: "IP30",
+      maintenance: "Front / Rear",
+      weight: "≈ 35 kg",
+      chipType: "Full Color",
+      brand: "NVS",
+      certifications: "CE, ROHS, FCC",
+      origin: "India",
+      packing: "Two standee in one flight case",
+    },
+  },
 
   ///Rental Led
   {
@@ -1292,8 +1292,8 @@ export const products = [
       "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
-    catId: "rental-led",
-    catName: "Rental Led",
+    catId: "transparent-led",
+    catName: "Transparent LED",
     img: "/ProductImages/Picture1.png",
      pdf:"/rentalPDF.pdf",
 

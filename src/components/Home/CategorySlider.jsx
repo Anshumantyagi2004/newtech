@@ -51,7 +51,7 @@ export default function CategorySlider() {
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-full h-[180px] object-cover transition duration-500 group-hover:scale-110"
+                className="w-full h-[180px] object-fill transition duration-500 group-hover:scale-110"
               />
 
               {/* Overlay */}
