@@ -43,7 +43,7 @@ export default function page() {
           <img
             src={item.img}
             alt={item.title}
-            className="w-full h-[220px] md:h-[280px] object-cover transition duration-500 group-hover:scale-110"
+            className="w-full h-[220px] md:h-[280px] object-fill transition duration-500 group-hover:scale-110"
           />
 
           {/* Soft Gradient Overlay */}
