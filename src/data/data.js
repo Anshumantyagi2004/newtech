@@ -164,7 +164,6 @@ export const applications = [
     hover: "hover:bg-amber-600",
   },
   {
-
     id: "rental",
     title: "Rental",
     bgImage: "/bg-2.jpg",
@@ -203,7 +202,7 @@ export const categories = [
     metaDescription:
       "Explore outdoor advertising LED display screens from Newtech Video Systems Pvt. Ltd. for high-impact branding. Durable outdoor LED video walls for billboards, events & signage.",
   },
-  
+
   // {
   //   title: "Sports Perimeter Boards",
   //   img: "https://5.imimg.com/data5/SELLER/Default/2023/11/361042832/GO/EP/WH/28343615/p6-outdoor-led-display-video-wall-1000x1000.jpg",
@@ -253,7 +252,7 @@ export const categories = [
       "Rental LED Display Screens | Outdoor & Indoor LED Video Wall Rental | Newtech Video Systems",
     metaDescription:
       "Explore rental LED display screens from Newtech Video Systems Pvt. Ltd. for events, exhibitions & advertising. High-quality indoor & outdoor LED video wall rental solutions.",
-  }
+  },
 ];
 
 export const products = [
@@ -276,7 +275,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/luxe-page-main.jpg",
-     pdf:"/indoorPDF.pdf",
+    pdf: "/indoorPDF.pdf",
 
     images: ["/luxe-page-main.jpg", "/ProductImages/lux-2.png"],
 
@@ -388,7 +387,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/luxe-p.png",
-    pdf:"/indoorPDF.pdf",
+    pdf: "/indoorPDF.pdf",
 
     images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
 
@@ -607,8 +606,8 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/vivid0.png",
-    pdf:"/indoorPDF.pdf",
-    ytlink:"https://youtu.be/wK1uf28Dkeg",
+    pdf: "/indoorPDF.pdf",
+    ytlink: "https://youtu.be/wK1uf28Dkeg",
 
     images: ["/ProductImages/vivid0.png"],
 
@@ -702,7 +701,7 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/aura-d.webp",
-    pdf:"/indoorPDF.pdf",
+    pdf: "/indoorPDF.pdf",
 
     images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
 
@@ -808,12 +807,16 @@ export const products = [
       "Crystal Outdoor LED Display Screen | Ultra HD LED Video Wall | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers Crystal Outdoor LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
-   catId: "transparent-led",
+    catId: "transparent-led",
     catName: "Transparent LED",
     img: "/ProductImages/crystal-1.webp",
-    pdf:"/indoorPDF.pdf",
-    ytlink:"https://youtu.be/yNHTZwX6MAA",
-    images: ["/ProductImages/crystal-1.webp","/ProductImages/crystal-2.webp","/ProductImages/crystal-3.webp"],
+    pdf: "/indoorPDF.pdf",
+    ytlink: "https://youtu.be/yNHTZwX6MAA",
+    images: [
+      "/ProductImages/crystal-1.webp",
+      "/ProductImages/crystal-2.webp",
+      "/ProductImages/crystal-3.webp",
+    ],
 
     overview: [
       "Crystal Outdoor LED Display is an advanced advertising LED display screen featuring up to 80% transparency, allowing natural light and visibility while delivering vibrant and high-quality visual content",
@@ -878,7 +881,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Brite-new.webp",
-    pdf:"/outdoorPDF.pdf",  
+    pdf: "/outdoorPDF.pdf",
 
     images: ["/ProductImages/Brite-new.webp"],
 
@@ -978,15 +981,14 @@ export const products = [
   {
     name: "Optima Outdoor led display",
     id: "optima-outdoor-led-display",
-    metaTitle:
-      "Optima Outdoor led display | Newtech Video Systems",
+    metaTitle: "Optima Outdoor led display | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers Optima Outdoor led displays for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/ProductImages/Optima-1.webp",
-     pdf:"/outdoorPDF.pdf",
-     ytlink:"https://youtu.be/z7A9QSVHk0Q",
+    pdf: "/outdoorPDF.pdf",
+    ytlink: "https://youtu.be/z7A9QSVHk0Q",
 
     images: ["/ProductImages/Optima-1.webp"],
 
@@ -1015,14 +1017,14 @@ export const products = [
     ],
 
     specs: {
-      "pixelPitch": "2.5, 3.076, 4, 5, 5.926, 8, 10 mm",
-      "cabinetSize": "960 X 960",
-      "cabinetBuild": "DieCast-Aluminium",
-      "cabinetBuild": "DieCast-Aluminium",
-      "brightness": "5,000 nit to 5,500 nit",
-      "contrast": "3,000:1",
-      "power": "200 to 488 W/m²",
-      "refreshRate": "3,840 Hz",
+      pixelPitch: "2.5, 3.076, 4, 5, 5.926, 8, 10 mm",
+      cabinetSize: "960 X 960",
+      cabinetBuild: "DieCast-Aluminium",
+      cabinetBuild: "DieCast-Aluminium",
+      brightness: "5,000 nit to 5,500 nit",
+      contrast: "3,000:1",
+      power: "200 to 488 W/m²",
+      refreshRate: "3,840 Hz",
     },
   },
   {
@@ -1035,7 +1037,7 @@ export const products = [
     catId: "outdoor-advertising-led-displays",
     catName: "Outdoor Advertising LED Displays",
     img: "/product/nvs.webp",
-     pdf:"/outdoorPDF.pdf",
+    pdf: "/outdoorPDF.pdf",
 
     images: ["/product/nvs.webp"],
 
@@ -1064,7 +1066,7 @@ export const products = [
     ],
 
     specs: {
-      "Common": {
+      Common: {
         pixelPitch: "3.076, 4, 5, 6mm",
         power: "200 to 488 W/m²",
         brightness: "5000 nits",
@@ -1076,65 +1078,65 @@ export const products = [
         refreshRate: "≥ 3840 Hz",
       },
 
-      "P3": {
-        "pixelPitch": "3.076mm",
-        "pixelDensity": "1,11,099 Pixels/m2",
-        "ledType": "SMD1415",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "104*52",
-        "panelSize": "312*312mm",
-        "panelResolution": "312*312",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/13",
-        "brightness": "5000 nits",
+      P3: {
+        pixelPitch: "3.076mm",
+        pixelDensity: "1,11,099 Pixels/m2",
+        ledType: "SMD1415",
+        moduleSize: "320*160mm",
+        moduleResolution: "104*52",
+        panelSize: "312*312mm",
+        panelResolution: "312*312",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/13",
+        brightness: "5000 nits",
       },
 
-      "P4": {
-        "pixelPitch": "4mm",
-        "pixelDensity": "62,500 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "80*40",
-        "panelSize": "960*960mm",
-        "panelResolution": "240*240",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/10",
-        "brightness": "5500-6000 nits",
+      P4: {
+        pixelPitch: "4mm",
+        pixelDensity: "62,500 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "320*160mm",
+        moduleResolution: "80*40",
+        panelSize: "960*960mm",
+        panelResolution: "240*240",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/10",
+        brightness: "5500-6000 nits",
       },
 
-      "P5": {
-        "pixelPitch": "5mm",
-        "pixelDensity": "40,000 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "64*32",
-        "panelSize": "960*960mm",
-        "panelResolution": "192*192",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "SMI6269S",
-        "scanRate": "1/8",
-        "brightness": "5500-6000 nits",
+      P5: {
+        pixelPitch: "5mm",
+        pixelDensity: "40,000 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "320*160mm",
+        moduleResolution: "64*32",
+        panelSize: "960*960mm",
+        panelResolution: "192*192",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "SMI6269S",
+        scanRate: "1/8",
+        brightness: "5500-6000 nits",
       },
 
-      "P6": {
-        "pixelPitch": "6mm",
-        "pixelDensity": "27,777 Pixels/m2",
-        "ledType": "SMD2727",
-        "moduleSize": "192*192mm",
-        "moduleResolution": "32*32",
-        "panelSize": "960*960mm",
-        "panelResolution": "160*160",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/8",
-        "brightness": "6000-6500 nits",
-      }
+      P6: {
+        pixelPitch: "6mm",
+        pixelDensity: "27,777 Pixels/m2",
+        ledType: "SMD2727",
+        moduleSize: "192*192mm",
+        moduleResolution: "32*32",
+        panelSize: "960*960mm",
+        panelResolution: "160*160",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/8",
+        brightness: "6000-6500 nits",
+      },
     },
   },
   {
@@ -1148,8 +1150,8 @@ export const products = [
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
     img: "/ProductImages/Image.jpg",
-     pdf:"/standLee.pdf",
-     ytlink:"https://youtu.be/CxO-PU01uCY",
+    pdf: "/standLee.pdf",
+    ytlink: "https://youtu.be/CxO-PU01uCY",
 
     images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
 
@@ -1204,14 +1206,16 @@ export const products = [
   {
     name: "Prime Plus Series",
     id: "prime-plus-series",
-    metaTitle: "Prime Plus Series | High-Brightness Rental LED Display | Newtech Video Systems",
-    metaDescription: "Newtech Video Systems Pvt. Ltd. offers Prime Plus Series LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
+    metaTitle:
+      "Prime Plus Series | High-Brightness Rental LED Display | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers Prime Plus Series LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
     catId: "rental-led",
     catName: "Rental Led",
     img: "/primeplus1.webp",
-    images: ["/primeplus1.webp","/primeplus2.jpeg"],
-     pdf:"/rentalPDF.pdf",
-     ytlink:"https://youtu.be/OFPfRmFCXuw",
+    images: ["/primeplus1.webp", "/primeplus2.jpeg"],
+    pdf: "/rentalPDF.pdf",
+    ytlink: "https://youtu.be/OFPfRmFCXuw",
 
     overview: [
       "Prime Plus Series LED Display Screen is a high-performance outdoor LED display screen designed to deliver ultra-bright visuals, sharp image clarity, and reliable outdoor performance for modern advertising applications",
@@ -1240,50 +1244,49 @@ export const products = [
 
     specs: {
       "P3.5 Indoor": {
-        "pixelPitch": "3.5mm",
-        "pixelDensity": "81625 Pixels/m2",
-        "ledType": "SMD2020",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "82*82",
-        "panelSize": "576*576mm",
-        "panelResolution": "164*164",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "8.8kg",
-        "scanRate": "1/21",
-        "brightness": ">1000 nits",
+        pixelPitch: "3.5mm",
+        pixelDensity: "81625 Pixels/m2",
+        ledType: "SMD2020",
+        moduleSize: "288*288mm",
+        moduleResolution: "82*82",
+        panelSize: "576*576mm",
+        panelResolution: "164*164",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8.8kg",
+        scanRate: "1/21",
+        brightness: ">1000 nits",
       },
 
       "P3.8 Outdoor": {
-        "pixelPitch": "3.84mm",
-        "pixelDensity": "67800 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "75*75",
-        "panelSize": "576*576mm",
-        "panelResolution": "150*150",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "9.2kg",
-        "scanRate": "1/15",
-        "brightness": ">5000 White / >4000 Black nits",
-        "frameRate": ">60Hz",
-        "voltage": "220-110 +/- 10%",
+        pixelPitch: "3.84mm",
+        pixelDensity: "67800 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "75*75",
+        panelSize: "576*576mm",
+        panelResolution: "150*150",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "9.2kg",
+        scanRate: "1/15",
+        brightness: ">5000 White / >4000 Black nits",
+        frameRate: ">60Hz",
+        voltage: "220-110 +/- 10%",
       },
 
       "P4.8 Outdoor": {
-        "pixelPitch": "4.8mm",
-        "pixelDensity": "43264 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "60*60",
-        "panelSize": "576*576mm",
-        "panelResolution": "120*120",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "9.2kg",
-        "scanRate": "1/12",
-        "brightness": ">5500 nits",
+        pixelPitch: "4.8mm",
+        pixelDensity: "43264 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "60*60",
+        panelSize: "576*576mm",
+        panelResolution: "120*120",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "9.2kg",
+        scanRate: "1/12",
+        brightness: ">5500 nits",
       },
     },
-
   },
   {
     name: "Transparent Display LED Rental ",
@@ -1295,9 +1298,13 @@ export const products = [
     catId: "transparent-led",
     catName: "Transparent LED",
     img: "/ProductImages/trans1.webp",
-     pdf:"/rentalPDF.pdf",
+    pdf: "/rentalPDF.pdf",
 
-    images: ["/ProductImages/trans1.webp","/ProductImages/trans2.webp","/ProductImages/trans3.webp"],
+    images: [
+      "/ProductImages/trans1.webp",
+      "/ProductImages/trans2.webp",
+      "/ProductImages/trans3.webp",
+    ],
 
     overview: [
       "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
@@ -1324,34 +1331,41 @@ export const products = [
     ],
 
     specs: {
-      "pixelPitch": "3.9-7.8mm",
-      "ledType": "3-in-1 SMD",
-      "brightness": "4,000 nits",
-      "pixelsPerPanel": "256*64",
-      "pixelDensity": "32,768 dot/m2",
-      "panelWeightPerPc": "6.5kg",
-      "moduleSize": "1000x500x80mm",
-      "material": "Die Cast Aluminum",
-      "environment": "Outdoor",
-      "ipRating": "IP65",
-      "refreshRate": "3840Hz",
-      "transparency": "44%",
-      "curve": "(Convex) -15°~+15° (Concave)",
-      "cube": "90 Degree",
+      pixelPitch: "3.9-7.8mm",
+      ledType: "3-in-1 SMD",
+      brightness: "4,000 nits",
+      pixelsPerPanel: "256*64",
+      pixelDensity: "32,768 dot/m2",
+      panelWeightPerPc: "6.5kg",
+      moduleSize: "1000x500x80mm",
+      material: "Die Cast Aluminum",
+      environment: "Outdoor",
+      ipRating: "IP65",
+      refreshRate: "3840Hz",
+      transparency: "44%",
+      curve: "(Convex) -15°~+15° (Concave)",
+      cube: "90 Degree",
     },
   },
   {
     name: "3D Anamorphic Series",
     id: "3d-anamorphic-series",
-    metaTitle: "3D Anamorphic Series | 3D Anamorphic Rental LED Display | Newtech Video Systems",
-    metaDescription: "Newtech Video Systems Pvt. Ltd. offers 3D Anamorphic Series LED Video Wall Displays for immersive DOOH advertising, commercial buildings, malls & public spaces with ultra-bright and realistic 3D visuals.",
+    metaTitle:
+      "3D Anamorphic Series | 3D Anamorphic Rental LED Display | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers 3D Anamorphic Series LED Video Wall Displays for immersive DOOH advertising, commercial buildings, malls & public spaces with ultra-bright and realistic 3D visuals.",
     catId: "rental-led",
     catName: "Rental Led",
     img: "/product/3d-ana1.webp",
-     pdf:"/rentalPDF.pdf",
-     ytlink:"https://www.youtube.com/shorts/WdRhKnxxcxI",
+    pdf: "/rentalPDF.pdf",
+    ytlink: "https://www.youtube.com/shorts/WdRhKnxxcxI",
 
-    images: ["/product/3d-ana1.webp","/product/3d-ana2.webp","/product/3d-ana3.webp","/product/3d-ana4.webp"],
+    images: [
+      "/product/3d-ana1.webp",
+      "/product/3d-ana2.webp",
+      "/product/3d-ana3.webp",
+      "/product/3d-ana4.webp",
+    ],
 
     overview: [
       "Rental Led Video Wall – 3D Anamorphic Cabinet is a next-generation outdoor LED display screen designed to create immersive 3D visual experiences with stunning depth, realism, and high-impact advertising performance. This premium advertising LED display screen transforms outdoor spaces into engaging digital landmarks that capture audience attention instantly.",
@@ -1379,44 +1393,46 @@ export const products = [
 
     specs: {
       "P3.8": {
-        "pixelPitch": "3.84mm",
-        "pixelDensity": "67800 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "75*75",
-        "panelSize": "288*576mm",
-        "panelResolution": "75*150",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "5.5kg",
-        "scanRate": "1/15",
+        pixelPitch: "3.84mm",
+        pixelDensity: "67800 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "75*75",
+        panelSize: "288*576mm",
+        panelResolution: "75*150",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "5.5kg",
+        scanRate: "1/15",
       },
 
       "P4.8": {
-        "pixelPitch": "4.8mm",
-        "pixelDensity": "43264 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "60*60",
-        "panelSize": "288*576mm",
-        "panelResolution": "60*120",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "5.5kg",
-        "scanRate": "1/12",
-        "brightness": ">5500 nits",
+        pixelPitch: "4.8mm",
+        pixelDensity: "43264 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "60*60",
+        panelSize: "288*576mm",
+        panelResolution: "60*120",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "5.5kg",
+        scanRate: "1/12",
+        brightness: ">5500 nits",
       },
     },
   },
   {
     name: "X Series",
     id: "x-series",
-    metaTitle: "X Series LED Display Screen  | Rental LED Display Screen | NewTech Video Systems",
-    metaDescription: "NewTech Video Systems Pvt. Ltd. offers X Series LED Display Screen (X-Series) with sharp visuals, seamless LED video wall display performance, and advanced indoor advertising solutions for retail, corporate, and commercial spaces.",
+    metaTitle:
+      "X Series LED Display Screen  | Rental LED Display Screen | NewTech Video Systems",
+    metaDescription:
+      "NewTech Video Systems Pvt. Ltd. offers X Series LED Display Screen (X-Series) with sharp visuals, seamless LED video wall display performance, and advanced indoor advertising solutions for retail, corporate, and commercial spaces.",
     catId: "rental-led",
     catName: "Rental Led",
     img: "/product/X SERIES.webp",
-     pdf:"/rentalPDF.pdf",
+    pdf: "/rentalPDF.pdf",
     images: ["/product/X SERIES.webp"],
-    ytlink:"https://youtu.be/qb58BQazRJs",
+    ytlink: "https://youtu.be/qb58BQazRJs",
 
     overview: [
       "Rental LED Display Screen (X-Series) is a high-performance advertising LED display screen designed to deliver bright, sharp, and visually engaging content for modern indoor environments. This advanced indoor LED display screen provides smooth image rendering, vibrant color accuracy, and reliable long-term performance for professional applications.",
@@ -1499,10 +1515,10 @@ export const products = [
     catId: "rental-led",
     catName: "Rental Led",
     img: "/elite1.webp",
-     pdf:"/rentalPDF.pdf",
-     ytlink:"https://youtu.be/SYkvkWgEyxI",
+    pdf: "/rentalPDF.pdf",
+    ytlink: "https://youtu.be/SYkvkWgEyxI",
 
-    images: ["/elite1.webp", "/elite2.webp","/elite3.webp"],
+    images: ["/elite1.webp", "/elite2.webp", "/elite3.webp"],
 
     overview: [
       "Elite Series is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
@@ -1530,48 +1546,48 @@ export const products = [
 
     specs: {
       "P3.6 Indoor": {
-        "pixelPitch": "3.6mm",
-        "pixelDensity": "77156 Pixels/m2",
-        "ledType": "SMD2020",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "80*80",
-        "panelSize": "576*576mm",
-        "panelResolution": "160*160",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "8kg",
-        "scanRate": "1/20",
-        "brightness": ">1000 nits",
-        "ipRating": "IP30",
+        pixelPitch: "3.6mm",
+        pixelDensity: "77156 Pixels/m2",
+        ledType: "SMD2020",
+        moduleSize: "288*288mm",
+        moduleResolution: "80*80",
+        panelSize: "576*576mm",
+        panelResolution: "160*160",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8kg",
+        scanRate: "1/20",
+        brightness: ">1000 nits",
+        ipRating: "IP30",
       },
 
       "P3.8 Outdoor": {
-        "pixelPitch": "3.84mm",
-        "pixelDensity": "67600 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "75*75",
-        "panelSize": "576*576mm",
-        "panelResolution": "150*150",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "8.5kg",
-        "scanRate": "1/15",
-        "brightness": ">4500 nits",
-        "ipRating": "IP65",
+        pixelPitch: "3.84mm",
+        pixelDensity: "67600 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "75*75",
+        panelSize: "576*576mm",
+        panelResolution: "150*150",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8.5kg",
+        scanRate: "1/15",
+        brightness: ">4500 nits",
+        ipRating: "IP65",
       },
 
       "P4.8 Outdoor": {
-        "pixelPitch": "4.8mm",
-        "pixelDensity": "43264 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "288*288mm",
-        "moduleResolution": "60*60",
-        "panelSize": "576*576mm",
-        "panelResolution": "120*120",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "8.5kg",
-        "scanRate": "1/10",
-        "brightness": ">5500 nits",
-        "ipRating": "IP65",
+        pixelPitch: "4.8mm",
+        pixelDensity: "43264 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "288*288mm",
+        moduleResolution: "60*60",
+        panelSize: "576*576mm",
+        panelResolution: "120*120",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "8.5kg",
+        scanRate: "1/10",
+        brightness: ">5500 nits",
+        ipRating: "IP65",
       },
     },
   },
@@ -1587,7 +1603,7 @@ export const products = [
     catId: "sports-perimeter-boards",
     catName: "Sports Perimeter Boards",
     img: "/product/nvs.webp",
-    ytlink:"https://youtu.be/y8bvg5VlYIw",
+    ytlink: "https://youtu.be/y8bvg5VlYIw",
 
     images: ["/product/nvs.webp"],
 
@@ -1616,7 +1632,7 @@ export const products = [
     ],
 
     specs: {
-      "Common": {
+      Common: {
         pixelPitch: "3.076, 4, 5, 6mm",
         power: "200 to 488 W/m²",
         brightness: "5000 nits",
@@ -1628,65 +1644,65 @@ export const products = [
         refreshRate: "≥ 3840 Hz",
       },
 
-      "P3": {
-        "pixelPitch": "3.076mm",
-        "pixelDensity": "1,11,099 Pixels/m2",
-        "ledType": "SMD1415",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "104*52",
-        "panelSize": "312*312mm",
-        "panelResolution": "312*312",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/13",
-        "brightness": "5000 nits",
+      P3: {
+        pixelPitch: "3.076mm",
+        pixelDensity: "1,11,099 Pixels/m2",
+        ledType: "SMD1415",
+        moduleSize: "320*160mm",
+        moduleResolution: "104*52",
+        panelSize: "312*312mm",
+        panelResolution: "312*312",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/13",
+        brightness: "5000 nits",
       },
 
-      "P4": {
-        "pixelPitch": "4mm",
-        "pixelDensity": "62,500 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "80*40",
-        "panelSize": "960*960mm",
-        "panelResolution": "240*240",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/10",
-        "brightness": "5500-6000 nits",
+      P4: {
+        pixelPitch: "4mm",
+        pixelDensity: "62,500 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "320*160mm",
+        moduleResolution: "80*40",
+        panelSize: "960*960mm",
+        panelResolution: "240*240",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/10",
+        brightness: "5500-6000 nits",
       },
 
-      "P5": {
-        "pixelPitch": "5mm",
-        "pixelDensity": "40,000 Pixels/m2",
-        "ledType": "SMD1921",
-        "moduleSize": "320*160mm",
-        "moduleResolution": "64*32",
-        "panelSize": "960*960mm",
-        "panelResolution": "192*192",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "SMI6269S",
-        "scanRate": "1/8",
-        "brightness": "5500-6000 nits",
+      P5: {
+        pixelPitch: "5mm",
+        pixelDensity: "40,000 Pixels/m2",
+        ledType: "SMD1921",
+        moduleSize: "320*160mm",
+        moduleResolution: "64*32",
+        panelSize: "960*960mm",
+        panelResolution: "192*192",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "SMI6269S",
+        scanRate: "1/8",
+        brightness: "5500-6000 nits",
       },
 
-      "P6": {
-        "pixelPitch": "6mm",
-        "pixelDensity": "27,777 Pixels/m2",
-        "ledType": "SMD2727",
-        "moduleSize": "192*192mm",
-        "moduleResolution": "32*32",
-        "panelSize": "960*960mm",
-        "panelResolution": "160*160",
-        "panelMaterial": "Die-casting Aluminum",
-        "weightPerPc": "22.5kg",
-        "drivingIc": "CFD3225",
-        "scanRate": "1/8",
-        "brightness": "6000-6500 nits",
-      }
+      P6: {
+        pixelPitch: "6mm",
+        pixelDensity: "27,777 Pixels/m2",
+        ledType: "SMD2727",
+        moduleSize: "192*192mm",
+        moduleResolution: "32*32",
+        panelSize: "960*960mm",
+        panelResolution: "160*160",
+        panelMaterial: "Die-casting Aluminum",
+        weightPerPc: "22.5kg",
+        drivingIc: "CFD3225",
+        scanRate: "1/8",
+        brightness: "6000-6500 nits",
+      },
     },
   },
   // {
@@ -2001,7 +2017,7 @@ export const products = [
     catName: "Transparent LED",
     img: "/ProductImages/transOut1.webp",
 
-    images: ["/ProductImages/transOut1.webp","/ProductImages/transOut2.webp"],
+    images: ["/ProductImages/transOut1.webp", "/ProductImages/transOut2.webp"],
 
     overview: [
       "Crystal Indoor LED Display Display Screen is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
@@ -2028,22 +2044,16 @@ export const products = [
     ],
 
     specs: {
-      "pixelPitch": "2.6-6.9 mm",
-      "ledType": "3-in-1 SMD",
-      "brightness": "4,500 nits",
-      "pixelsPerPanel": "384*72",
-      "pixelDensity": "55,296 dot/m2",
-      "panelWeightPerPc": "8kg",
-      "moduleSize": "1000x500x80mm",
-      "material": "Die Cast Aluminum",
-      "environment": "Outdoor",
-      "ipRating": "IP65",
-      "refreshRate": "3840Hz",
-      "transparency": "51%",
-      "installationMethod": "Lifting/Fixing",
-      "grayScale": "14 bits",
-      "ledLifetime": "1,00,000 Hours",
-
+      pixelPitch: "3.9-7.8 mm",
+      cabinetSize: "1000x500 mm",
+      weight: "8 kg/m2",
+      brightness: "1200 nits",
+      ipRating: "IP65",
+      refreshRate: "3840Hz",
+      transparency: ">56%",
+      inputPower: "100~240",
+      grayScale: "14 bits",
+      maintenance: "Rear",
     },
   },
   // {
@@ -3091,14 +3101,14 @@ export const products = [
     ],
 
     specs: {
-      "pixelLoadingCapacity": "650,000; Max W: 2048; Max H: 2048",
-      "switchableWifi": "Switchable AP & STA Mode",
-      "control": "Phone/Cloud/Pc",
-      "sensorConnectivity": "Available",
-      "storage": "32 GB",
+      pixelLoadingCapacity: "650,000; Max W: 2048; Max H: 2048",
+      switchableWifi: "Switchable AP & STA Mode",
+      control: "Phone/Cloud/Pc",
+      sensorConnectivity: "Available",
+      storage: "32 GB",
       "4gModule": "Available",
-      "hdmiInAndLoop": "N/A",
-      "usbPlayback": "Available"
+      hdmiInAndLoop: "N/A",
+      usbPlayback: "Available",
     },
   },
   {
@@ -4731,7 +4741,6 @@ export const serviceLocations = [
   { href: "/advertising-led-display-in-haryana", label: "Haryana", id: 110 },
 ];
 
-
 export const solutions = [
   {
     title: "Smart City Displays",
@@ -4749,31 +4758,31 @@ export const solutions = [
     title: "Stadium Screens",
     description:
       "High-brightness LED screens for stadiums, sports arenas, and large public event broadcasting.",
-     image: "/Government/led7.jpeg",
+    image: "/Government/led7.jpeg",
   },
   {
     title: "Traffic Management",
     description:
       "Intelligent LED systems for traffic monitoring, variable message displays, and road safety communication.",
-   image: "/Government/led2.webp",
+    image: "/Government/led2.webp",
   },
   {
     title: "Command Centers",
     description:
       "Reliable video wall solutions for command centers requiring real-time monitoring and data visualization.",
-   image: "/Government/led2.webp",
+    image: "/Government/led2.webp",
   },
   {
     title: "Auditoriums",
     description:
       "Professional LED display systems for conferences, presentations, and government event venues.",
-  image: "/Government/led6.webp",
+    image: "/Government/led6.webp",
   },
   {
     title: "Universities",
     description:
       "Interactive LED display solutions for smart classrooms, seminar halls, and campus communication.",
-   image: "/Government/led1.webp",
+    image: "/Government/led1.webp",
   },
   {
     title: "Defence Applications",
