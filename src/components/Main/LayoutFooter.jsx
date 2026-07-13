@@ -10,7 +10,7 @@ export default function LayoutFooter() {
   const showAddressFooter =
     pathname === "/" ||
     pathname === "/about-us" ||
-    pathname === "/contact-us" ;
+    pathname === "/our-articles" ;
 
     const hideFooter=pathname==="/institutional-and-corporate-solutions";
 

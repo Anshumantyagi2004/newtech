@@ -802,12 +802,12 @@ export const products = [
     },
   },
   {
-    name: "Crystal LED Display Screen",
-    id: "crystal-led-display-screen",
+    name: "Crystal Outdoor LED Display Screen",
+    id: "crystal-outdoor-led-display-screen",
     metaTitle:
-      "Crystal LED Display Screen | Ultra HD LED Video Wall | Newtech Video Systems",
+      "Crystal Outdoor LED Display Screen | Ultra HD LED Video Wall | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers Crystal LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
+      "Newtech Video Systems Pvt. Ltd. offers Crystal Outdoor LED display screens with ultra-clear resolution. Ideal for premium advertising, retail branding, events & indoor/outdoor video wall applications.",
    catId: "transparent-led",
     catName: "Transparent LED",
     img: "/ProductImages/crystal-1.webp",
@@ -816,7 +816,7 @@ export const products = [
     images: ["/ProductImages/crystal-1.webp","/ProductImages/crystal-2.webp","/ProductImages/crystal-3.webp"],
 
     overview: [
-      "Crystal LED Display is an advanced advertising LED display screen featuring up to 80% transparency, allowing natural light and visibility while delivering vibrant and high-quality visual content",
+      "Crystal Outdoor LED Display is an advanced advertising LED display screen featuring up to 80% transparency, allowing natural light and visibility while delivering vibrant and high-quality visual content",
       "Designed for both indoor and outdoor applications, it combines aesthetic integration with high-performance LED video wall display capabilities",
       "Ideal for glass facades, showrooms, retail stores, malls, and modern architectural spaces where visibility and design are equally important",
       "Enables businesses to showcase dynamic content without blocking the background, creating a unique and futuristic visual experience",
@@ -833,7 +833,7 @@ export const products = [
 
     whyUs: [
       "Expertise in delivering innovative advertising LED display solutions including transparent and architectural display technologies",
-      "Advanced engineering in LED video wall displays to ensure seamless integration with modern building designs",
+      "Advanced engineering in Outdoor LED video wall displays to ensure seamless integration with modern building designs",
       "Proven capability in executing creative and customized LED wall display systems for unique commercial and architectural projects",
       "Strong focus on durability, performance, and long-term reliability across all LED display solutions",
       "Complete end-to-end support including design consultation, installation, and maintenance for complex and high-value projects",
@@ -1208,8 +1208,8 @@ export const products = [
     metaDescription: "Newtech Video Systems Pvt. Ltd. offers Prime Plus Series LED Display Screens for billboards, highways, malls & stadiums. Durable and weatherproof advertising LED display solutions with ultra-bright visuals and seamless outdoor performance.",
     catId: "rental-led",
     catName: "Rental Led",
-    img: "/product/prime1.webp",
-    images: ["/product/prime1.webp","/product/prime2.webp","/product/prime3.webp"],
+    img: "/primeplus1.webp",
+    images: ["/primeplus1.webp","/primeplus2.jpeg"],
      pdf:"/rentalPDF.pdf",
      ytlink:"https://youtu.be/OFPfRmFCXuw",
 
@@ -1498,11 +1498,11 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers Elite Series for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
     catId: "rental-led",
     catName: "Rental Led",
-    img: "/product/elite-1.webp",
+    img: "/elite1.webp",
      pdf:"/rentalPDF.pdf",
      ytlink:"https://youtu.be/SYkvkWgEyxI",
 
-    images: ["/product/elite-1.webp", "/product/elite-2.webp","/product/elite-3.webp","/product/elite-4.webp"],
+    images: ["/elite1.webp", "/elite2.webp","/elite3.webp"],
 
     overview: [
       "Elite Series is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
@@ -1991,12 +1991,12 @@ export const products = [
 
   // Transparent LED
   {
-    name: "Transparent Outdoor LED Display Fixed Solution",
-    id: "transparent-outdoor-led-display-fixed-solution",
+    name: "Crystal Indoor LED Display Display Screen",
+    id: "crystal-indoor-led-display-display-screen",
     metaTitle:
-      "Transparent Outdoor LED Display Fixed Solution | Transparent LED Display Screen | Newtech Video Systems",
+      "Crystal Indoor LED Display Display Screen | Transparent LED Display Screen | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers Transparent Outdoor LED Display Fixed Solutions for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
+      "Newtech Video Systems Pvt. Ltd. offers Crystal Indoor LED Display Display Screen for glass facades, malls, airports & commercial buildings with high transparency, vibrant visuals, and reliable outdoor performance.",
     catId: "transparent-led",
     catName: "Transparent LED",
     img: "/ProductImages/transOut1.webp",
@@ -2004,26 +2004,26 @@ export const products = [
     images: ["/ProductImages/transOut1.webp","/ProductImages/transOut2.webp"],
 
     overview: [
-      "Transparent Outdoor LED Display Fixed Solution is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
-      "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this outdoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
+      "Crystal Indoor LED Display Display Screen is a premium transparent LED display screen designed to deliver high-impact outdoor visuals while maintaining visibility, natural light flow, and modern architectural aesthetics. This advanced advertising LED display screen combines transparency with powerful digital communication for innovative outdoor branding applications.",
+      "Designed for commercial buildings, glass facades, shopping malls, airports, showrooms, retail stores, corporate spaces, and public infrastructure projects, this Indoor LED display screen transforms ordinary glass surfaces into dynamic digital advertising platforms.",
       "Engineered with advanced transparent LED technology, this LED display screen for advertising delivers vibrant visuals, smooth playback, and excellent brightness while preserving up to high transparency levels for an elegant and futuristic appearance.",
       "Featuring a lightweight modular cabinet structure and fixed installation system, this LED video wall display supports seamless integration into architectural environments without affecting building aesthetics.",
-      "Built for continuous outdoor operation, the Transparent Outdoor LED Display Fixed Solution combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
+      "Built for continuous outdoor operation, the Transparent Indoor LED Display Fixed Solution combines weatherproof durability, energy-efficient performance, and reliable long-term stability for permanent outdoor digital signage applications.",
     ],
 
     features: [
       "High Transparency LED Technology allows natural light and visibility through the screen while displaying vivid advertising and branding content.",
-      "High Brightness Outdoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and outdoor lighting conditions.",
-      "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable outdoor operation.",
+      "High Brightness Indoor Performance ensures the advertising LED display screen remains clearly visible even under direct sunlight and Indoor lighting conditions.",
+      "Weatherproof & Durable Cabinet Structure protects the LED video wall display from rain, dust, humidity, and harsh environmental conditions for reliable Indoor operation.",
       "Seamless Fixed Installation Design enables smooth LED wall display integration with glass facades, building structures, and architectural spaces.",
       "Lightweight & Energy-Efficient Operation reduces structural load and power consumption while maintaining stable long-term outdoor performance.",
     ],
 
     whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced transparent LED display screen solutions for modern outdoor advertising and architectural digital signage applications.",
+      "NewTech Video Systems Pvt. Ltd. specializes in delivering advanced Crystal Indoor LED Display Display Screen for modern Indoor advertising and architectural digital signage applications.",
       "Our premium advertising LED display screen systems are engineered for superior transparency, brightness, durability, and long-term outdoor reliability.",
       "We provide customized LED video wall display solutions tailored to architectural requirements, installation environments, and branding objectives.",
-      "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative outdoor advertising experiences using cutting-edge LED technology.",
+      "With extensive expertise in professional LED display board installations, we help businesses create visually striking and innovative Indoor advertising experiences using cutting-edge LED technology.",
       "From consultation and design to installation, calibration, and maintenance, NewTech offers complete support for every LED wall display project to ensure seamless integration and reliable performance.",
     ],
 

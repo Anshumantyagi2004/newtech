@@ -60,7 +60,7 @@ export default function AboutUs() {
 
         <div className="w-full h-[250px] md:h-[400px] relative">
           <Image
-            src="/edu.jpg"
+            src="/about.webp"
             alt="About Newtech"
             fill
             className="object-cover rounded-xl shadow-lg"
