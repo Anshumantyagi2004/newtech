@@ -1288,65 +1288,65 @@ export const products = [
       },
     },
   },
-  {
-    name: "Transparent Display LED Rental ",
-    id: "transparent-display-led-rental",
-    metaTitle:
-      "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
-    catId: "transparent-led",
-    catName: "Transparent LED",
-    img: "/ProductImages/trans1.webp",
-    pdf: "/rentalPDF.pdf",
+  // {
+  //   name: "Transparent Display LED Rental ",
+  //   id: "transparent-display-led-rental",
+  //   metaTitle:
+  //     "Transparent Display LED Rental Solution | Transparent LED Display Screen | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers Transparent Display LED Rental Solutions for concerts, exhibitions, stage productions & corporate events with lightweight transparent LED screens and seamless visual performance.",
+  //   catId: "transparent-led",
+  //   catName: "Transparent LED",
+  //   img: "/ProductImages/trans1.webp",
+  //   pdf: "/rentalPDF.pdf",
 
-    images: [
-      "/ProductImages/trans1.webp",
-      "/ProductImages/trans2.webp",
-      "/ProductImages/trans3.webp",
-    ],
+  //   images: [
+  //     "/ProductImages/trans1.webp",
+  //     "/ProductImages/trans2.webp",
+  //     "/ProductImages/trans3.webp",
+  //   ],
 
-    overview: [
-      "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
-      "Designed for concerts, exhibitions, stage productions, product launches, fashion shows, corporate events, shopping malls, and live entertainment environments, this LED display screen for advertising offers a perfect combination of visual impact and elegant design flexibility.",
-      "Engineered for temporary and rental installations, the Transparent Display LED Rental Solution features lightweight cabinets, quick-lock systems, and seamless panel integration for fast setup and dismantling during events and productions.",
-      "With high brightness performance, smooth playback, and transparent visual technology, this LED video wall display delivers dynamic content presentation while maintaining an open and futuristic appearance.",
-      "Built for reliability and portability, this LED wall display solution combines energy-efficient operation, durable construction, and creative installation possibilities for modern event and advertising applications.",
-    ],
+  //   overview: [
+  //     "Transparent Display LED Rental Solution is an advanced transparent LED display screen designed to deliver stunning visual presentations while maintaining high transparency and modern aesthetics. This innovative advertising LED display screen creates immersive digital experiences without blocking natural light or background visibility.",
+  //     "Designed for concerts, exhibitions, stage productions, product launches, fashion shows, corporate events, shopping malls, and live entertainment environments, this LED display screen for advertising offers a perfect combination of visual impact and elegant design flexibility.",
+  //     "Engineered for temporary and rental installations, the Transparent Display LED Rental Solution features lightweight cabinets, quick-lock systems, and seamless panel integration for fast setup and dismantling during events and productions.",
+  //     "With high brightness performance, smooth playback, and transparent visual technology, this LED video wall display delivers dynamic content presentation while maintaining an open and futuristic appearance.",
+  //     "Built for reliability and portability, this LED wall display solution combines energy-efficient operation, durable construction, and creative installation possibilities for modern event and advertising applications.",
+  //   ],
 
-    features: [
-      "High Transparency LED Technology allows visibility through the screen while delivering vibrant and impactful visual content for premium event experiences.",
-      "Lightweight Rental Cabinet Design enables fast installation, easy transportation, and quick dismantling for temporary event setups and touring applications.",
-      "Seamless Modular LED Structure supports scalable LED video wall display configurations with smooth panel alignment and uninterrupted visuals.",
-      "High Brightness & Smooth Playback Performance ensure the advertising LED display screen remains visually striking in indoor and semi-outdoor environments.",
-      "Creative & Flexible Installation Capability allows the LED wall display to be used for stage backdrops, glass facades, suspended installations, and immersive event displays.",
-    ],
+  //   features: [
+  //     "High Transparency LED Technology allows visibility through the screen while delivering vibrant and impactful visual content for premium event experiences.",
+  //     "Lightweight Rental Cabinet Design enables fast installation, easy transportation, and quick dismantling for temporary event setups and touring applications.",
+  //     "Seamless Modular LED Structure supports scalable LED video wall display configurations with smooth panel alignment and uninterrupted visuals.",
+  //     "High Brightness & Smooth Playback Performance ensure the advertising LED display screen remains visually striking in indoor and semi-outdoor environments.",
+  //     "Creative & Flexible Installation Capability allows the LED wall display to be used for stage backdrops, glass facades, suspended installations, and immersive event displays.",
+  //   ],
 
-    whyUs: [
-      "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative transparent LED display screen solutions for premium events, exhibitions, and digital advertising applications.",
-      "Our advanced advertising LED display screen systems are engineered for seamless visuals, lightweight portability, and reliable rental performance.",
-      "We provide customized LED video wall display solutions tailored to event requirements, venue layouts, and creative branding objectives.",
-      "With strong expertise in professional LED display board installations, we help businesses and event organizers create visually engaging and memorable digital experiences.",
-      "From consultation and setup planning to installation and technical support, NewTech offers complete assistance for every LED wall display rental project to ensure flawless execution and maximum visual impact.",
-    ],
+  //   whyUs: [
+  //     "NewTech Video Systems Pvt. Ltd. specializes in delivering innovative transparent LED display screen solutions for premium events, exhibitions, and digital advertising applications.",
+  //     "Our advanced advertising LED display screen systems are engineered for seamless visuals, lightweight portability, and reliable rental performance.",
+  //     "We provide customized LED video wall display solutions tailored to event requirements, venue layouts, and creative branding objectives.",
+  //     "With strong expertise in professional LED display board installations, we help businesses and event organizers create visually engaging and memorable digital experiences.",
+  //     "From consultation and setup planning to installation and technical support, NewTech offers complete assistance for every LED wall display rental project to ensure flawless execution and maximum visual impact.",
+  //   ],
 
-    specs: {
-      pixelPitch: "3.9-7.8mm",
-      ledType: "3-in-1 SMD",
-      brightness: "4,000 nits",
-      pixelsPerPanel: "256*64",
-      pixelDensity: "32,768 dot/m2",
-      panelWeightPerPc: "6.5kg",
-      moduleSize: "1000x500x80mm",
-      material: "Die Cast Aluminum",
-      environment: "Outdoor",
-      ipRating: "IP65",
-      refreshRate: "3840Hz",
-      transparency: "44%",
-      curve: "(Convex) -15°~+15° (Concave)",
-      cube: "90 Degree",
-    },
-  },
+  //   specs: {
+  //     pixelPitch: "3.9-7.8mm",
+  //     ledType: "3-in-1 SMD",
+  //     brightness: "4,000 nits",
+  //     pixelsPerPanel: "256*64",
+  //     pixelDensity: "32,768 dot/m2",
+  //     panelWeightPerPc: "6.5kg",
+  //     moduleSize: "1000x500x80mm",
+  //     material: "Die Cast Aluminum",
+  //     environment: "Outdoor",
+  //     ipRating: "IP65",
+  //     refreshRate: "3840Hz",
+  //     transparency: "44%",
+  //     curve: "(Convex) -15°~+15° (Concave)",
+  //     cube: "90 Degree",
+  //   },
+  // },
   {
     name: "3D Anamorphic Series",
     id: "3d-anamorphic-series",
@@ -2007,7 +2007,7 @@ export const products = [
 
   // Transparent LED
   {
-    name: "Crystal Indoor LED Display Display Screen",
+    name: "Crystal Indoor LED Display  Screen",
     id: "crystal-indoor-led-display-display-screen",
     metaTitle:
       "Crystal Indoor LED Display Display Screen | Transparent LED Display Screen | Newtech Video Systems",
