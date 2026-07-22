@@ -1149,11 +1149,11 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers LED poster standees for digital advertising. Portable, high-brightness LED display screens for retail, exhibitions & indoor branding.",
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
-    img: "/ProductImages/Image.jpg",
+    img: "/ProductImages/standee1.png",
     pdf: "/standLee.pdf",
     ytlink: "https://youtu.be/CxO-PU01uCY",
 
-    images: ["/ProductImages/Image.jpg", "/ProductImages/download.jpg"],
+    images: ["/ProductImages/standee1.png", "/ProductImages/standee2.png","/ProductImages/standee3.png"],
 
     overview: [
       "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
@@ -2653,9 +2653,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers NVS 400 Accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/ProductImages/DSP400PRO.png",
+    img: "/ProductImages/NVS4002.png",
 
-    images: ["/ProductImages/DSP400PRO.png", "/ProductImages/DPS400PRO.png"],
+    images: ["/ProductImages/NVS4002.png", "/ProductImages/NVS4003.png"],
 
     overview: [
       "NVS 400 Accessories is a powerful all-in-one advertising LED display screen controller that combines advanced video processing and control functionalities into a single, efficient device",
@@ -2756,9 +2756,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers DSP600 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/ProductImages/DSP600PRO.png",
+    img: "/ProductImages/nvs-600-2.png",
 
-    images: ["/ProductImages/DSP600PRO.png", "/ProductImages/DPS600PRO.png"],
+    images: ["/ProductImages/nvs-600-2.png", "/ProductImages/nvs-600-1.png","/ProductImages/nvs-600-3.png"],
 
     overview: [
       "NVS 600 is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
@@ -2807,9 +2807,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers NVS 1000 Accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/ProductImages/DSP1000PRO.png",
+    img: "/ProductImages/nvs-100-1.png",
 
-    images: ["/ProductImages/DSP1000PRO.png", "/ProductImages/DPS1000PRO.png"],
+    images: ["/ProductImages/nvs-100-1.png", "/ProductImages/nvs-100-2.png","/ProductImages/nvs-100-3.png"],
 
     overview: [
       "NVS 1000  is a flagship all-in-one advertising LED display screen controller that combines advanced video processing and control capabilities into a single high-performance device",
@@ -2969,9 +2969,9 @@ export const products = [
       "Newtech Video Systems Pvt. Ltd. offers NVS CB40 LED wall screens for high-performance video wall applications. Ideal for advertising, events, control rooms & digital signage solutions.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/ProductImages/TB40.png",
+    img: "/ProductImages/cb40-1.png",
 
-    images: ["/ProductImages/TB40.png"],
+    images: ["/ProductImages/cb40-1.png","/ProductImages/cb40-2.png","/ProductImages/cb40-3.png"],
 
     overview: [
       "NVS CB40 is an advanced multimedia player designed to power advertising LED display screen systems with seamless content playback and intelligent control",

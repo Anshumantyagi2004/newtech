@@ -163,7 +163,7 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
       <img
         src={img}
         alt={product.name}
-        className="w-full h-full object-contain rounded-xl"
+        className="w-full h-full object-contain  rounded-xl"
       />
     </SwiperSlide>
   ))}
@@ -196,7 +196,7 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                         <SwiperSlide key={i} className="w-20! h-20!">
                             <img
                                 src={img}
-                                className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-400"
+                                className="w-20 h-20 object-contain rounded-lg cursor-pointer border border-gray-400"
                             />
                         </SwiperSlide>
                     ))}
