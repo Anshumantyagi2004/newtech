@@ -2,17 +2,20 @@
 
 import Sidebar from "@/components/admin/Sidebar";
 import { Menu, X } from "lucide-react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Page() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [imagePreview, setImagePreview] = useState("");
+
+  const [categories, setCategories] = useState([]);
 
   const [formData, setFormData] = useState({
     name: "",
     image: "",
     city: "",
     state: "",
+    category: "",
     dimension: "",
   });
 
@@ -24,49 +27,67 @@ export default function Page() {
   };
 
   const handleSubmit = async (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  try {
-    const data = new FormData();
+    try {
+      const data = new FormData();
 
-    data.append("name", formData.name);
-    data.append("image", formData.image);
-    data.append("city", formData.city);
-    data.append("state", formData.state);
-    data.append("dimension", formData.dimension);
+      data.append("name", formData.name);
+      data.append("image", formData.image);
+      data.append("city", formData.city);
+      data.append("state", formData.state);
+      data.append("category", formData.category);
+      data.append("dimension", formData.dimension);
 
-    console.log(data);
-    
+      console.log(data);
 
-    const res = await fetch("/api/projects", {
-      method: "POST",
-      body: data,
-    });
-
-    const result = await res.json();
-
-    console.log(result);
-
-    if (res.ok) {
-      alert(result.message || "Project Created ✅");
-
-      setFormData({
-        name: "",
-        image: "",
-        city: "",
-        state: "",
-        dimension: "",
+      const res = await fetch("/api/projects", {
+        method: "POST",
+        body: data,
       });
 
-      setImagePreview("");
-    } else {
-      alert(result.message || "Failed ❌");
+      const result = await res.json();
+
+      console.log(result);
+
+      if (res.ok) {
+        alert(result.message || "Project Created ✅");
+
+        setFormData({
+          name: "",
+          image: "",
+          city: "",
+          state: "",
+          category: "",
+          dimension: "",
+        });
+
+        setImagePreview("");
+      } else {
+        alert(result.message || "Failed ❌");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Something went wrong ⚠️");
     }
-  } catch (err) {
-    console.error(err);
-    alert("Something went wrong ⚠️");
-  }
-};
+  };
+
+  useEffect(() => {
+    fetchCategories();
+  }, []);
+
+  const fetchCategories = async () => {
+    try {
+      const res = await fetch("/api/category");
+      const data = await res.json();
+
+      if (data.success) {
+        setCategories(data.data);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <div className="min-h-screen bg-gray-300 flex text-black">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
@@ -83,8 +104,6 @@ export default function Page() {
               <Menu size={26} className="text-black" />
             )}
           </button>
-
-          
         </header>
         <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
@@ -155,6 +174,26 @@ export default function Page() {
                 className="w-full border border-gray-300 rounded-xl p-3 outline-none focus:ring-2 focus:ring-black"
                 required
               />
+            </div>
+            {/* Category */}
+            <div>
+              <label className="block mb-2 font-semibold">Category</label>
+
+              <select
+                name="category"
+                value={formData.category}
+                onChange={handleChange}
+                className="w-full border border-gray-300 rounded-xl p-3 outline-none focus:ring-2 focus:ring-black"
+                required
+              >
+                <option value="">Select Category</option>
+
+                {categories.map((category) => (
+                  <option key={category._id} value={category._id}>
+                    {category.name}
+                  </option>
+                ))}
+              </select>
             </div>
 
             {/* State */}

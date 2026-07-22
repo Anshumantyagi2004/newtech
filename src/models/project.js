@@ -22,17 +22,22 @@ const ProjectSchema = new mongoose.Schema(
       trim: true,
     },
 
+    category: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Category",
+      required: true,
+    },
+
     dimension: {
       type: String,
       required: true,
       trim: true,
     },
-    imageFileId:String 
+    imageFileId: String,
   },
   {
     timestamps: true,
   },
-  
 );
 
 export default mongoose.models.Project ||

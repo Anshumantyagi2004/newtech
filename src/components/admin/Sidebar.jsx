@@ -38,6 +38,10 @@ export default function Sidebar({ setSidebarOpen, sidebarOpen }) {
                     Hero Video
                 </Link>
 
+                <Link href="/admin/category" className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition">
+                    <PlusCircle size={20} />
+                   Category Project
+                </Link>
                 <Link href="/admin/projects" className="flex items-center gap-3 bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition">
                     <PlusCircle size={20} />
                     Projects

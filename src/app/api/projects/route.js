@@ -17,8 +17,9 @@ export async function POST(req) {
     const state = formData.get("state");
     const dimension = formData.get("dimension");
     const image = formData.get("image");
+    const category = formData.get("category");
 
-    if (!name || !city || !state || !dimension || !image) {
+    if (!name || !city || !state || !dimension || !image || !category) {
       return NextResponse.json(
         {
           success: false,
@@ -52,6 +53,7 @@ export async function POST(req) {
       city,
       state,
       dimension,
+      category,
       image: imageUrl,
       imageFileId,
     });
@@ -146,5 +148,7 @@ export async function DELETE(req, { params }) {
     );
   }
 }
+
+
 
 

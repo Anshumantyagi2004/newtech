@@ -9,7 +9,6 @@ export async function GET(req, { params }) {
     await connect();
 
     const { id } = await params;
-    console.log("iddd", id);
     const project = await Project.findById(id);
 
     if (!project) {
@@ -55,6 +54,7 @@ export async function PUT(req, { params }) {
     const state = formData.get("state");
     const dimension = formData.get("dimension");
     const image = formData.get("image");
+    const category = formData.get("category");
 
     const existingProject = await Project.findById(id);
 
@@ -99,6 +99,7 @@ export async function PUT(req, { params }) {
         city,
         state,
         dimension,
+        category,
         image: imageUrl,
         imageFileId,
       },

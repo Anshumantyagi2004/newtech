@@ -13,13 +13,29 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [imagePreview, setImagePreview] = useState("");
 
-  const [formData, setFormData] = useState({
-    name: "",
-    image: null,
-    city: "",
-    state: "",
-    dimension: "",
-  });
+ const [categories, setCategories] = useState([]);
+
+const [formData, setFormData] = useState({
+  name: "",
+  image: null,
+  city: "",
+  state: "",
+  category: "",
+  dimension: "",
+});
+
+const getCategories = async () => {
+  try {
+    const res = await fetch("/api/category");
+    const data = await res.json();
+
+    if (data.success) {
+      setCategories(data.data);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
 
   // GET SINGLE PROJECT
   const getSingleProject = async () => {
@@ -32,12 +48,13 @@ export default function Page() {
 
       if (data.success) {
         setFormData({
-          name: data.project.name,
-          image: null,
-          city: data.project.city,
-          state: data.project.state,
-          dimension: data.project.dimension,
-        });
+  name: data.project.name,
+  image: null,
+  city: data.project.city,
+  state: data.project.state,
+  category: data.project.category?._id || data.project.category,
+  dimension: data.project.dimension,
+});
 
         setImagePreview(data.project.image);
       }
@@ -46,11 +63,13 @@ export default function Page() {
     }
   };
 
-  useEffect(() => {
-    if (id) {
-      getSingleProject();
-    }
-  }, [id]);
+ useEffect(() => {
+  getCategories();
+
+  if (id) {
+    getSingleProject();
+  }
+}, [id]);
 
   // HANDLE CHANGE
   const handleChange = (e) => {
@@ -73,6 +92,7 @@ export default function Page() {
       data.append("city", formData.city);
       data.append("state", formData.state);
       data.append("dimension", formData.dimension);
+      data.append("category", formData.category);
 
       if (formData.image) {
         data.append("image", formData.image);
@@ -197,6 +217,28 @@ export default function Page() {
                 className="w-full border border-gray-300 rounded-xl p-3 outline-none focus:ring-2 focus:ring-black"
               />
             </div>
+
+            <div>
+  <label className="block mb-2 font-semibold">
+    Category
+  </label>
+
+  <select
+    name="category"
+    value={formData.category}
+    onChange={handleChange}
+    className="w-full border border-gray-300 rounded-xl p-3 outline-none focus:ring-2 focus:ring-black"
+    required
+  >
+    <option value="">Select Category</option>
+
+    {categories.map((cat) => (
+      <option key={cat._id} value={cat._id}>
+        {cat.name}
+      </option>
+    ))}
+  </select>
+</div>
 
             {/* State */}
             <div>
