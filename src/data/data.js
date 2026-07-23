@@ -163,14 +163,14 @@ export const applications = [
     bg: "bg-amber-500",
     hover: "hover:bg-amber-600",
   },
-  {
-    id: "rental",
-    title: "Rental",
-    bgImage: "/bg-2.jpg",
-    icon: Repeat,
-    bg: "bg-sky-500",
-    hover: "hover:bg-sky-600",
-  },
+  // {
+  //   id: "rental",
+  //   title: "Rental",
+  //   bgImage: "/bg-2.jpg",
+  //   icon: Repeat,
+  //   bg: "bg-sky-500",
+  //   hover: "hover:bg-sky-600",
+  // },
   {
     id: "home-entertainment",
     title: "Home Entertainment",
