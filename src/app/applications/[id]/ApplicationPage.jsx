@@ -4,11 +4,13 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { applications, applicationsDescription, products } from "@/data/data";
 import { motion } from "framer-motion";
-import { MapPin } from "lucide-react";
+import { MapPin, X } from "lucide-react";
 import Image from "next/image";
 
 export default function ApplicationPage() {
   const { id } = useParams();
+    const [selectedImage, setSelectedImage] = useState(null);
+  
   const appProducts = products.filter((item) =>
     item.applicationIds?.includes(id),
   );
@@ -235,6 +237,46 @@ export default function ApplicationPage() {
           })}
         </div>
       </div>
+
+
+      {selectedImage && (
+              <div
+                className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4"
+                onClick={() => setSelectedImage(null)}
+              >
+                <div
+                  className="relative max-w-5xl w-full"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {/* Close Button */}
+                  <button
+                    onClick={() => setSelectedImage(null)}
+                    className="absolute -top-4 -right-4 z-30 bg-white rounded-full p-2 shadow-lg"
+                  >
+                    <X size={22} className="text-black" />
+                  </button>
+      
+                  {/* Logo */}
+                  <Image
+                    src="/download.png"
+                    alt="Logo"
+                    width={120}
+                    height={120}
+                    className="absolute top-4 left-4 z-20 bg-black p-2 rounded-lg shadow-lg"
+                  />
+      
+                  {/* Main Image */}
+                  <div className="relative w-full h-[80vh] rounded-xl overflow-hidden bg-white">
+                    <Image
+                      src={selectedImage}
+                      alt="Project"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            )}
     </>
   );
 }
