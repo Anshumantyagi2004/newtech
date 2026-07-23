@@ -165,7 +165,7 @@ export default function ApplicationPage() {
   </div>
 
   {/* Content */}
-  <div className="p-5">
+  <div className="p-3">
     <div className="flex justify-between text-center items-center">
     <h3 className="text-xl font-bold text-gray-900">
       {project?.name}
