@@ -152,7 +152,7 @@ export default function ApplicationPage() {
       alt="logo"
       width={80}
       height={80}
-      className="absolute top-3 left-3 z-20 bg-white p-1 rounded-md shadow"
+      className="absolute top-3 left-3 z-20 bg-transparent p-1 rounded-md shadow"
     />
 
     <Image
@@ -262,7 +262,7 @@ export default function ApplicationPage() {
                     alt="Logo"
                     width={120}
                     height={120}
-                    className="absolute top-4 left-4 z-20 bg-black p-2 rounded-lg shadow-lg"
+                    className="absolute top-4 left-4 z-20 bg-transparent p-2 rounded-lg shadow-lg"
                   />
       
                   {/* Main Image */}

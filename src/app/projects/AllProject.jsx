@@ -114,7 +114,7 @@ const AllProject = () => {
                 >
                   {/* Image */}
                   <div onClick={() => setSelectedImage(project?.image)} className="relative w-full h-64 overflow-hidden ">
-                    <Image src="/download.png" alt="logo" width={80} height={80} className="absolute p-1 bg-black z-20 top-2 left-2" />
+                    <Image src="/download.png" alt="logo" width={80} height={80} className="absolute p-1 bg-transparent z-20 top-2 left-2" />
                     <Image
                       src={project?.image}
                       alt={project?.name}
@@ -189,7 +189,7 @@ const AllProject = () => {
               alt="Logo"
               width={120}
               height={120}
-              className="absolute top-4 left-4 z-20 bg-black p-2 rounded-lg shadow-lg"
+              className="absolute top-4 left-4 z-20 bg-transparent p-2 rounded-lg shadow-lg"
             />
 
             {/* Main Image */}
