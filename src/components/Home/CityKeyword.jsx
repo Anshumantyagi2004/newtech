@@ -4,8 +4,8 @@ import { serviceLocations } from "@/data/data";
 
 const CitesKeyword = () => {
     return (
-        <div className="px-3 overflow-hidden figtree mb-10 md:px-8 lg:px-26">
-            <h2 className="text-3xl md:text-5xl font-bold md:my-10 mb-6 text-black">
+        <div className="px-3 mt-4 md:mt-0 overflow-hidden figtree mb-10 md:px-8 lg:px-26">
+            <h2 className="text-3xl md:text-5xl font-bold md:my-10 mb-4 text-black">
                 Our Supply <span className="text-[#825746]">Network</span>
             </h2>
             <div className="flex gap-2 flex-wrap text-black">

@@ -151,11 +151,11 @@ backgroundImage:"url('/bg-2.jpg')",
 DATA • SECURITY • PRIVACY
 </div>
 
-<h1 className="text-5xl md:text-7xl font-black">
+<h1 className="text-3xl md:text-7xl font-black">
 
-Privacy
+Privacy <span className="text-red-500 md:hidden">Policy</span>
 
-<span className="block text-red-500">
+<span className="hidden md:block text-red-500">
 Policy
 </span>
 
@@ -209,7 +209,7 @@ items-center
 {section.icon}
 </div>
 
-<h2 className="text-xl md:text-3xl font-semibold">
+<h2 className="text-lg md:text-3xl font-semibold">
 {index+1}. {section.title}
 </h2>
 

@@ -50,7 +50,7 @@ export default function Navbar() {
 
   const menuItems = [
     { name: "Applications", icon: Briefcase, link: "/applications" },
-    { name: "Projects", icon: Proportions, link: "/projects" },
+    { name: "Institutional and Corporate Solutions", icon: Landmark, link: "/institutional-and-corporate-solutions" },
     { name: "Disclaimer & Terms", icon: GoLaw, link: "/terms-conditions" },
     { name: "Support", icon: Headset, link: "/support" },
     { name: "Privacy Policy", icon: MdPrivacyTip, link: "/privacy-policy" },

@@ -50,10 +50,10 @@ export default function ContactMapForm() {
 
   return (
     <section className="bg-white py-10 px-4">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-0 md:gap-10 items-center">
         {/* LEFT - MAP */}
         <motion.div
-          initial={{ opacity: 0, x: -60 }}
+          initial={{ opacity: 0, y: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
@@ -69,7 +69,7 @@ export default function ContactMapForm() {
 
         {/* RIGHT - FORM */}
         <motion.div
-          initial={{ opacity: 0, x: 60 }}
+          initial={{ opacity: 0, x: 2 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}

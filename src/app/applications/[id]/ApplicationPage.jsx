@@ -203,7 +203,7 @@ export default function ApplicationPage() {
         </div>
 
         {/* Grid */}
-        <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="max-w-7xl px-4 md:px-0 mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {appDes?.description.map((item, index) => {
             const Icon = item.icon;
 

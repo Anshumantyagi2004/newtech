@@ -291,7 +291,7 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                 </span>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
-                    transition={{ duration: 0.4 }} className="flex gap-2 md:gap-4 my-5">
+                    transition={{ duration: 0.4 }} className="md:flex hidden gap-2 md:gap-4 my-5">
                     <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
                         target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700">
                         <MessageCircle size={18} /> WhatsApp Now
@@ -303,6 +303,30 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                     <a  download="Brochure.pdf" href={product.pdf} className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
                         <Download size={18} /> Download Brochure
                     </a>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
+                    transition={{ duration: 0.4 }} className="flex flex-col gap-3 md:gap-4 my-5">
+                    <div className="flex  gap-3 justify-center items-center ">
+                    <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
+                        target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-2 py-2 rounded-lg hover:bg-green-700">
+                        <MessageCircle size={18} /> WhatsApp Now
+                    </a>
+
+                   
+                    <a  download="Brochure.pdf" href={product.pdf} className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-2 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
+                        <Download size={18} /> Download Brochure
+                    </a>
+                    </div>
+
+                    <div className="w-full flex justify-center">
+  <a
+    href="tel:+919810103697"
+    className="flex items-center gap-2 border border-orange-500 bg-orange-200 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition"
+  >
+    <Phone size={18} />
+    <span>Enquire Now</span>
+  </a>
+</div>
                 </motion.div>
             </div>
         </div>

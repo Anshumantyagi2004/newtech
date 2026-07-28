@@ -58,7 +58,7 @@ export default function HowWeProcess() {
                 </p>
             </div>
 
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid px-2 md:px-0 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {steps.map((step, index) => {
                     const Icon = step.icon;
                     return (

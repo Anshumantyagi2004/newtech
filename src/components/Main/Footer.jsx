@@ -99,7 +99,7 @@ export default function Footer() {
     href="mailto:director@nvsledwall.com"
     className="hover:text-[#915946]  transition-colors"
   >
-    director@nvsledwall.com
+    director@nvsledwall.c..
   </a>
 </p>
             <p className="flex items-center gap-2">
