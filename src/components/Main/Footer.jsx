@@ -68,7 +68,7 @@ export default function Footer() {
 
       
 
-      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
         <div>
           {/* Logo */}
           <img src="/download.png" alt="logo" className="h- w-40 mb-2" />
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="mt-4 space-y-2 text-sm text-gray-200">
-           <p className="flex items-center gap-2">
+           <p className="flex items-center gap-1 md:gap-2">
   <Phone size={14} />
   <a
     href="tel:+919810103697"
@@ -93,16 +93,16 @@ export default function Footer() {
   </a>
 </p>
 
-<p className="flex items-center gap-2">
+<p className="flex items-center gap-1 md:gap-2">
   <Mail size={14} />
   <a
     href="mailto:director@nvsledwall.com"
-    className="hover:text-[#915946] line-clamp-1  transition-colors"
+    className="hover:text-[#915946] line-clamp-2  transition-colors"
   >
     director@nvsledwall.com
   </a>
 </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-1 md:gap-2">
               <MapPin size={14} /> Delhi, India
             </p>
           </div>
