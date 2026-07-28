@@ -97,9 +97,9 @@ export default function Footer() {
   <Mail size={14} />
   <a
     href="mailto:director@nvsledwall.com"
-    className="hover:text-[#915946]  transition-colors"
+    className="hover:text-[#915946] line-clamp-1  transition-colors"
   >
-    director@nvsledwall.c..
+    director@nvsledwall.com
   </a>
 </p>
             <p className="flex items-center gap-2">
