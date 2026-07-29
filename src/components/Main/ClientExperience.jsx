@@ -21,7 +21,7 @@ const stats = [
   },
   {
     icon: <CheckCircle size={32} />,
-    value: 5000,
+    value: 1000,
     suffix: "+",
     title: "Installations",
     isCounter: true,
@@ -42,12 +42,12 @@ const stats = [
 
 export default function ClientExperience() {
   return (
-    <div className="w-full bg-black figtree py-14 px-4 md:px-10 relative overflow-hidden">
+    <div className="w-full bg-white figtree py-14 px-4 md:px-10 relative overflow-hidden">
       
       {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div>
 
-      <div className="relative max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-black">
 
         {stats.map((item, index) => (
           <motion.div
@@ -60,12 +60,12 @@ export default function ClientExperience() {
             className="flex flex-col items-center justify-center 
                        min-h-[200px]
                        p-6 rounded-2xl 
-                       bg-white/5 backdrop-blur-xl 
-                       border border-white/10 
-                       shadow-lg hover:shadow-white/10 
+                       bg-black/6 backdrop-blur-xl 
+                       border border-black/8 
+                       shadow-lg hover:shadow-black/10 
                        transition duration-300"
           >
-            <div className="text-white/70 mb-4">
+            <div className="text-black mb-4">
               {item.icon}
             </div>
 
@@ -81,7 +81,7 @@ export default function ClientExperience() {
                   />
                 </h3>
 
-                <p className="text-sm md:text-base text-gray-300 mt-2">
+                <p className="text-sm md:text-base text-gray-800 mt-2">
                   {item.title}
                 </p>
               </>
@@ -91,7 +91,7 @@ export default function ClientExperience() {
                   {item.title}
                 </h3>
 
-                <p className="text-xs md:text-sm text-gray-400 mt-2">
+                <p className="text-xs md:text-sm text-gray-800 mt-2">
                   {item.subtitle}
                 </p>
               </>

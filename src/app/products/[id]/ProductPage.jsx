@@ -305,7 +305,7 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                     </a>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
-                    transition={{ duration: 0.4 }} className="flex flex-col gap-3 md:gap-4 my-5">
+                    transition={{ duration: 0.4 }} className="md:hidden flex flex-col gap-3 md:gap-4 my-5">
                     <div className="flex  gap-3 justify-center items-center ">
                     <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
                         target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-2 py-2 rounded-lg hover:bg-green-700">

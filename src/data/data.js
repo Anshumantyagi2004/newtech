@@ -47,7 +47,7 @@ export const applications = [
     id: "command-and-control-rooms",
     title: "Command & Control Rooms",
     icon: Shield,
-    bgImage: "/control.jpg",
+    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780021671-P1.25COB%20300sqft%20Jaipur%20Odisha.webp&w=1920&q=75",
     bg: "bg-red-500",
     hover: "hover:bg-red-600",
   },
@@ -71,7 +71,7 @@ export const applications = [
     id: "auditoriums",
     title: "Auditoriums",
     icon: Mic,
-    bgImage: "/audi2.jpg",
+    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780521890-P1.5%20Indoor%20Curve%20300sqft%20Ambala%20cannt.webp&w=1920&q=75",
     bg: "bg-pink-500",
     hover: "hover:bg-pink-600",
   },
@@ -94,7 +94,7 @@ export const applications = [
   {
     id: "education",
     title: "Education",
-    bgImage: "/edu.jpg",
+    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784722974524-P3%20outdoor%2040sqft%20IIT%20Nagpur%20screen1.webp&w=1920&q=75",
     icon: GraduationCap,
     bg: "bg-green-500",
     hover: "hover:bg-green-600",
@@ -102,7 +102,7 @@ export const applications = [
   {
     id: "banking-and-finance",
     title: "Banking & Finance",
-    bgImage: "/bank.jpg",
+    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784810006511-P1.25GOB%2080sqft%20Mumbai.webp&w=1920&q=75",
     icon: Landmark,
     bg: "bg-emerald-500",
     hover: "hover:bg-emerald-600",
@@ -142,7 +142,7 @@ export const applications = [
   {
     id: "real-estate",
     title: "Real Estate",
-    bgImage: "/real3.png",
+    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784720976233-P3%20outdoor%20100sqft%20Delhi.webp&w=1920&q=75",
     icon: Home,
     bg: "bg-rose-500",
     hover: "hover:bg-rose-600",
@@ -184,7 +184,7 @@ export const applications = [
 export const categories = [
   {
     title: "Indoor Advertising LED Displays",
-    img: "/indoor-imag.webp",
+    img: "/ProductImages/aura-d.webp",
     bgImage: "/luxe-2-banner.jpg",
     id: "indoor-advertising-led-displays",
     metaTitle:
@@ -194,7 +194,7 @@ export const categories = [
   },
   {
     title: "Outdoor Advertising LED Displays",
-    img: "/ProductImages/optima-1.jpg",
+    img: "/product/nvs.webp",
     bgImage: "/ProductImages/optima-1.jpg",
     id: "outdoor-advertising-led-displays",
     metaTitle:
@@ -236,7 +236,7 @@ export const categories = [
   {
     title: "Control Systems / Processors",
     img: "/H20.webp",
-    bgImage: "/ProductImages/tb60-2.png",
+    bgImage: "/ProductImages/new23.jpg",
     id: "accessories-and-controllers",
     metaTitle:
       "LED Display Accessories & Controllers | LED Video Wall Control Systems | Newtech Video Systems",
@@ -1153,7 +1153,7 @@ export const products = [
     pdf: "/standLee.pdf",
     ytlink: "https://youtu.be/CxO-PU01uCY",
 
-    images: ["/ProductImages/standee1.png", "/ProductImages/standee2.png","/ProductImages/standee3.png"],
+    images: ["/ProductImages/standee1.png", "/ProductImages/standee2.png", "/ProductImages/standee3.png"],
 
     overview: [
       "LED Poster / Standee is a modern advertising LED display screen designed to deliver high-brightness visuals with sharp clarity, making it ideal for impactful indoor promotions and branding",
@@ -2351,90 +2351,90 @@ export const products = [
   // },
 
   // Accessories & Controllers
-  {
-    name: "H Series LED Display",
-    id: "h-series-led-display",
-    metaTitle:
-      "H Series LED Display | High-Performance LED Video Wall System | Newtech Video Systems",
-    metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers H Series LED displays for high-performance indoor & outdoor applications. Durable, high-brightness LED video wall solutions for advertising & branding.",
-    catId: "accessories-and-controllers",
-    catName: "Accessories & Controllers",
-    img: "/H20.webp",
+  // {
+  //   name: "NVS Ultra",
+  //   id: "nvs-ultra",
+  //   metaTitle:
+  //     "NVS Ultra | High-Performance LED Video Wall System | Newtech Video Systems",
+  //   metaDescription:
+  //     "Newtech Video Systems Pvt. Ltd. offers H Series LED displays for high-performance indoor & outdoor applications. Durable, high-brightness LED video wall solutions for advertising & branding.",
+  //   catId: "accessories-and-controllers",
+  //   catName: "Accessories & Controllers",
+  //   img: "/H20.webp",
 
-    images: ["/h2.png", "/H20.webp", "/H9.webp"],
+  //   images: ["/h2.png", "/H20.webp", "/H9.webp"],
 
-    overview: [
-      "H Series LED Display is a high-performance advertising LED display screen designed to deliver exceptional visual clarity with smooth image output and precise color accuracy for professional indoor environments",
-      "Engineered for seamless LED video wall display applications, it ensures consistent brightness, uniform color reproduction, and stable long-term performance",
-      "Ideal for corporate offices, control rooms, retail environments, and digital signage installations where reliability and visual precision are essential",
-      "Features a sleek and modern cabinet design that integrates effortlessly into contemporary interior spaces while maintaining durability ",
-      "Built for efficiency and continuous operation, making it a dependable solution for mission-critical and high-usage display applications ",
-    ],
+  //   overview: [
+  //     "NVS Ultra is a high-performance advertising LED display screen designed to deliver exceptional visual clarity with smooth image output and precise color accuracy for professional indoor environments",
+  //     "Engineered for seamless LED video wall display applications, it ensures consistent brightness, uniform color reproduction, and stable long-term performance",
+  //     "Ideal for corporate offices, control rooms, retail environments, and digital signage installations where reliability and visual precision are essential",
+  //     "Features a sleek and modern cabinet design that integrates effortlessly into contemporary interior spaces while maintaining durability ",
+  //     "Built for efficiency and continuous operation, making it a dependable solution for mission-critical and high-usage display applications ",
+  //   ],
 
-    features: [
-      "Delivers high-resolution visuals with smooth image rendering and accurate color reproduction for professional-grade display performance",
-      "Designed for stable and reliable operation, ensuring consistent output during long hours of continuous use",
-      "Sleek and durable cabinet construction enhances aesthetics while providing structural strength and efficient heat management",
-      "Seamless panel alignment ensures a smooth and gapless LED video wall display experience across large screen setups",
-      "Energy-efficient design optimizes power consumption while maintaining high brightness and performance",
-    ],
+  //   features: [
+  //     "Delivers high-resolution visuals with smooth image rendering and accurate color reproduction for professional-grade display performance",
+  //     "Designed for stable and reliable operation, ensuring consistent output during long hours of continuous use",
+  //     "Sleek and durable cabinet construction enhances aesthetics while providing structural strength and efficient heat management",
+  //     "Seamless panel alignment ensures a smooth and gapless LED video wall display experience across large screen setups",
+  //     "Energy-efficient design optimizes power consumption while maintaining high brightness and performance",
+  //   ],
 
-    whyUs: [
-      "Expertise in delivering reliable and high-quality advertising LED display solutions for professional indoor applications",
-      "Advanced engineering in LED video wall displays ensures seamless performance, precision, and long-term durability",
-      "Proven capability in designing customized LED wall display systems tailored to corporate, retail, and control room environments",
-      "Strong focus on quality, efficiency, and consistent performance across all LED display solutions",
-      "End-to-end support including consultation, installation, and after-sales service for a smooth and professional experience",
-    ],
+  //   whyUs: [
+  //     "Expertise in delivering reliable and high-quality advertising LED display solutions for professional indoor applications",
+  //     "Advanced engineering in LED video wall displays ensures seamless performance, precision, and long-term durability",
+  //     "Proven capability in designing customized LED wall display systems tailored to corporate, retail, and control room environments",
+  //     "Strong focus on quality, efficiency, and consistent performance across all LED display solutions",
+  //     "End-to-end support including consultation, installation, and after-sales service for a smooth and professional experience",
+  //   ],
 
-    specs: {
-      "NVS ULTRA 2": {
-        chassis: "2U",
-        inputCards: 1,
-        inputChannels: 16,
-        outputCards: 2,
-        loading: "26M px",
-        layers: 32,
-        power: "210W",
-        size: "482.6×88.1×252.8 mm",
-        weight: "15.5 kg",
-      },
-      "NVS ULTRA 5": {
-        chassis: "5U",
-        inputCards: 5,
-        inputChannels: 40,
-        outputCards: 4,
-        loading: "39M px",
-        layers: 48,
-        power: "400W",
-        size: "482.6 × 222.8 × 252.8 mm",
-        weight: "26 kg",
-      },
-      H9: {
-        chassis: "9U",
-        inputCards: 10,
-        inputChannels: 60,
-        outputCards: 8,
-        loading: "65M px",
-        layers: 80,
-        power: "450W",
-        size: "482.6 × 405.8 × 533.0 mm",
-        weight: "35 kg",
-      },
-      H15: {
-        chassis: "15U",
-        inputCards: 15,
-        inputChannels: 120,
-        outputCards: 16,
-        loading: "130M px",
-        layers: 160,
-        power: "900W",
-        size: "482.6 × 633.0 × 533.0 mm",
-        weight: "48 kg",
-      },
-    },
-  },
+  //   specs: {
+  //     "NVS ULTRA 2": {
+  //       chassis: "2U",
+  //       inputCards: 1,
+  //       inputChannels: 16,
+  //       outputCards: 2,
+  //       loading: "26M px",
+  //       layers: 32,
+  //       power: "210W",
+  //       size: "482.6×88.1×252.8 mm",
+  //       weight: "15.5 kg",
+  //     },
+  //     "NVS ULTRA 5": {
+  //       chassis: "5U",
+  //       inputCards: 5,
+  //       inputChannels: 40,
+  //       outputCards: 4,
+  //       loading: "39M px",
+  //       layers: 48,
+  //       power: "400W",
+  //       size: "482.6 × 222.8 × 252.8 mm",
+  //       weight: "26 kg",
+  //     },
+  //     // H9: {
+  //     //   chassis: "9U",
+  //     //   inputCards: 10,
+  //     //   inputChannels: 60,
+  //     //   outputCards: 8,
+  //     //   loading: "65M px",
+  //     //   layers: 80,
+  //     //   power: "450W",
+  //     //   size: "482.6 × 405.8 × 533.0 mm",
+  //     //   weight: "35 kg",
+  //     // },
+  //     // H15: {
+  //     //   chassis: "15U",
+  //     //   inputCards: 15,
+  //     //   inputChannels: 120,
+  //     //   outputCards: 16,
+  //     //   loading: "130M px",
+  //     //   layers: 160,
+  //     //   power: "900W",
+  //     //   size: "482.6 × 633.0 × 533.0 mm",
+  //     //   weight: "48 kg",
+  //     // },
+  //   },
+  // },
   // {
   //   name: "Led Display Controllers",
   //   id: "led-display-controllers",
@@ -2645,7 +2645,7 @@ export const products = [
   //   },
   // },
   {
-    name: " NVS 400 Accessories",
+    name: "NVS 400 Accessories",
     id: "nvs-400-accessories",
     metaTitle:
       "NVS 400 Accessories Accessories | LED Video Wall Controller System | Newtech Video Systems",
@@ -2758,7 +2758,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/nvs-600-2.png",
 
-    images: ["/ProductImages/nvs-600-2.png", "/ProductImages/nvs-600-1.png","/ProductImages/nvs-600-3.png"],
+    images: ["/ProductImages/nvs-600-2.png", "/ProductImages/nvs-600-1.png", "/ProductImages/nvs-600-3.png"],
 
     overview: [
       "NVS 600 is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
@@ -2809,7 +2809,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/nvs-100-1.png",
 
-    images: ["/ProductImages/nvs-100-1.png", "/ProductImages/nvs-100-2.png","/ProductImages/nvs-100-3.png"],
+    images: ["/ProductImages/nvs-100-1.png", "/ProductImages/nvs-100-2.png", "/ProductImages/nvs-100-3.png"],
 
     overview: [
       "NVS 1000  is a flagship all-in-one advertising LED display screen controller that combines advanced video processing and control capabilities into a single high-performance device",
@@ -2851,8 +2851,72 @@ export const products = [
     },
   },
   {
-    name: "NVS 4K ULTRA Controller for LED Display System",
-    id: "nvs-4k-ultra-controller-for-led-display-system",
+    name: "NVS 2K ULTRA",
+    id: "nvs-2K-ultra",
+    metaTitle:
+      "NVS 2K ULTRA Controller | Ultra HD LED Display Control System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers the NVS 2K ULTRA controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/ProductImages/_DSC04440.webp",
+
+    images: [
+      "/ProductImages/_DSC04440.webp",
+      "/ProductImages/_DSC04445.webp",
+    ],
+
+    overview: [
+      "NVS 2K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
+      "Designed for next-generation LED video wall display systems, it delivers exceptional clarity, synchronization, and performance across ultra-wide and ultra-high resolution displays",
+      "Capable of managing up to 13 million pixels, making it ideal for mega installations, broadcast environments, large events, and fine-pitch LED display systems",
+      "Equipped with 20 Ethernet ports to support massive data transmission and handle extremely complex and high-density display configurations",
+      "Built with an industrial-grade architecture to ensure stable, continuous, and reliable performance in mission-critical and high-demand environments",
+    ],
+
+    features: [
+      "Ultra-High Load Capacity (up to 13 million pixels) enables seamless control of extremely large and complex LED video wall display systems",
+      "2K@60Hz Video Input Support ensures ultra-high-definition signal processing with smooth motion, sharp detail, and superior image quality",
+      "20 Ethernet Ports for Maximum Data Throughput provide unmatched connectivity and support for massive display setups",
+      "Advanced Multi-Layer Management (up to 12 layers) allows highly flexible content control, creative layouts, and dynamic visual presentations",
+      "Professional Image Processing with output scaling, low latency, and pixel-level brightness and chroma calibration ensures top-tier visual performance",
+    ],
+
+    whyUs: [
+      "Expertise in delivering enterprise-grade advertising LED display solutions with cutting-edge controllers and processing systems",
+      "Advanced integration capabilities for ultra-large LED video wall displays with seamless performance and synchronization",
+      "Proven experience in executing complex, high-resolution LED wall display systems across industries and large-scale projects",
+      "Strong focus on innovation, scalability, and high-performance engineering across all display technologies",
+      "End-to-end support including consultation, system design, configuration, installation, and technical assistance for seamless execution",
+    ],
+
+    specs: {
+      powerConnector: "100~240V~, 50/60Hz",
+      powerConsumption: "82 W",
+      operatingTemperature: "0°C to 50°C",
+      operatingHumidity: "5% RH to 85% RH, non-condensing",
+      storageTemperature: "−10°C to +60°C",
+      storageHumidity: "5% RH to 95% RH, non-condensing",
+      dimensions: "482.6 mm × 409.0 mm × 94.6 mm",
+      netWeight: "7 kg",
+      grossWeight: "10 kg",
+      carryingCaseSize: "625 mm × 560 mm × 195 mm",
+      packingBoxSize: "645 mm × 580 mm × 215 mm",
+      noiseLevel: "45 dB (A)",
+      chassis: "2U",
+      inputCards: 1,
+      inputChannels: 16,
+      outputCards: 2,
+      loading: "26M px",
+      layers: 32,
+      power: "210W",
+      size: "482.6×88.1×252.8 mm",
+      weight: "15.5 kg",
+    },
+  },
+  {
+    name: "NVS 4K ULTRA",
+    id: "nvs-4k-ultra",
     metaTitle:
       "NVS 4K ULTRA Controller | Ultra HD LED Display Control System | Newtech Video Systems",
     metaDescription:
@@ -2906,8 +2970,72 @@ export const products = [
     },
   },
   {
-    name: "NVS CB2 and Video Wall Screen System",
-    id: "nvs-cb2-and-video-wall-screen-system",
+    name: "NVS 5K ULTRA",
+    id: "nvs-5k-ultra",
+    metaTitle:
+      "NVS 5K ULTRA Controller | Ultra HD LED Display Control System | Newtech Video Systems",
+    metaDescription:
+      "Newtech Video Systems Pvt. Ltd. offers the NVS 5K ULTRA controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/ProductImages/_DSC04455.webp",
+
+    images: [
+      "/ProductImages/_DSC04455.webp",
+      "/ProductImages/_DSC04458.webp",
+    ],
+
+    overview: [
+      "NVS 5K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
+      "Designed for next-generation LED video wall display systems, it delivers exceptional clarity, synchronization, and performance across ultra-wide and ultra-high resolution displays",
+      "Capable of managing up to 13 million pixels, making it ideal for mega installations, broadcast environments, large events, and fine-pitch LED display systems",
+      "Equipped with 20 Ethernet ports to support massive data transmission and handle extremely complex and high-density display configurations",
+      "Built with an industrial-grade architecture to ensure stable, continuous, and reliable performance in mission-critical and high-demand environments",
+    ],
+
+    features: [
+      "Ultra-High Load Capacity (up to 13 million pixels) enables seamless control of extremely large and complex LED video wall display systems",
+      "5K@60Hz Video Input Support ensures ultra-high-definition signal processing with smooth motion, sharp detail, and superior image quality",
+      "20 Ethernet Ports for Maximum Data Throughput provide unmatched connectivity and support for massive display setups",
+      "Advanced Multi-Layer Management (up to 12 layers) allows highly flexible content control, creative layouts, and dynamic visual presentations",
+      "Professional Image Processing with output scaling, low latency, and pixel-level brightness and chroma calibration ensures top-tier visual performance",
+    ],
+
+    whyUs: [
+      "Expertise in delivering enterprise-grade advertising LED display solutions with cutting-edge controllers and processing systems",
+      "Advanced integration capabilities for ultra-large LED video wall displays with seamless performance and synchronization",
+      "Proven experience in executing complex, high-resolution LED wall display systems across industries and large-scale projects",
+      "Strong focus on innovation, scalability, and high-performance engineering across all display technologies",
+      "End-to-end support including consultation, system design, configuration, installation, and technical assistance for seamless execution",
+    ],
+
+    specs: {
+      powerConnector: "100~240V~, 50/60Hz",
+      powerConsumption: "82 W",
+      operatingTemperature: "0°C to 50°C",
+      operatingHumidity: "5% RH to 85% RH, non-condensing",
+      storageTemperature: "−10°C to +60°C",
+      storageHumidity: "5% RH to 95% RH, non-condensing",
+      dimensions: "482.6 mm × 409.0 mm × 94.6 mm",
+      netWeight: "7 kg",
+      grossWeight: "10 kg",
+      carryingCaseSize: "625 mm × 560 mm × 195 mm",
+      packingBoxSize: "645 mm × 580 mm × 215 mm",
+      noiseLevel: "45 dB (A)",
+      chassis: "5U",
+      inputCards: 5,
+      inputChannels: 40,
+      outputCards: 4,
+      loading: "39M px",
+      layers: 48,
+      power: "400W",
+      size: "482.6 × 222.8 × 252.8 mm",
+      weight: "26 kg",
+    },
+  },
+  {
+    name: "NVS CB2",
+    id: "nvs-cb2",
     metaTitle:
       "NVS CB2 | Video Wall Controller & Screen Solution | Newtech Video Systems",
     metaDescription:
@@ -2961,8 +3089,8 @@ export const products = [
     },
   },
   {
-    name: "NVS CB40 LED Wall Screen",
-    id: "nvs-cb40-led-wall-screen",
+    name: "NVS CB40",
+    id: "nvs-cb40",
     metaTitle:
       "NVS CB40 LED Wall Screen | High-Performance LED Video Wall System | Newtech Video Systems",
     metaDescription:
@@ -2971,7 +3099,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/cb40-1.png",
 
-    images: ["/ProductImages/cb40-1.png","/ProductImages/cb40-2.png","/ProductImages/cb40-3.png"],
+    images: ["/ProductImages/cb40-1.png", "/ProductImages/cb40-2.png", "/ProductImages/cb40-3.png"],
 
     overview: [
       "NVS CB40 is an advanced multimedia player designed to power advertising LED display screen systems with seamless content playback and intelligent control",
@@ -3064,8 +3192,8 @@ export const products = [
   //   },
   // },
   {
-    name: "NVS CB1 Controller (Taurus Series)",
-    id: "nvs-cb1-controller-taurus-series",
+    name: "NVS CB1",
+    id: "nvs-cb1",
     metaTitle:
       "NVS CB1 Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
     metaDescription:
@@ -3112,8 +3240,8 @@ export const products = [
     },
   },
   {
-    name: "NVS CB60 Video Wall Display",
-    id: "nvs-cb60-video-wall-display",
+    name: "NVS CB60",
+    id: "nvs-cb60",
     metaTitle:
       "NVS CB60 Video Wall Display | Advanced LED Video Wall System | Newtech Video Systems",
     metaDescription:

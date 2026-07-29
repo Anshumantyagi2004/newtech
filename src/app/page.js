@@ -23,11 +23,11 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 w-full max-w-full overflow-x-hidden">
       <Hero />
+      <ClientExperience />
+      <AboutUs />
       <CategorySlider />
       <CtaForm />
       <Category />
-      <AboutUs />
-      <ClientExperience />
       <CertificateSlider />
       <ManufacturingSection />
       <AboutSolutions />

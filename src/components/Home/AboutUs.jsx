@@ -1,10 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ContactPopup from "../Main/PopupForm";
 
 export default function AboutUs() {
+    const [open, setOpen] = useState(false)
     return (
         <div className="relative figtree w-full py-12 px-4 lg:px-15 overflow-hidden">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/bg-2.jpg')" }}></div>
@@ -52,13 +54,16 @@ export default function AboutUs() {
                         and practical expertise to deliver display solutions that actually work for your business.
                     </p>
 
-                    <motion.button whileHover={{ scale: 1.05 }} className="mt-6">
-                        <a target="blank" href="/NVS CATALOGUE 2026.pdf" download="NVS CATALOGUE 2026.pdf" className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
+                    <motion.button onClick={() => setOpen(true)} whileHover={{ scale: 1.05 }} className="mt-6">
+                        <a
+                            // target="blank" href="/NVS CATALOGUE 2026.pdf" download="NVS CATALOGUE 2026.pdf"
+                            className="px-6 py-3 rounded-full bg-[#926857] text-white font-medium hover:bg-[#825746] transition">
                             Download Company Profile →
                         </a>
                     </motion.button>
                 </motion.div>
             </div>
+            <ContactPopup isOpen={open} setIsOpen={setOpen} file={true} />
         </div>
     );
 }

@@ -15,6 +15,22 @@ export default function AboutSolutions() {
           viewport={{ once: false, amount: 0.3 }}
           className="text-black"
         >
+          <img
+            src="https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784809786938-P1.8%20Indoor%20120sqft%20News%2018.jpeg&w=1920&q=75" // 👉 replace with your image
+            alt="LED Display Solutions"
+            className="rounded-3xl w-full h-[300px] md:h-[450px] object-cover shadow-2xl"
+          />
+
+          <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: false, amount: 0.3 }}
+          className="relative"
+        >
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-black">
             Advertising LED Display Solutions <br />
             for Modern Businesses
@@ -46,22 +62,6 @@ export default function AboutSolutions() {
               Explore Solutions →
             </Link>
           </motion.button>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: false, amount: 0.3 }}
-          className="relative"
-        >
-          <img
-            src="/vivid-2.jpg" // 👉 replace with your image
-            alt="LED Display Solutions"
-            className="rounded-3xl w-full h-[300px] md:h-[450px] object-cover shadow-2xl"
-          />
-
-          <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
         </motion.div>
       </div>
     </div>

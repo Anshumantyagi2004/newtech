@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-export default function ContactPopup({ isOpen, setIsOpen }) {
+export default function ContactPopup({ isOpen, setIsOpen, file }) {
   const modalRef = useRef();
 
   // ESC close
@@ -25,7 +25,6 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
   };
 
   const [loading, setLoading] = useState(false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -58,6 +57,14 @@ export default function ContactPopup({ isOpen, setIsOpen }) {
         );
         setTimeout(() => {
           e.target.reset();      // reset after UI change
+          if (file) {
+            const link = document.createElement("a");
+            link.href = "/NVS CATALOGUE 2026.pdf"; // PDF should be inside public folder
+            link.download = "NVS CATALOGUE 2026.pdf";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }
         }, 100);
       }
     } catch (err) {
