@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export default function Hero() {
   const [hero, setHero] = useState(null);
-  const [loading, setLoading] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   useEffect(() => {
@@ -18,20 +17,14 @@ export default function Hero() {
       setHero(data[0]);
     } catch (error) {
       console.log(error);
-    } finally {
-      setLoading(false);
     }
   };
-
-  if (loading) {
-    return <div className="w-full h-[80vh] bg-gray-200 animate-pulse" />;
-  }
 
   return (
     <div className="w-full bg-white figtree">
       <div className="relative w-full h-[220px] sm:h-[300px] md:h-[500px] lg:h-[80vh] overflow-hidden">
 
-        {/* ✅ Thumbnail FIRST */}
+        {/* Thumbnail */}
         {!videoLoaded && (
           <Image
             src="/hero.webp"
@@ -42,10 +35,10 @@ export default function Hero() {
           />
         )}
 
-        {/* ✅ Video */}
+        {/* Video */}
         {hero?.video && (
           <video
-            className={`w-full h-full object-cover brightness-75 transition-opacity duration-700 ${
+            className={`absolute inset-0 w-full h-full object-cover brightness-75 transition-opacity duration-700 ${
               videoLoaded ? "opacity-100" : "opacity-0"
             }`}
             src={hero.video}
@@ -54,7 +47,7 @@ export default function Hero() {
             loop
             playsInline
             preload="metadata"
-            onLoadedData={() => setVideoLoaded(true)} // 🔥 KEY
+            onLoadedData={() => setVideoLoaded(true)}
           />
         )}
 
@@ -62,14 +55,22 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Text */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
-          <h1 className="text-white font-bold text-2xl md:text-5xl">
-            {hero?.title}
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center z-10">
+          
+          {/* ✅ Dynamic Heading */}
+          <h1 className="text-white font-bold text-2xl md:text-5xl leading-tight drop-shadow-lg">
+            {hero?.title || (
+              <>
+               India’s Trusted OEM Manufacturer for Professional LED Display Solutions
+
+              </>
+            )}
           </h1>
 
+          {/* Button */}
           <a
             href="tel:+919810103197"
-            className="mt-5 z-20 bg-white text-black font-bold px-4 py-2 rounded-lg hover:bg-black hover:text-white"
+            className="mt-5 bg-white text-black font-bold px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300"
           >
             Inquiry Now
           </a>
