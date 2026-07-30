@@ -9,7 +9,7 @@ export default function AboutUs() {
     const [open, setOpen] = useState(false)
     return (
         <div className="relative figtree w-full py-12 px-4 lg:px-15 overflow-hidden">
-            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/bg-2.jpg')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/bg-2.webp')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/90 to-black/65"></div>
 
             <div className="relative grid lg:grid-cols-2 gap-10 items-center">

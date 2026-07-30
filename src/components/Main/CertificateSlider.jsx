@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const certificates = [
-    "/Certificates/Picture4.jpg",
-    "/Certificates/Picture5.jpg",
-    "/Certificates/Picture6.jpg",
-    "/Certificates/Picture7.jpg",
-    "/Certificates/Picture9.jpg",
-    "/Certificates/Picture11.jpg",
-    "/Certificates/Picture12.jpg",
-    "/Certificates/Picture13.jpg",
+    "/Certificates/Picture4.webp",
+    "/Certificates/Picture5.webp",
+    "/Certificates/Picture6.webp",
+    "/Certificates/Picture7.webp",
+    "/Certificates/Picture9.webp",
+    "/Certificates/Picture11.webp",
+    "/Certificates/Picture12.webp",
+    "/Certificates/Picture13.webp",
 ];
 
 export default function CertificateSlider() {
