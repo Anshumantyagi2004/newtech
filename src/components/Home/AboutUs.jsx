@@ -63,7 +63,7 @@ export default function AboutUs() {
                     </motion.button>
                 </motion.div>
             </div>
-            <ContactPopup isOpen={open} setIsOpen={setOpen} file={true} />
+            <ContactPopup isOpen={open} setIsOpen={setOpen} file={"NVS Brochure coprate.pdf"} />
         </div>
     );
 }

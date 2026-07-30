@@ -20,27 +20,27 @@ export default function ProductPage() {
     const cat = categories.find((i) => (i.id == product.catId))
     const relProduct = products.filter((p) => p.catId === product.catId)
 
-const getYoutubeId = (url) => {
-  if (!url) return null;
+    const getYoutubeId = (url) => {
+        if (!url) return null;
 
-  const regExp =
-    /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^?&/]+)/;
+        const regExp =
+            /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^?&/]+)/;
 
-  const match = url.match(regExp);
+        const match = url.match(regExp);
 
-  return match ? match[1] : null;
-};
+        return match ? match[1] : null;
+    };
 
-const getYoutubeThumbnail = (url) => {
-  const videoId = getYoutubeId(url);
+    const getYoutubeThumbnail = (url) => {
+        const videoId = getYoutubeId(url);
 
-  return videoId
-    ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
-    : null;
-};
+        return videoId
+            ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
+            : null;
+    };
 
-const videoId = getYoutubeId(product?.ytlink);
-const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
+    const videoId = getYoutubeId(product?.ytlink);
+    const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
 
     if (!product) return <div className="text-white">Not found</div>
 
@@ -142,47 +142,47 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
 
         <div className="relative z-40 grid md:grid-cols-2 grid-cols-1 gap-5 w-full bg-gray-50 text-black md:px-20 px-4 py-6 md:pt-20 md:pb-10">
             <div className="md:sticky md:top-20 h-fit">
-               <Swiper
-  modules={[Navigation, Autoplay, Thumbs]}
-  navigation
-  autoplay={{
-    delay: 5000,
-    disableOnInteraction: true,
-  }}
-  thumbs={{ swiper: thumbsSwiper }}
-  spaceBetween={10}
-  slidesPerView={1}
-  grabCursor
-  className="md:h-120 bg-white"
->
-  
+                <Swiper
+                    modules={[Navigation, Autoplay, Thumbs]}
+                    navigation
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: true,
+                    }}
+                    thumbs={{ swiper: thumbsSwiper }}
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    grabCursor
+                    className="md:h-120 bg-white"
+                >
 
-  {/* Images */}
-  {product.images.map((img, i) => (
-    <SwiperSlide key={i}>
-      <img
-        src={img}
-        alt={product.name}
-        className="w-full h-full object-contain  rounded-xl"
-      />
-    </SwiperSlide>
-  ))}
-  {videoId && (
-    <SwiperSlide>
-      <div className="w-full h-full">
-        <iframe
-            href={product.ytlink}
-          className="w-full h-full min-h-[500px]"
-          src={`https://www.youtube.com/embed/${videoId}`}
-          title="Product Video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div>
-    </SwiperSlide>
-  )}
-</Swiper>
-                
+
+                    {/* Images */}
+                    {product.images.map((img, i) => (
+                        <SwiperSlide key={i}>
+                            <img
+                                src={img}
+                                alt={product.name}
+                                className="w-full h-full object-contain  rounded-xl"
+                            />
+                        </SwiperSlide>
+                    ))}
+                    {videoId && (
+                        <SwiperSlide>
+                            <div className="w-full h-full">
+                                <iframe
+                                    href={product.ytlink}
+                                    className="w-full h-full min-h-[500px]"
+                                    src={`https://www.youtube.com/embed/${videoId}`}
+                                    title="Product Video"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                />
+                            </div>
+                        </SwiperSlide>
+                    )}
+                </Swiper>
+
 
                 {/* Thumbnail Slider */}
                 <Swiper
@@ -201,39 +201,39 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                         </SwiperSlide>
                     ))}
 
-                      {product?.ytlink && youtubeThumb && (
-        <SwiperSlide>
-            <a
-                // href={product.ytlink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative block w-20 h-20"
-            >
-                <img
-                    src={youtubeThumb}
-                    alt="Product Video"
-                    className="w-full h-full object-cover rounded-xl"
-                />
+                    {product?.ytlink && youtubeThumb && (
+                        <SwiperSlide>
+                            <a
+                                // href={product.ytlink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="relative block w-20 h-20"
+                            >
+                                <img
+                                    src={youtubeThumb}
+                                    alt="Product Video"
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
 
-                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                    <div className="bg-red-600 rounded-full p-2 shadow-xl">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="40"
-                            height="40"
-                            fill="white"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M11.596 8.697L6.233 11.82A.802.802 0 0 1 5 11.123V4.877c0-.618.668-1.01 1.233-.697l5.363 3.123a.802.802 0 0 1 0 1.394z" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </SwiperSlide>
-    )}
+                                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                                    <div className="bg-red-600 rounded-full p-2 shadow-xl">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="40"
+                                            height="40"
+                                            fill="white"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path d="M11.596 8.697L6.233 11.82A.802.802 0 0 1 5 11.123V4.877c0-.618.668-1.01 1.233-.697l5.363 3.123a.802.802 0 0 1 0 1.394z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+                    )}
                 </Swiper>
 
-                
+
             </div>
 
             <div className="md:pl-5">
@@ -300,33 +300,36 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
                     <a href="tel:+919810103697" className="text-nowrap flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white">
                         <Phone size={18} /> Enquire Now
                     </a>
-                    <a  download="Brochure.pdf" href={product.pdf} className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
+
+                    <button onClick={() => setOpen(true)}
+                        // download="Brochure.pdf" href={product.pdf} 
+                        className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
                         <Download size={18} /> Download Brochure
-                    </a>
+                    </button>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }}
                     transition={{ duration: 0.4 }} className="md:hidden flex flex-col gap-3 md:gap-4 my-5">
                     <div className="flex  gap-3 justify-center items-center ">
-                    <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
-                        target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-2 py-2 rounded-lg hover:bg-green-700">
-                        <MessageCircle size={18} /> WhatsApp Now
-                    </a>
+                        <a href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
+                            target="_blank" className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-2 py-2 rounded-lg hover:bg-green-700">
+                            <MessageCircle size={18} /> WhatsApp Now
+                        </a>
 
-                   
-                    <a  download="Brochure.pdf" href={product.pdf} className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-2 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
-                        <Download size={18} /> Download Brochure
-                    </a>
+
+                        <a download="Brochure.pdf" href={product.pdf} className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-2 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
+                            <Download size={18} /> Download Brochure
+                        </a>
                     </div>
 
                     <div className="w-full flex justify-center">
-  <a
-    href="tel:+919810103697"
-    className="flex items-center gap-2 border border-orange-500 bg-orange-200 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition"
-  >
-    <Phone size={18} />
-    <span>Enquire Now</span>
-  </a>
-</div>
+                        <a
+                            href="tel:+919810103697"
+                            className="flex items-center gap-2 border border-orange-500 bg-orange-200 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition"
+                        >
+                            <Phone size={18} />
+                            <span>Enquire Now</span>
+                        </a>
+                    </div>
                 </motion.div>
             </div>
         </div>
@@ -451,6 +454,6 @@ const youtubeThumb = getYoutubeThumbnail(product?.ytlink);
             </motion.div>
         </motion.div>
 
-        <ContactPopup isOpen={open} setIsOpen={setOpen} />
+        <ContactPopup isOpen={open} setIsOpen={setOpen} file={product.pdf} />
     </div>)
 }

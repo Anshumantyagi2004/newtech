@@ -21,7 +21,7 @@ const stats = [
   },
   {
     icon: <CheckCircle size={32} />,
-    value: 1000,
+    value: 10000,
     suffix: "+",
     title: "Installations",
     isCounter: true,
@@ -43,7 +43,7 @@ const stats = [
 export default function ClientExperience() {
   return (
     <div className="w-full bg-white figtree py-14 px-4 md:px-10 relative overflow-hidden">
-      
+
       {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.05),transparent_40%)]"></div>
 

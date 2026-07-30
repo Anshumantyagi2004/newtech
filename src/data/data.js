@@ -235,7 +235,7 @@ export const categories = [
   // },
   {
     title: "Control Systems / Processors",
-    img: "/H20.webp",
+    img: "/product/tb10 plus.webp",
     bgImage: "/ProductImages/new23.jpg",
     id: "accessories-and-controllers",
     metaTitle:
@@ -245,7 +245,7 @@ export const categories = [
   },
   {
     title: "Rental Led",
-    img: "/vivid-2.jpg",
+    img: "/primeplus1.webp",
     bgImage: "/rental-cabinet-1.jpg",
     id: "rental-led",
     metaTitle:
