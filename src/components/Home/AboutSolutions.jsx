@@ -38,8 +38,9 @@ export default function AboutSolutions() {
 
           <p className="text-sm md:text-base text-black mb-4 leading-relaxed">
             Newtech delivers advanced advertising LED display solutions designed to maximize visibility
-            and engagement. Our high-performance advertising LED display screens are ideal for both indoor
-            and outdoor applications, helping businesses communicate their message with clarity and impact.
+            and engagement. Our high-performance advertising LED display screens are ideal for both <a
+            className="font-bold" href="/categories/indoor-advertising-led-displays">indoor </a>  
+            and <a className="font-bold" href="/categories/outdoor-advertising-led-displays">outdoor</a> applications, helping businesses communicate their message with clarity and impact.
           </p>
 
           <p className="text-sm md:text-base text-black mb-4 leading-relaxed">

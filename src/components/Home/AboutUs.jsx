@@ -39,7 +39,7 @@ export default function AboutUs() {
 
                     <p className="text-sm md:text-base text-gray-50 mb-4 leading-relaxed">
                         Newtech builds high-performance advertising LED display solutions that help brands get noticed.
-                        From bold outdoor LED display screens to seamless LED video wall displays, we create digital
+                        From bold <a className="font-bold" href="/categories/outdoor-advertising-led-displays">outdoor LED display</a> screens to seamless LED video wall displays, we create digital
                         experiences that are clear, reliable, and built to last.
                     </p>
 
