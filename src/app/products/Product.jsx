@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { products } from '@/data/data'
 import Link from 'next/link'
 import React from 'react'
+import { Download } from "lucide-react";
 
 export default function Product() {
   return (<>
-    <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
+    <section className="relative w-full h-62 md:h-88 flex flex-col items-center justify-center text-white">
       <divs
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -28,6 +29,15 @@ export default function Product() {
         <h1 className="text-2xl md:text-5xl font-bold mb-2">
           All Products
         </h1>
+      </div>
+
+      <div className="relative md:text-sm text-xs flex flex-wrap items-center justify-center gap-2 mt-2">
+        <a href="/Cob specs.pdf" download className="bg-white text-black font-bold px-4 py-2 flex gap-2 items-center md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300">
+          Videowalls for Command Control Room <Download size={18} />
+        </a>
+        <a href="/Datasheet NVS_ULTRA_2.pdf" download className="bg-white text-black flex gap-2 items-center font-bold px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300">
+          Videowall for Controllers/Processors <Download size={18} />
+        </a>
       </div>
     </section>
 
@@ -63,6 +73,12 @@ export default function Product() {
           </div>
         </motion.div>
       ))}
+    </div>
+
+    <div>
+      <p>
+
+      </p>
     </div>
   </>)
 }
