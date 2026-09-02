@@ -373,21 +373,23 @@ export default function ProductPage() {
                         </h2>
 
                         <ul className="space-y-1">
-                            {content.map((item, index) => (
-                                <motion.li
-                                    key={index}
-                                    initial={{ opacity: 0, x: -20 }}
-                                    animate={{ opacity: 1, x: 0 }}
-                                    transition={{ delay: index * 0.08 }}
-                                    className="flex items-start gap-3 px-4 py-2"
-                                >
-                                    <span className="text-black">•</span>
-                                    <span className="text-gray-800 text- leading-relaxed">
-                                        {item}
-                                    </span>
-                                </motion.li>
-                            ))}
-                        </ul>
+    {content.map((item, index) => (
+        <motion.li
+            key={index}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: index * 0.08 }}
+            className="flex items-start gap-3 px-4 py-2"
+        >
+            <span className="text-black">•</span>
+
+            <span
+                className="text-gray-800 leading-relaxed [&_a]:text-[#ca9882] [&_a]:font-semibold [&_a]:hover:underline"
+                dangerouslySetInnerHTML={{ __html: item }}
+            />
+        </motion.li>
+    ))}
+</ul>
                     </motion.div>
                 </AnimatePresence>
 
