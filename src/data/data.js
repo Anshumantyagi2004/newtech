@@ -280,39 +280,39 @@ export const products = [
     images: ["/luxe-page-main.jpg", "/ProductImages/lux-2.png"],
 
     overview: [
-  "<strong>Luxe LED Display</strong> is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses to showcase advertisements, promotional videos, branding campaigns, product information, and other digital content with excellent visual impact.",
+      "<strong>Luxe LED Display</strong> is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses to showcase advertisements, promotional videos, branding campaigns, product information, and other digital content with excellent visual impact.",
 
-  "With <strong>13-bit processing depth, 3840 Hz refresh rate, 600 cd/m² brightness</strong>, and <strong>10000:1 contrast ratio</strong>, this <strong>advertising LED display</strong> delivers smooth, detailed, bright, and engaging visuals for professional commercial applications.",
+      "With <strong>13-bit processing depth, 3840 Hz refresh rate, 600 cd/m² brightness</strong>, and <strong>10000:1 contrast ratio</strong>, this <strong>advertising LED display</strong> delivers smooth, detailed, bright, and engaging visuals for professional commercial applications.",
 
-  "<strong>Newtech Video Systems Private Limited</strong> is a reliable <strong>advertising LED display</strong> provider offering professional LED display solutions for retail stores, showrooms, corporate spaces, commercial buildings, events, and promotional environments.",
+      "<strong>Newtech Video Systems Private Limited</strong> is a reliable <strong>advertising LED display</strong> provider offering professional LED display solutions for retail stores, showrooms, corporate spaces, commercial buildings, events, and promotional environments.",
 
-  "Businesses searching for an <strong>advertising LED display</strong> can choose Luxe LED Display for fixed commercial installations that require high-quality visuals, wide viewing coverage, dependable performance, and long-term operation.",
+      "Businesses searching for an <strong>advertising LED display</strong> can choose Luxe LED Display for fixed commercial installations that require high-quality visuals, wide viewing coverage, dependable performance, and long-term operation.",
 
-  "With <strong>100,000 hours LED lifetime, IP65 front protection, and full-front maintenance</strong>, Luxe LED Display provides a durable and practical solution for businesses looking for a reliable <strong>advertising LED display supplier</strong>.",
-],
+      "With <strong>100,000 hours LED lifetime, IP65 front protection, and full-front maintenance</strong>, Luxe LED Display provides a durable and practical solution for businesses looking for a reliable <strong>advertising LED display supplier</strong>.",
+    ],
 
-   features: [
-  "<strong>High-Quality Visual Performance:</strong> The Luxe LED Display features <strong>13-bit processing depth, 3840 Hz refresh rate, 600 cd/m² brightness</strong>, and a <strong>10000:1 contrast ratio</strong>, delivering clear and smooth visuals for advertisements, videos, branding, and promotional content.",
+    features: [
+      "<strong>High-Quality Visual Performance:</strong> The Luxe LED Display features <strong>13-bit processing depth, 3840 Hz refresh rate, 600 cd/m² brightness</strong>, and a <strong>10000:1 contrast ratio</strong>, delivering clear and smooth visuals for advertisements, videos, branding, and promotional content.",
 
-  "<strong>Wide Viewing & Reliable Protection:</strong> With a <strong>0°–160° viewing angle</strong> and <strong>IP65 front protection</strong>, this <strong>advertising LED display</strong> provides broad visibility and added protection against dust and water exposure, making it suitable for demanding commercial environments.",
+      "<strong>Wide Viewing & Reliable Protection:</strong> With a <strong>0°–160° viewing angle</strong> and <strong>IP65 front protection</strong>, this <strong>advertising LED display</strong> provides broad visibility and added protection against dust and water exposure, making it suitable for demanding commercial environments.",
 
-  "<strong>Flexible Signal Transmission:</strong> The display supports <strong>CAT6 signal transmission up to 100 metres</strong> and <strong>single-mode fiber transmission up to 10 kilometres</strong>, providing flexible connectivity options for different <strong>advertising LED display</strong> installations.",
+      "<strong>Flexible Signal Transmission:</strong> The display supports <strong>CAT6 signal transmission up to 100 metres</strong> and <strong>single-mode fiber transmission up to 10 kilometres</strong>, providing flexible connectivity options for different <strong>advertising LED display</strong> installations.",
 
-  "<strong>Long-Lasting & Easy Maintenance:</strong> With an <strong>LED lifetime of up to 100,000 hours</strong> and <strong>full-front maintenance</strong>, Luxe LED Display is designed for long-term commercial use while providing convenient access for maintenance and servicing.",
+      "<strong>Long-Lasting & Easy Maintenance:</strong> With an <strong>LED lifetime of up to 100,000 hours</strong> and <strong>full-front maintenance</strong>, Luxe LED Display is designed for long-term commercial use while providing convenient access for maintenance and servicing.",
 
-  "<strong>Professional Operating Specifications:</strong> The display supports <strong>AC 100–240V, 50–60 Hz</strong>, operates from <strong>-10°C to +40°C</strong>, and comes with <strong>CCC, CE, CB, ETL, FCC, and RoHS certifications</strong>, making it a dependable choice for professional advertising applications.",
-],
-   whyUs: [
-  "<strong>Experienced Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional advertising LED display solutions designed to meet the visual communication and digital advertising requirements of different businesses and commercial environments.",
+      "<strong>Professional Operating Specifications:</strong> The display supports <strong>AC 100–240V, 50–60 Hz</strong>, operates from <strong>-10°C to +40°C</strong>, and comes with <strong>CCC, CE, CB, ETL, FCC, and RoHS certifications</strong>, making it a dependable choice for professional advertising applications.",
+    ],
+    whyUs: [
+      "<strong>Experienced Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional advertising LED display solutions designed to meet the visual communication and digital advertising requirements of different businesses and commercial environments.",
 
-  "<strong>Quality-Focused Solutions:</strong> As an <strong>advertising LED display supplier</strong>, we focus on providing high-performance <strong>LED display</strong> solutions with excellent brightness, smooth refresh rates, wide viewing angles, durable construction, and long operating life.",
+      "<strong>Quality-Focused Solutions:</strong> As an <strong>advertising LED display supplier</strong>, we focus on providing high-performance <strong>LED display</strong> solutions with excellent brightness, smooth refresh rates, wide viewing angles, durable construction, and long operating life.",
 
-  "<strong>Ideal for Advertising LED Display in Delhi:</strong> We provide suitable solutions for businesses looking for an <strong>advertising LED display</strong>, including retail stores, showrooms, malls, offices, commercial properties, events, and other promotional locations.",
+      "<strong>Ideal for Advertising LED Display in Delhi:</strong> We provide suitable solutions for businesses looking for an <strong>advertising LED display</strong>, including retail stores, showrooms, malls, offices, commercial properties, events, and other promotional locations.",
 
-  "<strong>Application-Based Guidance:</strong> Our team helps customers select the right <strong>advertising LED display</strong> according to screen requirements, viewing distance, installation location, content type, connectivity, and specific business advertising objectives.",
+      "<strong>Application-Based Guidance:</strong> Our team helps customers select the right <strong>advertising LED display</strong> according to screen requirements, viewing distance, installation location, content type, connectivity, and specific business advertising objectives.",
 
-  "<strong>Professional & Reliable Support:</strong> Newtech Video Systems Private Limited focuses on dependable product solutions and professional customer support, making us a suitable <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> for businesses seeking long-term digital advertising and branding solutions.",
-],
+      "<strong>Professional & Reliable Support:</strong> Newtech Video Systems Private Limited focuses on dependable product solutions and professional customer support, making us a suitable <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> for businesses seeking long-term digital advertising and branding solutions.",
+    ],
 
     specs: {
       Common: {
@@ -402,39 +402,39 @@ export const products = [
 
     images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
 
-overview: [
-  "<strong>High-Performance Advertising LED Display:</strong> Luxe Pro Active LED Display Screen is a professional <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for high-impact visual communication, digital advertising, branding, presentations, events, commercial spaces, and other applications where bright and engaging content is required.",
+    overview: [
+      "<strong>High-Performance Advertising LED Display:</strong> Luxe Pro Active LED Display Screen is a professional <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for high-impact visual communication, digital advertising, branding, presentations, events, commercial spaces, and other applications where bright and engaging content is required.",
 
-  "<strong>Powerful Brightness for Clear Visibility:</strong> With a brightness range of <strong>600–2000 nits</strong>, the display delivers strong and vibrant visuals across different lighting conditions. This makes it an effective <strong>advertising LED display</strong> for businesses that require clear promotional content and high audience visibility.",
+      "<strong>Powerful Brightness for Clear Visibility:</strong> With a brightness range of <strong>600–2000 nits</strong>, the display delivers strong and vibrant visuals across different lighting conditions. This makes it an effective <strong>advertising LED display</strong> for businesses that require clear promotional content and high audience visibility.",
 
-  "<strong>Durable Die-Casting Aluminum Construction:</strong> The display is built with <strong>die-casting aluminum panel material</strong>, providing a robust and professional structure for commercial installations. Its durable construction makes it a reliable choice for businesses seeking a long-lasting <strong>advertising LED display</strong>.",
+      "<strong>Durable Die-Casting Aluminum Construction:</strong> The display is built with <strong>die-casting aluminum panel material</strong>, providing a robust and professional structure for commercial installations. Its durable construction makes it a reliable choice for businesses seeking a long-lasting <strong>advertising LED display</strong>.",
 
-  "<strong>Flexible Installation Options:</strong> Luxe Pro Active LED Display supports <strong>mounting, stacking, and hanging installation</strong>, providing flexibility for different commercial and advertising environments. This makes it suitable for businesses looking for an <strong>advertising LED display</strong> with versatile installation requirements.",
+      "<strong>Flexible Installation Options:</strong> Luxe Pro Active LED Display supports <strong>mounting, stacking, and hanging installation</strong>, providing flexibility for different commercial and advertising environments. This makes it suitable for businesses looking for an <strong>advertising LED display</strong> with versatile installation requirements.",
 
-  "<strong>Professional Advertising Display Solution:</strong> Newtech Video Systems Private Limited provides Luxe Pro Active LED Display as part of its professional LED display solutions. As an <strong>advertising LED display supplier</strong>, we focus on providing reliable display technology suitable for businesses, brands, commercial establishments, events, and promotional applications.",
-],
+      "<strong>Professional Advertising Display Solution:</strong> Newtech Video Systems Private Limited provides Luxe Pro Active LED Display as part of its professional LED display solutions. As an <strong>advertising LED display supplier</strong>, we focus on providing reliable display technology suitable for businesses, brands, commercial establishments, events, and promotional applications.",
+    ],
 
-   features: [
-  "<strong>600–2000 Nits High Brightness:</strong> The Luxe Pro Active LED Display offers a brightness range of <strong>600–2000 nits</strong>, allowing advertising content, videos, graphics, and promotional messages to remain bright and visually impactful. This makes the <strong>advertising LED display</strong> suitable for applications where strong screen visibility is essential.",
+    features: [
+      "<strong>600–2000 Nits High Brightness:</strong> The Luxe Pro Active LED Display offers a brightness range of <strong>600–2000 nits</strong>, allowing advertising content, videos, graphics, and promotional messages to remain bright and visually impactful. This makes the <strong>advertising LED display</strong> suitable for applications where strong screen visibility is essential.",
 
-  "<strong>20000:1 Contrast Ratio & 16-Bit Grayscale:</strong> Featuring a <strong>20000:1 contrast ratio and 16-bit grayscale</strong>, the display provides excellent image depth, detailed visuals, and smooth tonal transitions. These specifications enhance the overall quality of advertisements and multimedia content displayed on the <strong>advertising LED display</strong>.",
+      "<strong>20000:1 Contrast Ratio & 16-Bit Grayscale:</strong> Featuring a <strong>20000:1 contrast ratio and 16-bit grayscale</strong>, the display provides excellent image depth, detailed visuals, and smooth tonal transitions. These specifications enhance the overall quality of advertisements and multimedia content displayed on the <strong>advertising LED display</strong>.",
 
-  "<strong>IP65 Front & IP30 Rear Protection:</strong> The display comes with <strong>IP65 protection on the front and IP30 protection on the rear</strong>, helping safeguard the screen against environmental exposure from the front. This makes it a practical <strong>advertising LED display</strong> solution for demanding commercial installations.",
+      "<strong>IP65 Front & IP30 Rear Protection:</strong> The display comes with <strong>IP65 protection on the front and IP30 protection on the rear</strong>, helping safeguard the screen against environmental exposure from the front. This makes it a practical <strong>advertising LED display</strong> solution for demanding commercial installations.",
 
-  "<strong>Flexible Mounting, Stacking & Hanging:</strong> The Luxe Pro Active LED Display supports <strong>mounting, stacking, and hanging configurations</strong>, allowing businesses to create display setups according to their space and application requirements. This flexibility is particularly useful for customized <strong>advertising LED display installations</strong>.",
+      "<strong>Flexible Mounting, Stacking & Hanging:</strong> The Luxe Pro Active LED Display supports <strong>mounting, stacking, and hanging configurations</strong>, allowing businesses to create display setups according to their space and application requirements. This flexibility is particularly useful for customized <strong>advertising LED display installations</strong>.",
 
-  "<strong>Front Maintenance & Wide Voltage Support:</strong> Designed with <strong>front maintenance access</strong>, the display allows convenient servicing from the front, while its <strong>100–240V input voltage</strong> provides compatibility with standard electrical systems. These features make the display practical for professional advertising and commercial applications.",
-],
+      "<strong>Front Maintenance & Wide Voltage Support:</strong> Designed with <strong>front maintenance access</strong>, the display allows convenient servicing from the front, while its <strong>100–240V input voltage</strong> provides compatibility with standard electrical systems. These features make the display practical for professional advertising and commercial applications.",
+    ],
 
-  whyUs: [
-  "<strong>Trusted Advertising LED Display:</strong> Newtech Video Systems Private Limited is a professional <strong>advertising LED display supplier</strong> offering LED display solutions for businesses that require reliable, high-performance, and visually impactful digital advertising technology.",
+    whyUs: [
+      "<strong>Trusted Advertising LED Display:</strong> Newtech Video Systems Private Limited is a professional <strong>advertising LED display supplier</strong> offering LED display solutions for businesses that require reliable, high-performance, and visually impactful digital advertising technology.",
 
-  "<strong>High-Brightness Advertising Solution:</strong> Luxe Pro Active LED Display offers brightness of up to <strong>2000 nits</strong>, making it suitable for applications where strong visual impact and content visibility are important. It helps businesses effectively display advertisements, promotional campaigns, branding content, and digital messages.",
+      "<strong>High-Brightness Advertising Solution:</strong> Luxe Pro Active LED Display offers brightness of up to <strong>2000 nits</strong>, making it suitable for applications where strong visual impact and content visibility are important. It helps businesses effectively display advertisements, promotional campaigns, branding content, and digital messages.",
 
-  "<strong>Flexible Installation Support:</strong> With <strong>mounting, stacking, and hanging</strong> options, Luxe Pro Active LED Display can be adapted to different installation environments. Our team can help customers select an appropriate configuration based on their space, display requirements, and intended advertising application.",
+      "<strong>Flexible Installation Support:</strong> With <strong>mounting, stacking, and hanging</strong> options, Luxe Pro Active LED Display can be adapted to different installation environments. Our team can help customers select an appropriate configuration based on their space, display requirements, and intended advertising application.",
 
-  "<strong>Quality & Professional Performance:</strong> With its <strong>die-casting aluminum construction, 20000:1 contrast ratio, 16-bit grayscale, IP65 front protection, front maintenance, and professional certifications</strong>, Luxe Pro Active LED Display offers a dependable solution for businesses seeking a high-quality <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
-],
+      "<strong>Quality & Professional Performance:</strong> With its <strong>die-casting aluminum construction, 20000:1 contrast ratio, 16-bit grayscale, IP65 front protection, front maintenance, and professional certifications</strong>, Luxe Pro Active LED Display offers a dependable solution for businesses seeking a high-quality <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
+    ],
 
     specs: {
       Common: {
@@ -632,40 +632,40 @@ overview: [
 
     images: ["/ProductImages/vivid0.png"],
 
-  overview: [
-  "<strong>Vivid LED Display</strong> is a smart and interactive <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses, commercial spaces, presentations, digital signage, advertising, and brand communication. It combines high-quality visuals, touch functionality, smart connectivity, and multimedia features in one professional display solution.",
+    overview: [
+      "<strong>Vivid LED Display</strong> is a smart and interactive <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses, commercial spaces, presentations, digital signage, advertising, and brand communication. It combines high-quality visuals, touch functionality, smart connectivity, and multimedia features in one professional display solution.",
 
-  "With <strong>100–600 cd/m² brightness, 20000:1 contrast ratio, 16-bit grayscale, and 100% DCI-P3 colour gamut</strong>, the display delivers vivid colours, excellent image detail, and strong visual performance for advertisements, promotional videos, presentations, and digital content.",
+      "With <strong>100–600 cd/m² brightness, 20000:1 contrast ratio, 16-bit grayscale, and 100% DCI-P3 colour gamut</strong>, the display delivers vivid colours, excellent image detail, and strong visual performance for advertisements, promotional videos, presentations, and digital content.",
 
-  "As a professional <strong>advertising LED display</strong>, Newtech Video Systems Private Limited offers advanced display solutions designed for interactive advertising, corporate communication, retail environments, showrooms, educational spaces, meeting rooms, and other commercial applications.",
+      "As a professional <strong>advertising LED display</strong>, Newtech Video Systems Private Limited offers advanced display solutions designed for interactive advertising, corporate communication, retail environments, showrooms, educational spaces, meeting rooms, and other commercial applications.",
 
-  "Businesses looking for an <strong>advertising LED display</strong> can benefit from Vivid LED Display's flexible installation options, including <strong>wall mounting, mobile stand, and base configurations</strong>, allowing the display to adapt to different commercial environments.",
+      "Businesses looking for an <strong>advertising LED display</strong> can benefit from Vivid LED Display's flexible installation options, including <strong>wall mounting, mobile stand, and base configurations</strong>, allowing the display to adapt to different commercial environments.",
 
-  "Featuring <strong>10-point infrared touch, Android operating system, built-in speakers, WiFi, Bluetooth, USB, HDMI, and LAN</strong> connectivity, <strong>Vivid LED Display</strong> provides an interactive and versatile platform for modern advertising and digital communication.",
-],
+      "Featuring <strong>10-point infrared touch, Android operating system, built-in speakers, WiFi, Bluetooth, USB, HDMI, and LAN</strong> connectivity, <strong>Vivid LED Display</strong> provides an interactive and versatile platform for modern advertising and digital communication.",
+    ],
 
     features: [
-  "<strong>Interactive 10-Point Touch:</strong> The <strong>Vivid LED Display</strong> features 10-point infrared touch technology, allowing multiple users to interact with the screen simultaneously. This makes the <strong>advertising LED display</strong> suitable for interactive advertisements, product demonstrations, presentations, digital menus, information kiosks, and customer engagement applications.",
+      "<strong>Interactive 10-Point Touch:</strong> The <strong>Vivid LED Display</strong> features 10-point infrared touch technology, allowing multiple users to interact with the screen simultaneously. This makes the <strong>advertising LED display</strong> suitable for interactive advertisements, product demonstrations, presentations, digital menus, information kiosks, and customer engagement applications.",
 
-  "<strong>Exceptional Visual Quality:</strong> With <strong>16-bit grayscale, 100% DCI-P3 colour gamut, 20000:1 contrast ratio, 0.5 ms response time, and 3840 Hz refresh rate</strong>, the display delivers smooth, detailed, and vibrant visuals, making it an effective <strong>advertising LED display</strong> for professional multimedia content.",
+      "<strong>Exceptional Visual Quality:</strong> With <strong>16-bit grayscale, 100% DCI-P3 colour gamut, 20000:1 contrast ratio, 0.5 ms response time, and 3840 Hz refresh rate</strong>, the display delivers smooth, detailed, and vibrant visuals, making it an effective <strong>advertising LED display</strong> for professional multimedia content.",
 
-  "<strong>Smart Connectivity & Android System:</strong> The display features an <strong>Android Cortex A73 + A53 Quad-Core CPU, 4GB RAM, and 256GB SSD</strong>, along with WiFi, Bluetooth, <strong>LAN, USB, and HDMI</strong> interfaces. These features provide convenient connectivity and content management for businesses using an <strong>advertising LED display</strong>.",
+      "<strong>Smart Connectivity & Android System:</strong> The display features an <strong>Android Cortex A73 + A53 Quad-Core CPU, 4GB RAM, and 256GB SSD</strong>, along with WiFi, Bluetooth, <strong>LAN, USB, and HDMI</strong> interfaces. These features provide convenient connectivity and content management for businesses using an <strong>advertising LED display</strong>.",
 
-  "<strong>Wide Viewing & Front Protection:</strong> With a <strong>170° horizontal and 170° vertical viewing angle</strong>, content remains clearly visible to audiences from different positions. The <strong>IP65 front rating</strong> also provides protection against dust and water exposure, supporting reliable usage in commercial environments.",
+      "<strong>Wide Viewing & Front Protection:</strong> With a <strong>170° horizontal and 170° vertical viewing angle</strong>, content remains clearly visible to audiences from different positions. The <strong>IP65 front rating</strong> also provides protection against dust and water exposure, supporting reliable usage in commercial environments.",
 
-  "<strong>Flexible Installation & Multimedia Support:</strong> <strong>Vivid LED Display</strong> supports wall mounting, mobile stand, and base installation, with optional accessories such as a camera, omnidirectional microphone, mobile stand, and base. <strong>Built-in 15W × 2 speakers</strong> further enhance its suitability for presentations, advertising, announcements, and multimedia applications.",
-],
-whyUs: [
-  "<strong>Professional Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides advanced <strong>advertising LED display</strong> solutions designed to help businesses create engaging digital experiences. Our solutions combine display quality, smart technology, interactive functionality, and flexible installation for modern commercial requirements.",
+      "<strong>Flexible Installation & Multimedia Support:</strong> <strong>Vivid LED Display</strong> supports wall mounting, mobile stand, and base installation, with optional accessories such as a camera, omnidirectional microphone, mobile stand, and base. <strong>Built-in 15W × 2 speakers</strong> further enhance its suitability for presentations, advertising, announcements, and multimedia applications.",
+    ],
+    whyUs: [
+      "<strong>Professional Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides advanced <strong>advertising LED display</strong> solutions designed to help businesses create engaging digital experiences. Our solutions combine display quality, smart technology, interactive functionality, and flexible installation for modern commercial requirements.",
 
-  "<strong>Advanced Interactive Technology:</strong> Vivid LED Display goes beyond conventional digital signage by providing <strong>10-point infrared touch, Android functionality, wireless connectivity, and multimedia support</strong>. This makes it an ideal choice for businesses seeking an interactive <strong>advertising LED display</strong> to engage customers and audiences.",
+      "<strong>Advanced Interactive Technology:</strong> Vivid LED Display goes beyond conventional digital signage by providing <strong>10-point infrared touch, Android functionality, wireless connectivity, and multimedia support</strong>. This makes it an ideal choice for businesses seeking an interactive <strong>advertising LED display</strong> to engage customers and audiences.",
 
-  "<strong>Advertising LED Display in Delhi:</strong> For businesses searching for an <strong>advertising LED display in Delhi</strong>, we offer professional display solutions suitable for retail stores, showrooms, corporate offices, commercial establishments, educational institutions, exhibitions, events, and other high-visibility locations.",
+      "<strong>Advertising LED Display in Delhi:</strong> For businesses searching for an <strong>advertising LED display in Delhi</strong>, we offer professional display solutions suitable for retail stores, showrooms, corporate offices, commercial establishments, educational institutions, exhibitions, events, and other high-visibility locations.",
 
-  "<strong>Flexible & Application-Oriented Solutions:</strong> As an <strong>advertising LED display supplier</strong>, we understand that different businesses have different installation and usage requirements. Vivid LED Display can be configured with <strong>wall mounting, mobile stand, or base installation</strong> according to the specific application and available space.",
+      "<strong>Flexible & Application-Oriented Solutions:</strong> As an <strong>advertising LED display supplier</strong>, we understand that different businesses have different installation and usage requirements. Vivid LED Display can be configured with <strong>wall mounting, mobile stand, or base installation</strong> according to the specific application and available space.",
 
-  "<strong>Complete Smart Display Experience:</strong> From high-quality visuals and interactive touch to built-in speakers, Android processing, wireless connectivity, and multiple input interfaces, <strong>Vivid LED Display</strong> provides a comprehensive solution for businesses looking for a modern <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> with professional performance and versatile functionality.",
-],
+      "<strong>Complete Smart Display Experience:</strong> From high-quality visuals and interactive touch to built-in speakers, Android processing, wireless connectivity, and multiple input interfaces, <strong>Vivid LED Display</strong> provides a comprehensive solution for businesses looking for a modern <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> with professional performance and versatile functionality.",
+    ],
 
     specs: {
       Common: {
@@ -737,40 +737,40 @@ whyUs: [
 
     images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
 
-  overview: [
-  "<strong>Professional Advertising LED Display:</strong> Aura Video Wall Display is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for digital advertising, branding, corporate communication, retail environments, showrooms, control rooms, events, and other applications requiring a large and impactful visual display.",
+    overview: [
+      "<strong>Professional Advertising LED Display:</strong> Aura Video Wall Display is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for digital advertising, branding, corporate communication, retail environments, showrooms, control rooms, events, and other applications requiring a large and impactful visual display.",
 
-  "<strong>Multiple Pixel Pitch Options:</strong> Available in <strong>1.2, 1.5, 1.8, 2.0, 3.076, and 4.0 mm pixel pitches</strong>, Aura Video Wall Display offers flexibility to select the right screen configuration according to viewing distance, installation environment, content requirements, and application needs.",
+      "<strong>Multiple Pixel Pitch Options:</strong> Available in <strong>1.2, 1.5, 1.8, 2.0, 3.076, and 4.0 mm pixel pitches</strong>, Aura Video Wall Display offers flexibility to select the right screen configuration according to viewing distance, installation environment, content requirements, and application needs.",
 
-  "<strong>High-Quality Visual Performance:</strong> With <strong>500 nits of brightness and a refresh rate of ≥3840 Hz</strong>, the display delivers clear and smooth visual content. This makes it a suitable <strong>advertising LED display</strong> for promotional videos, branding campaigns, advertisements, presentations, and dynamic multimedia content.",
+      "<strong>High-Quality Visual Performance:</strong> With <strong>500 nits of brightness and a refresh rate of ≥3840 Hz</strong>, the display delivers clear and smooth visual content. This makes it a suitable <strong>advertising LED display</strong> for promotional videos, branding campaigns, advertisements, presentations, and dynamic multimedia content.",
 
-  "<strong>Durable Die-Cast Aluminum Construction:</strong> The display uses <strong>die-cast aluminum panel material</strong>, providing a strong and professional structure for permanent installations. Its robust construction supports reliable long-term usage, making it a practical solution for businesses seeking an <strong>advertising LED display</strong>.",
+      "<strong>Durable Die-Cast Aluminum Construction:</strong> The display uses <strong>die-cast aluminum panel material</strong>, providing a strong and professional structure for permanent installations. Its robust construction supports reliable long-term usage, making it a practical solution for businesses seeking an <strong>advertising LED display</strong>.",
 
-  "<strong>Long Operating Life:</strong> With a rated lifetime of up to <strong>100,000 hours</strong>, Aura Video Wall Display is designed for extended commercial operation. Newtech Video Systems Private Limited provides this solution as an experienced <strong>advertising LED display supplier</strong> for businesses requiring dependable and long-lasting display technology.",
-],
-features: [
-  "<strong>Flexible Pixel Pitch Selection:</strong> Aura Video Wall Display is available in <strong>1.2, 1.5, 1.8, 2.0, 3.076, and 4.0 mm pixel pitches</strong>, allowing customers to choose a suitable <strong>advertising LED display</strong> based on screen size, viewing distance, content detail, and installation requirements.",
+      "<strong>Long Operating Life:</strong> With a rated lifetime of up to <strong>100,000 hours</strong>, Aura Video Wall Display is designed for extended commercial operation. Newtech Video Systems Private Limited provides this solution as an experienced <strong>advertising LED display supplier</strong> for businesses requiring dependable and long-lasting display technology.",
+    ],
+    features: [
+      "<strong>Flexible Pixel Pitch Selection:</strong> Aura Video Wall Display is available in <strong>1.2, 1.5, 1.8, 2.0, 3.076, and 4.0 mm pixel pitches</strong>, allowing customers to choose a suitable <strong>advertising LED display</strong> based on screen size, viewing distance, content detail, and installation requirements.",
 
-  "<strong>Smooth 3840 Hz+ Refresh Rate:</strong> With a refresh rate of <strong>≥3840 Hz</strong>, the display provides smooth and stable playback of videos, advertisements, graphics, and other dynamic content. The high refresh rate makes the <strong>advertising LED display</strong> suitable for professional digital advertising and multimedia applications.",
+      "<strong>Smooth 3840 Hz+ Refresh Rate:</strong> With a refresh rate of <strong>≥3840 Hz</strong>, the display provides smooth and stable playback of videos, advertisements, graphics, and other dynamic content. The high refresh rate makes the <strong>advertising LED display</strong> suitable for professional digital advertising and multimedia applications.",
 
-  "<strong>500 Nits Brightness:</strong> The <strong>500 nits brightness</strong> provides clear and visually appealing content for indoor commercial environments. It helps advertisements, promotional campaigns, product visuals, and branding messages remain noticeable and engaging for viewers.",
+      "<strong>500 Nits Brightness:</strong> The <strong>500 nits brightness</strong> provides clear and visually appealing content for indoor commercial environments. It helps advertisements, promotional campaigns, product visuals, and branding messages remain noticeable and engaging for viewers.",
 
-  "<strong>Durable & Long-Lasting Design:</strong> Built using <strong>die-cast aluminum panels</strong> and offering a lifetime of up to <strong>100,000 hours</strong>, Aura Video Wall Display is designed for dependable long-term operation. This makes it a valuable choice for businesses looking for a reliable <strong>advertising LED display supplier</strong>.",
+      "<strong>Durable & Long-Lasting Design:</strong> Built using <strong>die-cast aluminum panels</strong> and offering a lifetime of up to <strong>100,000 hours</strong>, Aura Video Wall Display is designed for dependable long-term operation. This makes it a valuable choice for businesses looking for a reliable <strong>advertising LED display supplier</strong>.",
 
-  "<strong>Front Maintenance & Fixed Installation:</strong> Designed for <strong>fixed installation with front maintenance</strong>, the display provides a professional permanent setup while allowing convenient access for servicing. This configuration is suitable for commercial properties and businesses requiring an <strong>advertising LED display</strong> with practical maintenance access.",
-],
+      "<strong>Front Maintenance & Fixed Installation:</strong> Designed for <strong>fixed installation with front maintenance</strong>, the display provides a professional permanent setup while allowing convenient access for servicing. This configuration is suitable for commercial properties and businesses requiring an <strong>advertising LED display</strong> with practical maintenance access.",
+    ],
 
-  whyUs: [
-  "<strong>Reliable Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional <strong>advertising LED display</strong> solutions designed for businesses, brands, retailers, corporate organizations, commercial establishments, and event applications. Our focus is on delivering display solutions suited to specific visual communication requirements.",
+    whyUs: [
+      "<strong>Reliable Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional <strong>advertising LED display</strong> solutions designed for businesses, brands, retailers, corporate organizations, commercial establishments, and event applications. Our focus is on delivering display solutions suited to specific visual communication requirements.",
 
-  "<strong>Wide Range of Pixel Pitch Options:</strong> The availability of multiple pixel pitch configurations allows customers to select an appropriate solution based on viewing distance and desired image detail. This enables our team to recommend the right <strong>advertising LED display</strong> for different commercial applications.",
+      "<strong>Wide Range of Pixel Pitch Options:</strong> The availability of multiple pixel pitch configurations allows customers to select an appropriate solution based on viewing distance and desired image detail. This enables our team to recommend the right <strong>advertising LED display</strong> for different commercial applications.",
 
-  "<strong>Advertising LED Display:</strong> Businesses searching for an <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> can choose Aura Video Wall Display for retail stores, showrooms, corporate spaces, commercial buildings, exhibitions, events, and other professional environments where impactful digital communication is required.",
+      "<strong>Advertising LED Display:</strong> Businesses searching for an <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> can choose Aura Video Wall Display for retail stores, showrooms, corporate spaces, commercial buildings, exhibitions, events, and other professional environments where impactful digital communication is required.",
 
-  "<strong>Designed for Long-Term Commercial Usage:</strong> With a <strong>100,000-hour lifetime</strong>, durable die-cast aluminum construction, and a high refresh rate of <strong>≥3840 Hz</strong>, Aura Video Wall Display is designed to provide dependable performance for long-term advertising and visual communication.",
+      "<strong>Designed for Long-Term Commercial Usage:</strong> With a <strong>100,000-hour lifetime</strong>, durable die-cast aluminum construction, and a high refresh rate of <strong>≥3840 Hz</strong>, Aura Video Wall Display is designed to provide dependable performance for long-term advertising and visual communication.",
 
-  "<strong>Professional & Application-Focused Support:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited helps customers identify suitable display configurations according to viewing distance, pixel pitch, installation requirements, screen size, and intended advertising application, providing a practical solution for professional LED video wall requirements.",
-],
+      "<strong>Professional & Application-Focused Support:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited helps customers identify suitable display configurations according to viewing distance, pixel pitch, installation requirements, screen size, and intended advertising application, providing a practical solution for professional LED video wall requirements.",
+    ],
 
     specs: {
       Common: {
@@ -1197,40 +1197,40 @@ features: [
     ytlink: "https://youtu.be/CxO-PU01uCY",
 
     images: ["/ProductImages/standee1.png", "/ProductImages/standee2.png", "/ProductImages/standee3.png"],
-overview: [
-  "<strong>Professional Advertising LED Display:</strong> The NVS P2.5 LED Poster / Standee is a compact and portable <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed specifically for promotional campaigns, retail advertising, brand communication, exhibitions, events, showrooms, and other commercial applications where businesses need an attractive digital display.",
+    overview: [
+      "<strong>Professional Advertising LED Display:</strong> The NVS P2.5 LED Poster / Standee is a compact and portable <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed specifically for promotional campaigns, retail advertising, brand communication, exhibitions, events, showrooms, and other commercial applications where businesses need an attractive digital display.",
 
-  "<strong>High-Quality Full-Color Display:</strong> Featuring a <strong>2.5 mm pixel pitch, 160,000 dots/m² pixel density, and 1R, 1G, 1B full-color pixel configuration</strong>, the LED Standee delivers detailed and vibrant visuals. It is suitable for displaying advertisements, promotional videos, product information, offers, and branding content.",
+      "<strong>High-Quality Full-Color Display:</strong> Featuring a <strong>2.5 mm pixel pitch, 160,000 dots/m² pixel density, and 1R, 1G, 1B full-color pixel configuration</strong>, the LED Standee delivers detailed and vibrant visuals. It is suitable for displaying advertisements, promotional videos, product information, offers, and branding content.",
 
-  "<strong>Ideal Advertising Solution:</strong> With a <strong>640 × 1920 mm screen size</strong>, the LED Poster provides a vertical digital advertising format that can attract attention while occupying relatively little floor space. Its standee design makes it a practical <strong>advertising LED display</strong> for high-traffic commercial locations.",
+      "<strong>Ideal Advertising Solution:</strong> With a <strong>640 × 1920 mm screen size</strong>, the LED Poster provides a vertical digital advertising format that can attract attention while occupying relatively little floor space. Its standee design makes it a practical <strong>advertising LED display</strong> for high-traffic commercial locations.",
 
-  "<strong>Advertising LED Display:</strong> Businesses searching for an <strong>advertising LED display</strong> can use the NVS LED Poster / Standee for retail stores, shopping areas, exhibitions, corporate events, hotels, showrooms, promotional campaigns, and other locations requiring flexible digital advertising.",
+      "<strong>Advertising LED Display:</strong> Businesses searching for an <strong>advertising LED display</strong> can use the NVS LED Poster / Standee for retail stores, shopping areas, exhibitions, corporate events, hotels, showrooms, promotional campaigns, and other locations requiring flexible digital advertising.",
 
-  "<strong>Reliable Advertising LED Display:</strong> Newtech Video Systems Private Limited provides professional LED advertising solutions for businesses and organizations. As an <strong>advertising LED display supplier</strong>, we offer display products designed for effective branding, promotional communication, and engaging digital advertising.",
-],
-features: [
-  "<strong>P2.5 Pixel Pitch & High Pixel Density:</strong> The LED Standee features a <strong>2.5 mm pixel pitch and 160,000 dots/m² pixel density</strong>, providing detailed and sharp digital content. This makes it an effective <strong>advertising LED display</strong> for advertisements, promotional graphics, videos, product campaigns, and brand messaging.",
+      "<strong>Reliable Advertising LED Display:</strong> Newtech Video Systems Private Limited provides professional LED advertising solutions for businesses and organizations. As an <strong>advertising LED display supplier</strong>, we offer display products designed for effective branding, promotional communication, and engaging digital advertising.",
+    ],
+    features: [
+      "<strong>P2.5 Pixel Pitch & High Pixel Density:</strong> The LED Standee features a <strong>2.5 mm pixel pitch and 160,000 dots/m² pixel density</strong>, providing detailed and sharp digital content. This makes it an effective <strong>advertising LED display</strong> for advertisements, promotional graphics, videos, product campaigns, and brand messaging.",
 
-  "<strong>Bright & Smooth Visual Performance:</strong> With <strong>≥500 nits brightness and a ≥1920 Hz refresh rate</strong>, the display provides clear and smooth playback of advertising content. The high refresh rate helps deliver stable visuals, making this <strong>advertising LED display</strong> suitable for dynamic promotional videos and multimedia content.",
+      "<strong>Bright & Smooth Visual Performance:</strong> With <strong>≥500 nits brightness and a ≥1920 Hz refresh rate</strong>, the display provides clear and smooth playback of advertising content. The high refresh rate helps deliver stable visuals, making this <strong>advertising LED display</strong> suitable for dynamic promotional videos and multimedia content.",
 
-  "<strong>Front & Rear Maintenance:</strong> The LED Poster supports both <strong>front and rear maintenance</strong>, providing flexibility for servicing and maintenance depending on the installation environment. This practical design helps businesses maintain their <strong>advertising LED display</strong> conveniently over its operating life.",
+      "<strong>Front & Rear Maintenance:</strong> The LED Poster supports both <strong>front and rear maintenance</strong>, providing flexibility for servicing and maintenance depending on the installation environment. This practical design helps businesses maintain their <strong>advertising LED display</strong> conveniently over its operating life.",
 
-  "<strong>Portable Standee Design:</strong> With an approximate weight of <strong>35 kg</strong> and a screen size of <strong>640 × 1920 mm</strong>, the LED Standee provides a professional vertical advertising format suitable for commercial spaces, exhibitions, events, and promotional areas. Its design makes it a flexible option for businesses looking for an <strong>advertising LED display in Delhi</strong>.",
+      "<strong>Portable Standee Design:</strong> With an approximate weight of <strong>35 kg</strong> and a screen size of <strong>640 × 1920 mm</strong>, the LED Standee provides a professional vertical advertising format suitable for commercial spaces, exhibitions, events, and promotional areas. Its design makes it a flexible option for businesses looking for an <strong>advertising LED display in Delhi</strong>.",
 
-  "<strong>Professional Specifications & Certification:</strong> The NVS LED Poster features <strong>Full Color LED technology, IP30 protection, 300 W/m² average power consumption</strong>, and <strong>CE, ROHS, and FCC certifications</strong>. Manufactured in India, it provides a professional display solution for businesses working with an experienced <strong>advertising LED display supplier</strong>.",
-],
+      "<strong>Professional Specifications & Certification:</strong> The NVS LED Poster features <strong>Full Color LED technology, IP30 protection, 300 W/m² average power consumption</strong>, and <strong>CE, ROHS, and FCC certifications</strong>. Manufactured in India, it provides a professional display solution for businesses working with an experienced <strong>advertising LED display supplier</strong>.",
+    ],
 
-   whyUs: [
-  "<strong>Experienced Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional <strong>advertising LED display</strong> solutions for businesses seeking effective digital advertising and brand communication. We focus on delivering display solutions suitable for different commercial environments and promotional requirements.",
+    whyUs: [
+      "<strong>Experienced Advertising LED Display Supplier:</strong> Newtech Video Systems Private Limited provides professional <strong>advertising LED display</strong> solutions for businesses seeking effective digital advertising and brand communication. We focus on delivering display solutions suitable for different commercial environments and promotional requirements.",
 
-  "<strong>Ideal for Retail & Promotional Advertising:</strong> The NVS P2.5 LED Poster / Standee is designed for applications where businesses need to attract attention with dynamic digital content. Its vertical format is ideal for advertisements, promotional offers, product launches, event announcements, and brand campaigns.",
+      "<strong>Ideal for Retail & Promotional Advertising:</strong> The NVS P2.5 LED Poster / Standee is designed for applications where businesses need to attract attention with dynamic digital content. Its vertical format is ideal for advertisements, promotional offers, product launches, event announcements, and brand campaigns.",
 
-  "<strong>Advertising LED Display in Delhi:</strong> For businesses looking for an <strong>advertising LED display in Delhi</strong>, our LED Poster / Standee offers a practical solution for showrooms, retail outlets, malls, exhibitions, hotels, corporate events, and other high-visibility locations.",
+      "<strong>Advertising LED Display in Delhi:</strong> For businesses looking for an <strong>advertising LED display in Delhi</strong>, our LED Poster / Standee offers a practical solution for showrooms, retail outlets, malls, exhibitions, hotels, corporate events, and other high-visibility locations.",
 
-  "<strong>Made in India Display Solution:</strong> The LED Standee is manufactured in <strong>India</strong>, providing businesses with a locally produced digital display option. Combined with professional specifications and recognized <strong>CE, ROHS, and FCC certifications</strong>, it is suitable for commercial advertising applications.",
+      "<strong>Made in India Display Solution:</strong> The LED Standee is manufactured in <strong>India</strong>, providing businesses with a locally produced digital display option. Combined with professional specifications and recognized <strong>CE, ROHS, and FCC certifications</strong>, it is suitable for commercial advertising applications.",
 
-  "<strong>Professional Support & Reliable Solutions:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited focuses on helping customers select suitable LED display solutions based on their application, screen requirements, installation environment, and advertising objectives, making us a dependable choice for <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
-],
+      "<strong>Professional Support & Reliable Solutions:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited focuses on helping customers select suitable LED display solutions based on their application, screen requirements, installation environment, and advertising objectives, making us a dependable choice for <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
+    ],
 
     specs: {
       model: "P2.5",
@@ -2698,12 +2698,12 @@ features: [
   //   },
   // },
   {
-    name: "NVS 400 Accessories",
-    id: "nvs-400-accessories",
+    name: "NVS 400",
+    id: "nvs-400",
     metaTitle:
-      "NVS 400 Accessories Accessories | LED Video Wall Controller System | Newtech Video Systems",
+      "NVS 400 | LED Video Wall Controller System | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers NVS 400 Accessories for advanced video wall control. High-performance controllers and accessories for LED display systems.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS 400 for advanced video wall control. High-performance controllers and accessories for LED display systems.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/NVS4002.png",
@@ -2711,7 +2711,7 @@ features: [
     images: ["/ProductImages/NVS4002.png", "/ProductImages/NVS4003.png"],
 
     overview: [
-      "NVS 400 Accessories is a powerful all-in-one advertising LED display screen controller that combines advanced video processing and control functionalities into a single, efficient device",
+      "NVS 400 is a powerful all-in-one advertising LED display screen controller that combines advanced video processing and control functionalities into a single, efficient device",
       "Designed for high-end LED video wall display systems, it supports ultra-wide and ultra-high-resolution outputs with exceptional clarity and stability",
       "Capable of managing up to 2.6 million pixels, making it ideal for medium to high-end rental, stage productions, and fine-pitch LED installations",
       "Supports multiple working modes including video controller, fiber converter, and bypass, offering flexibility for diverse system configurations",
@@ -2801,10 +2801,10 @@ features: [
   //   },
   // },
   {
-    name: "NVS 600 Accessories",
+    name: "NVS 600",
     id: "nvs-600-accessories",
     metaTitle:
-      "NVS 600 Accessories | Advanced LED Controller System | Newtech Video Systems",
+      "NVS 600 | Advanced LED Controller System | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers DSP600 Pro LED display accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
@@ -2852,12 +2852,12 @@ features: [
     },
   },
   {
-    name: "NVS 1000 Accessories",
+    name: "NVS 1000",
     id: "nvs-1000-accessories",
     metaTitle:
-      "NVS 1000 Accessories | Advanced LED Video Wall Controller | Newtech Video Systems",
+      "NVS 1000 | Advanced LED Video Wall Controller | Newtech Video Systems",
     metaDescription:
-      "Newtech Video Systems Pvt. Ltd. offers NVS 1000 Accessories for high-performance video wall control. Advanced LED controller system for seamless display management.",
+      "Newtech Video Systems Pvt. Ltd. offers NVS 1000 for high-performance video wall control. Advanced LED controller system for seamless display management.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/nvs-100-1.png",
@@ -2976,11 +2976,10 @@ features: [
       "Newtech Video Systems Pvt. Ltd. offers the NVS 4K ULTRA controller for LED display systems. Advanced ultra HD control solution for seamless LED video wall performance and high-resolution displays.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/ProductImages/4K Prime Pro.png",
+    img: "/ProductImages/4kulta.jpeg",
 
     images: [
-      "/ProductImages/4K Prime Pro.png",
-      "/ProductImages/4K-Prime Pro.png",
+      "/ProductImages/4kulta.jpeg",
     ],
 
     overview: [
@@ -3253,9 +3252,9 @@ features: [
       "Newtech Video Systems Pvt. Ltd. offers NVS CB1 Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
-    img: "/product/tb10 plus.webp",
+    img: "/ProductImages/_DSC04392.webp",
 
-    images: ["/product/tb10 plus.webp"],
+    images: ["/ProductImages/_DSC04392.webp"],
 
     overview: [
       "NVS CB1 Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
