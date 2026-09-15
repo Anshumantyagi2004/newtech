@@ -47,7 +47,8 @@ export const applications = [
     id: "command-and-control-rooms",
     title: "Command & Control Rooms",
     icon: Shield,
-    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780021671-P1.25COB%20300sqft%20Jaipur%20Odisha.webp&w=1920&q=75",
+    bgImage:
+      "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780021671-P1.25COB%20300sqft%20Jaipur%20Odisha.webp&w=1920&q=75",
     bg: "bg-red-500",
     hover: "hover:bg-red-600",
   },
@@ -71,7 +72,8 @@ export const applications = [
     id: "auditoriums",
     title: "Auditoriums",
     icon: Mic,
-    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780521890-P1.5%20Indoor%20Curve%20300sqft%20Ambala%20cannt.webp&w=1920&q=75",
+    bgImage:
+      "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784780521890-P1.5%20Indoor%20Curve%20300sqft%20Ambala%20cannt.webp&w=1920&q=75",
     bg: "bg-pink-500",
     hover: "hover:bg-pink-600",
   },
@@ -94,7 +96,8 @@ export const applications = [
   {
     id: "education",
     title: "Education",
-    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784722974524-P3%20outdoor%2040sqft%20IIT%20Nagpur%20screen1.webp&w=1920&q=75",
+    bgImage:
+      "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784722974524-P3%20outdoor%2040sqft%20IIT%20Nagpur%20screen1.webp&w=1920&q=75",
     icon: GraduationCap,
     bg: "bg-green-500",
     hover: "hover:bg-green-600",
@@ -102,7 +105,8 @@ export const applications = [
   {
     id: "banking-and-finance",
     title: "Banking & Finance",
-    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784810006511-P1.25GOB%2080sqft%20Mumbai.webp&w=1920&q=75",
+    bgImage:
+      "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784810006511-P1.25GOB%2080sqft%20Mumbai.webp&w=1920&q=75",
     icon: Landmark,
     bg: "bg-emerald-500",
     hover: "hover:bg-emerald-600",
@@ -142,7 +146,8 @@ export const applications = [
   {
     id: "real-estate",
     title: "Real Estate",
-    bgImage: "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784720976233-P3%20outdoor%20100sqft%20Delhi.webp&w=1920&q=75",
+    bgImage:
+      "https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784720976233-P3%20outdoor%20100sqft%20Delhi.webp&w=1920&q=75",
     icon: Home,
     bg: "bg-rose-500",
     hover: "hover:bg-rose-600",
@@ -280,7 +285,7 @@ export const products = [
     images: ["/luxe-page-main.jpg", "/ProductImages/lux-2.png"],
 
     overview: [
-      "<strong>Luxe LED Display</strong> is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses to showcase advertisements, promotional videos, branding campaigns, product information, and other digital content with excellent visual impact.",
+      '<strong>Luxe LED Display</strong> is a high-performance <a href="https://nvsledindia.com/"><strong>advertising LED display supplier</strong></a> designed for businesses to showcase advertisements, promotional videos, branding campaigns, product information, and other digital content with excellent visual impact.',
 
       "With <strong>13-bit processing depth, 3840 Hz refresh rate, 600 cd/m² brightness</strong>, and <strong>10000:1 contrast ratio</strong>, this <strong>advertising LED display</strong> delivers smooth, detailed, bright, and engaging visuals for professional commercial applications.",
 
@@ -311,7 +316,7 @@ export const products = [
 
       "<strong>Application-Based Guidance:</strong> Our team helps customers select the right <strong>advertising LED display</strong> according to screen requirements, viewing distance, installation location, content type, connectivity, and specific business advertising objectives.",
 
-      "<strong>Professional & Reliable Support:</strong> Newtech Video Systems Private Limited focuses on dependable product solutions and professional customer support, making us a suitable <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> for businesses seeking long-term digital advertising and branding solutions.",
+      '<strong>Professional & Reliable Support:</strong> Newtech Video Systems Private Limited focuses on dependable product solutions and professional customer support, making us a suitable <a href="https://nvsledindia.com/advertising-led-display-in-delhi-ncr"><strong>advertising LED display in Delhi</strong></a> for businesses seeking long-term digital advertising and branding solutions.',
     ],
 
     specs: {
@@ -403,7 +408,7 @@ export const products = [
     images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
 
     overview: [
-      "<strong>High-Performance Advertising LED Display:</strong> Luxe Pro Active LED Display Screen is a professional <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for high-impact visual communication, digital advertising, branding, presentations, events, commercial spaces, and other applications where bright and engaging content is required.",
+      '<strong>High-Performance Advertising LED Display:</strong> Luxe Pro Active LED Display Screen is a professional <a href="https://nvsledindia.com/"><strong>advertising LED display supplier</strong></a> designed for high-impact visual communication, digital advertising, branding, presentations, events, commercial spaces, and other applications where bright and engaging content is required.',
 
       "<strong>Powerful Brightness for Clear Visibility:</strong> With a brightness range of <strong>600–2000 nits</strong>, the display delivers strong and vibrant visuals across different lighting conditions. This makes it an effective <strong>advertising LED display</strong> for businesses that require clear promotional content and high audience visibility.",
 
@@ -433,7 +438,7 @@ export const products = [
 
       "<strong>Flexible Installation Support:</strong> With <strong>mounting, stacking, and hanging</strong> options, Luxe Pro Active LED Display can be adapted to different installation environments. Our team can help customers select an appropriate configuration based on their space, display requirements, and intended advertising application.",
 
-      "<strong>Quality & Professional Performance:</strong> With its <strong>die-casting aluminum construction, 20000:1 contrast ratio, 16-bit grayscale, IP65 front protection, front maintenance, and professional certifications</strong>, Luxe Pro Active LED Display offers a dependable solution for businesses seeking a high-quality <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
+      '<strong>Quality & Professional Performance:</strong> With its <strong>die-casting aluminum construction, 20000:1 contrast ratio, 16-bit grayscale, IP65 front protection, front maintenance, and professional certifications</strong>, Luxe Pro Active LED Display offers a dependable solution for businesses seeking a high-quality <a href="https://nvsledindia.com/advertising-led-display-in-delhi-ncr"><strong>advertising LED display in Delhi</strong></a>.',
     ],
 
     specs: {
@@ -633,7 +638,7 @@ export const products = [
     images: ["/ProductImages/vivid0.png"],
 
     overview: [
-      "<strong>Vivid LED Display</strong> is a smart and interactive <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for businesses, commercial spaces, presentations, digital signage, advertising, and brand communication. It combines high-quality visuals, touch functionality, smart connectivity, and multimedia features in one professional display solution.",
+      '<strong>Vivid LED Display</strong> is a smart and interactive <a href="https://nvsledindia.com/"><strong>advertising LED display supplier</strong></a> designed for businesses, commercial spaces, presentations, digital signage, advertising, and brand communication. It combines high-quality visuals, touch functionality, smart connectivity, and multimedia features in one professional display solution.',
 
       "With <strong>100–600 cd/m² brightness, 20000:1 contrast ratio, 16-bit grayscale, and 100% DCI-P3 colour gamut</strong>, the display delivers vivid colours, excellent image detail, and strong visual performance for advertisements, promotional videos, presentations, and digital content.",
 
@@ -664,7 +669,7 @@ export const products = [
 
       "<strong>Flexible & Application-Oriented Solutions:</strong> As an <strong>advertising LED display supplier</strong>, we understand that different businesses have different installation and usage requirements. Vivid LED Display can be configured with <strong>wall mounting, mobile stand, or base installation</strong> according to the specific application and available space.",
 
-      "<strong>Complete Smart Display Experience:</strong> From high-quality visuals and interactive touch to built-in speakers, Android processing, wireless connectivity, and multiple input interfaces, <strong>Vivid LED Display</strong> provides a comprehensive solution for businesses looking for a modern <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> with professional performance and versatile functionality.",
+      '<strong>Complete Smart Display Experience:</strong> From high-quality visuals and interactive touch to built-in speakers, Android processing, wireless connectivity, and multiple input interfaces, <strong>Vivid LED Display</strong> provides a comprehensive solution for businesses looking for a modern <a href="https://nvsledindia.com/advertising-led-display-in-delhi-ncr"><strong>advertising LED display in Delhi</strong></a> with professional performance and versatile functionality.',
     ],
 
     specs: {
@@ -738,7 +743,7 @@ export const products = [
     images: ["/ProductImages/aura-d.webp", "/ProductImages/Aura.webp"],
 
     overview: [
-      "<strong>Professional Advertising LED Display:</strong> Aura Video Wall Display is a high-performance <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed for digital advertising, branding, corporate communication, retail environments, showrooms, control rooms, events, and other applications requiring a large and impactful visual display.",
+      '<strong>Professional Advertising LED Display:</strong> Aura Video Wall Display is a high-performance <a href="https://nvsledindia.com/"><strong>advertising LED display supplier</strong></a> designed for digital advertising, branding, corporate communication, retail environments, showrooms, control rooms, events, and other applications requiring a large and impactful visual display.',
 
       "<strong>Multiple Pixel Pitch Options:</strong> Available in <strong>1.2, 1.5, 1.8, 2.0, 3.076, and 4.0 mm pixel pitches</strong>, Aura Video Wall Display offers flexibility to select the right screen configuration according to viewing distance, installation environment, content requirements, and application needs.",
 
@@ -765,7 +770,7 @@ export const products = [
 
       "<strong>Wide Range of Pixel Pitch Options:</strong> The availability of multiple pixel pitch configurations allows customers to select an appropriate solution based on viewing distance and desired image detail. This enables our team to recommend the right <strong>advertising LED display</strong> for different commercial applications.",
 
-      "<strong>Advertising LED Display:</strong> Businesses searching for an <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a> can choose Aura Video Wall Display for retail stores, showrooms, corporate spaces, commercial buildings, exhibitions, events, and other professional environments where impactful digital communication is required.",
+      '<strong>Advertising LED Display:</strong> Businesses searching for an <a href="https://nvsledindia.com/advertising-led-display-in-delhi-ncr"><strong>advertising LED display in Delhi</strong></a> can choose Aura Video Wall Display for retail stores, showrooms, corporate spaces, commercial buildings, exhibitions, events, and other professional environments where impactful digital communication is required.',
 
       "<strong>Designed for Long-Term Commercial Usage:</strong> With a <strong>100,000-hour lifetime</strong>, durable die-cast aluminum construction, and a high refresh rate of <strong>≥3840 Hz</strong>, Aura Video Wall Display is designed to provide dependable performance for long-term advertising and visual communication.",
 
@@ -904,6 +909,119 @@ export const products = [
       lifetime: "100,000 hours",
       maintenance: "Rear Maintenance",
     },
+  },
+
+  {
+    name: "NVS P1.5 COB Fine-Pitch LED Display",
+    id: "nvs-p1-5-cob-fine-pitch-led-display",
+
+    metaTitle: "NVS P1.5 COB Fine-Pitch Indoor LED Display Supplier | New Tech",
+
+    metaDescription:
+      " Experience New Tech NVS P1.5 COB Fine-Pitch LED Display, designed for high-resolution visuals, seamless viewing, and premium display performance in professional spaces.",
+
+    catId: "indoor-advertising-led-displays",
+    catName: "Indoor Advertising LED Displays",
+
+    img: "/ProductImages/luxe-p.png",
+
+    ytlink: "",
+
+    images: ["/ProductImages/luxe-p.png", "/ProductImages/LUX-PRO-2.png"],
+
+    overview: [
+      "The NVS P1.5 COB Fine-Pitch LED Display is a high-performance indoor LED video wall solution designed for professional environments requiring exceptional image clarity and detail.",
+
+      "Built with advanced Chip-on-Board (COB) and Flip Chip RGB LED technology, it delivers fine-pitch visual performance with smooth motion and consistent image quality.",
+
+      "With a P1.5625 mm pixel pitch, the display is ideal for close-viewing applications where high resolution and precise visual reproduction are essential.",
+
+      "Designed for reliable 24×7 operation, the display is suitable for command and control rooms, conference rooms, corporate offices, government facilities and professional indoor video wall installations.",
+
+      "Its front-accessible maintenance design simplifies servicing and installation while the protective display coating helps improve durability, reduce glare and enhance heat dissipation.",
+    ],
+
+    features: [
+      "P1.5625 mm fine pixel pitch delivers high-density visuals with excellent image clarity and detail for close-viewing environments",
+
+      "Advanced Chip-on-Board (COB) / Flip Chip RGB LED technology provides reliable performance and a refined display surface",
+
+      "3840 Hz high refresh rate ensures smooth motion and minimizes flickering and scan-line effects during video playback and camera capture",
+
+      "600 cd/m² adjustable brightness provides clear and vibrant visuals for professional indoor environments",
+
+      "10,000:1 contrast ratio delivers deep blacks, improved image depth and enhanced visual definition",
+
+      "160° horizontal and 160° vertical viewing angles provide consistent visibility across wide viewing positions",
+
+      "Front-accessible maintenance enables convenient servicing and reduces installation downtime",
+
+      "24×7 system reliability makes the display suitable for mission-critical professional applications",
+
+      "Automatic brightness adjustment adapts display brightness according to ambient lighting conditions",
+
+      "Automatic standby and scheduled power ON/OFF functions help optimize energy consumption and operational efficiency",
+
+      "Protective display coating improves durability, dust and moisture resistance, reduces glare and supports improved heat dissipation",
+
+      "16:9 aspect ratio and FHD or higher resolution support make it suitable for modern professional video wall applications",
+    ],
+
+    whyUs: [
+      "Advanced COB fine-pitch LED technology provides high-resolution visual performance for professional indoor display environments",
+
+      "NVS Newtech Video Systems delivers specialized LED display solutions designed for demanding commercial and professional applications",
+
+      "Fine pixel pitch technology enables detailed and immersive visuals even at relatively close viewing distances",
+
+      "Engineered for reliable 24×7 operation, making it suitable for command centers, control rooms and other mission-critical environments",
+
+      "Front-accessible maintenance simplifies servicing and helps reduce maintenance time and operational interruptions",
+
+      "Professional installation options including wall mounting and mobile floor stand configurations provide flexibility for different deployment requirements",
+
+      "Complete LED display solutions with a focus on performance, reliability, image quality and long-term usability",
+    ],
+
+    specs: {
+      brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+      model: "NVS-Pixel 1.5mm",
+      ledTechnology: "Chip-on-Board (COB) / Flip Chip RGB LED",
+      pixelPitch: "P1.5625 mm",
+      moduleDimension: "150 × 168.75 mm",
+      panelSize: "600 × 337.5 × 39.75 mm",
+      panelResolution: "384 × 216",
+      aspectRatio: "16:9",
+      processing: "16-bit",
+      resolution: "1920 × 1080 (FHD) or higher",
+      brightness: "600 cd/m² (adjustable)",
+      brightnessAdjustment:
+        "Automatic brightness adjustment based on ambient lighting conditions",
+      refreshRate: "3840 Hz",
+      contrastRatio: "10,000:1",
+      viewingAngle: "160° Horizontal / 160° Vertical",
+      ledLifespan: "≥100,000 hours",
+      maintenance: "Front accessible / front maintenance",
+      installation: "Wall mounting kit / mobile floor stand",
+      operatingVoltage: "100–240 VAC, 50/60 Hz",
+      operatingTemperature: "0°C to 40°C",
+      energySaving: "Automatic standby and scheduled power ON/OFF",
+      displayCoating:
+        "Protective coating for durability, dust/moisture resistance, reduced glare and improved heat dissipation",
+      systemReliability: "24×7 performance",
+      certification: "BIS",
+    },
+
+    applications: [
+      "Command & Control Rooms",
+      "Conference Rooms",
+      "Corporate Offices",
+      "Government Facilities",
+      "Control Centers",
+      "Digital Signage",
+      "Experience Centers",
+      "Professional Indoor Video Walls",
+    ],
   },
 
   //Outdoor Advertising LED Displays
@@ -1196,9 +1314,13 @@ export const products = [
     pdf: "/standLee.pdf",
     ytlink: "https://youtu.be/CxO-PU01uCY",
 
-    images: ["/ProductImages/standee1.png", "/ProductImages/standee2.png", "/ProductImages/standee3.png"],
+    images: [
+      "/ProductImages/standee1.png",
+      "/ProductImages/standee2.png",
+      "/ProductImages/standee3.png",
+    ],
     overview: [
-      "<strong>Professional Advertising LED Display:</strong> The NVS P2.5 LED Poster / Standee is a compact and portable <a href=\"https://nvsledindia.com/\"><strong>advertising LED display supplier</strong></a> designed specifically for promotional campaigns, retail advertising, brand communication, exhibitions, events, showrooms, and other commercial applications where businesses need an attractive digital display.",
+      '<strong>Professional Advertising LED Display:</strong> The NVS P2.5 LED Poster / Standee is a compact and portable <a href="https://nvsledindia.com/"><strong>advertising LED display supplier</strong></a> designed specifically for promotional campaigns, retail advertising, brand communication, exhibitions, events, showrooms, and other commercial applications where businesses need an attractive digital display.',
 
       "<strong>High-Quality Full-Color Display:</strong> Featuring a <strong>2.5 mm pixel pitch, 160,000 dots/m² pixel density, and 1R, 1G, 1B full-color pixel configuration</strong>, the LED Standee delivers detailed and vibrant visuals. It is suitable for displaying advertisements, promotional videos, product information, offers, and branding content.",
 
@@ -1229,7 +1351,7 @@ export const products = [
 
       "<strong>Made in India Display Solution:</strong> The LED Standee is manufactured in <strong>India</strong>, providing businesses with a locally produced digital display option. Combined with professional specifications and recognized <strong>CE, ROHS, and FCC certifications</strong>, it is suitable for commercial advertising applications.",
 
-      "<strong>Professional Support & Reliable Solutions:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited focuses on helping customers select suitable LED display solutions based on their application, screen requirements, installation environment, and advertising objectives, making us a dependable choice for <a href=\"https://nvsledindia.com/advertising-led-display-in-delhi-ncr\"><strong>advertising LED display in Delhi</strong></a>.",
+      '<strong>Professional Support & Reliable Solutions:</strong> As an <strong>advertising LED display supplier</strong>, Newtech Video Systems Private Limited focuses on helping customers select suitable LED display solutions based on their application, screen requirements, installation environment, and advertising objectives, making us a dependable choice for <a href="https://nvsledindia.com/advertising-led-display-in-delhi-ncr"><strong>advertising LED display in Delhi</strong></a>.',
     ],
 
     specs: {
@@ -2749,6 +2871,7 @@ export const products = [
       boxSize: "565 mm × 450 mm × 175 mm",
     },
   },
+
   // {
   //   name: "DSP600 LED Controller and Display Accessories",
   //   id: "dsp600-led-controller-and-display-accessories",
@@ -2811,7 +2934,11 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/nvs-600-2.png",
 
-    images: ["/ProductImages/nvs-600-2.png", "/ProductImages/nvs-600-1.png", "/ProductImages/nvs-600-3.png"],
+    images: [
+      "/ProductImages/nvs-600-2.png",
+      "/ProductImages/nvs-600-1.png",
+      "/ProductImages/nvs-600-3.png",
+    ],
 
     overview: [
       "NVS 600 is a high-capacity all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single powerful unit",
@@ -2852,6 +2979,141 @@ export const products = [
     },
   },
   {
+    name: "NVS 600(1.01)",
+    id: "nvs-600-1-01",
+
+    metaTitle: "NVS P1.5 COB Fine-Pitch Indoor LED Display Supplier | New Tech",
+
+    metaDescription:
+      "Experience New Tech NVS P1.5 COB Fine-Pitch LED Display, designed for high-resolution visuals, seamless viewing, and premium display performance in professional spaces",
+
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/nvs601.webp",
+
+    images: [
+      "/nvs601.webp",
+      "/nvs601-2.webp",
+    ],
+
+    ytlink: "",
+
+    overview: [
+      "The NVS 600(1.01) is a professional all-in-one LED video processor and controller designed to combine advanced video processing and LED display control in a single unit.",
+
+      "It supports high-resolution video processing, multi-layer processing, advanced scaling and low-latency operation for professional LED video wall applications.",
+
+      "With support for input resolutions up to 4K × 2K at 60 Hz, the NVS 600(1.01) is designed to deliver high-quality visual output for demanding professional display environments.",
+
+      "The controller supports multiple signal interfaces including HDMI and 3G-SDI, along with Gigabit Ethernet outputs and a 10G optical fiber interface for flexible LED display connectivity.",
+
+      "Its flexible working modes, output synchronization, calibration support and free topology compatibility make it suitable for professional and large-format LED display installations.",
+    ],
+
+    features: [
+      "All-in-one video processor and LED display controller combines video processing and LED control in a single professional unit",
+
+      "Supports maximum input resolution up to 4K × 2K @ 60 Hz for high-resolution professional video applications",
+
+      "Multi-layer processing supports 1x 4K & 2x2K or 6x2K layer configurations for flexible content management",
+
+      "LED loading capacity of up to 3.9 million pixels supports large-format and high-resolution LED display installations",
+
+      "Supports maximum display width of up to 10,240 pixels and maximum height of up to 8,192 pixels",
+
+      "Six Gigabit Ethernet outputs provide flexible connectivity for professional LED display systems",
+
+      "1 × 10G optical port provides high-bandwidth optical fiber connectivity for suitable LED display configurations",
+    ],
+
+    whyUs: [
+      "Professional all-in-one LED video processing and control solution designed for demanding LED display applications",
+
+      "Advanced signal processing and scaling capabilities support high-resolution content and complex LED video wall configurations",
+
+      "Multiple input and output interfaces provide flexible connectivity for professional AV, broadcast and LED display environments",
+
+      "High pixel loading capacity and large maximum canvas dimensions support large-format LED display installations",
+
+      "Low-latency processing and output synchronization help deliver smooth and consistent visual performance",
+
+      "Flexible working modes including Video Controller, Fiber Converter and ByPass provide greater system integration options",
+
+      "Designed for professional applications including command centers, control rooms, corporate AV, conference systems and rental & staging",
+    ],
+
+    specs: {
+      brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+
+      model: "NVS 600(1.01)",
+
+      productType: "All-in-One LED Video Processor & Controller",
+
+      maximumInputResolution: "Up to 4K × 2K @ 60 Hz",
+
+      layout: "1x 4K & 2x2K or 6x2K layers",
+
+      ledLoadingCapacity: "Up to 3.9 million pixels",
+
+      maximumWidth: "Up to 10,240 pixels",
+
+      maximumHeight: "Up to 8,192 pixels",
+
+      gigabitEthernetOutputs: "6",
+
+      opticalFiber: "1 × 10G optical port",
+
+      hdmiMonitorInput: "1x HDMI 2.0, 2x HDMI 1.3",
+
+      sdiPort: "1x 3G-SDI (IN & LOOP)",
+
+      hdmiMonitorOutput: "1 × HDMI 1.3",
+
+      threeDInterface: "1",
+
+      controlPort: "2x Ethernet, 1x Light Sensor, 2x USB",
+
+      audio: "2 x Audio (1x Audio input, 1× Audio output)",
+
+      usb: "USB interface for configuration / firmware-related functions",
+
+      control: "Front panel",
+
+      processing: "Multi-layer video processing",
+
+      scaling: "Up-scaling / Down-scaling",
+
+      lowLatency: "Supported",
+
+      workingModes: "Video Controller, Fiber Converter and ByPass",
+
+      outputSynchronization: "Supported",
+
+      freeTopology: "Supported with compatible receiving cards",
+
+      calibration: "Brightness and chroma calibration supported",
+
+      inputInterfaces:
+        "HDMI, 3G-SDI and other supported interfaces depending on configuration",
+
+      powerSupply: "100–240 VAC, 50/60 Hz",
+
+      ratedPowerConsumption: "41 W",
+
+      operatingTemperature: "0°C to 50°C",
+    },
+
+    applications: [
+      "Fine-Pitch LED Video Walls",
+      "Command Centers",
+      "Corporate AV",
+      "Conference Systems",
+      "Control Rooms",
+      "Rental & Staging",
+      "Professional Large-Format LED Displays",
+    ],
+  },
+  {
     name: "NVS 1000",
     id: "nvs-1000-accessories",
     metaTitle:
@@ -2862,7 +3124,11 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/nvs-100-1.png",
 
-    images: ["/ProductImages/nvs-100-1.png", "/ProductImages/nvs-100-2.png", "/ProductImages/nvs-100-3.png"],
+    images: [
+      "/ProductImages/nvs-100-1.png",
+      "/ProductImages/nvs-100-2.png",
+      "/ProductImages/nvs-100-3.png",
+    ],
 
     overview: [
       "NVS 1000  is a flagship all-in-one advertising LED display screen controller that combines advanced video processing and control capabilities into a single high-performance device",
@@ -2903,6 +3169,135 @@ export const products = [
       noiseLevel: "45 dB (A)",
     },
   },
+
+  {
+    name: "NVS ULTRA 2",
+    id: "nvs-ultra-2",
+
+    metaTitle: "NVS Ultra 2 Controller & Processor | New Tech",
+
+    metaDescription:
+      "Discover New Tech NVS Ultra 2 Controller & Processor, built for efficient LED display control, seamless processing, and reliable performance in professional applications",
+
+    catId: "accessories-and-controllers",
+    catName: "Accessories & Controllers",
+    img: "/ProductImages/_DSC04440.webp",
+
+    images: ["/ProductImages/_DSC04440.webp", "/ProductImages/_DSC04445.webp"],
+
+    overview: [
+      "The NVS ULTRA 2 is a compact Android-based LED multimedia player designed for professional digital signage and LED video wall applications.",
+
+      "It integrates multimedia playback, LED screen control, storage and network connectivity into a single compact device, providing a flexible solution for professional display systems.",
+
+      "Powered by a Quad-core 1.8 GHz ARM A55 processor with 4 GB RAM and 32 GB internal storage, it provides reliable performance for multimedia content playback and display management.",
+
+      "With four Gigabit Ethernet outputs, HDMI inputs, USB connectivity, Wi-Fi and Bluetooth 5.1, the NVS ULTRA 2 supports flexible connectivity and network-managed content workflows.",
+
+      "Its content scheduling, wireless screen mirroring, image scaling and integrated LED screen control capabilities make it suitable for modern digital signage and professional LED display environments.",
+    ],
+
+    features: [
+      "Android-based multimedia platform provides a flexible operating environment for professional LED display and digital signage applications",
+
+      "Quad-core 1.8 GHz ARM A55 processor delivers efficient processing performance for multimedia playback and display management",
+
+      "4 GB RAM and 32 GB internal storage provide sufficient capacity for applications, content and scheduled playback workflows",
+
+      "Four Gigabit Ethernet outputs provide flexible connectivity for LED display systems with high-speed network communication",
+
+      "Two HDMI 1.3 inputs support external video sources and multimedia content integration",
+
+      "Bluetooth 5.1 enables wireless connectivity with compatible devices and peripherals",
+
+      "Wireless screen mirroring supports content sharing from multiple compatible platforms",
+
+      "Integrated LED screen control simplifies system architecture by combining playback and LED control functions",
+
+      "Eye comfort support helps provide a more comfortable viewing experience for suitable display applications",
+    ],
+
+    whyUs: [
+      "Compact all-in-one LED multimedia player designed to simplify professional digital signage and LED display deployments",
+
+      "Android-based platform provides flexibility for multimedia playback, content management and professional display workflows",
+
+      "Integrated LED screen control reduces the need for separate playback and control equipment in compatible installations",
+
+      "Multiple connectivity options including Gigabit Ethernet, HDMI, USB, Wi-Fi and Bluetooth provide flexible system integration",
+
+      "4 GB RAM and 32 GB internal storage support professional multimedia playback and scheduled content applications",
+
+      "Designed for commercial environments requiring reliable network-managed content playback and flexible display control",
+    ],
+
+    specs: {
+      brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+
+      model: "NVS ULTRA 2",
+
+      productType: "LED Multimedia Player / Playback Control Processor",
+
+      operatingSystem: "Android-based platform",
+
+      processor: "Quad-core 1.8 GHz ARM A55",
+
+      ram: "4 GB",
+
+      internalStorage: "32 GB",
+
+      gigabitEthernetOutputs: "4",
+
+      hdmiInputs: "2 × HDMI 1.3",
+
+      usb: "3 × USB 2.0",
+
+      audioOutput: "3.5 mm + SPDIF",
+
+      ledLoadingCapacity: "Up to 2.6 million pixels",
+
+      bluetooth: "Bluetooth 5.1",
+
+      wifi: "Allow for Wi-Fi and wireless hotspot connections at the same time",
+
+      imageScaling: "Supported",
+
+      contentManagement:
+        "Network/content management supported within compatible ecosystem",
+
+      contentScheduling: "Supported",
+
+      multimediaPlayback: "Supported",
+
+      eyeComfort: "Supported",
+
+      mirroring: "Wireless screen mirroring from multiple platforms",
+
+      ledScreenControl: "Integrated",
+
+      operatingTemperature: "−20°C to +50°C",
+
+      operatingHumidity: "0–80% RH, non-condensing",
+
+      inputVoltage: "DC 12 V / 3 A",
+
+      ratedPowerConsumption: "21 W",
+
+      netWeight: "Approx. 1.12 kg",
+    },
+
+    applications: [
+      "Digital Signage",
+      "Advertising Displays",
+      "Corporate Communication",
+      "Retail Displays",
+      "Information Displays",
+      "Indoor LED Walls",
+      "Educational Institutions",
+      "Showrooms",
+      "Commercial Display Systems",
+    ],
+  },
   {
     name: "NVS 2K ULTRA",
     id: "nvs-2K-ultra",
@@ -2914,10 +3309,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/_DSC04440.webp",
 
-    images: [
-      "/ProductImages/_DSC04440.webp",
-      "/ProductImages/_DSC04445.webp",
-    ],
+    images: ["/ProductImages/_DSC04440.webp", "/ProductImages/_DSC04445.webp"],
 
     overview: [
       "NVS 2K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
@@ -2978,9 +3370,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/4kulta.jpeg",
 
-    images: [
-      "/ProductImages/4kulta.jpeg",
-    ],
+    images: ["/ProductImages/4kulta.jpeg"],
 
     overview: [
       "NVS 4K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
@@ -3032,10 +3422,7 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/_DSC04455.webp",
 
-    images: [
-      "/ProductImages/_DSC04455.webp",
-      "/ProductImages/_DSC04458.webp",
-    ],
+    images: ["/ProductImages/_DSC04455.webp", "/ProductImages/_DSC04458.webp"],
 
     overview: [
       "NVS 5K ULTRA is a flagship all-in-one advertising LED display screen controller that integrates advanced video processing and control into a single ultra-powerful device for large-scale applications",
@@ -3151,7 +3538,11 @@ export const products = [
     catName: "Accessories & Controllers",
     img: "/ProductImages/cb40-1.png",
 
-    images: ["/ProductImages/cb40-1.png", "/ProductImages/cb40-2.png", "/ProductImages/cb40-3.png"],
+    images: [
+      "/ProductImages/cb40-1.png",
+      "/ProductImages/cb40-2.png",
+      "/ProductImages/cb40-3.png",
+    ],
 
     overview: [
       "NVS CB40 is an advanced multimedia player designed to power advertising LED display screen systems with seamless content playback and intelligent control",
