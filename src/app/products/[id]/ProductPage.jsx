@@ -341,6 +341,7 @@ export default function ProductPage() {
                 <MessageCircle size={18} /> WhatsApp Now
               </a>
 
+             {product.pdf && ( 
               <a
                 download="Brochure.pdf"
                 href={product.pdf}
@@ -348,6 +349,7 @@ export default function ProductPage() {
               >
                 <Download size={18} /> Download Brochure
               </a>
+              )}
             </div>
 
             <div className="w-full flex justify-center">
