@@ -1095,7 +1095,7 @@ export const products = [
     "stadiums",
   ],
 
-   pdf: "/smd.pdf",
+   pdf: "/SMD.pdf",
 
   metaTitle:
     "NVS P4 SMD Gold Wired LED Display | High-Resolution Outdoor LED Video Wall | Newtech Video Systems",
@@ -3130,7 +3130,7 @@ export const products = [
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/nvs601.webp",
-     pdf: "/nsv101.pdf",
+     pdf: "/NVS600(1.01).pdf",
 
 
 
@@ -3466,6 +3466,7 @@ export const products = [
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/ProductImages/_DSC04440.webp",
+     pdf: "/NVSULTRA2.pdf",
 
     images: ["/ProductImages/_DSC04440.webp", "/ProductImages/_DSC04445.webp"],
 
@@ -3814,7 +3815,7 @@ export const products = [
   {
   name: "NVS CB2 (1.01)",
   id: "nvs-cb2-1-01",
-   pdf: "/nvscb(1.01).pdf",
+   pdf: "/NVSCB2(1.01).pdf",
 
   applicationIds: [
     "corporate",
