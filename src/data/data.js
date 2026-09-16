@@ -3130,7 +3130,7 @@ export const products = [
     catId: "accessories-and-controllers",
     catName: "Accessories & Controllers",
     img: "/nvs601.webp",
-     pdf: "/NVS-600(1.01).pdf",
+     pdf: "/nsv101.pdf",
 
 
 
