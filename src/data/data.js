@@ -922,7 +922,7 @@ export const products = [
 
     catId: "indoor-advertising-led-displays",
     catName: "Indoor Advertising LED Displays",
-     pdf: "/fine-pitch.pdf",
+     pdf: "/FINE-PITCH.pdf",
 
     img: "/ProductImages/luxe-p.png",
 
