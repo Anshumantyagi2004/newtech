@@ -1082,6 +1082,143 @@ export const products = [
       protection: "IP66 (Front & Rear)",
     },
   },
+  {
+  name: "NVS P4 SMD Gold Wired LED Display",
+  id: "nvs-p4-smd-gold-wired-led-display",
+
+  applicationIds: [
+    "corporate",
+    "dooh",
+    "smart-city",
+    "building-facade",
+    "stadiums",
+  ],
+
+  metaTitle:
+    "NVS P4 SMD Gold Wired LED Display | High-Resolution Outdoor LED Video Wall | Newtech Video Systems",
+
+  metaDescription:
+    "NVS P4.0 SMD Gold Wire LED Display is a high-performance outdoor LED video wall designed for high image clarity, smooth motion and reliable 24×7 operation in professional environments.",
+
+  catId: "outdoor-advertising-led-displays",
+
+  catName: "Outdoor Advertising LED Displays",
+
+     img: "/product/nvs.webp",
+
+  images: ["/product/nvs.webp"],
+
+  overview: [
+    "The NVS P4.0 SMD Gold Wire LED Display is a high-performance outdoor LED video wall solution designed for professional environments requiring high image clarity and reliable performance",
+
+    "Designed with P4.0 mm pixel pitch technology, it delivers detailed and high-resolution visuals suitable for large-format outdoor LED display applications",
+
+    "The S.M.D Gold Wired LED technology provides reliable display performance with smooth motion and consistent visual quality",
+
+    "With a brightness of 5000 - 5500 cd/m² and automatic brightness adjustment, the display maintains clear and visible content under varying ambient lighting conditions",
+
+    "Built for professional 24×7 operation, making it suitable for advertising, corporate displays, public information, stadiums, events and large-scale video wall installations",
+  ],
+
+  features: [
+    "High-Resolution P4.0 mm Pixel Pitch provides detailed and clear visuals for professional outdoor LED video wall applications",
+
+    "S.M.D Gold Wired LED Technology delivers reliable performance, smooth visuals and consistent image quality",
+
+    "High Brightness of 5000 - 5500 cd/m² ensures strong visibility in outdoor environments and is adjustable according to operating conditions",
+
+    "Automatic Brightness Adjustment intelligently adjusts display brightness based on ambient lighting conditions",
+
+    "3840 Hz Refresh Rate provides smooth and stable visuals suitable for video playback, live content and professional applications",
+
+    "62500 pixels/m² Pixel Density provides high-resolution image reproduction across the LED display surface",
+
+    "140° Horizontal and Vertical Viewing Angle enables clear visibility from a wide range of viewing positions",
+
+    "24×7 System Reliability makes the display suitable for continuous professional operation",
+
+    "LED Lifespan of ≥100,000 hours provides long-term display reliability and operational performance",
+
+    "Rear Accessible Maintenance enables easier servicing and maintenance of the LED display system",
+  ],
+
+  whyUs: [
+    "Professional outdoor LED video wall solution designed for high-resolution and high-visibility applications",
+
+    "Advanced S.M.D Gold Wired LED technology supports reliable and consistent display performance",
+
+    "High brightness and automatic brightness adjustment provide strong visibility across changing ambient lighting conditions",
+
+    "Professional-grade components including Nichia, Cree or Nationstar LEDs, MBI or Chipone driving ICs and Meanwell or TDK Lambda power supplies",
+
+    "Designed for reliable 24×7 operation with a long LED lifespan of ≥100,000 hours",
+
+    "Flexible installation options including wall mounting kits and mobile floor stands",
+
+    "Rear-accessible maintenance design simplifies servicing and reduces maintenance complexity",
+  ],
+
+  specs: {
+    brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+
+    model: "P4.0 (960mm × 960mm)",
+
+    makeOfLED: "Nichia / Cree / Nationstar",
+
+    ledTechnology: "S.M.D (Gold Wired)",
+
+    pixelPitch: "P4.0 mm",
+
+    moduleDimension: "320mm × 160mm",
+
+    panelSize: "960mm × 960mm",
+
+    panelResolution: "240 mm × 240 mm",
+
+    pixelDensity: "62500 pixels/m²",
+
+    aspectRatio: "16:9",
+
+    processing: "14-bit",
+
+    colour: "4.4 Trillion",
+
+    brightness: "5000 - 5500 cd/m² (adjustable)",
+
+    brightnessAdjustment:
+      "Automatic brightness adjustment based on ambient lighting conditions",
+
+    material: "Mild steel / Aluminium",
+
+    refreshRate: "3840 Hz",
+
+    contrastRatio: "8,000:1",
+
+    drivingIC: "MBI / Chipone",
+
+    driveMethod: "1/13 or better",
+
+    viewingAngle: "140° Horizontal / 140° Vertical",
+
+    ledLifespan: "≥100,000 hours",
+
+    maintenance: "Rear accessible / Rear maintenance",
+
+    installation: "Wall mounting kit / Mobile floor stand",
+
+    powerSupply: "Meanwell / TDK Lambda",
+
+    operatingVoltage: "100–240 VAC, 50/60 Hz",
+
+    operatingTemperature: "0°C to 40°C",
+
+    displayCoating: "Black matt powder coated finish",
+
+    systemReliability: "24×7 performance",
+
+    certification: "BIS",
+  },
+},
   // {
   //   name: "Transparent Outdoor LED Display Fixed Solution",
   //   id: "transparent-outdoor-led-display-fixed-solution",
