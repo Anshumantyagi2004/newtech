@@ -3131,6 +3131,7 @@ export const products = [
     images: [
       "/nvs601.webp",
       "/nvs601-2.webp",
+      "/ProductImages/nvs-600-3.png",
     ],
 
     ytlink: "",
@@ -3250,6 +3251,145 @@ export const products = [
       "Professional Large-Format LED Displays",
     ],
   },
+  {
+  name: "NVS 600 (1.02)",
+  id: "nvs-600-1-02",
+
+  applicationIds: [
+    "corporate",
+    "dooh",
+    "smart-city",
+    "building-facade",
+    "stadiums",
+  ],
+
+  metaTitle:
+    "NVS 600 (1.02) LED Video Processor & Controller | Newtech Video Systems",
+
+  metaDescription:
+    "NVS 600 (1.02) is an all-in-one LED video processor and controller designed for professional LED video walls, supporting 4K processing, multi-layer scaling, low latency, HDR, 6 Gigabit Ethernet outputs and 10G optical fiber connectivity.",
+
+  catId: "accessories-and-controllers",
+
+  catName: "Accessories & Controllers",
+
+  img: "/nvs6000nvs.webp",
+
+
+  images: [
+    "/nvs6000nvs.webp",
+    "/nvs6000nvs2.webp",
+    "/ProductImages/nvs-600-3.png",
+  ],
+
+  overview: [
+    "The NVS 600 (1.02) is a professional all-in-one LED video processor and controller designed to combine video processing and LED display control in a single unit",
+
+    "It supports high-resolution video processing up to 4K × 2K at 60 Hz, making it suitable for professional LED video wall installations",
+
+    "Advanced multi-layer processing supports flexible layouts including 1×4K and 2×2K or up to 6×2K layers for complex content management",
+
+    "With six Gigabit Ethernet outputs and a 10G optical fiber interface, the NVS 600 (1.02) provides flexible signal distribution for large LED display systems",
+
+    "Designed for professional 24×7 operation with seamless switching, scaling, low-latency processing, HDR support and output synchronization",
+  ],
+
+  features: [
+    "All-in-One LED Video Processor & Controller combines video processing and LED display control in a single professional unit",
+
+    "Supports maximum input resolution up to 4K × 2K @ 60 Hz for high-resolution LED display applications",
+
+    "Multi-layer processing supports 1×4K & 2×2K or up to 6×2K layers for flexible content layouts",
+
+    "LED loading capacity of up to 3.9 million pixels supports large-scale LED video wall installations",
+
+    "Six Gigabit Ethernet outputs provide flexible connectivity for LED display receiving systems",
+
+    "1 × 10G optical fiber port enables high-bandwidth optical signal transmission for professional installations",
+
+    "Seamless switching and scaling with fade-in, fade-out and PIP2 functionality provides flexible content management",
+
+    "Content monitoring support enables professional monitoring of display content and system performance",
+
+    "HDR support and 4:4:4 / 4:2:2 RGB/YCbCr compatibility provide advanced video processing capabilities",
+
+    "Low-latency processing enables responsive video transmission for professional live and real-time applications",
+
+    "Brightness, colour and grayscale adjustment provides flexible display calibration and image optimization",
+
+    "Supports multiple working modes including Video Controller, Fiber Converter and Bypass",
+
+    "Output synchronization provides coordinated signal output for professional LED display systems",
+
+    "Free topology is supported with compatible receiving cards for flexible LED display system configuration",
+
+    "Brightness and chroma calibration support helps maintain consistent image quality across LED displays",
+  ],
+
+  whyUs: [
+    "Professional all-in-one LED video processor and controller designed for large-scale LED video wall applications",
+
+    "High-resolution 4K processing, multi-layer support and advanced scaling provide flexible video management capabilities",
+
+    "Six Gigabit Ethernet outputs and 10G optical connectivity support professional LED display signal distribution",
+
+    "Advanced features including HDR, seamless switching, PIP2, low latency and output synchronization support demanding display environments",
+
+    "Multiple operating modes including Video Controller, Fiber Converter and Bypass provide installation flexibility",
+
+    "Designed for continuous 24×7 operation with a professional processing and control solution",
+  ],
+
+  specs: {
+    brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+    model: "NVS 600 (1.02)",
+    productType: "All-in-One LED Video Processor & Controller",
+    maximumInputResolution: "Up to 4K × 2K @ 60 Hz",
+    layout: "1× 4K & 2×2K or 6×2K layers",
+    ledLoadingCapacity: "Up to 3.9 million pixels",
+    maximumWidth: "Up to 10,240 pixels",
+    maximumHeight: "Up to 8,192 pixels",
+    resolutionSupported: "3840 × 2160 or better",
+    ioPorts: "Built in",
+    gigabitEthernetOutputs: "6",
+    opticalFiber: "1 × 10G optical port",
+    hdmiMonitorInput: "1× HDMI 2.0, 2× HDMI 1.3",
+    sdiPort: "1× 3G-SDI (IN & LOOP)",
+    hdmiMonitorOutput: "1 × HDMI 1.3",
+    threeDInterface: "1",
+    controlPort: "2× Ethernet, 1× Light Sensor, 2× USB",
+    audio: "2 × Audio (1× Audio input, 1× Audio output)",
+    usb: "USB interface for configuration / firmware-related functions",
+    hdcp: "Yes",
+
+    seamlessSwitchingScaling:
+      "Yes — Seamless switching & scaling, fade in / fade out, PIP2 function support, content monitoring support",
+
+    colourBrightnessGreyScaleAdjustment:
+      "Yes — Supports colour, brightness and grey scale adjustment",
+
+    colourSampling:
+      "Yes — Supports 4:4:4, 4:2:2 (RGB/YCbCr)",
+
+    hdr: "Yes",
+    control: "Front panel",
+    processing: "Multi-layer video processing",
+    scaling: "Up-scaling / Down-scaling",
+    lowLatency: "Supported",
+    workingModes: "Video Controller, Fiber Converter and Bypass",
+    outputSynchronization: "Supported",
+    freeTopology: "Supported with compatible receiving cards",
+    calibration: "Brightness and chroma calibration supported",
+
+    inputInterfaces:
+      "HDMI, 3G-SDI and other supported interfaces depending on configuration",
+
+    powerSupply: "100–240 VAC, 50/60 Hz",
+    ratedPowerConsumption: "41 W",
+    application: "24 × 7 hr.",
+    operatingTemperature: "0°C to 50°C",
+  },
+},
   {
     name: "NVS 1000",
     id: "nvs-1000-accessories",
@@ -3664,6 +3804,120 @@ export const products = [
         "Android 10.0 OS, Android terminal application software, FPGA program",
     },
   },
+  {
+  name: "NVS CB2 (1.01)",
+  id: "nvs-cb2-1-01",
+
+  applicationIds: [
+    "corporate",
+    "dooh",
+    "smart-city",
+    "building-facade",
+    "stadiums",
+  ],
+
+  metaTitle:
+    "NVS CB2 (1.01) Android LED Media Player | LED Display Controller | Newtech Video Systems",
+
+  metaDescription:
+    "NVS CB2 (1.01) is a compact Android-based LED media player designed for professional digital signage and LED video wall applications, featuring 8 GB internal storage, HDMI connectivity and multilingual media support.",
+
+  catId: "accessories-and-controllers",
+
+  catName: "Accessories & Controllers",
+
+ img: "/ProductImages/tb20.png",
+
+  images: ["/ProductImages/tb20.png"],
+
+
+  overview: [
+    "The NVS CB2 (1.01) is a compact Android-based LED media player designed for professional digital signage and LED video wall applications",
+
+    "It integrates media playback, LED display control, storage and display connectivity into a single compact device",
+
+    "With 8 GB of internal storage, the NVS CB2 provides convenient onboard storage for digital signage content and media files",
+
+    "The media player supports full-color multilingual text, graphics, images and videos for flexible digital signage content management",
+
+    "Designed to support professional LED display environments with multiple video, image, text, internet and network content formats",
+  ],
+
+  features: [
+    "Android-based platform provides a flexible operating environment for professional LED media playback and digital signage applications",
+
+    "8 GB internal storage provides onboard space for storing and managing media content",
+
+    "Supports HDMI, DP and USB output interfaces for flexible display connectivity",
+
+    "Full-color preloaded multilingual text and messages enable content presentation in multiple languages",
+
+    "Supports full-color graphics, images and videos for dynamic digital signage applications",
+
+    "Wide video format compatibility including MPEG, H.264, H.265, 3GP, MOV and MP4",
+
+    "Advanced text support includes different fonts, font sizes, font colors, font speeds and font animations",
+
+    "Supports JPG, JPEG, GIF, PNG and BMP image formats",
+
+    "Multiple data publishing styles including Entry From Right, Entry From Bottom, Steady and Flash",
+
+    "Internet content support including HTML and RSS newsfeeds",
+
+    "Gigabit Ethernet networking with 1000/100/10 Mbps RJ45 connectivity",
+
+    "Designed for professional LED display and digital signage applications with multilingual and multimedia content support",
+  ],
+
+  whyUs: [
+    "Compact Android-based LED media player designed for professional digital signage and LED video wall applications",
+
+    "Integrated media playback, display control and internal storage provide a convenient all-in-one solution",
+
+    "8 GB internal storage supports onboard content storage for digital signage and LED display applications",
+
+    "Wide compatibility with video, image and text formats provides flexible content management",
+
+    "Multilingual text, graphics, image and video support enables diverse digital signage applications",
+
+    "Gigabit Ethernet connectivity provides reliable network communication for professional display environments",
+  ],
+
+  specs: {
+    brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+
+    model: "NVS CB2 (1.01)",
+
+    productType: "LED Media Player",
+
+    operatingSystem: "Android-based platform",
+
+    internalStorage: "8 GB",
+
+    processor: "Intel / ARM",
+
+    output: "HDMI / DP / USB",
+
+    displayCapacity:
+      "Full Color Preloaded Multilingual Text / Messages; Full Color Graphics / Image and Videos",
+
+    video: "MPEG, H.264, H.265, 3GP, MOV, MP4 etc.",
+
+    text:
+      "Supported Different Fonts, Font Size, Font Color, Font Speeds, Font Animations",
+
+    image: "JPG / JPEG / GIF / PNG / BMP",
+
+    dataPublishStyles:
+      "Entry From Right, Entry from Bottom, Steady, Flash",
+
+    internet: "HTML, RSS newsfeeds",
+
+    network: "Ethernet 1000/100/10 (RJ45)",
+
+    certification: "BIS",
+  },
+},
   {
     name: "NVS CB40",
     id: "nvs-cb40",
