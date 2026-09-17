@@ -30,6 +30,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="canonical" href="https://nvsledindia.com/"></link>
+      </head>
+
       <body className="bg-gray-100 min-h-screen flex overflow-x-hidden">
         {/* <Sidebar className="hidden md:block shrink-0" /> */}
 
