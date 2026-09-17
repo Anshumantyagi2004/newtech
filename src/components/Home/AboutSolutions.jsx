@@ -17,7 +17,7 @@ export default function AboutSolutions() {
         >
           <img
             src="https://nvsledindia.com/_next/image?url=https%3A%2F%2Fpub-7d937c7331834e4a9e6d3a588b9bfa59.r2.dev%2FnewTech%2F1784809786938-P1.8%20Indoor%20120sqft%20News%2018.jpeg&w=1920&q=75" // 👉 replace with your image
-            alt="LED Display Solutions"
+            alt="Indoor LED Display"
             className="rounded-3xl w-full h-[300px] md:h-[450px] object-cover shadow-2xl"
           />
 

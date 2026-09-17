@@ -58,14 +58,14 @@ export default function Hero() {
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center z-10">
           
           {/* ✅ Dynamic Heading */}
-          <h1 className="text-white font-bold text-2xl md:text-5xl leading-tight drop-shadow-lg">
+          <h2 className="text-white font-bold text-2xl md:text-5xl leading-tight drop-shadow-lg">
             {hero?.title || (
               <>
                India’s Trusted OEM Manufacturer for Professional LED Display Solutions
 
               </>
             )}
-          </h1>
+          </h2>
 
           {/* Button */}
           <a

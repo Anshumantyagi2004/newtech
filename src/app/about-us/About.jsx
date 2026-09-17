@@ -61,7 +61,7 @@ export default function AboutUs() {
         <div className="w-full h-[250px] md:h-[400px] relative">
           <Image
             src="/about.webp"
-            alt="About Newtech"
+            alt="Newtech video systems pvt ltd."
             fill
             className="object-cover rounded-xl shadow-lg"
           />

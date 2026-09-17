@@ -149,7 +149,7 @@ export default function Navbar() {
         {/* Left */}
         <div className="flex items-center md:gap-3 gap-1">
           <Link href="/">
-            <img src="/download.png" alt="Logo" className="h-12 w-auto" />
+            <img src="/download.png" alt="Newtech video systems pvt ltd." className="h-12 w-auto" />
           </Link>
           {/* <span className="text-black ml-2 md:ml-0 bg-white px-2 py-1 text-xs md:text-sm rounded-md font-medium">
             GSTIN: 07AAECN8156D3ZE

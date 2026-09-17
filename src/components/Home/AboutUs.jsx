@@ -21,7 +21,7 @@ export default function AboutUs() {
                 >
                     <img
                         src="/nvs-about.webp"
-                        alt="About Newtech LED"
+                        alt="Advertising LED Display Supplier"
                         className="rounded-3xl shadow-2xl w-full h-[300px] md:h-[450px] object-cover"
                     />
                 </motion.div>

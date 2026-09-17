@@ -1,0 +1,13 @@
+Place this file at https://nvsledindia.com/robots.txt
+
+
+# Site: https://nvsledindia.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nvsledindia.com/sitemap.xml
+Host: https://nvsledindia.com
+
+
+

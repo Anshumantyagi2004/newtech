@@ -71,7 +71,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
         <div>
           {/* Logo */}
-          <img src="/download.png" alt="logo" className="h- w-40 mb-2" />
+          <img src="/download.png" alt="Newtech video systems pvt ltd." className="h- w-40 mb-2" />
 
           {/* About */}
           <p className="text-sm text-gray-200 leading-relaxed">
