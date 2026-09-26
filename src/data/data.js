@@ -240,7 +240,7 @@ export const categories = [
   // },
   {
     title: "Control Systems / Processors",
-    img: "/product/tb10 plus.webp",
+    img: "/ccontrol.webp",
     bgImage: "/ProductImages/new23.jpg",
     id: "accessories-and-controllers",
     metaTitle:
