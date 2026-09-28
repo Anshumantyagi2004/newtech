@@ -4038,7 +4038,7 @@ export const products = [
     name: "NVS CB1",
     id: "nvs-cb1",
     metaTitle:
-      "NVS CB1 Controller (Taurus Series) | LED Display Controller | Newtech Video Systems",
+      "NVS CB1 Controller | LED Display Controller | Newtech Video Systems",
     metaDescription:
       "Newtech Video Systems Pvt. Ltd. offers NVS CB1 Controllers for digital signage, retail displays, smart city projects & LED video walls with cloud-based management and seamless playback control.",
     catId: "accessories-and-controllers",
@@ -4048,8 +4048,8 @@ export const products = [
     images: ["/ProductImages/_DSC04392.webp"],
 
     overview: [
-      "NVS CB1 Controller (Taurus Series) is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
-      "Designed for retail stores, commercial advertising, digital signage, transportation hubs, corporate environments, and smart city applications, the TB10 Plus provides flexible content management and reliable display control for both indoor and outdoor LED screens.",
+      "NVS CB1 Controller is a smart and efficient LED display controller designed to manage, process, and optimize content for professional LED display systems. Engineered for stable performance and intelligent control, this advanced controller ensures smooth playback and seamless operation for modern LED video wall display applications.",
+      "Designed for retail stores, commercial advertising, digital signage, transportation hubs, corporate environments, and smart city applications, the NVS CB1 provides flexible content management and reliable display control for both indoor and outdoor LED screens.",
       "Featuring integrated playback and sending capabilities, this LED display controller supports synchronized and asynchronous content playback, enabling users to schedule, publish, and manage content efficiently across multiple advertising LED display screen installations.",
       "Built with advanced multimedia processing technology, the NVS CB1 czontroller delivers smooth video playback, accurate image rendering, and stable communication, making it an ideal solution for professional LED wall display systems.",
       "With cloud-based management support, remote control functionality, and user-friendly operation, this LED display screen for advertising controller simplifies digital signage management while ensuring reliable long-term performance.",
