@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Advertising LED Display Supplier | Newtech Video Systems",
+  title: "No. #1 Trusted Advertising LED Display Supplier in India | Newtech Video Systems",
   description:
-    "Newtech Video Systems Pvt. Ltd. is a leading supplier of advertising LED displays.",
+    "Newtech is a trusted Indoor Advertising LED Display Supplier in India, offering Outdoor Advertising LED Display Screens in Delhi, LED Displays, LED Video Wall Supplier in India, etc",
 };
 
 export default function RootLayout({ children }) {

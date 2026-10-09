@@ -2,8 +2,8 @@ import React from 'react'
 import Articles from './Articles'
 
 export const metadata = {
-  title: "LED Display Technology Blog | Outdoor, Commercial & Video Wall Screens | Newtech Video Systems",
-  description: "Stay updated with Newtech Video Systems blog covering advertising LED displays, outdoor LED display screens, commercial LED video walls & industrial LED video systems trends and guides.",
+  title: "LED Display Knowledge Hub & Industry | Newtech Video Systems",
+  description: "Explore the latest LED display technology, professional buying guides, and maintenance tips. From outdoor to indoor HD video walls, stay updated with expert insights to help you choose the right LED solution.",
 };
 
 export default function page() {
