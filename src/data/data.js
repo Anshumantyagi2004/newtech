@@ -3681,20 +3681,53 @@ export const products = [
       "End-to-end support including consultation, system design, configuration, installation, and technical assistance for seamless execution",
     ],
 
-    specs: {
-      powerConnector: "100~240V~, 50/60Hz",
-      powerConsumption: "82 W",
-      operatingTemperature: "0°C to 50°C",
-      operatingHumidity: "5% RH to 85% RH, non-condensing",
-      storageTemperature: "−10°C to +60°C",
-      storageHumidity: "5% RH to 95% RH, non-condensing",
-      dimensions: "482.6 mm × 409.0 mm × 94.6 mm",
-      netWeight: "7 kg",
-      grossWeight: "10 kg",
-      carryingCaseSize: "625 mm × 560 mm × 195 mm",
-      packingBoxSize: "645 mm × 580 mm × 215 mm",
-      noiseLevel: "45 dB (A)",
-    },
+ specs: {
+  companyName: "NVS NEWTECH VIDEO SYSTEMS PVT. LTD.",
+  model: "NVS 4K Ultra",
+  productDescription: "Video Wall Controller",
+
+  compatibility: "With P0.9/1.2/1.5/1.8/4/6/8/10 or as per requirement",
+  controllerLayout: "HD / Full HD Controller",
+  layerResources: "Supports 3 × 4K or 12 × 2K × 1K layer resources",
+
+  inputPorts: [
+    "1 × DP 1.2",
+    "2 × HDMI 2.0",
+    "4 × HDMI 1.3",
+    "2 × 10G optical fibre ports (OPT 1 & OPT 2)",
+    "1 × 12G-SDI (IN & LOOP)",
+    "1 × USB 3.0 (play images or videos saved on a USB drive)"
+  ],
+
+  outputPorts: [
+    "20 × Gigabit Ethernet ports",
+    "1 × HDMI 1.3 for monitoring display"
+  ],
+
+  controlInterfaces: [
+    "2 × Ethernet",
+    "1 × USB 2.0",
+    "1 × RS232",
+    "1 × Gen Lock-in Loop",
+    "1 × Light Sensor"
+  ],
+
+  audioConnector: [
+    "2 × Audio connectors",
+    "1 × Audio input",
+    "1 × Audio output"
+  ],
+
+  pixelSupport: "13 million loading capacity, maximum width of 16,384 pixels and maximum height of 8,192 pixels",
+
+  powerConnector: "100–240 V~, 50/60 Hz, 1.5 A",
+  powerConsumption: "82 W",
+
+  operatingTemperature: "0°C to +50°C",
+  operatingHumidity: "5% RH to 85% RH, non-condensing",
+
+  certifications: "BIS"
+},
   },
   {
     name: "NVS 5K ULTRA",
@@ -3968,23 +4001,55 @@ export const products = [
       "End-to-end support including setup, configuration, and technical assistance for smooth and efficient operation",
     ],
 
-    specs: {
-      inputPower: "DC 12 V, 2 A",
-      powerConsumption: "18 W",
-      ram: "1 GB",
-      internalStorage: "16 GB",
-      operatingTemperature: "−20°C to +60°C",
-      operatingHumidity: "0% RH to 80% RH, non-condensing",
-      storageTemperature: "−40°C to +80°C",
-      storageHumidity: "0% RH to 80% RH, non-condensing",
-      dimensions: "238.8 mm × 140.5 mm × 32.0 mm",
-      netWeight: "430.0 g",
-      packingSize: "385.0 mm × 280.0 mm × 75.0 mm",
-      ipRating: "IP20",
-      systemSoftware:
-        "Android 11.0 OS, Android terminal application software, FPGA program",
-      note: "Third-party applications are not supported",
-    },
+specs: {
+  companyName: "NVS NEWTECH VIDEO SYSTEMS PVT. LTD.",
+  model: "NVS CB40",
+  productDescription: "Video Wall Controller",
+
+  compatibility: "With P0.9/1.2/1.5/1.8/4/6/8/10 or as per requirement",
+  hdSupport: "Full HD Videos",
+
+  inputs: [
+    "1 × HDMI 1.3",
+    "2 × Sensor"
+  ],
+
+  outputs: [
+    "2 × Gigabit Ethernet ports",
+    "1 × Audio",
+    "1 × HDMI 1.3"
+  ],
+
+  controlInterfaces: [
+    "1 × Ethernet",
+    "1 × USB 3.0 (Type A)",
+    "1 × USB (Type B)"
+  ],
+
+  pixelSupport: "Loading capacity up to 1,300,000 pixels",
+  maximumWidth: "4096 pixels",
+  maximumHeight: "4096 pixels",
+
+  processor: "Quad-core ARM A55 processor @ 1.8 GHz",
+
+  ram: "1 GB",
+  internalStorage: "32 GB ROM",
+
+  inputPower:
+    "DC 12 V, 2 A, negative outside and positive inside (power adapter input) OR 100–240 VAC",
+
+  powerConsumption: "25 W",
+
+  operatingTemperature: "−20°C to +60°C",
+  operatingHumidity: "0% RH to 80% RH, non-condensing",
+
+  features: [
+    "Dual-Wi-Fi",
+    "Android 11"
+  ],
+
+  certifications: "BIS"
+},
   },
   // {
   //   name: "T16 Pro LED Display Controller (Taurus Series)",
