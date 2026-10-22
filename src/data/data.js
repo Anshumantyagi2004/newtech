@@ -1161,66 +1161,56 @@ export const products = [
     "Rear-accessible maintenance design simplifies servicing and reduces maintenance complexity",
   ],
 
-  specs: {
-    brandMake: "NVS NEWTECH VIDEO SYSTEMS PVT LTD",
+specs: {
+  ledType: "Surface Mounted Device (S.M.D)",
 
-    model: "P4.0 (960mm × 960mm)",
+  pixelPitch: "4 mm",
 
-    makeOfLED: "Nichia / Cree / Nationstar",
+  moduleResolution: "80 × 40 = 3,200 pixels",
 
-    ledTechnology: "S.M.D (Gold Wired)",
+  hub: "HUB75",
 
-    pixelPitch: "P4.0 mm",
+  pixelDensity: "62,500 pixels/m²",
 
-    moduleDimension: "320mm × 160mm",
+  moduleDimension: "320 mm × 160 mm × 16.6 mm",
 
-    panelSize: "960mm × 960mm",
+  cabinetDimension: "960 mm × 960 mm",
 
-    panelResolution: "240 mm × 240 mm",
+  cabinetWeight: "23.5 kg",
 
-    pixelDensity: "62500 pixels/m²",
+  singleDotBrightnessCalibration: "Support",
 
-    aspectRatio: "16:9",
+  brightnessColorUniformity: "≥98%",
 
-    processing: "14-bit",
+  whiteBalanceBrightness: "6500 cd/m²",
 
-    colour: "4.4 Trillion",
+  standardColorTemperature:
+    "6500 K (1000 K–9500 K adjustable)",
 
-    brightness: "5000 - 5500 cd/m² (adjustable)",
+  beamAngle: "140° Horizontal / 140° Vertical",
 
-    brightnessAdjustment:
-      "Automatic brightness adjustment based on ambient lighting conditions",
+  contrastRatio: "5000:1",
 
-    material: "Mild steel / Aluminium",
+  maximumInputPower: ">650 W/m²",
 
-    refreshRate: "3840 Hz",
+  powerSupplyInputVoltage: "AC 100–240 V ±5%",
 
-    contrastRatio: "8,000:1",
+  frameChangingFrequency: "60 Hz",
 
-    drivingIC: "MBI / Chipone",
+  refreshRate: "3840 Hz",
 
-    driveMethod: "1/13 or better",
+  processingDepth: "14 bit",
 
-    viewingAngle: "140° Horizontal / 140° Vertical",
+  videoSupport: "2K HD, 4K UHD",
 
-    ledLifespan: "≥100,000 hours",
+  ledLifespan: "100,000 hours (typical value)",
 
-    maintenance: "Rear accessible / Rear maintenance",
+  workingTemperatureHumidity:
+    "−20°C to +50°C / 10%–80% RH, non-condensing",
 
-    installation: "Wall mounting kit / Mobile floor stand",
-
-    powerSupply: "Meanwell / TDK Lambda",
-
-    operatingVoltage: "100–240 VAC, 50/60 Hz",
-
-    operatingTemperature: "0°C to 40°C",
-
-    displayCoating: "Black matt powder coated finish",
-
-    systemReliability: "24×7 performance",
-
-    certification: "BIS",
-  },
+  storageTemperatureHumidity:
+    "−20°C to +55°C / 10%–85% RH, non-condensing",
+},
 },
   // {
   //   name: "Transparent Outdoor LED Display Fixed Solution",
