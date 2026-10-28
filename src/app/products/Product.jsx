@@ -38,6 +38,9 @@ export default function Product() {
         <a href="/Datasheet NVS_ULTRA_2.pdf" download className="bg-white text-black flex gap-2 items-center font-bold px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300">
           Videowall for Controllers/Processors <Download size={18} />
         </a>
+        <a href="/Standard P10 Outdoor SMD.pdf" download className="bg-white text-black flex gap-2 items-center font-bold px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300">
+          Standard P10 Outdoor SMD <Download size={18} />
+        </a>
       </div>
     </section>
 
