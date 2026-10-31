@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
+import { handleCallClick } from "@/utils/track";
 
 export default function Hero() {
   const [hero, setHero] = useState(null);
@@ -38,9 +39,8 @@ export default function Hero() {
         {/* Video */}
         {hero?.video && (
           <video
-            className={`absolute inset-0 w-full h-full object-cover brightness-75 transition-opacity duration-700 ${
-              videoLoaded ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 w-full h-full object-cover brightness-75 transition-opacity duration-700 ${videoLoaded ? "opacity-100" : "opacity-0"
+              }`}
             src={hero.video}
             autoPlay
             muted
@@ -56,19 +56,19 @@ export default function Hero() {
 
         {/* Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center z-10">
-          
+
           {/* ✅ Dynamic Heading */}
           <h2 className="text-white font-bold text-2xl md:text-5xl leading-tight drop-shadow-lg">
             {hero?.title || (
               <>
-               India’s Trusted OEM Manufacturer for Professional LED Display Solutions
+                India’s Trusted OEM Manufacturer for Professional LED Display Solutions
 
               </>
             )}
           </h2>
 
           {/* Button */}
-          <a
+          <a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })}
             href="tel:+919810103197"
             className="mt-5 bg-white text-black font-bold px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-300"
           >

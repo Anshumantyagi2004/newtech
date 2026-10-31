@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ContactPopup from "./PopupForm";
+import { handleCallClick } from "@/utils/track";
 
 export default function CTASection() {
     const [open, setOpen] = useState(false);
@@ -41,10 +42,10 @@ export default function CTASection() {
                 >
 
                     <button onClick={() => setOpen(true)} className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-200 transition">
-                      Request Technical Consultation
+                        Request Technical Consultation
                     </button>
 
-                    <a
+                    <a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })}
                         href="tel:+919212622646" // 👉 replace number
                         className="px-6 py-3 rounded-full border border-white text-white font-medium hover:bg-white hover:text-black transition"
                     >
