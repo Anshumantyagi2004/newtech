@@ -1,10 +1,12 @@
+"use client"
+import { handleCallClick, handleWhatsappClick } from '@/utils/track'
 import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa6'
 
 export default function StickyButton() {
     return (<>
-        <a href="https://wa.me/+919810103697"
+        <a onClick={() => handleWhatsappClick({ source: "Website home page", obj: "N/A" })} href="https://wa.me/+919810103697"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp "
@@ -13,8 +15,7 @@ export default function StickyButton() {
             <FaWhatsapp size={30} />
         </a>
 
-
-        <a href="tel:+919810103697"
+        <a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })} href="tel:+919810103697"
             aria-label="Call Us"
             className="fixed md:bottom-21 bottom-32 right-4 z-50 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition animate-bounce"
         >

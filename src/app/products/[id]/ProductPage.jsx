@@ -12,6 +12,7 @@ import { Navigation, Autoplay, Thumbs } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import ContactPopup from "@/components/Main/PopupForm";
+import { handleCallClick, handleWhatsappClick } from "@/utils/track";
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -275,11 +276,10 @@ export default function ProductPage() {
                   <button
                     key={tab}
                     onClick={() => setActiveTab(tab)}
-                    className={`px-4 py-2 rounded-lg text-sm transition ${
-                      activeTab === tab
-                        ? "bg-black text-white"
-                        : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
-                    }`}
+                    className={`px-4 py-2 rounded-lg text-sm transition ${activeTab === tab
+                      ? "bg-black text-white"
+                      : "bg-gray-200 hover:bg-gray-300 border border-gray-400"
+                      }`}
                   >
                     {tab}
                   </button>
@@ -300,7 +300,7 @@ export default function ProductPage() {
             transition={{ duration: 0.4 }}
             className="md:flex hidden gap-2 md:gap-4 my-5"
           >
-            <a
+            <a onClick={() => handleWhatsappClick({ source: "Website product page", obj: product.name })}
               href={`https://wa.me/+919810103697?text=Hi, I have seen your product on https://newtech.com and I am interested in ${product.name}`}
               target="_blank"
               className="text-nowrap flex items-center gap-2 text-white bg-green-600 px-5 py-2 rounded-lg hover:bg-green-700"
@@ -308,7 +308,7 @@ export default function ProductPage() {
               <MessageCircle size={18} /> WhatsApp Now
             </a>
 
-            <a
+            <a onClick={() => handleCallClick({ source: "Website product page", obj: product.name })}
               href="tel:+919810103697"
               className="text-nowrap flex items-center gap-2 border bg-orange-200 border-orange-500 text-orange-600 px-5 py-2 rounded-lg hover:bg-orange-500 hover:text-white"
             >
@@ -341,14 +341,14 @@ export default function ProductPage() {
                 <MessageCircle size={18} /> WhatsApp Now
               </a>
 
-             {product.pdf && ( 
-              <a
-                download="Brochure.pdf"
-                href={product.pdf}
-                className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-2 py-2 rounded-lg hover:bg-blue-500 hover:text-white"
-              >
-                <Download size={18} /> Download Brochure
-              </a>
+              {product.pdf && (
+                <a
+                  download="Brochure.pdf"
+                  href={product.pdf}
+                  className="text-nowrap flex items-center gap-2 border bg-blue-200 border-blue-500 text-blue-600 px-2 py-2 rounded-lg hover:bg-blue-500 hover:text-white"
+                >
+                  <Download size={18} /> Download Brochure
+                </a>
               )}
             </div>
 
@@ -384,11 +384,10 @@ export default function ProductPage() {
               <button
                 key={tab}
                 onClick={() => setActiveTab1(tab)}
-                className={`px-5 py-2 rounded-full text-sm font-medium transition ${
-                  activeTab1 === tab
-                    ? "bg-black text-white"
-                    : "bg-white hover:bg-gray-50 border border-gray-300 text-black"
-                }`}
+                className={`px-5 py-2 rounded-full text-sm font-medium transition ${activeTab1 === tab
+                  ? "bg-black text-white"
+                  : "bg-white hover:bg-gray-50 border border-gray-300 text-black"
+                  }`}
               >
                 {tabLabels[tab]}
               </button>
